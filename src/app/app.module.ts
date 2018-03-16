@@ -8,7 +8,6 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { StationsMainComponent } from './stations-main/stations-main.component';
 import { Ktla5Component } from './ktla5/ktla5.component';
-import { HeroFormComponent } from './hero-form/hero-form.component';
 import { Fox11laComponent } from './fox11la/fox11la.component';
 
 
@@ -19,7 +18,6 @@ import { Fox11laComponent } from './fox11la/fox11la.component';
     HomeComponent,
     StationsMainComponent,
     Ktla5Component,
-    HeroFormComponent,
     Fox11laComponent
   ],
   imports: [

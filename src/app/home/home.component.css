@@ -1,0 +1,41 @@
+.top {
+    padding-top: 10%;
+}
+
+@media screen and (min-width: 400px) {
+    .videoContainer {
+        margin-left: 0%;
+        padding-right: 0%;
+    }
+    .video {
+        border: none;
+        width: 400px;
+        height: 390px;
+        border-radius: 25px;
+        box-shadow:1px 1px 45px lightgray;
+        margin-left: 3%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #videoContainer {
+        padding-left: 10%;
+        padding-right: 2%;
+    
+    }
+    .video {
+        border: none;
+        width: 710px;
+        height: 400px;
+        border-radius: 25px;
+        box-shadow:1px 1px 45px lightgray;
+        margin-left: 25%;
+    }
+}
+
+
+#videoContainer {
+    padding-left: 25%;
+
+}
+

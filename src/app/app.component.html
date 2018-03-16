@@ -1,0 +1,66 @@
+
+
+<!-- FREE VERSION -->
+<div class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <div class="container">
+      <a routerLink="" class="navbar-brand">SoCal Television</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="stations-main">TV Stations</a>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="contact">Contact Us</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <router-outlet></router-outlet>
+    <!-- <app-hero-form></app-hero-form> -->
+  </div>
+
+  <div class="ui inverted vertical footer segment">
+      <div class="ui container">
+        <div class="ui stackable inverted divided equal height stackable grid">
+          <div class="three wide column">
+            <h4 class="ui inverted header">About</h4>
+            <div class="ui inverted link list">
+              <a routerLink="about" class="item">About</a>
+              <a routerLink="stations-main" class="item">Channel Guide</a>
+              <a routerLink="stations-main" class="item">Shows</a>
+            </div>
+          </div>
+          <div class="three wide column">
+            <h4 class="ui inverted header">Services</h4>
+            <div class="ui inverted link list">
+              <a routerLink="live1" class="item">WATCH LIVE</a>
+              <a routerLink="social" class="item">SoCal Community Connection</a>
+              <a routerLink="contact" class="item">Advertise / Showcase your Event</a>
+              <a routerLink="contact" class="item">Contact Us</a>
+            </div>
+          </div>
+          <div class="seven wide column">
+            <h4 class="ui inverted header"></h4>
+            <p></p>
+            <p style="text-align:center;" id="copyright">Find out what's going on in your area, LIKE - FOLLOW - SHARE @SoCalTelevision on <a href="https://www.facebook.com/SoCalTelevision/" target="_blank">Facebook</a>, <a href="https://www.instagram.com/SoCalTelevision/" target="_blank">Instagram</a>, &amp; <a href="https://www.twitter.com/SoCalTelevision/" target="_blank">Twitter!</a><br><br>© <span id="copyrightDate">2018</span> The Inland Empire Television Network - SoCalTelevision<br> a subsidiary of <a href="http://www.jppmsolutions.com" target="_blank">James Programming, Printing, &amp; Media Solutions</a>.<br><br>Content may not be replicated, duplicated, or rebroadcasted in any way, both in part or full, without expressed written consent from the Inland Empire Television Network, James Programming, Printing &amp; Media Solutions, or its subsidiary's - All Rights Reserved.</p>
+            <script>
+              var d = new Date();
+              document.getElementById("copyrightDate").innerHTML = d.getFullYear();
+            </script> 
+          </div>
+        </div>
+      </div>
+    </div>

@@ -5,7 +5,8 @@
   "angular-cli": {},
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "dev": "lite-server",
+    "start": "npm run dev",
     "test": "ng test",
     "build": "ng build",
     "lint": "ng lint",
@@ -47,6 +48,7 @@
     "karma-cli": "^1.0.1",
     "karma-jasmine": "^1.0.2",
     "karma-remap-istanbul": "^0.2.1",
+    "lite-server": "2.3.0",
     "protractor": "~4.0.13",
     "ts-node": "1.2.1",
     "tslint": "^4.3.0",

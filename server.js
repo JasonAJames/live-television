@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}) );
 
-app.use('/*', function(req, res) {
+app.use('/', function(req, res) {
     express.static(__dirname + '/dist' );
     });
 

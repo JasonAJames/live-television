@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}) );
 
-app.use( express.static(__dirname + '/src' ) );
+app.use( express.static(__dirname + '/dist' ) );
 
 var listener = server.listen(process.env.PORT || 8080, function(){
     console.log('Listening on port ' + listener.address().port); //Listening on port 5000

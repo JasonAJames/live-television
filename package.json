@@ -5,7 +5,7 @@
   "angular-cli": {},
   "scripts": {
     "ng": "ng",
-    "start": "npm run lite-server",
+    "start": "node server.js",
     "test": "ng test",
     "build": "ng build",
     "lint": "ng lint",

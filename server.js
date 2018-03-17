@@ -1,6 +1,21 @@
+var express = require('express');
+var app = express();
+var server = require('http').Server(app);
+var bodyParser = require('body-parser');
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}) );
+
+app.use( express.static(__dirname + '/src' ) );
+
+var listener = server.listen(process.env.PORT || 8080, function(){
+    console.log('Listening on port ' + listener.address().port); //Listening on port 5000
+});
+
+
 // //Install express server
-const express = require('express');
-const app = express();
+//const express = require('express');
+//const app = express();
 
 // app.configure('production', => {
 //     app.use((req, res, next) => {
@@ -18,15 +33,13 @@ const app = express();
 //       next()
 //   })
 
-app.get('/*', function(req, res) {
-    res.sendFile(path.join(__dirname + '/dist/index.html'));
-    });
 
-// Serve only the static files form the dist directory
-app.use(express.static(__dirname + '/dist'));
+// Working
+// // Serve only the static files form the dist directory
+// app.use(express.static(__dirname + '/dist'));
 
-// Start the app by listening on the default Heroku port
-app.listen(process.env.PORT || 8080);
+// // Start the app by listening on the default Heroku port
+// app.listen(process.env.PORT || 8080);
 
 // // server.js
 // const express = require('express');

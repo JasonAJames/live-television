@@ -11,8 +11,8 @@
     "lint": "ng lint",
     "pree2e": "webdriver-manager update --standalone false --gecko false",
     "e2e": "protractor",
-    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
-    "heroku-postbuild": "npm install --prefix ./dist"
+    "prebuild": "echo This runs before Heroku installs your dependencies.",
+    "postbuild": "npm install --prefix ./dist"
   },
   "private": true,
   "dependencies": {

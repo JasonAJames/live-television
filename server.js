@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended: true}) );
 //     express.static(__dirname + '/dist' );
 //     });
 
-app.use( express.static(__dirname + '/dist' ) );
+app.use( express.static(__dirname + '/dist/index.html' ) );
 
 var listener = server.listen(process.env.PORT || 8080, function(){
     console.log('Listening on port ' + listener.address().port); //Listening on port 5000

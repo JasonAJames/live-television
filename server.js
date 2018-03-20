@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({extended: true}) );
 app.use( express.static(__dirname + '/dist' ) );
 
 app.get('*', (req, res) =>{
-    res.sendFile(path.resolve(__dirname, 'index.html'));
+    res.sendFile(path.resolve(__dirname, '/dist/index.html'));
   });
 
 var listener = server.listen(process.env.PORT || 8080, function(){

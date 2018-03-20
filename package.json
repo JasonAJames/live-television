@@ -32,9 +32,7 @@
     "ts-helpers": "^1.1.1",
     "typescript": "~2.3.3",
     "webpack": "3.11.0",
-    "zone.js": "^0.7.2"
-  },
-  "devDependencies": {
+    "zone.js": "^0.7.2",
     "@types/jasmine": "2.5.38",
     "@types/node": "^6.0.42",
     "angular-cli": "1.0.0-beta.28.3",
@@ -51,6 +49,9 @@
     "protractor": "~4.0.13",
     "ts-node": "1.2.1",
     "tslint": "^4.3.0"
+  },
+  "devDependencies": {
+
   },
   "engines": {
     "node": "8.9.4",

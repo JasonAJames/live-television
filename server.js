@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}) );
 
 app.use( express.static(__dirname + '/dist' ) );
 
-app.get('*', (req, res) =>{
+app.get('/*', (req, res) =>{
     res.sendFile(path.resolve(__dirname, '/dist'));
   });
 

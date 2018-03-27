@@ -10,11 +10,11 @@ import { Ktla5Component } from './ktla5/ktla5.component';
 
 
 export const router: Routes = [
-    { path: '', redirectTo: 'home', pathMatch: 'full'},
     { path: 'home', component: HomeComponent},
     { path: 'about', component: AboutComponent},
     { path: 'stations-main', component: StationsMainComponent},
     { path: 'ktla5', component: Ktla5Component},
+    { path: '', redirectTo: 'home', pathMatch: 'full'},
     { path: '**', component: HomeComponent}
     
 ];

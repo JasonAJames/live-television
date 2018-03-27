@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SoCal Television</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Bootstrap Theme -->
+    <link rel="https://bootswatch.com/4/darkly/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/reset.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/site.css">
+  
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/container.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/grid.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/header.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/image.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/menu.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/divider.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/dropdown.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/segment.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/button.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/list.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/icon.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/components/transition.css">
+
+    <!-- Load libraries (Note: IE required polyfills, in this exact order_ -->
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
+    <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+
+    <!-- Configure SystemJS -->
+    <script>
+        System.config({
+            packages: {
+                app: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        System.import('app/js/main').then(null, console.error.bind(console));
+    </script>
+</head>
+<body>
+<div class="container-fluid" style="padding-left:0%; padding-right: 0%">
+    <my-app>Loading...</my-app>
+
+    <div class="ui inverted vertical footer segment">
+            <div class="ui container">
+              <div class="ui stackable inverted divided equal height stackable grid">
+                <div class="three wide column">
+                  <h4 class="ui inverted header">About</h4>
+                  <div class="ui inverted link list">
+                    <a href="#" class="item">Sitemap</a>
+                    <a href="#" class="item">About</a>
+                    <a href="#" class="item">Channel Guide</a>
+                    <a href="#" class="item">Shows</a>
+                  </div>
+                </div>
+                <div class="three wide column">
+                  <h4 class="ui inverted header">Services</h4>
+                  <div class="ui inverted link list">
+                    <a href="#" class="item">WATCH LIVE</a>
+                    <a href="#" class="item">SoCal Community Connection</a>
+                    <a href="#" class="item">Advertise / Showcase your Event</a>
+                    <a href="#" class="item">Contact Us</a>
+                  </div>
+                </div>
+                <div class="seven wide column">
+                  <h4 class="ui inverted header"></h4>
+                  <p></p>
+                  <p style="text-align:center;" id="copyright">Find out what's going on in your area, LIKE - FOLLOW - SHARE @SoCalTelevision on <a href="https://www.facebook.com/SoCalTelevision/" target="_blank">Facebook</a>, <a href="https://www.instagram.com/SoCalTelevision/" target="_blank">Instagram</a>, &amp; <a href="https://www.twitter.com/SoCalTelevision/" target="_blank">Twitter!</a><br/><br/>&copy; <span id="copyrightDate"></span> The Inland Empire Television Network - SoCalTelevision<br/> a subsidiary of <a href="http://www.jppmsolutions.com" target="_blank">James Programming, Printing, &amp; Media Solutions</a>.<br/><br/>Content may not be replicated, duplicated, or rebroadcasted in any way, both in part or full, without expressed written consent from the Inland Empire Television Network, James Programming, Printing &amp; Media Solutions, or its subsidiary's - All Rights Reserved.</p>
+                  <script>
+                    var d = new Date();
+                    document.getElementById("copyrightDate").innerHTML = d.getFullYear();
+                  </script> 
+                </div>
+              </div>
+            </div>
+          </div>
+
+</div>
+</body>
+</html>

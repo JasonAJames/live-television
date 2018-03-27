@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import {RouterModule} from '@angular/router'
 import { routes } from './app.router';
 
 import { AppComponent } from './app.component';
@@ -25,6 +26,7 @@ import { Fox11laComponent } from './fox11la/fox11la.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    RouterModule.forRoot([], {useHash : true}),
     routes
   ],
   providers: [],

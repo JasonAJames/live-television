@@ -14,9 +14,9 @@ export const router: Routes = [
     { path: 'about', component: AboutComponent},
     { path: 'stations-main', component: StationsMainComponent},
     { path: 'ktla5', component: Ktla5Component},
-    { path: '', redirectTo: 'home', pathMatch: 'full'},
+    { path: '', redirectTo: '/home', pathMatch: 'full'},
     { path: '**', component: HomeComponent}
     
 ];
 
-export const routes: ModuleWithProviders = RouterModule.forRoot(router, { useHash: true });
+export const routes: ModuleWithProviders = RouterModule.forRoot(router);

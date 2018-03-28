@@ -3,9 +3,9 @@ import { ActivatedRoute, Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './stations-main/socaltelevision/home.component';
 import { StationsMainComponent } from './stations-main/stations-main.component';
-import { Ktla5Component } from './ktla5/ktla5.component';
+import { Ktla5Component } from './stations-main/ktla5/ktla5.component';
 
 
 

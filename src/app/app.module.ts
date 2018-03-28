@@ -26,7 +26,14 @@ import { Fox11laComponent } from './fox11la/fox11la.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot([], {useHash : true}),
+    RouterModule.forRoot([
+      { path: 'home', component: HomeComponent},
+      { path: 'about', component: AboutComponent},
+      { path: 'stations-main', component: StationsMainComponent},
+      { path: 'ktla5', component: Ktla5Component},
+      { path: '', redirectTo: '/home', pathMatch: 'full'},
+      { path: '**', component: HomeComponent}
+    ], {useHash : true}),
     routes
   ],
   providers: [],

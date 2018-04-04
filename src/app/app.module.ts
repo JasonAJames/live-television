@@ -11,11 +11,13 @@ import { HomeComponent } from './stations-main/socaltelevision/home.component';
 import { StationsMainComponent } from './stations-main/stations-main.component';
 import { Ktla5Component } from './stations-main/ktla5/ktla5.component';
 import { Fox11laComponent } from './stations-main/fox11la/fox11la.component';
+import { LiveComponent } from './live/live.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    LiveComponent,
     AboutComponent,
     HomeComponent,
     StationsMainComponent,
@@ -28,6 +30,7 @@ import { Fox11laComponent } from './stations-main/fox11la/fox11la.component';
     HttpModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent},
+      { path: 'live', component: LiveComponent},
       { path: 'about', component: AboutComponent},
       { path: 'stations-main', component: StationsMainComponent},
       { path: 'ktla5', component: Ktla5Component},

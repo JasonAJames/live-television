@@ -13,7 +13,7 @@ export class LiveComponent implements OnInit {
   }
 
   stationName = 'SoCal Television LIVE';
-  videoID = "2F2049949125045139";
-  videoSRC = "https://www.facebook.com/SoCalTelevision/videos/2052326111474107/";
+  videoID = '2F2049949125045139';
+  videoSRC = 'https://www.facebook.com/SoCalTelevision/videos/2052326111474107/';
 
 }

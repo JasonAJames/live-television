@@ -268,11 +268,11 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_router__ = __webpack_require__(513);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(511);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__about_about_component__ = __webpack_require__(329);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__stations_main_socaltelevision_home_component__ = __webpack_require__(332);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__stations_main_stations_main_component__ = __webpack_require__(333);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__stations_main_ktla5_ktla5_component__ = __webpack_require__(331);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__stations_main_fox11la_fox11la_component__ = __webpack_require__(514);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__live_live_component__ = __webpack_require__(330);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__live_live_component__ = __webpack_require__(330);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__stations_main_socaltelevision_home_component__ = __webpack_require__(332);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__stations_main_stations_main_component__ = __webpack_require__(333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__stations_main_ktla5_ktla5_component__ = __webpack_require__(331);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__stations_main_fox11la_fox11la_component__ = __webpack_require__(514);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -302,25 +302,26 @@ AppModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
         declarations: [
             __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* AppComponent */],
-            __WEBPACK_IMPORTED_MODULE_12__live_live_component__["a" /* LiveComponent */],
+            __WEBPACK_IMPORTED_MODULE_8__live_live_component__["a" /* LiveComponent */],
             __WEBPACK_IMPORTED_MODULE_7__about_about_component__["a" /* AboutComponent */],
-            __WEBPACK_IMPORTED_MODULE_8__stations_main_socaltelevision_home_component__["a" /* HomeComponent */],
-            __WEBPACK_IMPORTED_MODULE_9__stations_main_stations_main_component__["a" /* StationsMainComponent */],
-            __WEBPACK_IMPORTED_MODULE_10__stations_main_ktla5_ktla5_component__["a" /* Ktla5Component */],
-            __WEBPACK_IMPORTED_MODULE_11__stations_main_fox11la_fox11la_component__["a" /* Fox11laComponent */]
+            __WEBPACK_IMPORTED_MODULE_9__stations_main_socaltelevision_home_component__["a" /* HomeComponent */],
+            __WEBPACK_IMPORTED_MODULE_10__stations_main_stations_main_component__["a" /* StationsMainComponent */],
+            __WEBPACK_IMPORTED_MODULE_11__stations_main_ktla5_ktla5_component__["a" /* Ktla5Component */],
+            __WEBPACK_IMPORTED_MODULE_12__stations_main_fox11la_fox11la_component__["a" /* Fox11laComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["a" /* RouterModule */].forRoot([
-                { path: 'home', component: __WEBPACK_IMPORTED_MODULE_8__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
-                { path: 'live', component: __WEBPACK_IMPORTED_MODULE_12__live_live_component__["a" /* LiveComponent */] },
+                { path: 'home', component: __WEBPACK_IMPORTED_MODULE_9__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
+                { path: 'live', component: __WEBPACK_IMPORTED_MODULE_8__live_live_component__["a" /* LiveComponent */] },
                 { path: 'about', component: __WEBPACK_IMPORTED_MODULE_7__about_about_component__["a" /* AboutComponent */] },
-                { path: 'stations-main', component: __WEBPACK_IMPORTED_MODULE_9__stations_main_stations_main_component__["a" /* StationsMainComponent */] },
-                { path: 'ktla5', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_ktla5_ktla5_component__["a" /* Ktla5Component */] },
+                { path: 'stations-main', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_stations_main_component__["a" /* StationsMainComponent */] },
+                { path: 'ktla5', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_ktla5_ktla5_component__["a" /* Ktla5Component */] },
+                { path: 'fox11la', component: __WEBPACK_IMPORTED_MODULE_12__stations_main_fox11la_fox11la_component__["a" /* Fox11laComponent */] },
                 { path: '', redirectTo: '/home', pathMatch: 'full' },
-                { path: '**', component: __WEBPACK_IMPORTED_MODULE_8__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] }
+                { path: '**', component: __WEBPACK_IMPORTED_MODULE_9__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] }
             ], { useHash: true }),
             __WEBPACK_IMPORTED_MODULE_5__app_router__["a" /* routes */]
         ],
@@ -548,7 +549,7 @@ module.exports = ""
 /***/ 688:
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 

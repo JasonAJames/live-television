@@ -12,7 +12,7 @@ import { StationsMainComponent } from './stations-main/stations-main.component';
 import { Ktla5Component } from './stations-main/ktla5/ktla5.component';
 import { Fox11laComponent } from './stations-main/fox11la/fox11la.component';
 import { LiveComponent } from './live/live.component';
-
+import { Fox5sandiegoComponent } from './stations-main/fox5sandiego/fox5sandiego.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +34,8 @@ import { LiveComponent } from './live/live.component';
       { path: 'about', component: AboutComponent},
       { path: 'stations-main', component: StationsMainComponent},
       { path: 'ktla5', component: Ktla5Component},
+      { path: 'fox11la', component: Fox11laComponent},
+      { path: 'fox5sandiego', component: Fox5sandiegoComponent},
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: '**', component: HomeComponent}
     ], {useHash : true}),

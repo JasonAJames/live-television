@@ -1,12 +1,12 @@
 webpackJsonp([2,4],{
 
-/***/ 397:
+/***/ 395:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(668);
+var content = __webpack_require__(667);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -14,7 +14,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(732)(content, options);
+var update = __webpack_require__(729)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -32,10 +32,10 @@ if(false) {
 
 /***/ }),
 
-/***/ 668:
+/***/ 667:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(669)();
+exports = module.exports = __webpack_require__(668)();
 // imports
 exports.push([module.i, "@import url(https://bootswatch.com/4/cyborg/bootstrap.min.css);", ""]);
 
@@ -47,7 +47,7 @@ exports.push([module.i, "", ""]);
 
 /***/ }),
 
-/***/ 669:
+/***/ 668:
 /***/ (function(module, exports) {
 
 /*
@@ -104,7 +104,7 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ 732:
+/***/ 729:
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -160,7 +160,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(733);
+var	fixUrls = __webpack_require__(730);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -477,7 +477,7 @@ function updateLink (link, options, obj) {
 
 /***/ }),
 
-/***/ 733:
+/***/ 730:
 /***/ (function(module, exports) {
 
 
@@ -573,13 +573,13 @@ module.exports = function (css) {
 
 /***/ }),
 
-/***/ 737:
+/***/ 734:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(397);
+module.exports = __webpack_require__(395);
 
 
 /***/ })
 
-},[737]);
+},[734]);
 //# sourceMappingURL=styles.bundle.map

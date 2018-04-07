@@ -7,7 +7,6 @@ import { routes } from './app.router';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
-import { AdvertisingRatesComponent } from './advertise/advertising-rates/advertising-rates.component';
 import { LiveComponent } from './live/live.component';
 import { HomeComponent } from './stations-main/socaltelevision/home.component';
 import { StationsMainComponent } from './stations-main/stations-main.component';
@@ -22,7 +21,6 @@ import { Fox5sandiegoComponent } from './stations-main/fox5sandiego/fox5sandiego
     AppComponent,
     LiveComponent,
     AboutComponent,
-    AdvertisingRatesComponent,
     HomeComponent,
     StationsMainComponent,
     Ktla5Component,
@@ -37,7 +35,6 @@ import { Fox5sandiegoComponent } from './stations-main/fox5sandiego/fox5sandiego
       { path: 'home', component: HomeComponent},
       { path: 'live', component: LiveComponent},
       { path: 'about', component: AboutComponent},
-      { path: 'advertising-rates', component: AdvertisingRatesComponent},
       { path: 'stations-main', component: StationsMainComponent},
       { path: 'ktla5', component: Ktla5Component},
       { path: 'fox11la', component: Fox11laComponent},

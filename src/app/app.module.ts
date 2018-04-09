@@ -16,8 +16,6 @@ import { Ktla5Component } from './stations-main/ktla5/ktla5.component';
 import { Fox11laComponent } from './stations-main/fox11la/fox11la.component';
 import { Fox5sandiegoComponent } from './stations-main/fox5sandiego/fox5sandiego.component';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,

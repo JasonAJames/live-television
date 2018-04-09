@@ -6,7 +6,7 @@ import {RouterModule} from '@angular/router'
 import { routes } from './app.router';
 
 import { AdvertiseCommercialComponent } from './advertise-commercial/advertise-commercial.component';
-import { PaymentProcessor1Component } from './payment-processor1/payment-processor1.component';
+
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { LiveComponent } from './live/live.component';
@@ -20,7 +20,6 @@ import { Fox5sandiegoComponent } from './stations-main/fox5sandiego/fox5sandiego
 @NgModule({
   declarations: [
     AppComponent,
-    PaymentProcessor1Component,
     LiveComponent,
     AdvertiseCommercialComponent,
     AboutComponent,
@@ -36,7 +35,6 @@ import { Fox5sandiegoComponent } from './stations-main/fox5sandiego/fox5sandiego
     HttpModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent},
-      { path: 'payment-processor', component: PaymentProcessor1Component },
       { path: 'live', component: LiveComponent},
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},

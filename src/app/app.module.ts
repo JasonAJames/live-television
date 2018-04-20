@@ -17,6 +17,7 @@ import { Fox11laComponent } from './stations-main/fox11la/fox11la.component';
 import { Fox5sandiegoComponent } from './stations-main/fox5sandiego/fox5sandiego.component';
 import { HawaiiNewsNowComponent } from './stations-main/hawaiinewsnow/hawaii-news-now.component';
 import { Kitv4hawaiiComponent } from './stations-main/kitv4hawaii/kitv4hawaii.component';
+import { Khon2hawaiiComponent } from './stations-main/khon2hawaii/khon2hawaii.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { Kitv4hawaiiComponent } from './stations-main/kitv4hawaii/kitv4hawaii.co
     Fox11laComponent,
     Fox5sandiegoComponent,
     HawaiiNewsNowComponent,
-    Kitv4hawaiiComponent
+    Kitv4hawaiiComponent,
+    Khon2hawaiiComponent
   ],
   imports: [
     BrowserModule,
@@ -48,6 +50,7 @@ import { Kitv4hawaiiComponent } from './stations-main/kitv4hawaii/kitv4hawaii.co
       { path: 'fox5sandiego', component: Fox5sandiegoComponent},
       { path: 'hawaii-news-now', component: HawaiiNewsNowComponent },
       { path: 'kitv4-hawaii', component: Kitv4hawaiiComponent},
+      { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: '**', component: HomeComponent}
     ], {useHash : true}),

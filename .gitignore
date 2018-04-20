@@ -2,7 +2,6 @@
 # GIT ignore file for SoCalTelevision
 
 # compiled output
-# /dist
 /tmp
 
 # dependencies

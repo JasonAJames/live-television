@@ -6,7 +6,7 @@ webpackJsonp([2,4],{
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(672);
+var content = __webpack_require__(674);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -14,7 +14,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(744)(content, options);
+var update = __webpack_require__(750)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -32,10 +32,10 @@ if(false) {
 
 /***/ }),
 
-/***/ 672:
+/***/ 674:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(673)();
+exports = module.exports = __webpack_require__(675)();
 // imports
 exports.push([module.i, "@import url(https://bootswatch.com/4/cyborg/bootstrap.min.css);", ""]);
 
@@ -47,7 +47,7 @@ exports.push([module.i, "", ""]);
 
 /***/ }),
 
-/***/ 673:
+/***/ 675:
 /***/ (function(module, exports) {
 
 /*
@@ -104,7 +104,7 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ 744:
+/***/ 750:
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -160,7 +160,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(745);
+var	fixUrls = __webpack_require__(751);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -477,7 +477,7 @@ function updateLink (link, options, obj) {
 
 /***/ }),
 
-/***/ 745:
+/***/ 751:
 /***/ (function(module, exports) {
 
 
@@ -573,7 +573,7 @@ module.exports = function (css) {
 
 /***/ }),
 
-/***/ 749:
+/***/ 755:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(398);
@@ -581,5 +581,5 @@ module.exports = __webpack_require__(398);
 
 /***/ })
 
-},[749]);
+},[755]);
 //# sourceMappingURL=styles.bundle.map

@@ -11,6 +11,8 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { LiveComponent } from './live/live.component';
 import { HomeComponent } from './stations-main/socaltelevision/home.component';
+import { CaliforniaComponent } from './stations-main/california/california.component';
+import { HawaiiComponent } from './stations-main/hawaii/hawaii.component';
 import { StationsMainComponent } from './stations-main/stations-main.component';
 import { Ktla5Component } from './stations-main/ktla5/ktla5.component';
 import { Fox11laComponent } from './stations-main/fox11la/fox11la.component';
@@ -27,6 +29,8 @@ import { Khon2hawaiiComponent } from './stations-main/khon2hawaii/khon2hawaii.co
     AdvertiseCommercialComponent,
     AboutComponent,
     HomeComponent,
+    CaliforniaComponent,
+    HawaiiComponent,
     StationsMainComponent,
     Ktla5Component,
     Fox11laComponent,
@@ -44,6 +48,8 @@ import { Khon2hawaiiComponent } from './stations-main/khon2hawaii/khon2hawaii.co
       { path: 'live', component: LiveComponent},
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},
+      { path: 'california-tv-stations', component: CaliforniaComponent },
+      { path: 'hawaii-tv-stations', component: HawaiiComponent},
       { path: 'stations-main', component: StationsMainComponent},
       { path: 'ktla5', component: Ktla5Component},
       { path: 'fox11la', component: Fox11laComponent},

@@ -560,7 +560,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var Khon2hawaiiComponent = (function () {
     function Khon2hawaiiComponent() {
-        this.stationName = 'KHON 4 Hawaii';
+        this.stationName = 'KHON 2 Hawaii';
     }
     Khon2hawaiiComponent.prototype.ngOnInit = function () {
     };

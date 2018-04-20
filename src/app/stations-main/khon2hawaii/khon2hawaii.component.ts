@@ -12,5 +12,5 @@ export class Khon2hawaiiComponent implements OnInit {
   ngOnInit() {
   }
 
-  stationName = 'KHON 4 Hawaii'
+  stationName = 'KHON 2 Hawaii'
 }

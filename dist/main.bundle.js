@@ -1005,7 +1005,7 @@ module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3>You're Watch
 /***/ 718:
 /***/ (function(module, exports) {
 
-module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><video muted\n    src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/BlueAngels_Promo.mp4.mp4?width=770&height=433&autoPlay=true&mute=true\" \n    autoplay class=\"video\" scrolling=\"no\" mute=\"true\" volume=\"0\" >\n  </video></span>\n\n"
+module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><video muted controls autoplay\n    src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/BlueAngels_Promo.mp4.mp4?width=770&height=433&autoPlay=true&mute=true\" \n    type=\"video/mp4\" class=\"video\" scrolling=\"no\" >\n  </video></span>\n\n"
 
 /***/ }),
 

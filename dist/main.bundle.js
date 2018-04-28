@@ -935,7 +935,7 @@ module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-wid
 /***/ "./src/app/stations-main/socaltelevision/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe\n    src=\"https://www.facebook.com/SoCalTelevision/videos/725298820843516/?width=770&height=433&volume=0&muted=true&autoplay=false\" \n    type=\"video/mp4\" class=\"video\" volume=\"0\" autoplay=\"false\" >\n  </iframe></span>\n\n"
+module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\">\n\n      <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F725298820843516%2F&width=770&show_text=false&appId=1297395473683747&height=411\"\n      width=\"770\" height=\"411\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"\n      allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n    \n    <!-- <iframe\n    src=\"https://www.facebook.com/SoCalTelevision/videos/725298820843516/?width=770&height=433&volume=0&muted=true&autoplay=false\" \n    type=\"video/mp4\" class=\"video\" volume=\"0\" autoplay=\"false\" >\n  </iframe> -->\n</span>\n\n"
 
 /***/ }),
 

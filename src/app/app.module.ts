@@ -9,6 +9,7 @@ import { AdvertiseCommercialComponent } from './advertise-commercial/advertise-c
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
+import { LocalReviewsComponent } from './local-reviews/local-reviews.component';
 import { LiveComponent } from './live/live.component';
 import { HomeComponent } from './stations-main/socaltelevision/home.component';
 import { CaliforniaComponent } from './stations-main/california/california.component';
@@ -25,6 +26,7 @@ import { Khon2hawaiiComponent } from './stations-main/khon2hawaii/khon2hawaii.co
 @NgModule({
   declarations: [
     AppComponent,
+    LocalReviewsComponent,
     LiveComponent,
     AdvertiseCommercialComponent,
     AboutComponent,
@@ -46,6 +48,7 @@ import { Khon2hawaiiComponent } from './stations-main/khon2hawaii/khon2hawaii.co
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent},
       { path: 'live', component: LiveComponent},
+      { path: 'local-reviews', component: LocalReviewsComponent},
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},
       { path: 'california-tv-stations', component: CaliforniaComponent },

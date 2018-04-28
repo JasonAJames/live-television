@@ -935,7 +935,7 @@ module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-wid
 /***/ "./src/app/stations-main/socaltelevision/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe\n    src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/BlueAngels_Promo.mp4.mp4?width=770&height=433&muted=true&autoplay=false\" \n    type=\"video/mp4\" class=\"video\" volume=\"0\" autoplay=\"false\" >\n  </iframe></span>\n\n"
+module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe\n    src=\"https://www.facebook.com/SoCalTelevision/videos/725298820843516/?width=770&height=433&volume=0&muted=true&autoplay=false\" \n    type=\"video/mp4\" class=\"video\" volume=\"0\" autoplay=\"false\" >\n  </iframe></span>\n\n"
 
 /***/ }),
 

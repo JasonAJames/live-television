@@ -12,4 +12,5 @@ export class LocalReviewsComponent implements OnInit {
   ngOnInit() {
   }
 
+  stationName = "SoCal Reviews"
 }

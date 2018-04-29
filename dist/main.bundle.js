@@ -479,7 +479,7 @@ module.exports = ".top {\n    padding-top: 10%;\n}"
 /***/ "./src/app/local-reviews/local-reviews.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n<span class=\"videoContainer\">\n  <h1 class=\"top\">{{stationName}}</h1>\n  <iframe \n  src=\"https://www.google.com/maps/contrib/102030280377814322093/photos/@33.9156664,-117.5619134,16z/data=!3m1!4b1!4m3!8m2!3m1!1e1\" \n    style=\"width:800;height:600;border:none;overflow:hidden\" scrolling=\"yes\" frameborder=\"0\" \n  allowTransparency=\"true\" allowFullScreen=\"false\">\n</iframe></span>\n"
+module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n<span class=\"videoContainer\">\n  <h1 class=\"top\">{{stationName}}</h1>\n  <object type=\"text/html\" data=\"https://www.google.com/maps/contrib/102030280377814322093/photos/@33.9156664,-117.5619134,16z/data=!3m1!4b1!4m3!8m2!3m1!1e1\">\n  </object>\n  <!-- <iframe \n  src=\"https://www.google.com/maps/contrib/102030280377814322093/photos/@33.9156664,-117.5619134,16z/data=!3m1!4b1!4m3!8m2!3m1!1e1\" \n    style=\"width:800;height:600;border:none;overflow:hidden\" scrolling=\"yes\" frameborder=\"0\" \n  allowTransparency=\"true\" allowFullScreen=\"false\">\n</iframe> -->\n</span>\n"
 
 /***/ }),
 

@@ -479,7 +479,7 @@ module.exports = ""
 /***/ "./src/app/local-reviews/local-reviews.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<span class=\"videoContainer\">\n  <h1>{{stationName}}</h1>\n  <iframe \n  src=\"https://www.google.com/maps/contrib/102030280377814322093/photos/?authuser=3\" \n  width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n  allowTransparency=\"true\" allowFullScreen=\"true\">\n</iframe></span>\n"
+module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n<span class=\"videoContainer\">\n  <h1>{{stationName}}</h1>\n  <iframe \n  src=\"https://www.google.com/maps/contrib/102030280377814322093/photos/?authuser=3\" \n  width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n  allowTransparency=\"true\" allowFullScreen=\"true\">\n</iframe></span>\n"
 
 /***/ }),
 

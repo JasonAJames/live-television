@@ -585,7 +585,7 @@ module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-wid
 /***/ "./src/app/stations-main/fox11la/fox11la.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/6140873/events/2549324/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
+module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3 class=\"top\">You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/6140873/events/2549324/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
 
 /***/ }),
 
@@ -617,7 +617,7 @@ Fox11laComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-fox11la',
         template: __webpack_require__("./src/app/stations-main/fox11la/fox11la.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/fox11la/fox11la.component.css")]
+        styles: [__webpack_require__("./src/app/stations-main/fox11la/fox11la.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], Fox11laComponent);
@@ -636,7 +636,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/fox5sandiego/fox5sandiego.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/9263055/events/3189799/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
+module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3 class=\"top\">You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/9263055/events/3189799/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
 
 /***/ }),
 
@@ -668,7 +668,7 @@ Fox5sandiegoComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-fox5sandiego',
         template: __webpack_require__("./src/app/stations-main/fox5sandiego/fox5sandiego.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/fox5sandiego/fox5sandiego.component.css")]
+        styles: [__webpack_require__("./src/app/stations-main/fox5sandiego/fox5sandiego.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], Fox5sandiegoComponent);
@@ -737,7 +737,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/hawaiinewsnow/hawaii-news-now.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/12139043/events/3798937/player?width=648&height=364&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n  "
+module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3 class=\"top\">You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/12139043/events/3798937/player?width=648&height=364&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n  "
 
 /***/ }),
 
@@ -769,7 +769,7 @@ HawaiiNewsNowComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-hawaii-news-now',
         template: __webpack_require__("./src/app/stations-main/hawaiinewsnow/hawaii-news-now.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/hawaiinewsnow/hawaii-news-now.component.css")]
+        styles: [__webpack_require__("./src/app/stations-main/hawaiinewsnow/hawaii-news-now.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], HawaiiNewsNowComponent);
@@ -788,7 +788,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/khon2hawaii/khon2hawaii.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/1858266/events/1647828/player?width=720&height=405&enableInfoAndActivity=false&defaultDrawer=&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n"
+module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3 class=\"top\">You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/1858266/events/1647828/player?width=720&height=405&enableInfoAndActivity=false&defaultDrawer=&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n"
 
 /***/ }),
 
@@ -820,7 +820,7 @@ Khon2hawaiiComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-khon2hawaii',
         template: __webpack_require__("./src/app/stations-main/khon2hawaii/khon2hawaii.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/khon2hawaii/khon2hawaii.component.css")]
+        styles: [__webpack_require__("./src/app/stations-main/khon2hawaii/khon2hawaii.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], Khon2hawaiiComponent);
@@ -839,7 +839,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/kitv4hawaii/kitv4hawaii.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"http://w3.cdn.anvato.net/player/prod/v3/anvload.html?key=eyJtIjoiYW52IiwidiI6ImFkc3RZWDREOVJHeThxSzEiLCJhbnZhY2siOiJydlZLcEE1MHFsT1BMRnhNanJDR2Y1cGRrZFFEbTdxbiIsInBsdWdpbnMiOnsicmVhbFRpbWVBbmFseXRpY3MiOnRydWV9LCJodG1sNSI6dHJ1ZSwidG9rZW4iOiJveVFoLVY2QnRyWWxEUXU4R096eTE5TnVBNGxhMndjV3Z0bkFXdmVQNTljfk1uNHdmZyJ9\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
+module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3 class=\"top\">You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"http://w3.cdn.anvato.net/player/prod/v3/anvload.html?key=eyJtIjoiYW52IiwidiI6ImFkc3RZWDREOVJHeThxSzEiLCJhbnZhY2siOiJydlZLcEE1MHFsT1BMRnhNanJDR2Y1cGRrZFFEbTdxbiIsInBsdWdpbnMiOnsicmVhbFRpbWVBbmFseXRpY3MiOnRydWV9LCJodG1sNSI6dHJ1ZSwidG9rZW4iOiJveVFoLVY2QnRyWWxEUXU4R096eTE5TnVBNGxhMndjV3Z0bkFXdmVQNTljfk1uNHdmZyJ9\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
 
 /***/ }),
 
@@ -941,7 +941,7 @@ module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-wid
 /***/ "./src/app/stations-main/ktla5/ktla5.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/9262780/events/3189705/player?width=770&height=433&autoPlay=true&mute=false&customAdTagParameters=Site%3D41641936%26pid%3Don-airlive-streaming\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n\n"
+module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3 class=\"top\">You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/9262780/events/3189705/player?width=770&height=433&autoPlay=true&mute=false&customAdTagParameters=Site%3D41641936%26pid%3Don-airlive-streaming\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n\n"
 
 /***/ }),
 
@@ -973,7 +973,7 @@ Ktla5Component = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-ktla5',
         template: __webpack_require__("./src/app/stations-main/ktla5/ktla5.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/ktla5/ktla5.component.css")]
+        styles: [__webpack_require__("./src/app/stations-main/ktla5/ktla5.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], Ktla5Component);
@@ -992,7 +992,7 @@ module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-wid
 /***/ "./src/app/stations-main/socaltelevision/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\">\n\n      <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F725298820843516%2F&width=770&show_text=false&appId=1297395473683747&height=411\"\n      width=\"770\" height=\"411\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"\n      allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n    \n    <!-- <iframe\n    src=\"https://www.facebook.com/SoCalTelevision/videos/725298820843516/?width=770&height=433&volume=0&muted=true&autoplay=false\" \n    type=\"video/mp4\" class=\"video\" volume=\"0\" autoplay=\"false\" >\n  </iframe> -->\n</span>\n\n"
+module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n  <h3 class=\"top\">You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\">\n\n      <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F725298820843516%2F&width=770&show_text=false&appId=1297395473683747&height=411\"\n      width=\"770\" height=\"411\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"\n      allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n    \n    <!-- <iframe\n    src=\"https://www.facebook.com/SoCalTelevision/videos/725298820843516/?width=770&height=433&volume=0&muted=true&autoplay=false\" \n    type=\"video/mp4\" class=\"video\" volume=\"0\" autoplay=\"false\" >\n  </iframe> -->\n</span>\n\n"
 
 /***/ }),
 
@@ -1027,7 +1027,7 @@ HomeComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-home',
         template: __webpack_require__("./src/app/stations-main/socaltelevision/home.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/socaltelevision/home.component.css")]
+        styles: [__webpack_require__("./src/app/stations-main/socaltelevision/home.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */]) === "function" && _a || Object])
 ], HomeComponent);

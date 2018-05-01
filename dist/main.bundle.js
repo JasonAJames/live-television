@@ -575,7 +575,7 @@ BakersfieldNews23abcComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-bakersfield-news-23abc',
         template: __webpack_require__("./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.css")]
+        styles: [__webpack_require__("./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], BakersfieldNews23abcComponent);

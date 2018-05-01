@@ -190,12 +190,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__stations_main_khon2hawaii_khon2hawaii_component__ = __webpack_require__("./src/app/stations-main/khon2hawaii/khon2hawaii.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__stations_main_kron4_kron4_component__ = __webpack_require__("./src/app/stations-main/kron4/kron4.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__ = __webpack_require__("./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__stations_main_bakersfield_news_23abc_bakersfield_news_23abc_component__ = __webpack_require__("./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -243,7 +245,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_19__stations_main_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */],
             __WEBPACK_IMPORTED_MODULE_20__stations_main_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */],
             __WEBPACK_IMPORTED_MODULE_21__stations_main_kron4_kron4_component__["a" /* Kron4Component */],
-            __WEBPACK_IMPORTED_MODULE_22__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__["a" /* LiveHighSpeedPursuitFeedComponent */]
+            __WEBPACK_IMPORTED_MODULE_22__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__["a" /* LiveHighSpeedPursuitFeedComponent */],
+            __WEBPACK_IMPORTED_MODULE_23__stations_main_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -266,6 +269,7 @@ AppModule = __decorate([
                 { path: 'kitv4-hawaii', component: __WEBPACK_IMPORTED_MODULE_19__stations_main_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */] },
                 { path: 'khon2-hawaii', component: __WEBPACK_IMPORTED_MODULE_20__stations_main_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */] },
                 { path: 'kron4', component: __WEBPACK_IMPORTED_MODULE_21__stations_main_kron4_kron4_component__["a" /* Kron4Component */] },
+                { path: 'bakersfield-news-23abc', component: __WEBPACK_IMPORTED_MODULE_23__stations_main_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */] },
                 { path: '', redirectTo: '/home', pathMatch: 'full' },
                 { path: '**', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] }
             ], { useHash: true }),
@@ -529,6 +533,57 @@ LocalReviewsComponent = __decorate([
 
 /***/ }),
 
+/***/ "./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p class=\"top\"></p>\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' /></a></iframe>\n\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\">\n\n      <iframe style=\"position:absolute;top:0;left:0;width:100%; height:100%;\" border=\"0\" height=\"100%\" frameborder=\"0\" webkitallowfullscreen=\"\" allowfullscreen=\"\" mozallowfullscreen=\"\" scrolling=\"no\" scrolling=\"no\" src=\"https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.turnto23.com&title=Main%20live%20stream&uid=ff809e6d9ec34109abfb333f0d4444b5&live=1&purl=/video/live-video&story=0&ex=1&s=kero\"></iframe>\n</span>"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BakersfieldNews23abcComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var BakersfieldNews23abcComponent = (function () {
+    function BakersfieldNews23abcComponent() {
+        this.stationName = "23 ABC Bakersfield News";
+    }
+    BakersfieldNews23abcComponent.prototype.ngOnInit = function () {
+    };
+    return BakersfieldNews23abcComponent;
+}());
+BakersfieldNews23abcComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-bakersfield-news-23abc',
+        template: __webpack_require__("./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], BakersfieldNews23abcComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/bakersfield-news-23abc.component.js.map
+
+/***/ }),
+
 /***/ "./src/app/stations-main/california/california.component.css":
 /***/ (function(module, exports) {
 
@@ -539,7 +594,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/california/california.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h3 class=\"top\">Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">California</h6>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/socaltelevision\">SoCal Television</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/ktla5\">KTLA 5</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/fox5sandiego\">Fox 5 San Diego</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/fox11la\">Fox 11 LA</a>\n        </li>\n        <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"/kron4\">KRON4 San Farancisco</a>\n          </li>\n  </ul>"
+module.exports = "<h3 class=\"top\">Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">California</h6>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/socaltelevision\">SoCal Television</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/ktla5\">KTLA 5</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/fox5sandiego\">Fox 5 San Diego</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/fox11la\">Fox 11 LA</a>\n        </li>\n        <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"/bakersfield-news-23abc\">23 ABC - Bakersfield News</a>\n          </li>\n        <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"/kron4\">KRON4 San Farancisco</a>\n          </li>\n  </ul>"
 
 /***/ }),
 
@@ -1048,7 +1103,7 @@ module.exports = ".top {\n    padding-top: 4%;\n}\n\n@media screen and (min-widt
 /***/ "./src/app/stations-main/socaltelevision/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p class=\"top\"></p>\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' /></a></iframe>\n\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\">\n\n      <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F725298820843516%2F&width=770&show_text=false&appId=1297395473683747&height=411\"\n      width=\"770\" height=\"411\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"\n      allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n    \n    <!-- <iframe\n    src=\"https://www.facebook.com/SoCalTelevision/videos/725298820843516/?width=770&height=433&volume=0&muted=true&autoplay=false\" \n    type=\"video/mp4\" class=\"video\" volume=\"0\" autoplay=\"false\" >\n  </iframe> -->\n</span>\n\n"
+module.exports = "<p class=\"top\"></p>\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' /></a></iframe>\n\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\">\n\n      <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F725298820843516%2F&width=770&show_text=false&appId=1297395473683747&height=411\"\n      width=\"770\" height=\"411\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"\n      allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n</span>\n\n"
 
 /***/ }),
 

@@ -996,7 +996,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p class=\"top\"></p>\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' /></a></iframe>\n\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\">\n      <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffox11la%2Fvideos%2F10160442262365553%2F&width=500&show_text=false&appId=862785427211069&height=281\" width=\"500\" height=\"281\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n  </span>"
+module.exports = "<p class=\"top\"></p>\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' /></a></iframe>\n\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\">\n      <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffox11la%2Fvideos%2F10160442262365553%2F&width=500&show_text=false&appId=862785427211069&height=281\" width=\"500\" height=\"281\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n    </span>\n    <span>\n      <p>{{description}}</p>\n    </span>"
 
 /***/ }),
 
@@ -1019,6 +1019,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var LiveHighSpeedPursuitFeedComponent = (function () {
     function LiveHighSpeedPursuitFeedComponent() {
         this.stationName = "High Speed Pursuit LIVE";
+        this.description = "Pursuit underway of an armed parolee in an RV in the Hollywood area. Unconfirmed reports that the suspect is also wanted for kidnapping.";
     }
     LiveHighSpeedPursuitFeedComponent.prototype.ngOnInit = function () {
     };

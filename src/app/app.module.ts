@@ -21,6 +21,7 @@ import { Fox5sandiegoComponent } from './stations-main/fox5sandiego/fox5sandiego
 import { HawaiiNewsNowComponent } from './stations-main/hawaiinewsnow/hawaii-news-now.component';
 import { Kitv4hawaiiComponent } from './stations-main/kitv4hawaii/kitv4hawaii.component';
 import { Khon2hawaiiComponent } from './stations-main/khon2hawaii/khon2hawaii.component';
+import { Kron4Component } from './stations-main/kron4/kron4.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { Khon2hawaiiComponent } from './stations-main/khon2hawaii/khon2hawaii.co
     Fox5sandiegoComponent,
     HawaiiNewsNowComponent,
     Kitv4hawaiiComponent,
-    Khon2hawaiiComponent
+    Khon2hawaiiComponent,
+    Kron4Component
   ],
   imports: [
     BrowserModule,

@@ -188,12 +188,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__stations_main_hawaiinewsnow_hawaii_news_now_component__ = __webpack_require__("./src/app/stations-main/hawaiinewsnow/hawaii-news-now.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__stations_main_kitv4hawaii_kitv4hawaii_component__ = __webpack_require__("./src/app/stations-main/kitv4hawaii/kitv4hawaii.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__stations_main_khon2hawaii_khon2hawaii_component__ = __webpack_require__("./src/app/stations-main/khon2hawaii/khon2hawaii.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__stations_main_kron4_kron4_component__ = __webpack_require__("./src/app/stations-main/kron4/kron4.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -237,7 +239,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_17__stations_main_fox5sandiego_fox5sandiego_component__["a" /* Fox5sandiegoComponent */],
             __WEBPACK_IMPORTED_MODULE_18__stations_main_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */],
             __WEBPACK_IMPORTED_MODULE_19__stations_main_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */],
-            __WEBPACK_IMPORTED_MODULE_20__stations_main_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */]
+            __WEBPACK_IMPORTED_MODULE_20__stations_main_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */],
+            __WEBPACK_IMPORTED_MODULE_21__stations_main_kron4_kron4_component__["a" /* Kron4Component */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -479,7 +482,7 @@ module.exports = ".top {\n    padding-top: 10%;\n}"
 /***/ "./src/app/local-reviews/local-reviews.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n<span class=\"videoContainer\">\n  <h1 class=\"top\">{{stationName}}</h1>\n  <iframe src=\"https://www.google.com/maps/contrib/102030280377814322093/photos/@33.9156664,-117.5619134,16z/data=!3m1!4b1!4m3!8m2!3m1!1e1\" style=\"width:800;height:600;border:none;overflow:hidden\">\n  <h3><a target=\"_blank\" href=\"file://{{reviewPath}}/maps/contrib/102030280377814322093/photos/@33.9156664,-117.5619134,16z/data=!3m1!4b1!4m3!8m2!3m1!1e1\">Click Here to See Our SoCal Local Guide Reviews on Google</a></h3>\n  </iframe>\n</span>"
+module.exports = "  <!-- <p class=\"top col-md-12\"></p> -->\n<span class=\"videoContainer\">\n  <h1 class=\"top\">{{stationName}}</h1>\n  <h3><a target=\"_blank\" href=\"file://{{reviewPath}}/maps/contrib/102030280377814322093/photos/@33.9156664,-117.5619134,16z/data=!3m1!4b1!4m3!8m2!3m1!1e1\">Click Here to See Our SoCal Local Guide Reviews on Google</a></h3>\n  <iframe src=\"https://www.google.com/maps/contrib/102030280377814322093/photos/@33.9156664,-117.5619134,16z/data=!3m1!4b1!4m3!8m2!3m1!1e1\" style=\"width:800;height:600;border:none;overflow:hidden\">\n  </iframe>\n\n</span>"
 
 /***/ }),
 
@@ -873,6 +876,56 @@ Kitv4hawaiiComponent = __decorate([
 ], Kitv4hawaiiComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/kitv4hawaii.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/stations-main/kron4/kron4.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/stations-main/kron4/kron4.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  kron4 works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/kron4/kron4.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Kron4Component; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Kron4Component = (function () {
+    function Kron4Component() {
+    }
+    Kron4Component.prototype.ngOnInit = function () {
+    };
+    return Kron4Component;
+}());
+Kron4Component = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-kron4',
+        template: __webpack_require__("./src/app/stations-main/kron4/kron4.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/kron4/kron4.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Kron4Component);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/kron4.component.js.map
 
 /***/ }),
 

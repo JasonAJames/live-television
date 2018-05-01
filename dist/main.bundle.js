@@ -722,7 +722,7 @@ HawaiiComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-hawaii',
         template: __webpack_require__("./src/app/stations-main/hawaii/hawaii.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/hawaii/hawaii.component.css")]
+        styles: [__webpack_require__("./src/app/stations-main/hawaii/hawaii.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], HawaiiComponent);

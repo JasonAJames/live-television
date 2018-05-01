@@ -22,6 +22,7 @@ import { HawaiiNewsNowComponent } from './stations-main/hawaiinewsnow/hawaii-new
 import { Kitv4hawaiiComponent } from './stations-main/kitv4hawaii/kitv4hawaii.component';
 import { Khon2hawaiiComponent } from './stations-main/khon2hawaii/khon2hawaii.component';
 import { Kron4Component } from './stations-main/kron4/kron4.component';
+import { LiveHighSpeedPursuitFeedComponent } from './stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { Kron4Component } from './stations-main/kron4/kron4.component';
     HawaiiNewsNowComponent,
     Kitv4hawaiiComponent,
     Khon2hawaiiComponent,
-    Kron4Component
+    Kron4Component,
+    LiveHighSpeedPursuitFeedComponent
   ],
   imports: [
     BrowserModule,
@@ -50,6 +52,7 @@ import { Kron4Component } from './stations-main/kron4/kron4.component';
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent},
       { path: 'live', component: LiveComponent},
+      { path: 'live-high-speed-pursuit', component: LiveHighSpeedPursuitFeedComponent},
       { path: 'local-reviews', component: LocalReviewsComponent},
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},

@@ -18,10 +18,22 @@
   <link rel="stylesheet" href="assets/forms.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://www.paypalobjects.com/api/checkout.js"></script>
-
+<style>
+  .top {
+    margin-top: 5%;
+  }
+</style>
 </head>
 <body>
   <app-root>     Loading SoCalTelevision.com...</app-root>
+<!-- Weather Widget -->
+  <p class="top">
+      <a class="weatherwidget-io" href="https://forecast7.com/en/33d88n117d57/corona/?unit=us" data-label_1="CORONA" data-label_2="WEATHER" data-font="Play" data-icons="Climacons Animated" data-mode="Forecast" data-theme="weather_one" >CORONA WEATHER</a>
+      <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+      </script>
+  </p>
+<!-- END Weather Widget -->
 <!-- Google Analytics -->
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -32,5 +44,6 @@
     ga('create', 'UA-92954301-6', 'auto');
     </script>
     <!-- End Google Analytics -->
+
 <script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
 </html>

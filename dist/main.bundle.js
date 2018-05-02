@@ -476,7 +476,7 @@ LiveComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-live',
         template: __webpack_require__("./src/app/live/live.component.html"),
-        styles: [__webpack_require__("./src/app/live/live.component.css")]
+        styles: [__webpack_require__("./src/app/live/live.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], LiveComponent);
@@ -1213,7 +1213,7 @@ module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-wid
 /***/ "./src/app/stations-main/stations-main.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\n<h3 class=\"top\">Choose the State of the Channel you want to Watch</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/california-{{ tvhref }}\">California {{ tv }}</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/hawaii-{{ tvhref }}\">Hawaii {{ tv }}</a>\n    </li>\n  </ul>\n"
+module.exports = "<p class=\"top\"></p>\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' /></a></iframe>\n\n<h3>Choose the State of the Channel you want to Watch</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/california-{{ tvhref }}\">California {{ tv }}</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/hawaii-{{ tvhref }}\">Hawaii {{ tv }}</a>\n    </li>\n  </ul>\n"
 
 /***/ }),
 

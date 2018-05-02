@@ -569,6 +569,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var Abc30BakersfieldComponent = (function () {
     function Abc30BakersfieldComponent() {
+        this.stationName = "ABC 30 Bakersfield - FEED 2";
     }
     Abc30BakersfieldComponent.prototype.ngOnInit = function () {
     };

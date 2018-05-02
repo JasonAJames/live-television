@@ -12,4 +12,5 @@ export class Abc30BakersfieldComponent implements OnInit {
   ngOnInit() {
   }
 
+  stationName = "ABC 30 Bakersfield - FEED 2"
 }

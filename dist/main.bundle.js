@@ -191,7 +191,7 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__stations_main_kron4_kron4_component__ = __webpack_require__("./src/app/stations-main/kron4/kron4.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__ = __webpack_require__("./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__stations_main_bakersfield_news_23abc_bakersfield_news_23abc_component__ = __webpack_require__("./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__stations_main_kbak_bakersfield_kbak_bakersfield_component__ = __webpack_require__("./src/app/stations-main/kbak-bakersfield/kbak-bakersfield.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__stations_main_abc30_bakersfield_abc30_bakersfield_component__ = __webpack_require__("./src/app/stations-main/abc30-bakersfield/abc30-bakersfield.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -249,7 +249,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_21__stations_main_kron4_kron4_component__["a" /* Kron4Component */],
             __WEBPACK_IMPORTED_MODULE_22__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__["a" /* LiveHighSpeedPursuitFeedComponent */],
             __WEBPACK_IMPORTED_MODULE_23__stations_main_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */],
-            __WEBPACK_IMPORTED_MODULE_24__stations_main_kbak_bakersfield_kbak_bakersfield_component__["a" /* KbakBakersfieldComponent */]
+            __WEBPACK_IMPORTED_MODULE_24__stations_main_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -273,7 +273,7 @@ AppModule = __decorate([
                 { path: 'khon2-hawaii', component: __WEBPACK_IMPORTED_MODULE_20__stations_main_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */] },
                 { path: 'kron4', component: __WEBPACK_IMPORTED_MODULE_21__stations_main_kron4_kron4_component__["a" /* Kron4Component */] },
                 { path: 'bakersfield-news-23abc', component: __WEBPACK_IMPORTED_MODULE_23__stations_main_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */] },
-                { path: 'kbak-bakersfield', component: __WEBPACK_IMPORTED_MODULE_24__stations_main_kbak_bakersfield_kbak_bakersfield_component__["a" /* KbakBakersfieldComponent */] },
+                { path: 'abc30-bakersfield', component: __WEBPACK_IMPORTED_MODULE_24__stations_main_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */] },
                 { path: '', redirectTo: '/home', pathMatch: 'full' },
                 { path: '**', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] }
             ], { useHash: true }),
@@ -537,6 +537,56 @@ LocalReviewsComponent = __decorate([
 
 /***/ }),
 
+/***/ "./src/app/stations-main/abc30-bakersfield/abc30-bakersfield.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/stations-main/abc30-bakersfield/abc30-bakersfield.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p class=\"top\"></p>\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' /></a></iframe>\n\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\">\n\n      <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fabc30%2Fvideos%2F10155590549261482%2F&width=500&show_text=false&appId=862785427211069&height=281\" width=\"500\" height=\"281\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n    </span>"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/abc30-bakersfield/abc30-bakersfield.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Abc30BakersfieldComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Abc30BakersfieldComponent = (function () {
+    function Abc30BakersfieldComponent() {
+    }
+    Abc30BakersfieldComponent.prototype.ngOnInit = function () {
+    };
+    return Abc30BakersfieldComponent;
+}());
+Abc30BakersfieldComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-abc30-bakersfield',
+        template: __webpack_require__("./src/app/stations-main/abc30-bakersfield/abc30-bakersfield.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/abc30-bakersfield/abc30-bakersfield.component.css"), __webpack_require__("./src/app/app.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Abc30BakersfieldComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/abc30-bakersfield.component.js.map
+
+/***/ }),
+
 /***/ "./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.css":
 /***/ (function(module, exports) {
 
@@ -598,7 +648,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/california/california.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h3 class=\"top\">Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">California</h6>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/socaltelevision\">SoCal Television</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/ktla5\">KTLA 5</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/fox5sandiego\">Fox 5 San Diego</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/fox11la\">Fox 11 LA</a>\n        </li>\n        <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"/bakersfield-news-23abc\">23 ABC - Bakersfield News</a>\n          </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"/kbak-bakersfield\">KBAK - Bakersfield News</a>\n            </li>\n        <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"/kron4\">KRON4 San Farancisco</a>\n          </li>\n  </ul>"
+module.exports = "<h3 class=\"top\">Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">California</h6>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/socaltelevision\">SoCal Television</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/ktla5\">KTLA 5</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/fox5sandiego\">Fox 5 San Diego</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/fox11la\">Fox 11 LA</a>\n        </li>\n        <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"/bakersfield-news-23abc\">23 ABC - Bakersfield News</a>\n          </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"/abc30-bakersfield\">ABC30 - Bakersfield - FEED 2</a>\n            </li>\n        <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"/kron4\">KRON4 San Farancisco</a>\n          </li>\n  </ul>"
 
 /***/ }),
 
@@ -838,57 +888,6 @@ HawaiiNewsNowComponent = __decorate([
 ], HawaiiNewsNowComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/hawaii-news-now.component.js.map
-
-/***/ }),
-
-/***/ "./src/app/stations-main/kbak-bakersfield/kbak-bakersfield.component.css":
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/stations-main/kbak-bakersfield/kbak-bakersfield.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<p class=\"top\"></p>\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' /></a></iframe>\n\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><section class=\"\" id=\"be37f652f4574360a087a2ae7b31c0ec_watchnow-live-video-container\"><div id=\"iframePlayer\" class=\"iframecontainer\"><iframe marginheight=\"0\" marginwidth=\"0\" frameborder=\"0\" scrolling=\"no\" id=\"iframeContainer\" src=\"about:blank\" allowfullscreen=\"true\" height=\"335.25\"></iframe></div></section>\n  </span>\n\n\n\n"
-
-/***/ }),
-
-/***/ "./src/app/stations-main/kbak-bakersfield/kbak-bakersfield.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return KbakBakersfieldComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var KbakBakersfieldComponent = (function () {
-    function KbakBakersfieldComponent() {
-        this.stationName = "KBAK - Bakersfield News";
-    }
-    KbakBakersfieldComponent.prototype.ngOnInit = function () {
-    };
-    return KbakBakersfieldComponent;
-}());
-KbakBakersfieldComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
-        selector: 'app-kbak-bakersfield',
-        template: __webpack_require__("./src/app/stations-main/kbak-bakersfield/kbak-bakersfield.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/kbak-bakersfield/kbak-bakersfield.component.css"), __webpack_require__("./src/app/app.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], KbakBakersfieldComponent);
-
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/kbak-bakersfield.component.js.map
 
 /***/ }),
 

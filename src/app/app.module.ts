@@ -24,7 +24,7 @@ import { Khon2hawaiiComponent } from './stations-main/khon2hawaii/khon2hawaii.co
 import { Kron4Component } from './stations-main/kron4/kron4.component';
 import { LiveHighSpeedPursuitFeedComponent } from './stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component';
 import { BakersfieldNews23abcComponent } from './stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component';
-import { KbakBakersfieldComponent } from './stations-main/kbak-bakersfield/kbak-bakersfield.component';
+import { Abc30BakersfieldComponent } from './stations-main/abc30-bakersfield/abc30-bakersfield.component';
 
 
 @NgModule({
@@ -47,7 +47,7 @@ import { KbakBakersfieldComponent } from './stations-main/kbak-bakersfield/kbak-
     Kron4Component,
     LiveHighSpeedPursuitFeedComponent,
     BakersfieldNews23abcComponent,
-    KbakBakersfieldComponent
+    Abc30BakersfieldComponent
   ],
   imports: [
     BrowserModule,
@@ -71,7 +71,7 @@ import { KbakBakersfieldComponent } from './stations-main/kbak-bakersfield/kbak-
       { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
       { path: 'kron4', component: Kron4Component},
       { path: 'bakersfield-news-23abc', component: BakersfieldNews23abcComponent},
-      { path: 'kbak-bakersfield', component: KbakBakersfieldComponent},
+      { path: 'abc30-bakersfield', component: Abc30BakersfieldComponent},
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: '**', component: HomeComponent}
     ], {useHash : true}),

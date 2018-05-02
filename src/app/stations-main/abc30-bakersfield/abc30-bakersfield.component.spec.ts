@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { KbakBakersfieldComponent } from './kbak-bakersfield.component';
+import { Abc30BakersfieldComponent } from './abc30-bakersfield.component';
 
-describe('KbakBakersfieldComponent', () => {
-  let component: KbakBakersfieldComponent;
-  let fixture: ComponentFixture<KbakBakersfieldComponent>;
+describe('Abc30BakersfieldComponent', () => {
+  let component: Abc30BakersfieldComponent;
+  let fixture: ComponentFixture<Abc30BakersfieldComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ KbakBakersfieldComponent ]
+      declarations: [ Abc30BakersfieldComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(KbakBakersfieldComponent);
+    fixture = TestBed.createComponent(Abc30BakersfieldComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

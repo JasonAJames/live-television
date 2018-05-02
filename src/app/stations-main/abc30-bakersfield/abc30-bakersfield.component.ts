@@ -13,4 +13,5 @@ export class Abc30BakersfieldComponent implements OnInit {
   }
 
   stationName = "ABC 30 Bakersfield - FEED 2"
+  
 }

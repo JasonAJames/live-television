@@ -1213,7 +1213,7 @@ module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-wid
 /***/ "./src/app/stations-main/stations-main.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\n<h3 class=\"top\">Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">California</h6>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/california-{{ tvhref }}\">California {{ tv }}</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/hawaii-{{ tvhref }}\">Hawaii {{ tv }}</a>\n    </li>\n  </ul>\n"
+module.exports = "\n<h3 class=\"top\">Choose the State of the Channel you want to Watch</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/california-{{ tvhref }}\">California {{ tv }}</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/hawaii-{{ tvhref }}\">Hawaii {{ tv }}</a>\n    </li>\n  </ul>\n"
 
 /***/ }),
 

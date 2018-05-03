@@ -67,21 +67,21 @@ AboutComponent = __decorate([
 
 /***/ }),
 
-/***/ "./src/app/advertise-commercial/advertise-commercial.component.css":
+/***/ "./src/app/advertise/advertise-commercial/advertise-commercial.component.css":
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ "./src/app/advertise-commercial/advertise-commercial.component.html":
+/***/ "./src/app/advertise/advertise-commercial/advertise-commercial.component.html":
 /***/ (function(module, exports) {
 
 module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n<div class=\"container\">\n    <table width=\"571\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\n      <tr bgcolor=\"#333333\">\n        <td colspan=\"2\" align=\"center\" valign=\"bottom\"><div id=\"subHeader\" align=\"center\">INLAND EMPIRE TELEVISION NETWORK<br />\n          ADVERTISING PACKAGES <br />\n          </div></td>\n        </tr>\n </table>\n </div>"
 
 /***/ }),
 
-/***/ "./src/app/advertise-commercial/advertise-commercial.component.ts":
+/***/ "./src/app/advertise/advertise-commercial/advertise-commercial.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -107,8 +107,8 @@ var AdvertiseCommercialComponent = (function () {
 AdvertiseCommercialComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-advertise-commercial',
-        template: __webpack_require__("./src/app/advertise-commercial/advertise-commercial.component.html"),
-        styles: [__webpack_require__("./src/app/advertise-commercial/advertise-commercial.component.css")]
+        template: __webpack_require__("./src/app/advertise/advertise-commercial/advertise-commercial.component.html"),
+        styles: [__webpack_require__("./src/app/advertise/advertise-commercial/advertise-commercial.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], AdvertiseCommercialComponent);
@@ -173,33 +173,37 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__("./node_modules/@angular/http/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__("./node_modules/@angular/router/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_router__ = __webpack_require__("./src/app/app.router.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__advertise_commercial_advertise_commercial_component__ = __webpack_require__("./src/app/advertise-commercial/advertise-commercial.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__advertise_advertise_commercial_advertise_commercial_component__ = __webpack_require__("./src/app/advertise/advertise-commercial/advertise-commercial.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__("./src/app/app.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__about_about_component__ = __webpack_require__("./src/app/about/about.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__local_reviews_local_reviews_component__ = __webpack_require__("./src/app/local-reviews/local-reviews.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__live_live_component__ = __webpack_require__("./src/app/live/live.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__ = __webpack_require__("./src/app/stations-main/live/live.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__ = __webpack_require__("./src/app/stations-main/socaltelevision/home.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__stations_main_california_california_component__ = __webpack_require__("./src/app/stations-main/california/california.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__stations_main_hawaii_hawaii_component__ = __webpack_require__("./src/app/stations-main/hawaii/hawaii.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__stations_main_stations_main_component__ = __webpack_require__("./src/app/stations-main/stations-main.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__stations_main_ktla5_ktla5_component__ = __webpack_require__("./src/app/stations-main/ktla5/ktla5.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__stations_main_fox11la_fox11la_component__ = __webpack_require__("./src/app/stations-main/fox11la/fox11la.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__stations_main_fox5sandiego_fox5sandiego_component__ = __webpack_require__("./src/app/stations-main/fox5sandiego/fox5sandiego.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__stations_main_hawaiinewsnow_hawaii_news_now_component__ = __webpack_require__("./src/app/stations-main/hawaiinewsnow/hawaii-news-now.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__stations_main_kitv4hawaii_kitv4hawaii_component__ = __webpack_require__("./src/app/stations-main/kitv4hawaii/kitv4hawaii.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__stations_main_khon2hawaii_khon2hawaii_component__ = __webpack_require__("./src/app/stations-main/khon2hawaii/khon2hawaii.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__stations_main_kron4_kron4_component__ = __webpack_require__("./src/app/stations-main/kron4/kron4.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__stations_main_california_ktla5_ktla5_component__ = __webpack_require__("./src/app/stations-main/california/ktla5/ktla5.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__stations_main_california_fox11la_fox11la_component__ = __webpack_require__("./src/app/stations-main/california/fox11la/fox11la.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__stations_main_california_fox5sandiego_fox5sandiego_component__ = __webpack_require__("./src/app/stations-main/california/fox5sandiego/fox5sandiego.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__ = __webpack_require__("./src/app/stations-main/hawaii/hawaiinewsnow/hawaii-news-now.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__ = __webpack_require__("./src/app/stations-main/hawaii/kitv4hawaii/kitv4hawaii.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_khon2hawaii_khon2hawaii_component__ = __webpack_require__("./src/app/stations-main/hawaii/khon2hawaii/khon2hawaii.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__stations_main_california_kron4_kron4_component__ = __webpack_require__("./src/app/stations-main/california/kron4/kron4.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__ = __webpack_require__("./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__stations_main_bakersfield_news_23abc_bakersfield_news_23abc_component__ = __webpack_require__("./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__stations_main_abc30_bakersfield_abc30_bakersfield_component__ = __webpack_require__("./src/app/stations-main/abc30-bakersfield/abc30-bakersfield.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__stations_main_boston_25_news_boston_25_news_component__ = __webpack_require__("./src/app/stations-main/boston-25-news/boston-25-news.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__ = __webpack_require__("./src/app/stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__ = __webpack_require__("./src/app/stations-main/california/abc30-bakersfield/abc30-bakersfield.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__stations_main_massachusetts_boston_25_news_boston_25_news_component__ = __webpack_require__("./src/app/stations-main/massachusetts/boston-25-news/boston-25-news.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__stations_main_massachusetts_massachusetts_component__ = __webpack_require__("./src/app/stations-main/massachusetts/massachusetts.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__stations_main_arizona_fox10phoenix_fox10phoenix_component__ = __webpack_require__("./src/app/stations-main/arizona/fox10phoenix/fox10phoenix.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__stations_main_arizona_arizona_component__ = __webpack_require__("./src/app/stations-main/arizona/arizona.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -237,25 +241,27 @@ AppModule = __decorate([
         declarations: [
             __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */],
             __WEBPACK_IMPORTED_MODULE_9__local_reviews_local_reviews_component__["a" /* LocalReviewsComponent */],
-            __WEBPACK_IMPORTED_MODULE_10__live_live_component__["a" /* LiveComponent */],
-            __WEBPACK_IMPORTED_MODULE_6__advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */],
+            __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */],
+            __WEBPACK_IMPORTED_MODULE_6__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */],
             __WEBPACK_IMPORTED_MODULE_8__about_about_component__["a" /* AboutComponent */],
             __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */],
             __WEBPACK_IMPORTED_MODULE_12__stations_main_california_california_component__["a" /* CaliforniaComponent */],
             __WEBPACK_IMPORTED_MODULE_13__stations_main_hawaii_hawaii_component__["a" /* HawaiiComponent */],
             __WEBPACK_IMPORTED_MODULE_14__stations_main_stations_main_component__["a" /* StationsMainComponent */],
-            __WEBPACK_IMPORTED_MODULE_15__stations_main_ktla5_ktla5_component__["a" /* Ktla5Component */],
-            __WEBPACK_IMPORTED_MODULE_16__stations_main_fox11la_fox11la_component__["a" /* Fox11laComponent */],
-            __WEBPACK_IMPORTED_MODULE_17__stations_main_fox5sandiego_fox5sandiego_component__["a" /* Fox5sandiegoComponent */],
-            __WEBPACK_IMPORTED_MODULE_18__stations_main_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */],
-            __WEBPACK_IMPORTED_MODULE_19__stations_main_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */],
-            __WEBPACK_IMPORTED_MODULE_20__stations_main_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */],
-            __WEBPACK_IMPORTED_MODULE_21__stations_main_kron4_kron4_component__["a" /* Kron4Component */],
+            __WEBPACK_IMPORTED_MODULE_15__stations_main_california_ktla5_ktla5_component__["a" /* Ktla5Component */],
+            __WEBPACK_IMPORTED_MODULE_16__stations_main_california_fox11la_fox11la_component__["a" /* Fox11laComponent */],
+            __WEBPACK_IMPORTED_MODULE_17__stations_main_california_fox5sandiego_fox5sandiego_component__["a" /* Fox5sandiegoComponent */],
+            __WEBPACK_IMPORTED_MODULE_18__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */],
+            __WEBPACK_IMPORTED_MODULE_19__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */],
+            __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */],
+            __WEBPACK_IMPORTED_MODULE_21__stations_main_california_kron4_kron4_component__["a" /* Kron4Component */],
             __WEBPACK_IMPORTED_MODULE_22__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__["a" /* LiveHighSpeedPursuitFeedComponent */],
-            __WEBPACK_IMPORTED_MODULE_23__stations_main_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */],
-            __WEBPACK_IMPORTED_MODULE_24__stations_main_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */],
-            __WEBPACK_IMPORTED_MODULE_25__stations_main_boston_25_news_boston_25_news_component__["a" /* Boston25NewsComponent */],
-            __WEBPACK_IMPORTED_MODULE_26__stations_main_massachusetts_massachusetts_component__["a" /* MassachusettsComponent */]
+            __WEBPACK_IMPORTED_MODULE_23__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */],
+            __WEBPACK_IMPORTED_MODULE_24__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */],
+            __WEBPACK_IMPORTED_MODULE_25__stations_main_massachusetts_boston_25_news_boston_25_news_component__["a" /* Boston25NewsComponent */],
+            __WEBPACK_IMPORTED_MODULE_26__stations_main_massachusetts_massachusetts_component__["a" /* MassachusettsComponent */],
+            __WEBPACK_IMPORTED_MODULE_27__stations_main_arizona_fox10phoenix_fox10phoenix_component__["a" /* Fox10phoenixComponent */],
+            __WEBPACK_IMPORTED_MODULE_28__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -263,25 +269,25 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
-                { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__live_live_component__["a" /* LiveComponent */] },
+                { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
                 { path: 'live-high-speed-pursuit', component: __WEBPACK_IMPORTED_MODULE_22__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__["a" /* LiveHighSpeedPursuitFeedComponent */] },
                 { path: 'local-reviews', component: __WEBPACK_IMPORTED_MODULE_9__local_reviews_local_reviews_component__["a" /* LocalReviewsComponent */] },
-                { path: 'advertise-commercial', component: __WEBPACK_IMPORTED_MODULE_6__advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */] },
+                { path: 'advertise-commercial', component: __WEBPACK_IMPORTED_MODULE_6__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */] },
                 { path: 'about', component: __WEBPACK_IMPORTED_MODULE_8__about_about_component__["a" /* AboutComponent */] },
                 { path: 'stations-main', component: __WEBPACK_IMPORTED_MODULE_14__stations_main_stations_main_component__["a" /* StationsMainComponent */] },
                 { path: 'california-tv-stations', component: __WEBPACK_IMPORTED_MODULE_12__stations_main_california_california_component__["a" /* CaliforniaComponent */] },
-                { path: 'ktla5', component: __WEBPACK_IMPORTED_MODULE_15__stations_main_ktla5_ktla5_component__["a" /* Ktla5Component */] },
-                { path: 'fox11la', component: __WEBPACK_IMPORTED_MODULE_16__stations_main_fox11la_fox11la_component__["a" /* Fox11laComponent */] },
-                { path: 'fox5sandiego', component: __WEBPACK_IMPORTED_MODULE_17__stations_main_fox5sandiego_fox5sandiego_component__["a" /* Fox5sandiegoComponent */] },
-                { path: 'kron4', component: __WEBPACK_IMPORTED_MODULE_21__stations_main_kron4_kron4_component__["a" /* Kron4Component */] },
-                { path: 'bakersfield-news-23abc', component: __WEBPACK_IMPORTED_MODULE_23__stations_main_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */] },
-                { path: 'abc30-bakersfield', component: __WEBPACK_IMPORTED_MODULE_24__stations_main_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */] },
+                { path: 'ktla5', component: __WEBPACK_IMPORTED_MODULE_15__stations_main_california_ktla5_ktla5_component__["a" /* Ktla5Component */] },
+                { path: 'fox11la', component: __WEBPACK_IMPORTED_MODULE_16__stations_main_california_fox11la_fox11la_component__["a" /* Fox11laComponent */] },
+                { path: 'fox5sandiego', component: __WEBPACK_IMPORTED_MODULE_17__stations_main_california_fox5sandiego_fox5sandiego_component__["a" /* Fox5sandiegoComponent */] },
+                { path: 'kron4', component: __WEBPACK_IMPORTED_MODULE_21__stations_main_california_kron4_kron4_component__["a" /* Kron4Component */] },
+                { path: 'bakersfield-news-23abc', component: __WEBPACK_IMPORTED_MODULE_23__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */] },
+                { path: 'abc30-bakersfield', component: __WEBPACK_IMPORTED_MODULE_24__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */] },
                 { path: 'massachusetts-tv-stations', component: __WEBPACK_IMPORTED_MODULE_26__stations_main_massachusetts_massachusetts_component__["a" /* MassachusettsComponent */] },
-                { path: 'boston-25-news', component: __WEBPACK_IMPORTED_MODULE_25__stations_main_boston_25_news_boston_25_news_component__["a" /* Boston25NewsComponent */] },
+                { path: 'boston-25-news', component: __WEBPACK_IMPORTED_MODULE_25__stations_main_massachusetts_boston_25_news_boston_25_news_component__["a" /* Boston25NewsComponent */] },
                 { path: 'hawaii-tv-stations', component: __WEBPACK_IMPORTED_MODULE_13__stations_main_hawaii_hawaii_component__["a" /* HawaiiComponent */] },
-                { path: 'hawaii-news-now', component: __WEBPACK_IMPORTED_MODULE_18__stations_main_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */] },
-                { path: 'kitv4-hawaii', component: __WEBPACK_IMPORTED_MODULE_19__stations_main_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */] },
-                { path: 'khon2-hawaii', component: __WEBPACK_IMPORTED_MODULE_20__stations_main_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */] },
+                { path: 'hawaii-news-now', component: __WEBPACK_IMPORTED_MODULE_18__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */] },
+                { path: 'kitv4-hawaii', component: __WEBPACK_IMPORTED_MODULE_19__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */] },
+                { path: 'khon2-hawaii', component: __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */] },
                 { path: '', redirectTo: '/home', pathMatch: 'full' },
                 { path: '**', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] }
             ], { useHash: true }),
@@ -303,14 +309,14 @@ AppModule = __decorate([
 /* unused harmony export router */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routes; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__("./node_modules/@angular/router/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__advertise_commercial_advertise_commercial_component__ = __webpack_require__("./src/app/advertise-commercial/advertise-commercial.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__advertise_advertise_commercial_advertise_commercial_component__ = __webpack_require__("./src/app/advertise/advertise-commercial/advertise-commercial.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_about_component__ = __webpack_require__("./src/app/about/about.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__live_live_component__ = __webpack_require__("./src/app/live/live.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__stations_main_live_live_component__ = __webpack_require__("./src/app/stations-main/live/live.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__stations_main_socaltelevision_home_component__ = __webpack_require__("./src/app/stations-main/socaltelevision/home.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__stations_main_stations_main_component__ = __webpack_require__("./src/app/stations-main/stations-main.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__stations_main_ktla5_ktla5_component__ = __webpack_require__("./src/app/stations-main/ktla5/ktla5.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__stations_main_fox11la_fox11la_component__ = __webpack_require__("./src/app/stations-main/fox11la/fox11la.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__stations_main_fox5sandiego_fox5sandiego_component__ = __webpack_require__("./src/app/stations-main/fox5sandiego/fox5sandiego.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__stations_main_california_ktla5_ktla5_component__ = __webpack_require__("./src/app/stations-main/california/ktla5/ktla5.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__stations_main_california_fox11la_fox11la_component__ = __webpack_require__("./src/app/stations-main/california/fox11la/fox11la.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__stations_main_california_fox5sandiego_fox5sandiego_component__ = __webpack_require__("./src/app/stations-main/california/fox5sandiego/fox5sandiego.component.ts");
 
 
 
@@ -322,13 +328,13 @@ AppModule = __decorate([
 
 var router = [
     { path: 'home', component: __WEBPACK_IMPORTED_MODULE_4__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
-    { path: 'live', component: __WEBPACK_IMPORTED_MODULE_3__live_live_component__["a" /* LiveComponent */] },
-    { path: 'advertise-commercial', component: __WEBPACK_IMPORTED_MODULE_1__advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */] },
+    { path: 'live', component: __WEBPACK_IMPORTED_MODULE_3__stations_main_live_live_component__["a" /* LiveComponent */] },
+    { path: 'advertise-commercial', component: __WEBPACK_IMPORTED_MODULE_1__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */] },
     { path: 'about', component: __WEBPACK_IMPORTED_MODULE_2__about_about_component__["a" /* AboutComponent */] },
     { path: 'stations-main', component: __WEBPACK_IMPORTED_MODULE_5__stations_main_stations_main_component__["a" /* StationsMainComponent */] },
-    { path: 'ktla5', component: __WEBPACK_IMPORTED_MODULE_6__stations_main_ktla5_ktla5_component__["a" /* Ktla5Component */] },
-    { path: 'fox11la', component: __WEBPACK_IMPORTED_MODULE_7__stations_main_fox11la_fox11la_component__["a" /* Fox11laComponent */] },
-    { path: 'fox5sandiego', component: __WEBPACK_IMPORTED_MODULE_8__stations_main_fox5sandiego_fox5sandiego_component__["a" /* Fox5sandiegoComponent */] },
+    { path: 'ktla5', component: __WEBPACK_IMPORTED_MODULE_6__stations_main_california_ktla5_ktla5_component__["a" /* Ktla5Component */] },
+    { path: 'fox11la', component: __WEBPACK_IMPORTED_MODULE_7__stations_main_california_fox11la_fox11la_component__["a" /* Fox11laComponent */] },
+    { path: 'fox5sandiego', component: __WEBPACK_IMPORTED_MODULE_8__stations_main_california_fox5sandiego_fox5sandiego_component__["a" /* Fox5sandiegoComponent */] },
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: '**', component: __WEBPACK_IMPORTED_MODULE_4__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] }
 ];
@@ -442,58 +448,6 @@ module.exports = "/*!\n * # Semantic UI 2.3.0 - Transition\n * http://github.com
 
 /***/ }),
 
-/***/ "./src/app/live/live.component.css":
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/live/live.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n      <!-- Load Facebook SDK for JavaScript -->\n  <div id=\"fb-root\"></div>\n  \n\n  <!-- Original Feed https://www.facebook.com/SoCalTelevision/videos/2054179387955446/ -->\n\n  <!-- Your embedded video player code -->\n  <div class=\"fb-video\" data-href=\"https://www.facebook.com/fox11la/videos/10160446573060553/\" data-width=\"500\" data-show-text=\"false\">\n    <div class=\"fb-xfbml-parse-ignore\">\n      <blockquote>\n        Our SoCal Television LIVE STREAM is Currently Offline.<br/>\n        Please Check back Again Soon!<br/><br/>\n        To go back to the <a href=\"https://www.socaltelevision.com\">SoCalTelevision Home page CLICK HERE</a>.\n      </blockquote>\n    </div>\n  </div>\n    <!-- <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F2052326111474107%2F&width=400\" width=\"500\" height=\"280\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allowFullScreen=\"true\"></iframe> -->\n  </span><br/><br/>\n  <span>{{description}}</span>"
-
-/***/ }),
-
-/***/ "./src/app/live/live.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LiveComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var LiveComponent = (function () {
-    function LiveComponent() {
-        this.stationName = 'SoCal Television LIVE';
-        this.description = "Man reportedly barricaded in La Crescenta home. Suspect was previously sentenced to five years probation for stalking actress Sandra Bullock, according to TMZ.";
-    }
-    LiveComponent.prototype.ngOnInit = function () {
-    };
-    return LiveComponent;
-}());
-LiveComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
-        selector: 'app-live',
-        template: __webpack_require__("./src/app/live/live.component.html"),
-        styles: [__webpack_require__("./src/app/live/live.component.css"), __webpack_require__("./src/app/app.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], LiveComponent);
-
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/live.component.js.map
-
-/***/ }),
-
 /***/ "./src/app/local-reviews/local-reviews.component.css":
 /***/ (function(module, exports) {
 
@@ -546,21 +500,121 @@ LocalReviewsComponent = __decorate([
 
 /***/ }),
 
-/***/ "./src/app/stations-main/abc30-bakersfield/abc30-bakersfield.component.css":
+/***/ "./src/app/stations-main/arizona/arizona.component.css":
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ "./src/app/stations-main/abc30-bakersfield/abc30-bakersfield.component.html":
+/***/ "./src/app/stations-main/arizona/arizona.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\">\n\n      <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fabc30%2Fvideos%2F10155590549261482%2F&width=500&show_text=false&appId=862785427211069&height=281\" width=\"500\" height=\"281\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n    </span>"
+module.exports = "<p>\n  arizona works!\n</p>\n"
 
 /***/ }),
 
-/***/ "./src/app/stations-main/abc30-bakersfield/abc30-bakersfield.component.ts":
+/***/ "./src/app/stations-main/arizona/arizona.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ArizonaComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ArizonaComponent = (function () {
+    function ArizonaComponent() {
+    }
+    ArizonaComponent.prototype.ngOnInit = function () {
+    };
+    return ArizonaComponent;
+}());
+ArizonaComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-arizona',
+        template: __webpack_require__("./src/app/stations-main/arizona/arizona.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/arizona/arizona.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], ArizonaComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/arizona.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/stations-main/arizona/fox10phoenix/fox10phoenix.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/stations-main/arizona/fox10phoenix/fox10phoenix.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  fox10phoenix works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/arizona/fox10phoenix/fox10phoenix.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Fox10phoenixComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Fox10phoenixComponent = (function () {
+    function Fox10phoenixComponent() {
+    }
+    Fox10phoenixComponent.prototype.ngOnInit = function () {
+    };
+    return Fox10phoenixComponent;
+}());
+Fox10phoenixComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-fox10phoenix',
+        template: __webpack_require__("./src/app/stations-main/arizona/fox10phoenix/fox10phoenix.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/arizona/fox10phoenix/fox10phoenix.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Fox10phoenixComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/fox10phoenix.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/stations-main/california/abc30-bakersfield/abc30-bakersfield.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/stations-main/california/abc30-bakersfield/abc30-bakersfield.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n\n      <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fabc30%2Fvideos%2F10155590549261482%2F&width=500&show_text=false&appId=862785427211069&height=281\" width=\"500\" height=\"281\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n    </span>"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/california/abc30-bakersfield/abc30-bakersfield.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -587,8 +641,8 @@ var Abc30BakersfieldComponent = (function () {
 Abc30BakersfieldComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-abc30-bakersfield',
-        template: __webpack_require__("./src/app/stations-main/abc30-bakersfield/abc30-bakersfield.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/abc30-bakersfield/abc30-bakersfield.component.css"), __webpack_require__("./src/app/app.component.css")]
+        template: __webpack_require__("./src/app/stations-main/california/abc30-bakersfield/abc30-bakersfield.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/california/abc30-bakersfield/abc30-bakersfield.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], Abc30BakersfieldComponent);
@@ -597,21 +651,21 @@ Abc30BakersfieldComponent = __decorate([
 
 /***/ }),
 
-/***/ "./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.css":
+/***/ "./src/app/stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component.css":
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ "./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.html":
+/***/ "./src/app/stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\">\n\n      <iframe style=\"top:0;left:0;width:640px; height:360px;\" border=\"0\" height=\"360px\" frameborder=\"0\" webkitallowfullscreen=\"\" allowfullscreen=\"\" mozallowfullscreen=\"\" scrolling=\"no\" scrolling=\"no\" src=\"https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.turnto23.com&title=Main%20live%20stream&uid=ff809e6d9ec34109abfb333f0d4444b5&live=1&purl=/video/live-video&story=0&ex=1&s=kero\"></iframe>\n</span>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n\n      <iframe style=\"top:0;left:0;width:640px; height:360px;\" border=\"0\" height=\"360px\" frameborder=\"0\" webkitallowfullscreen=\"\" allowfullscreen=\"\" mozallowfullscreen=\"\" scrolling=\"no\" scrolling=\"no\" src=\"https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.turnto23.com&title=Main%20live%20stream&uid=ff809e6d9ec34109abfb333f0d4444b5&live=1&purl=/video/live-video&story=0&ex=1&s=kero\"></iframe>\n</span>"
 
 /***/ }),
 
-/***/ "./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.ts":
+/***/ "./src/app/stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -638,64 +692,13 @@ var BakersfieldNews23abcComponent = (function () {
 BakersfieldNews23abcComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-bakersfield-news-23abc',
-        template: __webpack_require__("./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component.css"), __webpack_require__("./src/app/app.component.css")]
+        template: __webpack_require__("./src/app/stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], BakersfieldNews23abcComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/bakersfield-news-23abc.component.js.map
-
-/***/ }),
-
-/***/ "./src/app/stations-main/boston-25-news/boston-25-news.component.css":
-/***/ (function(module, exports) {
-
-module.exports = ".top {\n    padding-top: 5%;\n}"
-
-/***/ }),
-
-/***/ "./src/app/stations-main/boston-25-news/boston-25-news.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ma/suffolk-county/boston.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n    <iframe scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen mozallowfullscreen allow=\"autoplay; fullscreen\" \n    src=\"https://w3.cdn.anvato.net/player/prod/v3/anvload.html?key=eyJtIjoiY294IiwidiI6IndmeHQiLCJhbnZhY2siOiJhbnZhdG9fY294X2FwcF93ZWJfcHJvZF9jZTQ1Y2RhMjM3OTY5ZjkzZTcxMzBmNTBlZThiYjYyODBjMTQ4NGFiIiwicGx1Z2lucyI6eyJkZnAiOnsiY2xpZW50U2lkZSI6eyJhZFRhZ1VybCI6Imh0dHBzOi8vcHViYWRzLmcuZG91YmxlY2xpY2submV0L2dhbXBhZC9hZHM%2Fc3o9NDAweDMwMCZpdT0vMTI1MjMyOTMvQm9zdG9uX1RWL3dmeHRfd2ViX2RlZmF1bHQvcHJlX3JvbGwmaW1wbD1zJmdkZnBfcmVxPTEmZW52PXZwJm91dHB1dD12YXN0JnVudmlld2VkX3Bvc2l0aW9uX3N0YXJ0PTEmdXJsPVtyZWZlcnJlcl91cmxdJmRlc2NyaXB0aW9uX3VybD1bZGVzY3JpcHRpb25fdXJsXSZjb3JyZWxhdG9yPVt0aW1lc3RhbXBdIn19LCJjb21zY29yZSI6eyJjbGllbnRJZCI6NjAzNTk0NH0sIm5pZWxzZW4iOnsiZW52aXJvbm1lbnQiOiJwcm9kdWN0aW9uIiwic2Zjb2RlIjoidXMiLCJhcGlkIjoiUEU4NjgwNTE3LUM4ODQtNDNCQi04MDJCLTZERTUxNkRBQzFFNSIsImFwbiI6IndmeHQtd2ViIiwibm9sX3Nka0RlYnVnIjoiY29uc29sZSIsInR5cGUiOiJkdHZyIiwib3B0T3V0Ijp7ImxvY2F0aW9uIjoidGwiLCJzaXplRmFjdG9yIjowLjMsIm1hcmdpbiI6IjIwcHgiLCJwZXJpb2QiOi0xfX0sInJlYWxUaW1lQW5hbHl0aWNzIjp0cnVlLCJoZWFydGJlYXRCZXRhIjp7Im1hcmtldGluZ0Nsb3VkSWQiOiIxNDYyMzRCODUyNzgzNUUxMEE0OTBENDRAQWRvYmVPcmciLCJjdXN0b21UcmFja2luZ1NlcnZlciI6ImNveG5ldC4xMTIuMm83Lm5ldCIsInRyYWNraW5nU2VydmVyIjoiY294bmV0LmhiLm9tdHJkYy5uZXQiLCJqb2JJZCI6ImoyIiwiYWNjb3VudCI6ImNveHdmeHR0dixjb3hnbG9iYWwiLCJwdWJsaXNoZXJJZCI6ImNveG5ldCIsInZlcnNpb24iOiIxLjUiLCJwYXJlbnRQYWdlVVJMIjoiaHR0cHM6Ly93d3cuZm94MjVib3N0b24uY29tL2xpdmUtc3RyZWFtIiwicGFyZW50VGl0bGUiOiJXYXRjaCBMaXZlIEJvc3RvbiBOZXdzIE9ubGluZSB8IEJvc3RvbiAyNSBOZXdzIiwicEluc3RhbmNlIjoicDAiLCJwcm9maWxlIjoiY294In19LCJodG1sNSI6dHJ1ZSwibGl2ZSI6dHJ1ZX0%3D\"  \n    width =\"640\" height=\"360\"></iframe>\n  </span>\n\n\n"
-
-/***/ }),
-
-/***/ "./src/app/stations-main/boston-25-news/boston-25-news.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Boston25NewsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var Boston25NewsComponent = (function () {
-    function Boston25NewsComponent() {
-        this.stationName = "Boston 25 News";
-    }
-    Boston25NewsComponent.prototype.ngOnInit = function () {
-    };
-    return Boston25NewsComponent;
-}());
-Boston25NewsComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
-        selector: 'app-boston-25-news',
-        template: __webpack_require__("./src/app/stations-main/boston-25-news/boston-25-news.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/boston-25-news/boston-25-news.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], Boston25NewsComponent);
-
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/boston-25-news.component.js.map
 
 /***/ }),
 
@@ -750,21 +753,21 @@ CaliforniaComponent = __decorate([
 
 /***/ }),
 
-/***/ "./src/app/stations-main/fox11la/fox11la.component.css":
+/***/ "./src/app/stations-main/california/fox11la/fox11la.component.css":
 /***/ (function(module, exports) {
 
 module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
-/***/ "./src/app/stations-main/fox11la/fox11la.component.html":
+/***/ "./src/app/stations-main/california/fox11la/fox11la.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/6140873/events/2549324/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"https://livestream.com/accounts/6140873/events/2549324/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
 
 /***/ }),
 
-/***/ "./src/app/stations-main/fox11la/fox11la.component.ts":
+/***/ "./src/app/stations-main/california/fox11la/fox11la.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -791,8 +794,8 @@ var Fox11laComponent = (function () {
 Fox11laComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-fox11la',
-        template: __webpack_require__("./src/app/stations-main/fox11la/fox11la.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/fox11la/fox11la.component.css"), __webpack_require__("./src/app/app.component.css")]
+        template: __webpack_require__("./src/app/stations-main/california/fox11la/fox11la.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/california/fox11la/fox11la.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], Fox11laComponent);
@@ -801,21 +804,21 @@ Fox11laComponent = __decorate([
 
 /***/ }),
 
-/***/ "./src/app/stations-main/fox5sandiego/fox5sandiego.component.css":
+/***/ "./src/app/stations-main/california/fox5sandiego/fox5sandiego.component.css":
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ "./src/app/stations-main/fox5sandiego/fox5sandiego.component.html":
+/***/ "./src/app/stations-main/california/fox5sandiego/fox5sandiego.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3 class=\"top\">You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/9263055/events/3189799/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3 class=\"top\">You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"https://livestream.com/accounts/9263055/events/3189799/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
 
 /***/ }),
 
-/***/ "./src/app/stations-main/fox5sandiego/fox5sandiego.component.ts":
+/***/ "./src/app/stations-main/california/fox5sandiego/fox5sandiego.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -842,13 +845,115 @@ var Fox5sandiegoComponent = (function () {
 Fox5sandiegoComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-fox5sandiego',
-        template: __webpack_require__("./src/app/stations-main/fox5sandiego/fox5sandiego.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/fox5sandiego/fox5sandiego.component.css"), __webpack_require__("./src/app/app.component.css")]
+        template: __webpack_require__("./src/app/stations-main/california/fox5sandiego/fox5sandiego.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/california/fox5sandiego/fox5sandiego.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], Fox5sandiegoComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/fox5sandiego.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/stations-main/california/kron4/kron4.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/stations-main/california/kron4/kron4.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"https://livestream.com/accounts/7970204/events/2926299/player?width=640&height=360&enableInfoAndActivity=true&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/california/kron4/kron4.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Kron4Component; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Kron4Component = (function () {
+    function Kron4Component() {
+        this.stationName = "KRON4 San Francisco";
+    }
+    Kron4Component.prototype.ngOnInit = function () {
+    };
+    return Kron4Component;
+}());
+Kron4Component = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-kron4',
+        template: __webpack_require__("./src/app/stations-main/california/kron4/kron4.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/california/kron4/kron4.component.css"), __webpack_require__("./src/app/app.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Kron4Component);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/kron4.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/stations-main/california/ktla5/ktla5.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".top {\n    padding-top: 5%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/california/ktla5/ktla5.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"https://livestream.com/accounts/9262780/events/3189705/player?width=770&height=433&autoPlay=true&mute=false&customAdTagParameters=Site%3D41641936%26pid%3Don-airlive-streaming\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n\n"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/california/ktla5/ktla5.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Ktla5Component; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Ktla5Component = (function () {
+    function Ktla5Component() {
+        this.stationName = 'KTLA 5';
+    }
+    Ktla5Component.prototype.ngOnInit = function () {
+    };
+    return Ktla5Component;
+}());
+Ktla5Component = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-ktla5',
+        template: __webpack_require__("./src/app/stations-main/california/ktla5/ktla5.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/california/ktla5/ktla5.component.css"), __webpack_require__("./src/app/app.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Ktla5Component);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/ktla5.component.js.map
 
 /***/ }),
 
@@ -903,21 +1008,21 @@ HawaiiComponent = __decorate([
 
 /***/ }),
 
-/***/ "./src/app/stations-main/hawaiinewsnow/hawaii-news-now.component.css":
+/***/ "./src/app/stations-main/hawaii/hawaiinewsnow/hawaii-news-now.component.css":
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ "./src/app/stations-main/hawaiinewsnow/hawaii-news-now.component.html":
+/***/ "./src/app/stations-main/hawaii/hawaiinewsnow/hawaii-news-now.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/12139043/events/3798937/player?width=648&height=364&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n  "
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"https://livestream.com/accounts/12139043/events/3798937/player?width=648&height=364&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n  "
 
 /***/ }),
 
-/***/ "./src/app/stations-main/hawaiinewsnow/hawaii-news-now.component.ts":
+/***/ "./src/app/stations-main/hawaii/hawaiinewsnow/hawaii-news-now.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -944,8 +1049,8 @@ var HawaiiNewsNowComponent = (function () {
 HawaiiNewsNowComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-hawaii-news-now',
-        template: __webpack_require__("./src/app/stations-main/hawaiinewsnow/hawaii-news-now.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/hawaiinewsnow/hawaii-news-now.component.css"), __webpack_require__("./src/app/app.component.css")]
+        template: __webpack_require__("./src/app/stations-main/hawaii/hawaiinewsnow/hawaii-news-now.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/hawaii/hawaiinewsnow/hawaii-news-now.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], HawaiiNewsNowComponent);
@@ -954,21 +1059,21 @@ HawaiiNewsNowComponent = __decorate([
 
 /***/ }),
 
-/***/ "./src/app/stations-main/khon2hawaii/khon2hawaii.component.css":
+/***/ "./src/app/stations-main/hawaii/khon2hawaii/khon2hawaii.component.css":
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ "./src/app/stations-main/khon2hawaii/khon2hawaii.component.html":
+/***/ "./src/app/stations-main/hawaii/khon2hawaii/khon2hawaii.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/1858266/events/1647828/player?width=720&height=405&enableInfoAndActivity=false&defaultDrawer=&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"https://livestream.com/accounts/1858266/events/1647828/player?width=720&height=405&enableInfoAndActivity=false&defaultDrawer=&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n"
 
 /***/ }),
 
-/***/ "./src/app/stations-main/khon2hawaii/khon2hawaii.component.ts":
+/***/ "./src/app/stations-main/hawaii/khon2hawaii/khon2hawaii.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -995,8 +1100,8 @@ var Khon2hawaiiComponent = (function () {
 Khon2hawaiiComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-khon2hawaii',
-        template: __webpack_require__("./src/app/stations-main/khon2hawaii/khon2hawaii.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/khon2hawaii/khon2hawaii.component.css"), __webpack_require__("./src/app/app.component.css")]
+        template: __webpack_require__("./src/app/stations-main/hawaii/khon2hawaii/khon2hawaii.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/hawaii/khon2hawaii/khon2hawaii.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], Khon2hawaiiComponent);
@@ -1005,21 +1110,21 @@ Khon2hawaiiComponent = __decorate([
 
 /***/ }),
 
-/***/ "./src/app/stations-main/kitv4hawaii/kitv4hawaii.component.css":
+/***/ "./src/app/stations-main/hawaii/kitv4hawaii/kitv4hawaii.component.css":
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ "./src/app/stations-main/kitv4hawaii/kitv4hawaii.component.html":
+/***/ "./src/app/stations-main/hawaii/kitv4hawaii/kitv4hawaii.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"http://w3.cdn.anvato.net/player/prod/v3/anvload.html?key=eyJtIjoiYW52IiwidiI6ImFkc3RZWDREOVJHeThxSzEiLCJhbnZhY2siOiJydlZLcEE1MHFsT1BMRnhNanJDR2Y1cGRrZFFEbTdxbiIsInBsdWdpbnMiOnsicmVhbFRpbWVBbmFseXRpY3MiOnRydWV9LCJodG1sNSI6dHJ1ZSwidG9rZW4iOiJveVFoLVY2QnRyWWxEUXU4R096eTE5TnVBNGxhMndjV3Z0bkFXdmVQNTljfk1uNHdmZyJ9\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"http://w3.cdn.anvato.net/player/prod/v3/anvload.html?key=eyJtIjoiYW52IiwidiI6ImFkc3RZWDREOVJHeThxSzEiLCJhbnZhY2siOiJydlZLcEE1MHFsT1BMRnhNanJDR2Y1cGRrZFFEbTdxbiIsInBsdWdpbnMiOnsicmVhbFRpbWVBbmFseXRpY3MiOnRydWV9LCJodG1sNSI6dHJ1ZSwidG9rZW4iOiJveVFoLVY2QnRyWWxEUXU4R096eTE5TnVBNGxhMndjV3Z0bkFXdmVQNTljfk1uNHdmZyJ9\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
 
 /***/ }),
 
-/***/ "./src/app/stations-main/kitv4hawaii/kitv4hawaii.component.ts":
+/***/ "./src/app/stations-main/hawaii/kitv4hawaii/kitv4hawaii.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1046,115 +1151,13 @@ var Kitv4hawaiiComponent = (function () {
 Kitv4hawaiiComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-kitv4hawaii',
-        template: __webpack_require__("./src/app/stations-main/kitv4hawaii/kitv4hawaii.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/kitv4hawaii/kitv4hawaii.component.css"), __webpack_require__("./src/app/app.component.css")]
+        template: __webpack_require__("./src/app/stations-main/hawaii/kitv4hawaii/kitv4hawaii.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/hawaii/kitv4hawaii/kitv4hawaii.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], Kitv4hawaiiComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/kitv4hawaii.component.js.map
-
-/***/ }),
-
-/***/ "./src/app/stations-main/kron4/kron4.component.css":
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/stations-main/kron4/kron4.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/7970204/events/2926299/player?width=640&height=360&enableInfoAndActivity=true&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
-
-/***/ }),
-
-/***/ "./src/app/stations-main/kron4/kron4.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Kron4Component; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var Kron4Component = (function () {
-    function Kron4Component() {
-        this.stationName = "KRON4 San Francisco";
-    }
-    Kron4Component.prototype.ngOnInit = function () {
-    };
-    return Kron4Component;
-}());
-Kron4Component = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
-        selector: 'app-kron4',
-        template: __webpack_require__("./src/app/stations-main/kron4/kron4.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/kron4/kron4.component.css"), __webpack_require__("./src/app/app.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], Kron4Component);
-
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/kron4.component.js.map
-
-/***/ }),
-
-/***/ "./src/app/stations-main/ktla5/ktla5.component.css":
-/***/ (function(module, exports) {
-
-module.exports = ".top {\n    padding-top: 5%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
-
-/***/ }),
-
-/***/ "./src/app/stations-main/ktla5/ktla5.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\"><iframe \n    src=\"https://livestream.com/accounts/9262780/events/3189705/player?width=770&height=433&autoPlay=true&mute=false&customAdTagParameters=Site%3D41641936%26pid%3Don-airlive-streaming\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n\n"
-
-/***/ }),
-
-/***/ "./src/app/stations-main/ktla5/ktla5.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Ktla5Component; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var Ktla5Component = (function () {
-    function Ktla5Component() {
-        this.stationName = 'KTLA 5';
-    }
-    Ktla5Component.prototype.ngOnInit = function () {
-    };
-    return Ktla5Component;
-}());
-Ktla5Component = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
-        selector: 'app-ktla5',
-        template: __webpack_require__("./src/app/stations-main/ktla5/ktla5.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/ktla5/ktla5.component.css"), __webpack_require__("./src/app/app.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], Ktla5Component);
-
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/ktla5.component.js.map
 
 /***/ }),
 
@@ -1168,7 +1171,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"videoContainer\">\n      <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffox11la%2Fvideos%2F10160442262365553%2F&width=500&show_text=false&appId=862785427211069&height=281\" width=\"500\" height=\"281\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n    </span>\n    <span>\n      <p>{{description}}</p>\n    </span>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n      <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffox11la%2Fvideos%2F10160442262365553%2F&width=500&show_text=false&appId=862785427211069&height=281\" width=\"500\" height=\"281\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n    </span>\n    <span>\n      <p>{{description}}</p>\n    </span>"
 
 /***/ }),
 
@@ -1207,6 +1210,109 @@ LiveHighSpeedPursuitFeedComponent = __decorate([
 ], LiveHighSpeedPursuitFeedComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/live-high-speed-pursuit-feed.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/stations-main/live/live.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/stations-main/live/live.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n      <!-- Load Facebook SDK for JavaScript -->\n  <div id=\"fb-root\"></div>\n  \n\n  <!-- Original Feed https://www.facebook.com/SoCalTelevision/videos/2054179387955446/ -->\n\n  <!-- Your embedded video player code -->\n  <div class=\"fb-video\" data-href=\"https://www.facebook.com/fox11la/videos/10160446573060553/\" data-width=\"500\" data-show-text=\"false\">\n    <div class=\"fb-xfbml-parse-ignore\">\n      <blockquote>\n        Our SoCal Television LIVE STREAM is Currently Offline.<br/>\n        Please Check back Again Soon!<br/><br/>\n        To go back to the <a href=\"https://www.socaltelevision.com\">SoCalTelevision Home page CLICK HERE</a>.\n      </blockquote>\n    </div>\n  </div>\n    <!-- <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F2052326111474107%2F&width=400\" width=\"500\" height=\"280\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allowFullScreen=\"true\"></iframe> -->\n  </span><br/><br/>\n  <span>{{description}}</span>"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/live/live.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LiveComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var LiveComponent = (function () {
+    function LiveComponent() {
+        this.stationName = 'SoCal Television LIVE';
+        this.description = "";
+    }
+    LiveComponent.prototype.ngOnInit = function () {
+    };
+    return LiveComponent;
+}());
+LiveComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-live',
+        template: __webpack_require__("./src/app/stations-main/live/live.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/live/live.component.css"), __webpack_require__("./src/app/app.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], LiveComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/live.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/stations-main/massachusetts/boston-25-news/boston-25-news.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".top {\n    padding-top: 5%;\n}"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/massachusetts/boston-25-news/boston-25-news.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ma/suffolk-county/boston.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n    <iframe scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen mozallowfullscreen allow=\"autoplay; fullscreen\" \n    src=\"https://w3.cdn.anvato.net/player/prod/v3/anvload.html?key=eyJtIjoiY294IiwidiI6IndmeHQiLCJhbnZhY2siOiJhbnZhdG9fY294X2FwcF93ZWJfcHJvZF9jZTQ1Y2RhMjM3OTY5ZjkzZTcxMzBmNTBlZThiYjYyODBjMTQ4NGFiIiwicGx1Z2lucyI6eyJkZnAiOnsiY2xpZW50U2lkZSI6eyJhZFRhZ1VybCI6Imh0dHBzOi8vcHViYWRzLmcuZG91YmxlY2xpY2submV0L2dhbXBhZC9hZHM%2Fc3o9NDAweDMwMCZpdT0vMTI1MjMyOTMvQm9zdG9uX1RWL3dmeHRfd2ViX2RlZmF1bHQvcHJlX3JvbGwmaW1wbD1zJmdkZnBfcmVxPTEmZW52PXZwJm91dHB1dD12YXN0JnVudmlld2VkX3Bvc2l0aW9uX3N0YXJ0PTEmdXJsPVtyZWZlcnJlcl91cmxdJmRlc2NyaXB0aW9uX3VybD1bZGVzY3JpcHRpb25fdXJsXSZjb3JyZWxhdG9yPVt0aW1lc3RhbXBdIn19LCJjb21zY29yZSI6eyJjbGllbnRJZCI6NjAzNTk0NH0sIm5pZWxzZW4iOnsiZW52aXJvbm1lbnQiOiJwcm9kdWN0aW9uIiwic2Zjb2RlIjoidXMiLCJhcGlkIjoiUEU4NjgwNTE3LUM4ODQtNDNCQi04MDJCLTZERTUxNkRBQzFFNSIsImFwbiI6IndmeHQtd2ViIiwibm9sX3Nka0RlYnVnIjoiY29uc29sZSIsInR5cGUiOiJkdHZyIiwib3B0T3V0Ijp7ImxvY2F0aW9uIjoidGwiLCJzaXplRmFjdG9yIjowLjMsIm1hcmdpbiI6IjIwcHgiLCJwZXJpb2QiOi0xfX0sInJlYWxUaW1lQW5hbHl0aWNzIjp0cnVlLCJoZWFydGJlYXRCZXRhIjp7Im1hcmtldGluZ0Nsb3VkSWQiOiIxNDYyMzRCODUyNzgzNUUxMEE0OTBENDRAQWRvYmVPcmciLCJjdXN0b21UcmFja2luZ1NlcnZlciI6ImNveG5ldC4xMTIuMm83Lm5ldCIsInRyYWNraW5nU2VydmVyIjoiY294bmV0LmhiLm9tdHJkYy5uZXQiLCJqb2JJZCI6ImoyIiwiYWNjb3VudCI6ImNveHdmeHR0dixjb3hnbG9iYWwiLCJwdWJsaXNoZXJJZCI6ImNveG5ldCIsInZlcnNpb24iOiIxLjUiLCJwYXJlbnRQYWdlVVJMIjoiaHR0cHM6Ly93d3cuZm94MjVib3N0b24uY29tL2xpdmUtc3RyZWFtIiwicGFyZW50VGl0bGUiOiJXYXRjaCBMaXZlIEJvc3RvbiBOZXdzIE9ubGluZSB8IEJvc3RvbiAyNSBOZXdzIiwicEluc3RhbmNlIjoicDAiLCJwcm9maWxlIjoiY294In19LCJodG1sNSI6dHJ1ZSwibGl2ZSI6dHJ1ZX0%3D\"  \n    width =\"640\" height=\"360\"></iframe>\n  </span>\n\n\n"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/massachusetts/boston-25-news/boston-25-news.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Boston25NewsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Boston25NewsComponent = (function () {
+    function Boston25NewsComponent() {
+        this.stationName = "Boston 25 News";
+    }
+    Boston25NewsComponent.prototype.ngOnInit = function () {
+    };
+    return Boston25NewsComponent;
+}());
+Boston25NewsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-boston-25-news',
+        template: __webpack_require__("./src/app/stations-main/massachusetts/boston-25-news/boston-25-news.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/massachusetts/boston-25-news/boston-25-news.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Boston25NewsComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/boston-25-news.component.js.map
 
 /***/ }),
 

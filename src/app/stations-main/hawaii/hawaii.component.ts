@@ -11,5 +11,6 @@ export class HawaiiComponent implements OnInit {
 
   ngOnInit() {
   }
+state = "Hawaii"
 
 }

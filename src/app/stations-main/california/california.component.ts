@@ -11,5 +11,5 @@ export class CaliforniaComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  state = "California"
 }

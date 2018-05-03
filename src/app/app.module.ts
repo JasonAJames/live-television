@@ -25,6 +25,8 @@ import { Kron4Component } from './stations-main/kron4/kron4.component';
 import { LiveHighSpeedPursuitFeedComponent } from './stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component';
 import { BakersfieldNews23abcComponent } from './stations-main/bakersfield-news-23abc/bakersfield-news-23abc.component';
 import { Abc30BakersfieldComponent } from './stations-main/abc30-bakersfield/abc30-bakersfield.component';
+import { Boston25NewsComponent } from './stations-main/boston-25-news/boston-25-news.component';
+import { MassachusettsComponent } from './stations-main/massachusetts/massachusetts.component';
 
 
 @NgModule({
@@ -47,7 +49,9 @@ import { Abc30BakersfieldComponent } from './stations-main/abc30-bakersfield/abc
     Kron4Component,
     LiveHighSpeedPursuitFeedComponent,
     BakersfieldNews23abcComponent,
-    Abc30BakersfieldComponent
+    Abc30BakersfieldComponent,
+    Boston25NewsComponent,
+    MassachusettsComponent
   ],
   imports: [
     BrowserModule,

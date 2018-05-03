@@ -65,6 +65,7 @@ import { MassachusettsComponent } from './stations-main/massachusetts/massachuse
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},
       { path: 'california-tv-stations', component: CaliforniaComponent },
+      { path: 'massachusetts-tv-stations', component: MassachusettsComponent },
       { path: 'hawaii-tv-stations', component: HawaiiComponent},
       { path: 'stations-main', component: StationsMainComponent},
       { path: 'ktla5', component: Ktla5Component},

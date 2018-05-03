@@ -558,7 +558,7 @@ ArizonaComponent = __decorate([
 /***/ "./src/app/stations-main/arizona/fox10phoenix/fox10phoenix.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 5%;\n}"
 
 /***/ }),
 

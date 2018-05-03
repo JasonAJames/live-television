@@ -69,6 +69,8 @@ import { ArizonaComponent } from './stations-main/arizona/arizona.component';
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},
       { path: 'stations-main', component: StationsMainComponent},
+      { path: 'arizona-tv-stations', component: ArizonaComponent},
+      { path: 'fox10-phoenix', component: Fox10phoenixComponent},
       { path: 'california-tv-stations', component: CaliforniaComponent },
       { path: 'ktla5', component: Ktla5Component},
       { path: 'fox11la', component: Fox11laComponent},

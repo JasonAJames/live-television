@@ -275,6 +275,8 @@ AppModule = __decorate([
                 { path: 'advertise-commercial', component: __WEBPACK_IMPORTED_MODULE_6__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */] },
                 { path: 'about', component: __WEBPACK_IMPORTED_MODULE_8__about_about_component__["a" /* AboutComponent */] },
                 { path: 'stations-main', component: __WEBPACK_IMPORTED_MODULE_14__stations_main_stations_main_component__["a" /* StationsMainComponent */] },
+                { path: 'arizona-tv-stations', component: __WEBPACK_IMPORTED_MODULE_28__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */] },
+                { path: 'fox10-phoenix', component: __WEBPACK_IMPORTED_MODULE_27__stations_main_arizona_fox10phoenix_fox10phoenix_component__["a" /* Fox10phoenixComponent */] },
                 { path: 'california-tv-stations', component: __WEBPACK_IMPORTED_MODULE_12__stations_main_california_california_component__["a" /* CaliforniaComponent */] },
                 { path: 'ktla5', component: __WEBPACK_IMPORTED_MODULE_15__stations_main_california_ktla5_ktla5_component__["a" /* Ktla5Component */] },
                 { path: 'fox11la', component: __WEBPACK_IMPORTED_MODULE_16__stations_main_california_fox11la_fox11la_component__["a" /* Fox11laComponent */] },
@@ -503,14 +505,14 @@ LocalReviewsComponent = __decorate([
 /***/ "./src/app/stations-main/arizona/arizona.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 5%;\n}"
 
 /***/ }),
 
 /***/ "./src/app/stations-main/arizona/arizona.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  arizona works!\n</p>\n"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">{{state}}</h6>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/{{stationLink1}}\">{{stationName1}}</a>\n    </li>\n  </ul>"
 
 /***/ }),
 
@@ -532,6 +534,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var ArizonaComponent = (function () {
     function ArizonaComponent() {
+        this.state = "Arizona";
+        this.stationName1 = "FOX10 - Phoenix";
+        this.stationLink1 = "fox10-phoenix";
     }
     ArizonaComponent.prototype.ngOnInit = function () {
     };
@@ -560,7 +565,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/arizona/fox10phoenix/fox10phoenix.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  fox10phoenix works!\n</p>\n"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87720\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"text-indent: -9999em;float: right;position: relative;height: 92px;width: 20px;z-index: 1;margin: -92px 0 0 0\" href=\"https://www.willyweather.com/az/maricopa-county/phoenix.html\" rel=\"nofollow\">Weather report Phoenix</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"https://livestream.com/accounts/6140850/events/2549317/player?width=640&height=360&enableInfoAndActivity=true&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n"
 
 /***/ }),
 
@@ -582,6 +587,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var Fox10phoenixComponent = (function () {
     function Fox10phoenixComponent() {
+        this.stationName = "FOX10 Phoenix";
     }
     Fox10phoenixComponent.prototype.ngOnInit = function () {
     };

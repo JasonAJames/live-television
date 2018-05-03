@@ -11,5 +11,7 @@ export class ArizonaComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  state = "Arizona"
+  stationName1 = "FOX10 - Phoenix"
+  stationLink1 = "fox10-phoenix"
 }

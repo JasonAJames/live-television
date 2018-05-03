@@ -11,5 +11,6 @@ export class Fox10phoenixComponent implements OnInit {
 
   ngOnInit() {
   }
+stationName = "FOX10 Phoenix"
 
 }

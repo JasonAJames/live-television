@@ -29,6 +29,8 @@ import { Boston25NewsComponent } from './stations-main/massachusetts/boston-25-n
 import { MassachusettsComponent } from './stations-main/massachusetts/massachusetts.component';
 import { Fox10phoenixComponent } from './stations-main/arizona/fox10phoenix/fox10phoenix.component';
 import { ArizonaComponent } from './stations-main/arizona/arizona.component';
+import { ColoradoComponent } from './stations-main/colorado/colorado.component';
+import { Colorado9newsComponent } from './stations-main/colorado/colorado-9news/colorado-9news.component';
 
 
 @NgModule({
@@ -55,7 +57,9 @@ import { ArizonaComponent } from './stations-main/arizona/arizona.component';
     Boston25NewsComponent,
     MassachusettsComponent,
     Fox10phoenixComponent,
-    ArizonaComponent
+    ArizonaComponent,
+    ColoradoComponent,
+    Colorado9newsComponent
   ],
   imports: [
     BrowserModule,
@@ -78,6 +82,8 @@ import { ArizonaComponent } from './stations-main/arizona/arizona.component';
       { path: 'kron4', component: Kron4Component},
       { path: 'bakersfield-news-23abc', component: BakersfieldNews23abcComponent},
       { path: 'abc30-bakersfield', component: Abc30BakersfieldComponent},
+      { path: 'colorado-tv-stations', component: ColoradoComponent },
+      { path: 'colorado-9news', component: Colorado9newsComponent },
       { path: 'massachusetts-tv-stations', component: MassachusettsComponent },
       { path: 'boston-25-news', component: Boston25NewsComponent},
       { path: 'hawaii-tv-stations', component: HawaiiComponent},

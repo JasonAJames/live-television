@@ -15,11 +15,11 @@
 <!-- Weather Component -->
 <div style="width: 768px;"><iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=87720" width="768" height="92" frameborder="0" scrolling="no"></iframe><a style="text-indent: -9999em;float: right;position: relative;height: 92px;width: 20px;z-index: 1;margin: -92px 0 0 0" href="https://www.willyweather.com/az/maricopa-county/phoenix.html" rel="nofollow">Weather report Phoenix</a></div>
 <!-- END Weather Component -->
-
-<h3>Choose your Educational / Informational Channel</h3>
-<ul style="list-style-type: none;" class="col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10">
-  <h6 class="top">{{state}}</h6>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="/{{stationLink1}}">{{stationName1}}</a>
-    </li>
-  </ul>
+  <h3>You're Watching</h3>
+  <h1>{{stationName}}</h1>
+  <span class="embed-responsive embed-responsive-16by9"><iframe 
+    src="https://media.9news.com/embeds/video/1699367/iframe" 
+    width="800" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" 
+    allowTransparency="true" allowFullScreen="true">
+  </iframe></span>
+  <!-- <iframe width="640" height="360" style="border-width:1px; border-style:solid; border-color:#e6e6e6;" src="https://media.9news.com/embeds/video/1699367/iframe" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe> -->

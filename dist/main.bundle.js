@@ -702,7 +702,7 @@ Boston25NewsComponent = __decorate([
 /***/ "./src/app/stations-main/california/california.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 5%;\n}"
 
 /***/ }),
 
@@ -1213,7 +1213,7 @@ LiveHighSpeedPursuitFeedComponent = __decorate([
 /***/ "./src/app/stations-main/massachusetts/massachusetts.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 5%;\n}"
 
 /***/ }),
 

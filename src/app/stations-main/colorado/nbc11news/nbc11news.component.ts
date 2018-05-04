@@ -12,6 +12,6 @@ export class Nbc11newsComponent implements OnInit {
   ngOnInit() {
   }
   state = "Colorado"
-  stationName1 = "NBC 11 News"
+  stationName1 = "NBC 11 News - Colorado"
   stationLink1 = "nbc11news"
 }

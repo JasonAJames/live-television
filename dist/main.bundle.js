@@ -1116,7 +1116,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var Nbc11newsComponent = (function () {
     function Nbc11newsComponent() {
         this.state = "Colorado";
-        this.stationName1 = "NBC 11 News";
+        this.stationName1 = "NBC 11 News - Colorado";
         this.stationLink1 = "nbc11news";
     }
     Nbc11newsComponent.prototype.ngOnInit = function () {

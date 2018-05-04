@@ -31,6 +31,7 @@ import { Fox10phoenixComponent } from './stations-main/arizona/fox10phoenix/fox1
 import { ArizonaComponent } from './stations-main/arizona/arizona.component';
 import { ColoradoComponent } from './stations-main/colorado/colorado.component';
 import { Colorado9newsComponent } from './stations-main/colorado/colorado-9news/colorado-9news.component';
+import { Nbc11newsComponent } from './stations-main/colorado/nbc11news/nbc11news.component';
 
 
 @NgModule({
@@ -59,7 +60,8 @@ import { Colorado9newsComponent } from './stations-main/colorado/colorado-9news/
     Fox10phoenixComponent,
     ArizonaComponent,
     ColoradoComponent,
-    Colorado9newsComponent
+    Colorado9newsComponent,
+    Nbc11newsComponent
   ],
   imports: [
     BrowserModule,
@@ -73,8 +75,10 @@ import { Colorado9newsComponent } from './stations-main/colorado/colorado-9news/
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},
       { path: 'stations-main', component: StationsMainComponent},
+
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
+
       { path: 'california-tv-stations', component: CaliforniaComponent },
       { path: 'ktla5', component: Ktla5Component},
       { path: 'fox11la', component: Fox11laComponent},
@@ -82,14 +86,19 @@ import { Colorado9newsComponent } from './stations-main/colorado/colorado-9news/
       { path: 'kron4', component: Kron4Component},
       { path: 'bakersfield-news-23abc', component: BakersfieldNews23abcComponent},
       { path: 'abc30-bakersfield', component: Abc30BakersfieldComponent},
+
       { path: 'colorado-tv-stations', component: ColoradoComponent },
       { path: 'colorado-9news', component: Colorado9newsComponent },
+      { path: 'nbc11news', component: Nbc11newsComponent },
+
       { path: 'massachusetts-tv-stations', component: MassachusettsComponent },
       { path: 'boston-25-news', component: Boston25NewsComponent},
+
       { path: 'hawaii-tv-stations', component: HawaiiComponent},
       { path: 'hawaii-news-now', component: HawaiiNewsNowComponent },
       { path: 'kitv4-hawaii', component: Kitv4hawaiiComponent},
       { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
+      
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: '**', component: HomeComponent}
     ], {useHash : true}),

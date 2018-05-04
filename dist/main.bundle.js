@@ -1031,7 +1031,7 @@ Colorado9newsComponent = __decorate([
 /***/ "./src/app/stations-main/colorado/colorado.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 5%;\n}"
 
 /***/ }),
 
@@ -1086,7 +1086,7 @@ ColoradoComponent = __decorate([
 /***/ "./src/app/stations-main/colorado/nbc11news/nbc11news.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 5%;\n}"
 
 /***/ }),
 

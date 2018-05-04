@@ -13,6 +13,6 @@ export class LiveComponent implements OnInit {
   }
 
   stationName = 'SoCal Television LIVE';
-  description = ""
+  description = "President Trump speaks at the NRA Convention in downtown Dallas."
 
 }

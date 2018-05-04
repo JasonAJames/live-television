@@ -472,13 +472,6 @@ module.exports = ""
 
 /***/ }),
 
-/***/ "./src/app/contact/contact.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  <h2>Contact {{name}}</h2>\n  <p>Would you like to have your event showcased live on {{name}}, or do you have a tip on an event or location you would like to see showcased on {{name}}?</p>\n  <form>\n    <div>\n      <label for=\"first-name\">First Name: </label>\n      <input type=\"text\" id=\"first-name\" required>\n    </div>\n    <div>\n        <label for=\"last-name\">Last Name: </label>\n        <input type=\"text\" id=\"last-name\" required>\n      </div>\n      <div>\n          <label for=\"email\">Email: </label>\n          <input type=\"email\" id=\"email\" required>\n        </div>\n        <div>\n            <label for=\"first-name\">First Name: </label>\n            <input type=\"text\" id=\"comment\">\n          </div>\n          <button type=\"submit\">Send</button>\n  </form>\n</p>\n"
-
-/***/ }),
-
 /***/ "./src/app/contact/contact.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -506,7 +499,7 @@ var ContactComponent = (function () {
 ContactComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-contact',
-        template: __webpack_require__("./src/app/contact/contact.component.html"),
+        template: "\n  <p>\n  <h2>Contact {{name}}</h2>\n  <p>Would you like to have your event showcased live on {{name}}, or do you have a tip on an event or location you would like to see showcased on {{name}}?</p>\n  <form>\n    <div>\n      <label for=\"first-name\">First Name: </label>\n      <input type=\"text\" id=\"first-name\" required>\n    </div>\n    <div>\n        <label for=\"last-name\">Last Name: </label>\n        <input type=\"text\" id=\"last-name\" required>\n      </div>\n      <div>\n          <label for=\"email\">Email: </label>\n          <input type=\"email\" id=\"email\" required>\n        </div>\n        <div>\n            <label for=\"first-name\">First Name: </label>\n            <input type=\"text\" id=\"comment\">\n          </div>\n          <button type=\"submit\">Send</button>\n  </form>\n</p>\n  ",
         styles: [__webpack_require__("./src/app/contact/contact.component.css")]
     }),
     __metadata("design:paramtypes", [])

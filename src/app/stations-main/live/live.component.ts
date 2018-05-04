@@ -12,7 +12,9 @@ export class LiveComponent implements OnInit {
   ngOnInit() {
   }
 
-  stationName = 'SoCal Television LIVE';
-  description = "President Trump speaks at the NRA Convention in downtown Dallas."
+  offlineMessage1 = "We ar Currently OFFLINE - Please check back later. In the mean time, you can watch live tv from around the nation by clicking on the TV Stations navigation link"
 
+
+  stationName = 'SoCal Television LIVE'
+  description = this.offlineMessage1
 }

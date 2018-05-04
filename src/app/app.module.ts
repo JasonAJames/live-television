@@ -32,6 +32,7 @@ import { ArizonaComponent } from './stations-main/arizona/arizona.component';
 import { ColoradoComponent } from './stations-main/colorado/colorado.component';
 import { Colorado9newsComponent } from './stations-main/colorado/colorado-9news/colorado-9news.component';
 import { Nbc11newsComponent } from './stations-main/colorado/nbc11news/nbc11news.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -63,6 +64,7 @@ import { Nbc11newsComponent } from './stations-main/colorado/nbc11news/nbc11news
     ColoradoComponent,
     Colorado9newsComponent,
     Nbc11newsComponent,
+    ContactComponent,
 
   ],
   imports: [
@@ -76,7 +78,7 @@ import { Nbc11newsComponent } from './stations-main/colorado/nbc11news/nbc11news
       { path: 'local-reviews', component: LocalReviewsComponent},
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},
-
+      
       { path: 'stations-main', component: StationsMainComponent},
 
       { path: 'arizona-tv-stations', component: ArizonaComponent},

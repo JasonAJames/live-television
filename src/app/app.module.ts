@@ -76,6 +76,7 @@ import { ContactComponent } from './contact/contact.component';
       { path: 'local-reviews', component: LocalReviewsComponent},
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},
+      { path: 'contact', component: ContactComponent },
       { path: 'stations-main', component: StationsMainComponent},
 
       { path: 'arizona-tv-stations', component: ArizonaComponent},
@@ -100,7 +101,7 @@ import { ContactComponent } from './contact/contact.component';
       { path: 'hawaii-news-now', component: HawaiiNewsNowComponent },
       { path: 'kitv4-hawaii', component: Kitv4hawaiiComponent},
       { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
-      
+
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: '**', component: HomeComponent}
     ], {useHash : true}),

@@ -202,12 +202,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__contactus_contactus_component__ = __webpack_require__("./src/app/contactus/contactus.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_live_traffic_cams_component__ = __webpack_require__("./src/app/live-traffic-cams/live-traffic-cams.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__ = __webpack_require__("./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__live_traffic_cams_sigalert_sigalert_component__ = __webpack_require__("./src/app/live-traffic-cams/sigalert/sigalert.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -279,7 +281,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_31__stations_main_colorado_nbc11news_nbc11news_component__["a" /* Nbc11newsComponent */],
             __WEBPACK_IMPORTED_MODULE_32__contactus_contactus_component__["a" /* ContactusComponent */],
             __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_live_traffic_cams_component__["a" /* LiveTrafficCamsComponent */],
-            __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__["a" /* Cam10fwyWestOfMonteVistaAveComponent */]
+            __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__["a" /* Cam10fwyWestOfMonteVistaAveComponent */],
+            __WEBPACK_IMPORTED_MODULE_35__live_traffic_cams_sigalert_sigalert_component__["a" /* SigalertComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -294,6 +297,7 @@ AppModule = __decorate([
                 { path: 'about', component: __WEBPACK_IMPORTED_MODULE_8__about_about_component__["a" /* AboutComponent */] },
                 { path: 'contact', component: __WEBPACK_IMPORTED_MODULE_32__contactus_contactus_component__["a" /* ContactusComponent */] },
                 { path: 'live-traffic-cams', component: __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_live_traffic_cams_component__["a" /* LiveTrafficCamsComponent */] },
+                { path: 'live-traffic/sigalert', component: __WEBPACK_IMPORTED_MODULE_35__live_traffic_cams_sigalert_sigalert_component__["a" /* SigalertComponent */] },
                 { path: 'live-traffic-cam/cam-10fwy_West-MonteVistaAve', component: __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__["a" /* Cam10fwyWestOfMonteVistaAveComponent */] },
                 { path: 'stations-main', component: __WEBPACK_IMPORTED_MODULE_14__stations_main_stations_main_component__["a" /* StationsMainComponent */] },
                 { path: 'arizona-tv-stations', component: __WEBPACK_IMPORTED_MODULE_28__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */] },
@@ -621,6 +625,57 @@ LiveTrafficCamsComponent = __decorate([
 ], LiveTrafficCamsComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/live-traffic-cams.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/live-traffic-cams/sigalert/sigalert.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/live-traffic-cams/sigalert/sigalert.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n\n      <iframe src=\"https://www.sigalert.com/default.asp?stay=1&lat=33.93845&lon=-117.41087&z=1\" width=\"800\" height=\"480\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n    </span>"
+
+/***/ }),
+
+/***/ "./src/app/live-traffic-cams/sigalert/sigalert.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SigalertComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var SigalertComponent = (function () {
+    function SigalertComponent() {
+        this.stationName = "SIG ALERT MAP";
+    }
+    SigalertComponent.prototype.ngOnInit = function () {
+    };
+    return SigalertComponent;
+}());
+SigalertComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-sigalert',
+        template: __webpack_require__("./src/app/live-traffic-cams/sigalert/sigalert.component.html"),
+        styles: [__webpack_require__("./src/app/live-traffic-cams/sigalert/sigalert.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], SigalertComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/sigalert.component.js.map
 
 /***/ }),
 

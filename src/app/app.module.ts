@@ -35,6 +35,7 @@ import { Nbc11newsComponent } from './stations-main/colorado/nbc11news/nbc11news
 import { ContactusComponent } from './contactus/contactus.component';
 import { LiveTrafficCamsComponent } from './live-traffic-cams/live-traffic-cams.component';
 import { Cam10fwyWestOfMonteVistaAveComponent } from './live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component';
+import { SigalertComponent } from './live-traffic-cams/sigalert/sigalert.component';
 
 
 
@@ -68,7 +69,8 @@ import { Cam10fwyWestOfMonteVistaAveComponent } from './live-traffic-cams/cam-10
     Nbc11newsComponent,
     ContactusComponent,
     LiveTrafficCamsComponent,
-    Cam10fwyWestOfMonteVistaAveComponent
+    Cam10fwyWestOfMonteVistaAveComponent,
+    SigalertComponent
 
   ],
   imports: [
@@ -84,6 +86,7 @@ import { Cam10fwyWestOfMonteVistaAveComponent } from './live-traffic-cams/cam-10
       { path: 'about', component: AboutComponent},
       { path: 'contact', component: ContactusComponent},
       { path: 'live-traffic-cams', component: LiveTrafficCamsComponent},
+      { path: 'live-traffic/sigalert', component: SigalertComponent},
       { path: 'live-traffic-cam/cam-10fwy_West-MonteVistaAve', component: Cam10fwyWestOfMonteVistaAveComponent},
       
       { path: 'stations-main', component: StationsMainComponent},

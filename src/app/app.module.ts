@@ -33,6 +33,8 @@ import { ColoradoComponent } from './stations-main/colorado/colorado.component';
 import { Colorado9newsComponent } from './stations-main/colorado/colorado-9news/colorado-9news.component';
 import { Nbc11newsComponent } from './stations-main/colorado/nbc11news/nbc11news.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { LiveTrafficCamsComponent } from './live-traffic-cams/live-traffic-cams.component';
+import { Cam10fwyWestOfMonteVistaAveComponent } from './live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component';
 
 
 
@@ -64,7 +66,9 @@ import { ContactusComponent } from './contactus/contactus.component';
     ColoradoComponent,
     Colorado9newsComponent,
     Nbc11newsComponent,
-    ContactusComponent
+    ContactusComponent,
+    LiveTrafficCamsComponent,
+    Cam10fwyWestOfMonteVistaAveComponent
 
   ],
   imports: [
@@ -79,8 +83,10 @@ import { ContactusComponent } from './contactus/contactus.component';
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},
       { path: 'contact', component: ContactusComponent},
+      { path: 'live-traffic-cams', component: LiveTrafficCamsComponent},
+      { path: 'live-traffic-cam/cam-10fwy_West-MonteVistaAve', component: Cam10fwyWestOfMonteVistaAveComponent},
+      
       { path: 'stations-main', component: StationsMainComponent},
-
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
 

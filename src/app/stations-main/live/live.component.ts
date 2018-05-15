@@ -12,7 +12,7 @@ export class LiveComponent implements OnInit {
   ngOnInit() {
   }
 
-  offlineMessage1 = "We ar Currently OFFLINE - Please check back later. In the mean time, you can watch live tv from around the nation by clicking on the TV Stations navigation link"
+  offlineMessage1 = "WATCH LIVE: A deadly explosion has been reported in Aliso Viejo."
 
 
   stationName = 'SoCal Television LIVE'

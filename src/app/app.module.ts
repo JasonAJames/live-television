@@ -22,7 +22,6 @@ import { HawaiiNewsNowComponent } from './stations-main/hawaii/hawaiinewsnow/haw
 import { Kitv4hawaiiComponent } from './stations-main/hawaii/kitv4hawaii/kitv4hawaii.component';
 import { Khon2hawaiiComponent } from './stations-main/hawaii/khon2hawaii/khon2hawaii.component';
 import { Kron4Component } from './stations-main/california/kron4/kron4.component';
-import { LiveHighSpeedPursuitFeedComponent } from './stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component';
 import { BakersfieldNews23abcComponent } from './stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component';
 import { Abc30BakersfieldComponent } from './stations-main/california/abc30-bakersfield/abc30-bakersfield.component';
 import { Boston25NewsComponent } from './stations-main/massachusetts/boston-25-news/boston-25-news.component';
@@ -59,7 +58,6 @@ import { SportsMlbLiveComponent } from './stations-main/sports-mlb-live/sports-m
     Kitv4hawaiiComponent,
     Khon2hawaiiComponent,
     Kron4Component,
-    LiveHighSpeedPursuitFeedComponent,
     BakersfieldNews23abcComponent,
     Abc30BakersfieldComponent,
     Boston25NewsComponent,
@@ -84,7 +82,6 @@ import { SportsMlbLiveComponent } from './stations-main/sports-mlb-live/sports-m
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent},
       { path: 'live', component: LiveComponent},
-      { path: 'live-high-speed-pursuit', component: LiveHighSpeedPursuitFeedComponent},
       { path: 'local-reviews', component: LocalReviewsComponent},
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},

@@ -127,7 +127,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}\n\n@media screen and (min-widt
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- FREE VERSION -->\n<div class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-dark\">\n    <div class=\"container\">\n      <a routerLink=\"home\" class=\"navbar-brand\"><img src=\"assets/images/logo_16X9.png\" width=\"110px\" height=\"100%\"/> SoCal Television</a>\n      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n        <ul class=\"navbar-nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"about\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"stations-main\">TV Stations</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link btn btn-alert\" routerLink=\"live\">LIVE</a>\n          </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"live-traffic/sigalert\">TRAFFIC</a>\n            </li>\n            <li class=\"nav-item\">\n                <a class=\"nav-link\" routerLink=\"live-high-speed-pursuit\">LIVE High Speed Pursuit</a>\n              </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"mlb-live\">LIVE Major League Baseball</a>\n            </li>\n        </ul>\n\n        <ul class=\"nav navbar-nav ml-auto\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"contact\">Contact Us</a>\n          </li>\n        </ul>\n\n      </div>\n    </div>\n  </div>\n\n\n  <div class=\"container\">\n   <router-outlet></router-outlet>\n    <!-- <app-hero-form></app-hero-form> -->\n  </div>\n\n  <div class=\"ui inverted vertical footer segment\">\n      <div class=\"ui container\">\n        <div class=\"ui stackable inverted divided equal height stackable grid\">\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">About</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"about\" class=\"item\">About</a>\n              <a routerLink=\"stations-main\" class=\"item\">Channel Guide</a>\n              <a routerLink=\"stations-main\" class=\"item\">Shows</a>\n              <a routerLink=\"local-reviews\" class=\"item\">Local Reviews</a>\n            </div>\n          </div>\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">Services</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"live\" class=\"item\">WATCH LIVE</a>\n              <a routerLink=\"social\" class=\"item\">SoCal Community Connection</a>\n              <a routerLink=\"contact\" class=\"item\">Advertise / Showcase your Event</a>\n              <a routerLink=\"contact\" class=\"item\">Contact Us</a>\n            </div>\n          </div>\n          <div class=\"seven wide column\">\n            <h4 class=\"ui inverted header\"></h4>\n            <p></p>\n            <p style=\"text-align:center;\" id=\"copyright\">Find out what's going on in your area, LIKE - FOLLOW - SHARE @SoCalTelevision on <a href=\"https://www.facebook.com/SoCalTelevision/\" target=\"_blank\">Facebook</a>, <a href=\"https://www.instagram.com/SoCalTelevision/\" target=\"_blank\">Instagram</a>, &amp; <a href=\"https://www.twitter.com/SoCalTelevision/\" target=\"_blank\">Twitter!</a><br><br>© <span id=\"copyrightDate\">2018</span> The Inland Empire Television Network - SoCalTelevision<br> a subsidiary of <a href=\"http://www.jppmsolutions.com\" target=\"_blank\">James Programming, Printing, &amp; Media Solutions</a>.<br><br>Content may not be replicated, duplicated, or rebroadcasted in any way, both in part or full, without expressed written consent from the Inland Empire Television Network, James Programming, Printing &amp; Media Solutions, or its subsidiary's - All Rights Reserved.<br/>Weather information based on data supplied by <a href=\"http://noaa.gov\" target=\"_blank\">NOAA.gov</a></p>\n            <script>\n              var d = new Date();\n              document.getElementById(\"copyrightDate\").innerHTML = d.getFullYear();\n            </script> \n          </div>\n        </div>\n      </div>\n    </div>"
+module.exports = "<!-- FREE VERSION -->\n<div class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-dark\">\n    <div class=\"container\">\n      <a routerLink=\"home\" class=\"navbar-brand\"><img src=\"assets/images/logo_16X9.png\" width=\"110px\" height=\"100%\"/> SoCal Television</a>\n      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n        <ul class=\"navbar-nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"about\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"stations-main\">TV Stations</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link btn btn-alert\" routerLink=\"live\">LIVE</a>\n          </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"live-traffic/sigalert\">TRAFFIC</a>\n            </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"mlb-live\">LIVE Major League Baseball</a>\n            </li>\n        </ul>\n\n        <ul class=\"nav navbar-nav ml-auto\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"contact\">Contact Us</a>\n          </li>\n        </ul>\n\n      </div>\n    </div>\n  </div>\n\n\n  <div class=\"container\">\n   <router-outlet></router-outlet>\n    <!-- <app-hero-form></app-hero-form> -->\n  </div>\n\n  <div class=\"ui inverted vertical footer segment\">\n      <div class=\"ui container\">\n        <div class=\"ui stackable inverted divided equal height stackable grid\">\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">About</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"about\" class=\"item\">About</a>\n              <a routerLink=\"stations-main\" class=\"item\">Channel Guide</a>\n              <a routerLink=\"stations-main\" class=\"item\">Shows</a>\n              <a routerLink=\"local-reviews\" class=\"item\">Local Reviews</a>\n            </div>\n          </div>\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">Services</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"live\" class=\"item\">WATCH LIVE</a>\n              <a routerLink=\"social\" class=\"item\">SoCal Community Connection</a>\n              <a routerLink=\"contact\" class=\"item\">Advertise / Showcase your Event</a>\n              <a routerLink=\"contact\" class=\"item\">Contact Us</a>\n            </div>\n          </div>\n          <div class=\"seven wide column\">\n            <h4 class=\"ui inverted header\"></h4>\n            <p></p>\n            <p style=\"text-align:center;\" id=\"copyright\">Find out what's going on in your area, LIKE - FOLLOW - SHARE @SoCalTelevision on <a href=\"https://www.facebook.com/SoCalTelevision/\" target=\"_blank\">Facebook</a>, <a href=\"https://www.instagram.com/SoCalTelevision/\" target=\"_blank\">Instagram</a>, &amp; <a href=\"https://www.twitter.com/SoCalTelevision/\" target=\"_blank\">Twitter!</a><br><br>© <span id=\"copyrightDate\">2018</span> The Inland Empire Television Network - SoCalTelevision<br> a subsidiary of <a href=\"http://www.jppmsolutions.com\" target=\"_blank\">James Programming, Printing, &amp; Media Solutions</a>.<br><br>Content may not be replicated, duplicated, or rebroadcasted in any way, both in part or full, without expressed written consent from the Inland Empire Television Network, James Programming, Printing &amp; Media Solutions, or its subsidiary's - All Rights Reserved.<br/>Weather information based on data supplied by <a href=\"http://noaa.gov\" target=\"_blank\">NOAA.gov</a></p>\n            <script>\n              var d = new Date();\n              document.getElementById(\"copyrightDate\").innerHTML = d.getFullYear();\n            </script> \n          </div>\n        </div>\n      </div>\n    </div>"
 
 /***/ }),
 
@@ -189,29 +189,27 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__ = __webpack_require__("./src/app/stations-main/hawaii/kitv4hawaii/kitv4hawaii.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_khon2hawaii_khon2hawaii_component__ = __webpack_require__("./src/app/stations-main/hawaii/khon2hawaii/khon2hawaii.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__stations_main_california_kron4_kron4_component__ = __webpack_require__("./src/app/stations-main/california/kron4/kron4.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__ = __webpack_require__("./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__ = __webpack_require__("./src/app/stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__ = __webpack_require__("./src/app/stations-main/california/abc30-bakersfield/abc30-bakersfield.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__stations_main_massachusetts_boston_25_news_boston_25_news_component__ = __webpack_require__("./src/app/stations-main/massachusetts/boston-25-news/boston-25-news.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__stations_main_massachusetts_massachusetts_component__ = __webpack_require__("./src/app/stations-main/massachusetts/massachusetts.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__stations_main_arizona_fox10phoenix_fox10phoenix_component__ = __webpack_require__("./src/app/stations-main/arizona/fox10phoenix/fox10phoenix.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__stations_main_arizona_arizona_component__ = __webpack_require__("./src/app/stations-main/arizona/arizona.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__stations_main_colorado_colorado_component__ = __webpack_require__("./src/app/stations-main/colorado/colorado.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__stations_main_colorado_colorado_9news_colorado_9news_component__ = __webpack_require__("./src/app/stations-main/colorado/colorado-9news/colorado-9news.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__stations_main_colorado_nbc11news_nbc11news_component__ = __webpack_require__("./src/app/stations-main/colorado/nbc11news/nbc11news.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__contactus_contactus_component__ = __webpack_require__("./src/app/contactus/contactus.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_live_traffic_cams_component__ = __webpack_require__("./src/app/live-traffic-cams/live-traffic-cams.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__ = __webpack_require__("./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__live_traffic_cams_sigalert_sigalert_component__ = __webpack_require__("./src/app/live-traffic-cams/sigalert/sigalert.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__stations_main_california_cw_sandiego_cw_sandiego_component__ = __webpack_require__("./src/app/stations-main/california/cw-sandiego/cw-sandiego.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__stations_main_sports_mlb_live_sports_mlb_live_component__ = __webpack_require__("./src/app/stations-main/sports-mlb-live/sports-mlb-live.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__ = __webpack_require__("./src/app/stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__ = __webpack_require__("./src/app/stations-main/california/abc30-bakersfield/abc30-bakersfield.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__stations_main_massachusetts_boston_25_news_boston_25_news_component__ = __webpack_require__("./src/app/stations-main/massachusetts/boston-25-news/boston-25-news.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__stations_main_massachusetts_massachusetts_component__ = __webpack_require__("./src/app/stations-main/massachusetts/massachusetts.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__stations_main_arizona_fox10phoenix_fox10phoenix_component__ = __webpack_require__("./src/app/stations-main/arizona/fox10phoenix/fox10phoenix.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__stations_main_arizona_arizona_component__ = __webpack_require__("./src/app/stations-main/arizona/arizona.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__stations_main_colorado_colorado_component__ = __webpack_require__("./src/app/stations-main/colorado/colorado.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__stations_main_colorado_colorado_9news_colorado_9news_component__ = __webpack_require__("./src/app/stations-main/colorado/colorado-9news/colorado-9news.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__stations_main_colorado_nbc11news_nbc11news_component__ = __webpack_require__("./src/app/stations-main/colorado/nbc11news/nbc11news.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__contactus_contactus_component__ = __webpack_require__("./src/app/contactus/contactus.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__live_traffic_cams_live_traffic_cams_component__ = __webpack_require__("./src/app/live-traffic-cams/live-traffic-cams.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__ = __webpack_require__("./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_sigalert_sigalert_component__ = __webpack_require__("./src/app/live-traffic-cams/sigalert/sigalert.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__stations_main_california_cw_sandiego_cw_sandiego_component__ = __webpack_require__("./src/app/stations-main/california/cw-sandiego/cw-sandiego.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__stations_main_sports_mlb_live_sports_mlb_live_component__ = __webpack_require__("./src/app/stations-main/sports-mlb-live/sports-mlb-live.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 
@@ -273,22 +271,21 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_19__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */],
             __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */],
             __WEBPACK_IMPORTED_MODULE_21__stations_main_california_kron4_kron4_component__["a" /* Kron4Component */],
-            __WEBPACK_IMPORTED_MODULE_22__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__["a" /* LiveHighSpeedPursuitFeedComponent */],
-            __WEBPACK_IMPORTED_MODULE_23__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */],
-            __WEBPACK_IMPORTED_MODULE_24__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */],
-            __WEBPACK_IMPORTED_MODULE_25__stations_main_massachusetts_boston_25_news_boston_25_news_component__["a" /* Boston25NewsComponent */],
-            __WEBPACK_IMPORTED_MODULE_26__stations_main_massachusetts_massachusetts_component__["a" /* MassachusettsComponent */],
-            __WEBPACK_IMPORTED_MODULE_27__stations_main_arizona_fox10phoenix_fox10phoenix_component__["a" /* Fox10phoenixComponent */],
-            __WEBPACK_IMPORTED_MODULE_28__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */],
-            __WEBPACK_IMPORTED_MODULE_29__stations_main_colorado_colorado_component__["a" /* ColoradoComponent */],
-            __WEBPACK_IMPORTED_MODULE_30__stations_main_colorado_colorado_9news_colorado_9news_component__["a" /* Colorado9newsComponent */],
-            __WEBPACK_IMPORTED_MODULE_31__stations_main_colorado_nbc11news_nbc11news_component__["a" /* Nbc11newsComponent */],
-            __WEBPACK_IMPORTED_MODULE_32__contactus_contactus_component__["a" /* ContactusComponent */],
-            __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_live_traffic_cams_component__["a" /* LiveTrafficCamsComponent */],
-            __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__["a" /* Cam10fwyWestOfMonteVistaAveComponent */],
-            __WEBPACK_IMPORTED_MODULE_35__live_traffic_cams_sigalert_sigalert_component__["a" /* SigalertComponent */],
-            __WEBPACK_IMPORTED_MODULE_36__stations_main_california_cw_sandiego_cw_sandiego_component__["a" /* CwSandiegoComponent */],
-            __WEBPACK_IMPORTED_MODULE_37__stations_main_sports_mlb_live_sports_mlb_live_component__["a" /* SportsMlbLiveComponent */]
+            __WEBPACK_IMPORTED_MODULE_22__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */],
+            __WEBPACK_IMPORTED_MODULE_23__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */],
+            __WEBPACK_IMPORTED_MODULE_24__stations_main_massachusetts_boston_25_news_boston_25_news_component__["a" /* Boston25NewsComponent */],
+            __WEBPACK_IMPORTED_MODULE_25__stations_main_massachusetts_massachusetts_component__["a" /* MassachusettsComponent */],
+            __WEBPACK_IMPORTED_MODULE_26__stations_main_arizona_fox10phoenix_fox10phoenix_component__["a" /* Fox10phoenixComponent */],
+            __WEBPACK_IMPORTED_MODULE_27__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */],
+            __WEBPACK_IMPORTED_MODULE_28__stations_main_colorado_colorado_component__["a" /* ColoradoComponent */],
+            __WEBPACK_IMPORTED_MODULE_29__stations_main_colorado_colorado_9news_colorado_9news_component__["a" /* Colorado9newsComponent */],
+            __WEBPACK_IMPORTED_MODULE_30__stations_main_colorado_nbc11news_nbc11news_component__["a" /* Nbc11newsComponent */],
+            __WEBPACK_IMPORTED_MODULE_31__contactus_contactus_component__["a" /* ContactusComponent */],
+            __WEBPACK_IMPORTED_MODULE_32__live_traffic_cams_live_traffic_cams_component__["a" /* LiveTrafficCamsComponent */],
+            __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__["a" /* Cam10fwyWestOfMonteVistaAveComponent */],
+            __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_sigalert_sigalert_component__["a" /* SigalertComponent */],
+            __WEBPACK_IMPORTED_MODULE_35__stations_main_california_cw_sandiego_cw_sandiego_component__["a" /* CwSandiegoComponent */],
+            __WEBPACK_IMPORTED_MODULE_36__stations_main_sports_mlb_live_sports_mlb_live_component__["a" /* SportsMlbLiveComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -297,31 +294,30 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
-                { path: 'live-high-speed-pursuit', component: __WEBPACK_IMPORTED_MODULE_22__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__["a" /* LiveHighSpeedPursuitFeedComponent */] },
                 { path: 'local-reviews', component: __WEBPACK_IMPORTED_MODULE_9__local_reviews_local_reviews_component__["a" /* LocalReviewsComponent */] },
                 { path: 'advertise-commercial', component: __WEBPACK_IMPORTED_MODULE_6__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */] },
                 { path: 'about', component: __WEBPACK_IMPORTED_MODULE_8__about_about_component__["a" /* AboutComponent */] },
-                { path: 'contact', component: __WEBPACK_IMPORTED_MODULE_32__contactus_contactus_component__["a" /* ContactusComponent */] },
-                { path: 'live-traffic-cams', component: __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_live_traffic_cams_component__["a" /* LiveTrafficCamsComponent */] },
-                { path: 'live-traffic/sigalert', component: __WEBPACK_IMPORTED_MODULE_35__live_traffic_cams_sigalert_sigalert_component__["a" /* SigalertComponent */] },
-                { path: 'live-traffic-cam/cam-10fwy_West-MonteVistaAve', component: __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__["a" /* Cam10fwyWestOfMonteVistaAveComponent */] },
-                { path: 'mlb-live', component: __WEBPACK_IMPORTED_MODULE_37__stations_main_sports_mlb_live_sports_mlb_live_component__["a" /* SportsMlbLiveComponent */] },
+                { path: 'contact', component: __WEBPACK_IMPORTED_MODULE_31__contactus_contactus_component__["a" /* ContactusComponent */] },
+                { path: 'live-traffic-cams', component: __WEBPACK_IMPORTED_MODULE_32__live_traffic_cams_live_traffic_cams_component__["a" /* LiveTrafficCamsComponent */] },
+                { path: 'live-traffic/sigalert', component: __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_sigalert_sigalert_component__["a" /* SigalertComponent */] },
+                { path: 'live-traffic-cam/cam-10fwy_West-MonteVistaAve', component: __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__["a" /* Cam10fwyWestOfMonteVistaAveComponent */] },
+                { path: 'mlb-live', component: __WEBPACK_IMPORTED_MODULE_36__stations_main_sports_mlb_live_sports_mlb_live_component__["a" /* SportsMlbLiveComponent */] },
                 { path: 'stations-main', component: __WEBPACK_IMPORTED_MODULE_14__stations_main_stations_main_component__["a" /* StationsMainComponent */] },
-                { path: 'arizona-tv-stations', component: __WEBPACK_IMPORTED_MODULE_28__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */] },
-                { path: 'fox10-phoenix', component: __WEBPACK_IMPORTED_MODULE_27__stations_main_arizona_fox10phoenix_fox10phoenix_component__["a" /* Fox10phoenixComponent */] },
+                { path: 'arizona-tv-stations', component: __WEBPACK_IMPORTED_MODULE_27__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */] },
+                { path: 'fox10-phoenix', component: __WEBPACK_IMPORTED_MODULE_26__stations_main_arizona_fox10phoenix_fox10phoenix_component__["a" /* Fox10phoenixComponent */] },
                 { path: 'california-tv-stations', component: __WEBPACK_IMPORTED_MODULE_12__stations_main_california_california_component__["a" /* CaliforniaComponent */] },
                 { path: 'ktla5', component: __WEBPACK_IMPORTED_MODULE_15__stations_main_california_ktla5_ktla5_component__["a" /* Ktla5Component */] },
                 { path: 'fox11la', component: __WEBPACK_IMPORTED_MODULE_16__stations_main_california_fox11la_fox11la_component__["a" /* Fox11laComponent */] },
                 { path: 'fox5sandiego', component: __WEBPACK_IMPORTED_MODULE_17__stations_main_california_fox5sandiego_fox5sandiego_component__["a" /* Fox5sandiegoComponent */] },
-                { path: 'cw-sandiego', component: __WEBPACK_IMPORTED_MODULE_36__stations_main_california_cw_sandiego_cw_sandiego_component__["a" /* CwSandiegoComponent */] },
+                { path: 'cw-sandiego', component: __WEBPACK_IMPORTED_MODULE_35__stations_main_california_cw_sandiego_cw_sandiego_component__["a" /* CwSandiegoComponent */] },
                 { path: 'kron4', component: __WEBPACK_IMPORTED_MODULE_21__stations_main_california_kron4_kron4_component__["a" /* Kron4Component */] },
-                { path: 'bakersfield-news-23abc', component: __WEBPACK_IMPORTED_MODULE_23__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */] },
-                { path: 'abc30-bakersfield', component: __WEBPACK_IMPORTED_MODULE_24__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */] },
-                { path: 'colorado-tv-stations', component: __WEBPACK_IMPORTED_MODULE_29__stations_main_colorado_colorado_component__["a" /* ColoradoComponent */] },
-                { path: 'colorado-9news', component: __WEBPACK_IMPORTED_MODULE_30__stations_main_colorado_colorado_9news_colorado_9news_component__["a" /* Colorado9newsComponent */] },
-                { path: 'nbc11news', component: __WEBPACK_IMPORTED_MODULE_31__stations_main_colorado_nbc11news_nbc11news_component__["a" /* Nbc11newsComponent */] },
-                { path: 'massachusetts-tv-stations', component: __WEBPACK_IMPORTED_MODULE_26__stations_main_massachusetts_massachusetts_component__["a" /* MassachusettsComponent */] },
-                { path: 'boston-25-news', component: __WEBPACK_IMPORTED_MODULE_25__stations_main_massachusetts_boston_25_news_boston_25_news_component__["a" /* Boston25NewsComponent */] },
+                { path: 'bakersfield-news-23abc', component: __WEBPACK_IMPORTED_MODULE_22__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */] },
+                { path: 'abc30-bakersfield', component: __WEBPACK_IMPORTED_MODULE_23__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */] },
+                { path: 'colorado-tv-stations', component: __WEBPACK_IMPORTED_MODULE_28__stations_main_colorado_colorado_component__["a" /* ColoradoComponent */] },
+                { path: 'colorado-9news', component: __WEBPACK_IMPORTED_MODULE_29__stations_main_colorado_colorado_9news_colorado_9news_component__["a" /* Colorado9newsComponent */] },
+                { path: 'nbc11news', component: __WEBPACK_IMPORTED_MODULE_30__stations_main_colorado_nbc11news_nbc11news_component__["a" /* Nbc11newsComponent */] },
+                { path: 'massachusetts-tv-stations', component: __WEBPACK_IMPORTED_MODULE_25__stations_main_massachusetts_massachusetts_component__["a" /* MassachusettsComponent */] },
+                { path: 'boston-25-news', component: __WEBPACK_IMPORTED_MODULE_24__stations_main_massachusetts_boston_25_news_boston_25_news_component__["a" /* Boston25NewsComponent */] },
                 { path: 'hawaii-tv-stations', component: __WEBPACK_IMPORTED_MODULE_13__stations_main_hawaii_hawaii_component__["a" /* HawaiiComponent */] },
                 { path: 'hawaii-news-now', component: __WEBPACK_IMPORTED_MODULE_18__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */] },
                 { path: 'kitv4-hawaii', component: __WEBPACK_IMPORTED_MODULE_19__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */] },
@@ -1613,58 +1609,6 @@ Kitv4hawaiiComponent = __decorate([
 ], Kitv4hawaiiComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/kitv4hawaii.component.js.map
-
-/***/ }),
-
-/***/ "./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.css":
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n<!-- Your embedded video player code -->\n<div class=\"fb-video\" data-href=\"https://www.facebook.com/SoCalTelevision/videos/2111772805529437/\" data-width=\"500\" data-show-text=\"false\">\n    <div class=\"fb-xfbml-parse-ignore\">\n      <blockquote>\n        Our SoCal Television LIVE STREAM is Currently Offline.<br/>\n        Please Check back Again Soon!<br/><br/>\n        To go back to the <a href=\"https://www.socaltelevision.com\">SoCalTelevision Home page CLICK HERE</a>.\n      </blockquote>\n    </div>\n  </div>\n    <!-- <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F2052326111474107%2F&width=400\" width=\"500\" height=\"280\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allowFullScreen=\"true\"></iframe> -->\n  </span><br/><br/>\n  <span>{{description}}</span>\n<p>{{subdescription}}</p>"
-
-/***/ }),
-
-/***/ "./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LiveHighSpeedPursuitFeedComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var LiveHighSpeedPursuitFeedComponent = (function () {
-    function LiveHighSpeedPursuitFeedComponent() {
-        this.stationName = "High Speed Pursuit LIVE";
-        this.description = "Pursuit underway in Long Beach";
-    }
-    LiveHighSpeedPursuitFeedComponent.prototype.ngOnInit = function () {
-    };
-    return LiveHighSpeedPursuitFeedComponent;
-}());
-LiveHighSpeedPursuitFeedComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
-        selector: 'app-live-high-speed-pursuit-feed',
-        template: __webpack_require__("./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.css"), __webpack_require__("./src/app/app.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], LiveHighSpeedPursuitFeedComponent);
-
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/live-high-speed-pursuit-feed.component.js.map
 
 /***/ }),
 

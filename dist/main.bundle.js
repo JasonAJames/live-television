@@ -204,12 +204,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__ = __webpack_require__("./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__live_traffic_cams_sigalert_sigalert_component__ = __webpack_require__("./src/app/live-traffic-cams/sigalert/sigalert.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__stations_main_california_cw_sandiego_cw_sandiego_component__ = __webpack_require__("./src/app/stations-main/california/cw-sandiego/cw-sandiego.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__stations_main_sports_mlb_live_sports_mlb_live_component__ = __webpack_require__("./src/app/stations-main/sports-mlb-live/sports-mlb-live.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -285,7 +287,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_live_traffic_cams_component__["a" /* LiveTrafficCamsComponent */],
             __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__["a" /* Cam10fwyWestOfMonteVistaAveComponent */],
             __WEBPACK_IMPORTED_MODULE_35__live_traffic_cams_sigalert_sigalert_component__["a" /* SigalertComponent */],
-            __WEBPACK_IMPORTED_MODULE_36__stations_main_california_cw_sandiego_cw_sandiego_component__["a" /* CwSandiegoComponent */]
+            __WEBPACK_IMPORTED_MODULE_36__stations_main_california_cw_sandiego_cw_sandiego_component__["a" /* CwSandiegoComponent */],
+            __WEBPACK_IMPORTED_MODULE_37__stations_main_sports_mlb_live_sports_mlb_live_component__["a" /* SportsMlbLiveComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -302,6 +305,7 @@ AppModule = __decorate([
                 { path: 'live-traffic-cams', component: __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_live_traffic_cams_component__["a" /* LiveTrafficCamsComponent */] },
                 { path: 'live-traffic/sigalert', component: __WEBPACK_IMPORTED_MODULE_35__live_traffic_cams_sigalert_sigalert_component__["a" /* SigalertComponent */] },
                 { path: 'live-traffic-cam/cam-10fwy_West-MonteVistaAve', component: __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__["a" /* Cam10fwyWestOfMonteVistaAveComponent */] },
+                { path: 'mlb-live', component: __WEBPACK_IMPORTED_MODULE_37__stations_main_sports_mlb_live_sports_mlb_live_component__["a" /* SportsMlbLiveComponent */] },
                 { path: 'stations-main', component: __WEBPACK_IMPORTED_MODULE_14__stations_main_stations_main_component__["a" /* StationsMainComponent */] },
                 { path: 'arizona-tv-stations', component: __WEBPACK_IMPORTED_MODULE_28__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */] },
                 { path: 'fox10-phoenix', component: __WEBPACK_IMPORTED_MODULE_27__stations_main_arizona_fox10phoenix_fox10phoenix_component__["a" /* Fox10phoenixComponent */] },
@@ -1873,6 +1877,58 @@ HomeComponent = __decorate([
 
 var _a;
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/stations-main/sports-mlb-live/sports-mlb-live.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/stations-main/sports-mlb-live/sports-mlb-live.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span>\n      <!-- Load Facebook SDK for JavaScript -->\n  <div id=\"fb-root\"></div>\n  \n\n  <!-- Original Feed https://www.facebook.com/SoCalTelevision/videos/2054179387955446/ -->\n\n  <!-- Your embedded video player code -->\n  <div class=\"fb-video\" data-href=\"https://www.facebook.com/MLBLiveGames/videos/2086888478265456/\" data-width=\"500\" data-show-text=\"false\">\n    <div class=\"fb-xfbml-parse-ignore\">\n      <blockquote>\n        Our SoCal Television Major League Baseball LIVE STREAM is Currently Offline.<br/>\n        Please Check back Again Soon!<br/><br/>\n        To go back to the <a href=\"https://www.socaltelevision.com\">SoCalTelevision Home page CLICK HERE</a>.\n      </blockquote>\n    </div>\n  </div>\n    <!-- <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F2052326111474107%2F&width=400\" width=\"500\" height=\"280\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allowFullScreen=\"true\"></iframe> -->\n  </span><br/><br/>\n  <span>{{description}}</span>\n<p>{{subdescription}}</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/sports-mlb-live/sports-mlb-live.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SportsMlbLiveComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var SportsMlbLiveComponent = (function () {
+    function SportsMlbLiveComponent() {
+        this.stationName = "MLB LIVE";
+        this.subdescription = "Major League Baseball Rangers vs. Mariners LIVE on SoCal Television";
+    }
+    SportsMlbLiveComponent.prototype.ngOnInit = function () {
+    };
+    return SportsMlbLiveComponent;
+}());
+SportsMlbLiveComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-sports-mlb-live',
+        template: __webpack_require__("./src/app/stations-main/sports-mlb-live/sports-mlb-live.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/sports-mlb-live/sports-mlb-live.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], SportsMlbLiveComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/sports-mlb-live.component.js.map
 
 /***/ }),
 

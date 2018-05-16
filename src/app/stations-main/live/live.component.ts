@@ -12,7 +12,7 @@ export class LiveComponent implements OnInit {
   ngOnInit() {
   }
 
-  offlineMessage1 = "California leaders meet with President Trump at the White House to discuss sanctuary city policies"
+  offlineMessage1 = "SoCal Television LIVE BREAKING NEWS"
   subdesc = "Stand Off in Colton LIVE on SoCal Television"
 
 

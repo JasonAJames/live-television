@@ -1701,7 +1701,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var LiveComponent = (function () {
     function LiveComponent() {
         this.offlineMessage1 = "California leaders meet with President Trump at the White House to discuss sanctuary city policies";
-        this.subdesc = " ";
+        this.subdesc = "Stand Off in Colton LIVE on SoCal Television";
         this.stationName = 'SoCal Television LIVE';
         this.description = this.offlineMessage1;
         this.subdescription = this.subdesc;

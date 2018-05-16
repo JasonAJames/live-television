@@ -12,8 +12,8 @@ export class LiveComponent implements OnInit {
   ngOnInit() {
   }
 
-  offlineMessage1 = "WATCH LIVE: A deadly explosion has been reported in Aliso Viejo."
-  subdesc = "To Watch the LIVE News Conference UPDATE RE: "
+  offlineMessage1 = "California leaders meet with President Trump at the White House to discuss sanctuary city policies"
+  subdesc = " "
 
 
   stationName = 'SoCal Television LIVE'

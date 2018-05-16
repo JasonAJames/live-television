@@ -13,5 +13,5 @@ export class LiveHighSpeedPursuitFeedComponent implements OnInit {
   }
 
   stationName = "High Speed Pursuit LIVE"
-  description = "Pursuit underway of an armed parolee in an RV in the Hollywood area. Unconfirmed reports that the suspect is also wanted for kidnapping."
+  description = "Pursuit underway in Long Beach"
 }

@@ -12,5 +12,5 @@ export class SportsMlbLiveComponent implements OnInit {
   ngOnInit() {
   }
   stationName = "MLB LIVE"
-  subdescription = "Major League Baseball Rangers vs. Mariners LIVE on SoCal Television"
+  subdescription = "The AL West is on display as the Seattle Mariners host the Texas Rangers."
 }

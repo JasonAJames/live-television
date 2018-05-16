@@ -1645,7 +1645,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var LiveComponent = (function () {
     function LiveComponent() {
         this.offlineMessage1 = "SoCal Television LIVE BREAKING NEWS";
-        this.subdesc = "Stand Off in Colton LIVE on SoCal Television";
+        this.subdesc = "Police Pursuit in Long Beach, CA";
         this.stationName = 'SoCal Television LIVE';
         this.description = this.offlineMessage1;
         this.subdescription = this.subdesc;

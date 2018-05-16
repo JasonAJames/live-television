@@ -1913,7 +1913,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var SportsMlbLiveComponent = (function () {
     function SportsMlbLiveComponent() {
         this.stationName = "MLB LIVE";
-        this.subdescription = "The AL West is on display as the Seattle Mariners host the Texas Rangers.";
+        this.subdescription = "The AL West is on display as the Seattle Mariners host the Texas Rangers. To Watch Click 'Watch on Facebook' link above";
     }
     SportsMlbLiveComponent.prototype.ngOnInit = function () {
     };

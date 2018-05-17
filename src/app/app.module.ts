@@ -36,7 +36,6 @@ import { LiveTrafficCamsComponent } from './live-traffic-cams/live-traffic-cams.
 import { Cam10fwyWestOfMonteVistaAveComponent } from './live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component';
 import { SigalertComponent } from './live-traffic-cams/sigalert/sigalert.component';
 import { CwSandiegoComponent } from './stations-main/california/cw-sandiego/cw-sandiego.component';
-import { SocialTwitterComponent } from './social-twitter/social-twitter.component';
 
 
 
@@ -72,8 +71,7 @@ import { SocialTwitterComponent } from './social-twitter/social-twitter.componen
     LiveTrafficCamsComponent,
     Cam10fwyWestOfMonteVistaAveComponent,
     SigalertComponent,
-    CwSandiegoComponent,
-    SocialTwitterComponent
+    CwSandiegoComponent
 
   ],
   imports: [
@@ -82,7 +80,6 @@ import { SocialTwitterComponent } from './social-twitter/social-twitter.componen
     HttpModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent},
-      { path: 'social', component: SocialTwitterComponent},
       { path: 'live', component: LiveComponent},
       { path: 'local-reviews', component: LocalReviewsComponent},
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},

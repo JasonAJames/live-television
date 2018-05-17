@@ -203,14 +203,12 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__ = __webpack_require__("./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_sigalert_sigalert_component__ = __webpack_require__("./src/app/live-traffic-cams/sigalert/sigalert.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__stations_main_california_cw_sandiego_cw_sandiego_component__ = __webpack_require__("./src/app/stations-main/california/cw-sandiego/cw-sandiego.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__social_twitter_social_twitter_component__ = __webpack_require__("./src/app/social-twitter/social-twitter.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 
@@ -284,8 +282,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_32__live_traffic_cams_live_traffic_cams_component__["a" /* LiveTrafficCamsComponent */],
             __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__["a" /* Cam10fwyWestOfMonteVistaAveComponent */],
             __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_sigalert_sigalert_component__["a" /* SigalertComponent */],
-            __WEBPACK_IMPORTED_MODULE_35__stations_main_california_cw_sandiego_cw_sandiego_component__["a" /* CwSandiegoComponent */],
-            __WEBPACK_IMPORTED_MODULE_36__social_twitter_social_twitter_component__["a" /* SocialTwitterComponent */]
+            __WEBPACK_IMPORTED_MODULE_35__stations_main_california_cw_sandiego_cw_sandiego_component__["a" /* CwSandiegoComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -293,7 +290,6 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
-                { path: 'social', component: __WEBPACK_IMPORTED_MODULE_36__social_twitter_social_twitter_component__["a" /* SocialTwitterComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
                 { path: 'local-reviews', component: __WEBPACK_IMPORTED_MODULE_9__local_reviews_local_reviews_component__["a" /* LocalReviewsComponent */] },
                 { path: 'advertise-commercial', component: __WEBPACK_IMPORTED_MODULE_6__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */] },
@@ -732,57 +728,6 @@ LocalReviewsComponent = __decorate([
 ], LocalReviewsComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/local-reviews.component.js.map
-
-/***/ }),
-
-/***/ "./src/app/social-twitter/social-twitter.component.css":
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/social-twitter/social-twitter.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<p class=\"top\">\n  <h1>{{title}}</h1>\n    <a class=\"twitter-timeline\" data-lang=\"en\" data-theme=\"dark\" href=\"https://twitter.com/SoCALtelevision?ref_src=twsrc%5Etfw\">Tweets by SoCALtelevision</a> \n</p>\n"
-
-/***/ }),
-
-/***/ "./src/app/social-twitter/social-twitter.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SocialTwitterComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var SocialTwitterComponent = (function () {
-    function SocialTwitterComponent() {
-        this.title = "Social Tweets";
-    }
-    SocialTwitterComponent.prototype.ngOnInit = function () {
-    };
-    return SocialTwitterComponent;
-}());
-SocialTwitterComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
-        selector: 'app-social-twitter',
-        template: __webpack_require__("./src/app/social-twitter/social-twitter.component.html"),
-        styles: [__webpack_require__("./src/app/social-twitter/social-twitter.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], SocialTwitterComponent);
-
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/social-twitter.component.js.map
 
 /***/ }),
 

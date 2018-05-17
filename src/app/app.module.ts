@@ -36,7 +36,7 @@ import { LiveTrafficCamsComponent } from './live-traffic-cams/live-traffic-cams.
 import { Cam10fwyWestOfMonteVistaAveComponent } from './live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component';
 import { SigalertComponent } from './live-traffic-cams/sigalert/sigalert.component';
 import { CwSandiegoComponent } from './stations-main/california/cw-sandiego/cw-sandiego.component';
-import { SportsMlbLiveComponent } from './stations-main/sports-mlb-live/sports-mlb-live.component';
+
 
 
 
@@ -71,8 +71,7 @@ import { SportsMlbLiveComponent } from './stations-main/sports-mlb-live/sports-m
     LiveTrafficCamsComponent,
     Cam10fwyWestOfMonteVistaAveComponent,
     SigalertComponent,
-    CwSandiegoComponent,
-    SportsMlbLiveComponent
+    CwSandiegoComponent
 
   ],
   imports: [
@@ -89,7 +88,6 @@ import { SportsMlbLiveComponent } from './stations-main/sports-mlb-live/sports-m
       { path: 'live-traffic-cams', component: LiveTrafficCamsComponent},
       { path: 'live-traffic/sigalert', component: SigalertComponent},
       { path: 'live-traffic-cam/cam-10fwy_West-MonteVistaAve', component: Cam10fwyWestOfMonteVistaAveComponent},
-      { path: 'mlb-live', component: SportsMlbLiveComponent },
       { path: 'stations-main', component: StationsMainComponent},
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},

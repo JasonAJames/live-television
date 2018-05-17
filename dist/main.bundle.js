@@ -745,7 +745,7 @@ module.exports = ""
 /***/ "./src/app/social-twitter/social-twitter.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p class=\"top\">\n  <h1>{{title}}</h1>\n    <!-- <a class=\"twitter-timeline\" data-lang=\"en\" data-theme=\"dark\" href=\"https://twitter.com/SoCALtelevision?ref_src=twsrc%5Etfw\">Tweets by SoCALtelevision</a> <script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script> -->\n</p>\n"
+module.exports = "<p class=\"top\">\n  <h1>{{title}}</h1>\n    <a class=\"twitter-timeline\" data-lang=\"en\" data-theme=\"dark\" href=\"https://twitter.com/SoCALtelevision?ref_src=twsrc%5Etfw\">Tweets by SoCALtelevision</a> \n</p>\n"
 
 /***/ }),
 

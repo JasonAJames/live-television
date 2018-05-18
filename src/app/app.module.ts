@@ -36,6 +36,8 @@ import { LiveTrafficCamsComponent } from './live-traffic-cams/live-traffic-cams.
 import { Cam10fwyWestOfMonteVistaAveComponent } from './live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component';
 import { SigalertComponent } from './live-traffic-cams/sigalert/sigalert.component';
 import { CwSandiegoComponent } from './stations-main/california/cw-sandiego/cw-sandiego.component';
+import { TexasComponent } from './stations-main/texas/texas.component';
+import { Fox4TexasComponent } from './stations-main/texas/fox-4-texas/fox-4-texas.component';
 
 
 
@@ -71,7 +73,9 @@ import { CwSandiegoComponent } from './stations-main/california/cw-sandiego/cw-s
     LiveTrafficCamsComponent,
     Cam10fwyWestOfMonteVistaAveComponent,
     SigalertComponent,
-    CwSandiegoComponent
+    CwSandiegoComponent,
+    TexasComponent,
+    Fox4TexasComponent
 
   ],
   imports: [
@@ -100,6 +104,9 @@ import { CwSandiegoComponent } from './stations-main/california/cw-sandiego/cw-s
       { path: 'kron4', component: Kron4Component},
       { path: 'bakersfield-news-23abc', component: BakersfieldNews23abcComponent},
       { path: 'abc30-bakersfield', component: Abc30BakersfieldComponent},
+
+      { path: 'texas-tv-stations', component: TexasComponent },
+      { path: 'fow-4-texas', component: Fox4TexasComponent},
 
       { path: 'colorado-tv-stations', component: ColoradoComponent },
       { path: 'colorado-9news', component: Colorado9newsComponent },

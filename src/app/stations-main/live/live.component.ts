@@ -13,7 +13,7 @@ export class LiveComponent implements OnInit {
   }
 
   offlineMessage1 = "SoCal Television LIVE BREAKING NEWS"
-  subdesc = "A large brush fire has broken out near Winchester in Riverside county. Current estimate for the blaze is 300 acres."
+  subdesc = "Santa Fe, Texas, school shooting witness describes the scene LIVE"
 
 
   stationName = 'SoCal Television LIVE'

@@ -38,6 +38,7 @@ import { SigalertComponent } from './live-traffic-cams/sigalert/sigalert.compone
 import { CwSandiegoComponent } from './stations-main/california/cw-sandiego/cw-sandiego.component';
 import { TexasComponent } from './stations-main/texas/texas.component';
 import { Fox4TexasComponent } from './stations-main/texas/fox-4-texas/fox-4-texas.component';
+import { News3AbcPalmspringsComponent } from './stations-main/california/news-3-abc-palmsprings/news-3-abc-palmsprings.component';
 
 
 
@@ -75,7 +76,8 @@ import { Fox4TexasComponent } from './stations-main/texas/fox-4-texas/fox-4-texa
     SigalertComponent,
     CwSandiegoComponent,
     TexasComponent,
-    Fox4TexasComponent
+    Fox4TexasComponent,
+    News3AbcPalmspringsComponent
 
   ],
   imports: [
@@ -104,6 +106,7 @@ import { Fox4TexasComponent } from './stations-main/texas/fox-4-texas/fox-4-texa
       { path: 'kron4', component: Kron4Component},
       { path: 'bakersfield-news-23abc', component: BakersfieldNews23abcComponent},
       { path: 'abc30-bakersfield', component: Abc30BakersfieldComponent},
+      { path: 'news-3-abc', component: News3AbcPalmspringsComponent},
 
       { path: 'texas-tv-stations', component: TexasComponent },
       { path: 'fow-4-texas', component: Fox4TexasComponent},

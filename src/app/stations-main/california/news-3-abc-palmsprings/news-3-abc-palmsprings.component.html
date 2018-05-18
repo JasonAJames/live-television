@@ -15,34 +15,9 @@
 <!-- Weather Component -->
 <div style="width: 768px;" class="img-responsive"><iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=87679" width="768" height="92" frameborder="0" scrolling="no"></iframe><a style="float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em" href="https://www.willyweather.com/ca/riverside-county/corona.html" rel="nofollow"></a></div>
 <!-- END Weather Component -->
-<h3>Choose your Educational / Informational Channel</h3>
-<ul style="list-style-type: none;" class="col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10">
-  <h6 class="top">{{state}}</h6>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="/socaltelevision">SoCal Television</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="/ktla5">KTLA 5</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" routerLink="/fox5sandiego">Fox 5 San Diego</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" routerLink="/news-3-abc">News 3 ABC Palm Springs</a>
-        </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/cw-sandiego">CW San Diego</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" routerLink="/fox11la">Fox 11 LA</a>
-        </li>
-        <!-- <li class="nav-item">
-            <a class="nav-link" routerLink="/bakersfield-news-23abc">23 ABC - Bakersfield News</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" routerLink="/abc30-bakersfield">ABC30 - Bakersfield - FEED 2</a>
-            </li>
-        <li class="nav-item">
-            <a class="nav-link" routerLink="/kron4">KRON4 San Farancisco</a>
-          </li> -->
-  </ul>
+  <h3>You're Watching</h3>
+  <h1>{{stationName}}</h1>
+  <span class="embed-responsive embed-responsive-16by9">
+
+      <iframe style="top:0;left:0;width:640px; height:360px;" border="0" height="360px" frameborder="0" webkitallowfullscreen="" allowfullscreen="" mozallowfullscreen="" scrolling="no" scrolling="no" src="https://livestream.com/accounts/20847880/events/6053226/player?width=640&height=360&enableInfoAndActivity=true&autoPlay=true&mute=false"></iframe>
+</span>

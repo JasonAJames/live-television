@@ -13,7 +13,7 @@ export class LiveComponent implements OnInit {
   }
 
   offlineMessage1 = "SoCal Television LIVE BREAKING NEWS"
-  subdesc = "Santa Fe, Texas, school shooting witness describes the scene LIVE"
+  subdesc = "WATCH LIVE: Police are in pursuit of a driver traveling at very high speeds on freeways in the Sylmar area. Stu Mundel is overhead"
 
 
   stationName = 'SoCal Television LIVE'

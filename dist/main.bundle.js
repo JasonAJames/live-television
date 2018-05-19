@@ -1704,7 +1704,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var LiveComponent = (function () {
     function LiveComponent() {
         this.offlineMessage1 = "SoCal Television LIVE BREAKING NEWS";
-        this.subdesc = "Santa Fe, Texas, school shooting witness describes the scene LIVE";
+        this.subdesc = "WATCH LIVE: Police are in pursuit of a driver traveling at very high speeds on freeways in the Sylmar area. Stu Mundel is overhead";
         this.stationName = 'SoCal Television LIVE';
         this.description = this.offlineMessage1;
         this.subdescription = this.subdesc;

@@ -127,7 +127,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}\n\n@media screen and (min-widt
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- FREE VERSION -->\n<div class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-dark\">\n    <div class=\"container\">\n      <a routerLink=\"home\" class=\"navbar-brand\"><img src=\"assets/images/logo_16X9.png\" width=\"110px\" height=\"100%\"/> SoCal Television</a>\n      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n        <ul class=\"navbar-nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"about\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"stations-main\">TV Stations</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link btn btn-alert\" routerLink=\"live\">LIVE</a>\n          </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"live-traffic/sigalert\">TRAFFIC</a>\n            </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"//worldtelevision.tv/#/breaking-news-1\" target=\"_blank\">BREAKING NEWS WORLD-WIDE</a>\n            </li>\n        </ul>\n\n        <ul class=\"nav navbar-nav ml-auto\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"contact\">Contact Us</a>\n          </li>\n        </ul>\n\n      </div>\n    </div>\n  </div>\n\n\n  <div class=\"container\">\n   <router-outlet></router-outlet>\n    <!-- <app-hero-form></app-hero-form> -->\n  </div>\n\n  <div class=\"ui inverted vertical footer segment\">\n      <div class=\"ui container\">\n        <div class=\"ui stackable inverted divided equal height stackable grid\">\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">About</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"about\" class=\"item\">About</a>\n              <a routerLink=\"stations-main\" class=\"item\">Channel Guide</a>\n              <a routerLink=\"stations-main\" class=\"item\">Shows</a>\n              <a routerLink=\"local-reviews\" class=\"item\">Local Reviews</a>\n            </div>\n          </div>\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">Services</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"live\" class=\"item\">WATCH LIVE</a>\n              <a routerLink=\"social\" class=\"item\">SoCal Community Connection</a>\n              <a routerLink=\"contact\" class=\"item\">Advertise / Showcase your Event</a>\n              <a routerLink=\"contact\" class=\"item\">Contact Us</a>\n            </div>\n          </div>\n          <div class=\"seven wide column\">\n            <h4 class=\"ui inverted header\"></h4>\n            <p></p>\n            <p style=\"text-align:center;\" id=\"copyright\">Find out what's going on in your area, LIKE - FOLLOW - SHARE @SoCalTelevision on <a href=\"https://www.facebook.com/SoCalTelevision/\" target=\"_blank\">Facebook</a>, <a href=\"https://www.instagram.com/SoCalTelevision/\" target=\"_blank\">Instagram</a>, &amp; <a href=\"https://www.twitter.com/SoCalTelevision/\" target=\"_blank\">Twitter!</a><br><br>© <span id=\"copyrightDate\">2018</span> The Inland Empire Television Network - SoCalTelevision<br> a subsidiary of <a href=\"http://www.jppmsolutions.com\" target=\"_blank\">James Programming, Printing, &amp; Media Solutions</a>.<br><br>Content may not be replicated, duplicated, or rebroadcasted in any way, both in part or full, without expressed written consent from the Inland Empire Television Network, James Programming, Printing &amp; Media Solutions, or its subsidiary's - All Rights Reserved.<br/>Weather information based on data supplied by <a href=\"http://noaa.gov\" target=\"_blank\">NOAA.gov</a></p>\n            <script>\n              var d = new Date();\n              document.getElementById(\"copyrightDate\").innerHTML = d.getFullYear();\n            </script> \n          </div>\n        </div>\n      </div>\n    </div>"
+module.exports = "<!-- FREE VERSION -->\n<div class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-dark\">\n    <div class=\"container\">\n      <a routerLink=\"home\" class=\"navbar-brand\"><img src=\"assets/images/logo_16X9.png\" width=\"110px\" height=\"100%\"/> SoCal Television</a>\n      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n        <ul class=\"navbar-nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"about\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"stations-main\">TV Stations</a>\n          </li>\n          <!-- <li class=\"nav-item\">\n            <a class=\"nav-link btn btn-alert\" routerLink=\"live\">LIVE</a>\n          </li> -->\n          <li class=\"nav-item\">\n              <a class=\"nav-link btn btn-alert\" routerLink=\"live-2\">LIVE</a>\n            </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"live-traffic/sigalert\">TRAFFIC</a>\n            </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"//worldtelevision.tv/#/breaking-news-1\" target=\"_blank\">BREAKING NEWS WORLD-WIDE</a>\n            </li>\n        </ul>\n\n        <ul class=\"nav navbar-nav ml-auto\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"contact\">Contact Us</a>\n          </li>\n        </ul>\n\n      </div>\n    </div>\n  </div>\n\n\n  <div class=\"container\">\n   <router-outlet></router-outlet>\n    <!-- <app-hero-form></app-hero-form> -->\n  </div>\n\n  <div class=\"ui inverted vertical footer segment\">\n      <div class=\"ui container\">\n        <div class=\"ui stackable inverted divided equal height stackable grid\">\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">About</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"about\" class=\"item\">About</a>\n              <a routerLink=\"stations-main\" class=\"item\">Channel Guide</a>\n              <a routerLink=\"stations-main\" class=\"item\">Shows</a>\n              <a routerLink=\"local-reviews\" class=\"item\">Local Reviews</a>\n            </div>\n          </div>\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">Services</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"live\" class=\"item\">WATCH LIVE</a>\n              <a routerLink=\"social\" class=\"item\">SoCal Community Connection</a>\n              <a routerLink=\"contact\" class=\"item\">Advertise / Showcase your Event</a>\n              <a routerLink=\"contact\" class=\"item\">Contact Us</a>\n            </div>\n          </div>\n          <div class=\"seven wide column\">\n            <h4 class=\"ui inverted header\"></h4>\n            <p></p>\n            <p style=\"text-align:center;\" id=\"copyright\">Find out what's going on in your area, LIKE - FOLLOW - SHARE @SoCalTelevision on <a href=\"https://www.facebook.com/SoCalTelevision/\" target=\"_blank\">Facebook</a>, <a href=\"https://www.instagram.com/SoCalTelevision/\" target=\"_blank\">Instagram</a>, &amp; <a href=\"https://www.twitter.com/SoCalTelevision/\" target=\"_blank\">Twitter!</a><br><br>© <span id=\"copyrightDate\">2018</span> The Inland Empire Television Network - SoCalTelevision<br> a subsidiary of <a href=\"http://www.jppmsolutions.com\" target=\"_blank\">James Programming, Printing, &amp; Media Solutions</a>.<br><br>Content may not be replicated, duplicated, or rebroadcasted in any way, both in part or full, without expressed written consent from the Inland Empire Television Network, James Programming, Printing &amp; Media Solutions, or its subsidiary's - All Rights Reserved.<br/>Weather information based on data supplied by <a href=\"http://noaa.gov\" target=\"_blank\">NOAA.gov</a></p>\n            <script>\n              var d = new Date();\n              document.getElementById(\"copyrightDate\").innerHTML = d.getFullYear();\n            </script> \n          </div>\n        </div>\n      </div>\n    </div>"
 
 /***/ }),
 
@@ -206,12 +206,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__stations_main_texas_texas_component__ = __webpack_require__("./src/app/stations-main/texas/texas.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__stations_main_texas_fox_4_texas_fox_4_texas_component__ = __webpack_require__("./src/app/stations-main/texas/fox-4-texas/fox-4-texas.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__stations_main_california_news_3_abc_palmsprings_news_3_abc_palmsprings_component__ = __webpack_require__("./src/app/stations-main/california/news-3-abc-palmsprings/news-3-abc-palmsprings.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__live_2_live_2_component__ = __webpack_require__("./src/app/live-2/live-2.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -291,7 +293,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_35__stations_main_california_cw_sandiego_cw_sandiego_component__["a" /* CwSandiegoComponent */],
             __WEBPACK_IMPORTED_MODULE_36__stations_main_texas_texas_component__["a" /* TexasComponent */],
             __WEBPACK_IMPORTED_MODULE_37__stations_main_texas_fox_4_texas_fox_4_texas_component__["a" /* Fox4TexasComponent */],
-            __WEBPACK_IMPORTED_MODULE_38__stations_main_california_news_3_abc_palmsprings_news_3_abc_palmsprings_component__["a" /* News3AbcPalmspringsComponent */]
+            __WEBPACK_IMPORTED_MODULE_38__stations_main_california_news_3_abc_palmsprings_news_3_abc_palmsprings_component__["a" /* News3AbcPalmspringsComponent */],
+            __WEBPACK_IMPORTED_MODULE_39__live_2_live_2_component__["a" /* Live2Component */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -300,6 +303,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
+                { path: 'live-2', component: __WEBPACK_IMPORTED_MODULE_39__live_2_live_2_component__["a" /* Live2Component */] },
                 { path: 'local-reviews', component: __WEBPACK_IMPORTED_MODULE_9__local_reviews_local_reviews_component__["a" /* LocalReviewsComponent */] },
                 { path: 'advertise-commercial', component: __WEBPACK_IMPORTED_MODULE_6__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */] },
                 { path: 'about', component: __WEBPACK_IMPORTED_MODULE_8__about_about_component__["a" /* AboutComponent */] },
@@ -537,6 +541,61 @@ ContactusComponent = __decorate([
 ], ContactusComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/contactus.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/live-2/live-2.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/live-2/live-2.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span>\n      <!-- Load Facebook SDK for JavaScript -->\n  <div id=\"fb-root\"></div>\n  \n\n  <!-- Original Feed https://www.facebook.com/SoCalTelevision/videos/2054179387955446/ -->\n\n  <!-- Your embedded video player code -->\n  <div class=\"fb-video\" data-href=\"https://www.facebook.com/KVALnews/videos/10156418460907445/\" data-width=\"500\" data-show-text=\"false\">\n    <div class=\"fb-xfbml-parse-ignore\">\n      <blockquote>\n        Our SoCal Television LIVE STREAM is Currently Offline.<br/>\n        Please Check back Again Soon!<br/><br/>\n        To go back to the <a href=\"https://www.socaltelevision.com\">SoCalTelevision Home page CLICK HERE</a>.\n      </blockquote>\n    </div>\n  </div>\n    <!-- <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F2052326111474107%2F&width=400\" width=\"500\" height=\"280\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allowFullScreen=\"true\"></iframe> -->\n  </span><br/><br/>\n  <span>{{description}}</span>\n<p>{{subdescription}}</p>\n<!-- <p><a class=\"nav-link btn btn-primary\" href=\"//worldtelevision.tv/#/khou-11\" target=\"_blank\">Watch the News Conference of Santa Fe, Texas Shooting LIVE</a></p> -->"
+
+/***/ }),
+
+/***/ "./src/app/live-2/live-2.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Live2Component; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Live2Component = (function () {
+    function Live2Component() {
+        this.offlineMessage1 = "SoCal Television LIVE BREAKING NEWS";
+        this.subdesc = "WATCH LIVE: A baboon has escaped its cage at the San Antonio International Airport and workers are currently trying to capture it.";
+        this.stationName = 'SoCal Television LIVE';
+        this.description = this.offlineMessage1;
+        this.subdescription = this.subdesc;
+    }
+    Live2Component.prototype.ngOnInit = function () {
+    };
+    return Live2Component;
+}());
+Live2Component = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-live-2',
+        template: __webpack_require__("./src/app/live-2/live-2.component.html"),
+        styles: [__webpack_require__("./src/app/live-2/live-2.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Live2Component);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/live-2.component.js.map
 
 /***/ }),
 

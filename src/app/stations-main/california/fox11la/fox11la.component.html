@@ -1,27 +1,3 @@
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92954301-6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-92954301-6');
-</script>
-
-<p class="top"></p>
-
-<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->
-<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>
-<!-- Weather Component -->
-<div style="width: 768px;" class="img-responsive"><iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=87679" width="768" height="92" frameborder="0" scrolling="no"></iframe><a style="float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em" href="https://www.willyweather.com/ca/riverside-county/corona.html" rel="nofollow"></a></div>
-<!-- END Weather Component -->
-  <h3 class="top">You're Watching</h3>
-  <h1>{{stationName}}</h1>
-  <span class="embed-responsive embed-responsive-16by9"><iframe 
-    src="https://livestream.com/accounts/6140873/events/2549324/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=true&mute=false" 
-    width="800" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" 
-    allowTransparency="true" allowFullScreen="true">
-  </iframe></span>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92954301-6"></script>
 <script>
@@ -44,19 +20,20 @@
 
   <div class="container">
       <div class="row">
-        <div class="col-sm">
+        <div class="col-sm" style="max-width:250px;">
           <!-- Horoscope Start -->
-          <h4>Daily Horoscope</h4>
+          <h5>Daily Horoscope</h5>
             <iframe height="600px" frameborder="0" width="220px" style="max-width:250px;" src="https://www.ask-oracle.com/embed/?bgcolor=%23ccc&textcolor=%23ddd&linkcolor=blue"></iframe>      
           <!-- Horoscope End -->
         </div>
         <div class="col-sm">
             <span style="color: white">Back to </span><a routerLink="/stations-main"><button  class="btn-primary" style="border-radius: 15px;">LIVE TV CHANNELS</button></a>
             <span class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://livestream.com/accounts/9263055/events/3189799/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=true&mute=false" 
-                  width="800" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" 
-                  allowTransparency="true" allowFullScreen="true">
-                </iframe>              
+                <iframe 
+    src="https://livestream.com/accounts/6140873/events/2549324/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=true&mute=false" 
+    width="800" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" 
+    allowTransparency="true" allowFullScreen="true">
+  </iframe>              
               </span>
             <br/><br/>
             <span>{{description}}</span>
@@ -64,7 +41,7 @@
         </div>
         <div class="col-sm" >
           <!-- Stock Market Widget Start -->
-          <h4>Daily Stocks</h4>
+          <h5>Daily Stocks</h5>
             <iframe src="https://investingwidgets.com/leading-stocks?theme=darkTheme&hideTitle=true&roundedCorners=false" width="110%" height="600" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif; color: black;">Powered by <a href="https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LEADING_STOCKS&amp;utm_content=Footer%20Link" style="color: black;" target="_blank" rel="nofollow">Investing.com</a></div>
           <!-- Stock Market Widget End -->
           </div>

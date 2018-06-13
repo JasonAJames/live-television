@@ -40,6 +40,8 @@ import { TexasComponent } from './stations-main/texas/texas.component';
 import { Fox4TexasComponent } from './stations-main/texas/fox-4-texas/fox-4-texas.component';
 import { News3AbcPalmspringsComponent } from './stations-main/california/news-3-abc-palmsprings/news-3-abc-palmsprings.component';
 import { Live2Component } from './live-2/live-2.component';
+import { HoroscopesComponent } from './extras/horoscopes/horoscopes.component';
+import { StockMarketComponent } from './extras/stock-market/stock-market.component';
 
 
 
@@ -79,7 +81,9 @@ import { Live2Component } from './live-2/live-2.component';
     TexasComponent,
     Fox4TexasComponent,
     News3AbcPalmspringsComponent,
-    Live2Component
+    Live2Component,
+    HoroscopesComponent,
+    StockMarketComponent
 
   ],
   imports: [
@@ -90,6 +94,8 @@ import { Live2Component } from './live-2/live-2.component';
       { path: 'home', component: HomeComponent},
       { path: 'live', component: LiveComponent},
       { path: 'live-2', component: Live2Component},
+      { path: 'extras/daily-horoscope', component: HoroscopesComponent},
+      { path: 'extras/stock-market', component: StockMarketComponent},
       { path: 'local-reviews', component: LocalReviewsComponent},
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},

@@ -562,7 +562,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}"
 /***/ "./src/app/extras/horoscopes/horoscopes.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container top\">\n  <div class=\"row\">\n    <div class=\"col-sm\" style=\"max-width:800px;\">\n  <!-- Horoscope Start -->\n  <h5>Daily Horoscope</h5>\n    <iframe height=\"110%\" frameborder=\"0\" width=\"800px\" style=\"max-width:800px;\" src=\"https://www.ask-oracle.com/embed/?bgcolor=%23ccc&textcolor=%23ddd&linkcolor=blue\"></iframe>      \n  <!-- Horoscope End -->\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"container top\">\n  <div class=\"row\">\n    <div class=\"col-sm\" style=\"max-width:800px;\">\n  <!-- Horoscope Start -->\n  <h5>Daily Horoscope</h5>\n    <iframe height=\"500px\" frameborder=\"0\" width=\"800px\" style=\"max-width:800px;\" src=\"https://www.ask-oracle.com/embed/?bgcolor=%23ccc&textcolor=%23ddd&linkcolor=blue\"></iframe>      \n  <!-- Horoscope End -->\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -612,7 +612,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}"
 /***/ "./src/app/extras/stock-market/stock-market.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container top\">\n  <div class=\"row\">\n    <div class=\"col-sm\" style=\"max-width:800px;\">\n  <!-- Horoscope Start -->\n  <h5>Stock Market</h5>\n  <iframe src=\"https://investingwidgets.com/leading-stocks?theme=darkTheme&hideTitle=true&roundedCorners=false\" width=\"110%\" height=\"110%\" frameborder=\"0\" allowtransparency=\"true\" marginwidth=\"0\" marginheight=\"0\"></iframe><div class=\"poweredBy\" style=\"font-family: Arial, Helvetica, sans-serif; color: black;\">Powered by <a href=\"https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LEADING_STOCKS&amp;utm_content=Footer%20Link\" style=\"color: black;\" target=\"_blank\" rel=\"nofollow\">Investing.com</a></div>\n  <!-- Horoscope End -->\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"container top\">\n  <div class=\"row\">\n    <div class=\"col-sm\" style=\"max-width:800px;\">\n  <!-- Horoscope Start -->\n  <h5>Stock Market</h5>\n  <iframe src=\"https://investingwidgets.com/leading-stocks?theme=darkTheme&hideTitle=true&roundedCorners=false\" width=\"110%\" height=\"500px\" frameborder=\"0\" allowtransparency=\"true\" marginwidth=\"0\" marginheight=\"0\"></iframe><div class=\"poweredBy\" style=\"font-family: Arial, Helvetica, sans-serif; color: black;\">Powered by <a href=\"https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LEADING_STOCKS&amp;utm_content=Footer%20Link\" style=\"color: black;\" target=\"_blank\" rel=\"nofollow\">Investing.com</a></div>\n  <!-- Horoscope End -->\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 

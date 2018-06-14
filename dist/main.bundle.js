@@ -1841,7 +1841,7 @@ Kitv4hawaiiComponent = __decorate([
 /***/ "./src/app/stations-main/live/live.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".embed-responsive-16by9::before {\n    padding-top: 2%;\n}"
 
 /***/ }),
 

@@ -562,7 +562,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}"
 /***/ "./src/app/extras/horoscopes/horoscopes.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container top\">\n  <div class=\"row\">\n    <div class=\"col-sm\" style=\"max-width:800px;\">\n  <!-- Horoscope Start -->\n  <h5>Daily Horoscope</h5>\n    <iframe height=\"500px\" frameborder=\"0\" width=\"100%\" style=\"max-width:800px;\" src=\"https://www.ask-oracle.com/embed/?bgcolor=%23ccc&textcolor=%23ddd&linkcolor=blue\"></iframe>      \n  <!-- Horoscope End -->\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"container top\">\n  <div class=\"row\">\n    <div class=\"col-sm\" style=\"max-width:800px;\">\n  <!-- Horoscope Start -->\n  <h5>Daily Horoscope</h5>\n    <iframe height=\"500px\" frameborder=\"0\" width=\"100%\" style=\"max-width:800px;\" src=\"https://www.ask-oracle.com/embed/?bgcolor=%23ddd&textcolor=%23fff&linkcolor=blue\"></iframe>      \n  <!-- Horoscope End -->\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 

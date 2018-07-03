@@ -2,7 +2,7 @@
 @import url('https://bootswatch.com/4/spacelab/bootstrap.min.css');
 
 .HomeBG {
-    background-image: url('/assets/HomeBG.png');
+    background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/HomeBG.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

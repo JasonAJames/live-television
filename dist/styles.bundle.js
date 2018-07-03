@@ -3,7 +3,7 @@ webpackJsonp(["styles"],{
 /***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./src/styles.css":
 /***/ (function(module, exports) {
 
-module.exports = "\n@import url('https://bootswatch.com/4/spacelab/bootstrap.min.css');\n/* @import url('https://bootswatch.com/4/cyborg/bootstrap.min.css'); */\n\n"
+module.exports = "\n@import url('https://bootswatch.com/4/spacelab/bootstrap.min.css');\n/* @import url('https://bootswatch.com/4/cyborg/bootstrap.min.css'); */\n.row {\n    background-image: url('/assets/HomeBG.png');\n}"
 
 /***/ }),
 

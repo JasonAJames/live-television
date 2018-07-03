@@ -51,6 +51,10 @@
 
 }
 
+ui inverted vertical footer segment {
+    background-color: #999;
+}
+
 .footer {
     position: relative;
     bottom: -100px;

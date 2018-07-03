@@ -3,4 +3,7 @@
 
 .HomeBG {
     background-image: url('/assets/HomeBG.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }

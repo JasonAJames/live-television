@@ -659,7 +659,7 @@ StockMarketComponent = __decorate([
 /***/ "./src/app/independanceday/independanceday.component.css":
 /***/ (function(module, exports) {
 
-module.exports = "span.embed-responsive.embed-responsive-16by9 {\n    padding-top: 0%;\n}"
+module.exports = "span.embed-responsive-16by9::before {\n    padding-top: 1%;\n}"
 
 /***/ }),
 

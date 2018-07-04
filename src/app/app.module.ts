@@ -42,6 +42,7 @@ import { News3AbcPalmspringsComponent } from './stations-main/california/news-3-
 import { Live2Component } from './live-2/live-2.component';
 import { HoroscopesComponent } from './extras/horoscopes/horoscopes.component';
 import { StockMarketComponent } from './extras/stock-market/stock-market.component';
+import { IndependancedayComponent } from './independanceday/independanceday.component';
 
 
 
@@ -83,7 +84,8 @@ import { StockMarketComponent } from './extras/stock-market/stock-market.compone
     News3AbcPalmspringsComponent,
     Live2Component,
     HoroscopesComponent,
-    StockMarketComponent
+    StockMarketComponent,
+    IndependancedayComponent
 
   ],
   imports: [
@@ -94,6 +96,7 @@ import { StockMarketComponent } from './extras/stock-market/stock-market.compone
       { path: 'home', component: HomeComponent},
       { path: 'live', component: LiveComponent},
       { path: 'live-2', component: Live2Component},
+      { path: 'independence-day', component: IndependancedayComponent},
       { path: 'extras/daily-horoscope', component: HoroscopesComponent},
       { path: 'extras/stock-market', component: StockMarketComponent},
       { path: 'local-reviews', component: LocalReviewsComponent},

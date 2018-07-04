@@ -1,9 +1,6 @@
 /* @import url('https://bootswatch.com/4/cyborg/bootstrap.min.css'); */
 @import url('https://bootswatch.com/4/spacelab/bootstrap.min.css');
 
-.embed-responsive-16by9::before {
-    padding-top: 1%;
-}
 
 .HomeBG {
     background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/HomeBG.png');

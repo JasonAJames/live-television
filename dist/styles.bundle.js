@@ -3,7 +3,7 @@ webpackJsonp(["styles"],{
 /***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./src/styles.css":
 /***/ (function(module, exports) {
 
-module.exports = "\n@import url('https://bootswatch.com/4/spacelab/bootstrap.min.css');\n/* @import url('https://bootswatch.com/4/cyborg/bootstrap.min.css'); */\n.HomeBG {\n    background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/HomeBG.png');\n    background-repeat: no-repeat;\n    background-attachment: fixed;\n    background-position: center;\n}"
+module.exports = "\n@import url('https://bootswatch.com/4/spacelab/bootstrap.min.css');\n/* @import url('https://bootswatch.com/4/cyborg/bootstrap.min.css'); */\n.HomeBG {\n    background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/HomeBG.png');\n    background-repeat: no-repeat;\n    background-attachment: fixed;\n    background-position: center;\n    vertical-align: top;\n}"
 
 /***/ }),
 

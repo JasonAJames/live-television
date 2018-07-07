@@ -202,21 +202,19 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__live_traffic_cams_live_traffic_cams_component__ = __webpack_require__("./src/app/live-traffic-cams/live-traffic-cams.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__ = __webpack_require__("./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_sigalert_sigalert_component__ = __webpack_require__("./src/app/live-traffic-cams/sigalert/sigalert.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__stations_main_california_cw_sandiego_cw_sandiego_component__ = __webpack_require__("./src/app/stations-main/california/cw-sandiego/cw-sandiego.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__stations_main_texas_texas_component__ = __webpack_require__("./src/app/stations-main/texas/texas.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__stations_main_texas_fox_4_texas_fox_4_texas_component__ = __webpack_require__("./src/app/stations-main/texas/fox-4-texas/fox-4-texas.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__stations_main_california_news_3_abc_palmsprings_news_3_abc_palmsprings_component__ = __webpack_require__("./src/app/stations-main/california/news-3-abc-palmsprings/news-3-abc-palmsprings.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__live_2_live_2_component__ = __webpack_require__("./src/app/live-2/live-2.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__extras_horoscopes_horoscopes_component__ = __webpack_require__("./src/app/extras/horoscopes/horoscopes.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__extras_stock_market_stock_market_component__ = __webpack_require__("./src/app/extras/stock-market/stock-market.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__independanceday_independanceday_component__ = __webpack_require__("./src/app/independanceday/independanceday.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__stations_main_texas_texas_component__ = __webpack_require__("./src/app/stations-main/texas/texas.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__stations_main_texas_fox_4_texas_fox_4_texas_component__ = __webpack_require__("./src/app/stations-main/texas/fox-4-texas/fox-4-texas.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__stations_main_california_news_3_abc_palmsprings_news_3_abc_palmsprings_component__ = __webpack_require__("./src/app/stations-main/california/news-3-abc-palmsprings/news-3-abc-palmsprings.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__live_2_live_2_component__ = __webpack_require__("./src/app/live-2/live-2.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__extras_horoscopes_horoscopes_component__ = __webpack_require__("./src/app/extras/horoscopes/horoscopes.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__extras_stock_market_stock_market_component__ = __webpack_require__("./src/app/extras/stock-market/stock-market.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__independanceday_independanceday_component__ = __webpack_require__("./src/app/independanceday/independanceday.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 
@@ -296,14 +294,13 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_32__live_traffic_cams_live_traffic_cams_component__["a" /* LiveTrafficCamsComponent */],
             __WEBPACK_IMPORTED_MODULE_33__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__["a" /* Cam10fwyWestOfMonteVistaAveComponent */],
             __WEBPACK_IMPORTED_MODULE_34__live_traffic_cams_sigalert_sigalert_component__["a" /* SigalertComponent */],
-            __WEBPACK_IMPORTED_MODULE_35__stations_main_california_cw_sandiego_cw_sandiego_component__["a" /* CwSandiegoComponent */],
-            __WEBPACK_IMPORTED_MODULE_36__stations_main_texas_texas_component__["a" /* TexasComponent */],
-            __WEBPACK_IMPORTED_MODULE_37__stations_main_texas_fox_4_texas_fox_4_texas_component__["a" /* Fox4TexasComponent */],
-            __WEBPACK_IMPORTED_MODULE_38__stations_main_california_news_3_abc_palmsprings_news_3_abc_palmsprings_component__["a" /* News3AbcPalmspringsComponent */],
-            __WEBPACK_IMPORTED_MODULE_39__live_2_live_2_component__["a" /* Live2Component */],
-            __WEBPACK_IMPORTED_MODULE_40__extras_horoscopes_horoscopes_component__["a" /* HoroscopesComponent */],
-            __WEBPACK_IMPORTED_MODULE_41__extras_stock_market_stock_market_component__["a" /* StockMarketComponent */],
-            __WEBPACK_IMPORTED_MODULE_42__independanceday_independanceday_component__["a" /* IndependancedayComponent */]
+            __WEBPACK_IMPORTED_MODULE_35__stations_main_texas_texas_component__["a" /* TexasComponent */],
+            __WEBPACK_IMPORTED_MODULE_36__stations_main_texas_fox_4_texas_fox_4_texas_component__["a" /* Fox4TexasComponent */],
+            __WEBPACK_IMPORTED_MODULE_37__stations_main_california_news_3_abc_palmsprings_news_3_abc_palmsprings_component__["a" /* News3AbcPalmspringsComponent */],
+            __WEBPACK_IMPORTED_MODULE_38__live_2_live_2_component__["a" /* Live2Component */],
+            __WEBPACK_IMPORTED_MODULE_39__extras_horoscopes_horoscopes_component__["a" /* HoroscopesComponent */],
+            __WEBPACK_IMPORTED_MODULE_40__extras_stock_market_stock_market_component__["a" /* StockMarketComponent */],
+            __WEBPACK_IMPORTED_MODULE_41__independanceday_independanceday_component__["a" /* IndependancedayComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -312,10 +309,10 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
-                { path: 'live-2', component: __WEBPACK_IMPORTED_MODULE_39__live_2_live_2_component__["a" /* Live2Component */] },
-                { path: 'independence-day', component: __WEBPACK_IMPORTED_MODULE_42__independanceday_independanceday_component__["a" /* IndependancedayComponent */] },
-                { path: 'extras/daily-horoscope', component: __WEBPACK_IMPORTED_MODULE_40__extras_horoscopes_horoscopes_component__["a" /* HoroscopesComponent */] },
-                { path: 'extras/stock-market', component: __WEBPACK_IMPORTED_MODULE_41__extras_stock_market_stock_market_component__["a" /* StockMarketComponent */] },
+                { path: 'live-2', component: __WEBPACK_IMPORTED_MODULE_38__live_2_live_2_component__["a" /* Live2Component */] },
+                { path: 'independence-day', component: __WEBPACK_IMPORTED_MODULE_41__independanceday_independanceday_component__["a" /* IndependancedayComponent */] },
+                { path: 'extras/daily-horoscope', component: __WEBPACK_IMPORTED_MODULE_39__extras_horoscopes_horoscopes_component__["a" /* HoroscopesComponent */] },
+                { path: 'extras/stock-market', component: __WEBPACK_IMPORTED_MODULE_40__extras_stock_market_stock_market_component__["a" /* StockMarketComponent */] },
                 { path: 'local-reviews', component: __WEBPACK_IMPORTED_MODULE_9__local_reviews_local_reviews_component__["a" /* LocalReviewsComponent */] },
                 { path: 'advertise-commercial', component: __WEBPACK_IMPORTED_MODULE_6__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */] },
                 { path: 'about', component: __WEBPACK_IMPORTED_MODULE_8__about_about_component__["a" /* AboutComponent */] },
@@ -330,13 +327,12 @@ AppModule = __decorate([
                 { path: 'ktla5', component: __WEBPACK_IMPORTED_MODULE_15__stations_main_california_ktla5_ktla5_component__["a" /* Ktla5Component */] },
                 { path: 'fox11la', component: __WEBPACK_IMPORTED_MODULE_16__stations_main_california_fox11la_fox11la_component__["a" /* Fox11laComponent */] },
                 { path: 'fox5sandiego', component: __WEBPACK_IMPORTED_MODULE_17__stations_main_california_fox5sandiego_fox5sandiego_component__["a" /* Fox5sandiegoComponent */] },
-                { path: 'cw-sandiego', component: __WEBPACK_IMPORTED_MODULE_35__stations_main_california_cw_sandiego_cw_sandiego_component__["a" /* CwSandiegoComponent */] },
                 { path: 'kron4', component: __WEBPACK_IMPORTED_MODULE_21__stations_main_california_kron4_kron4_component__["a" /* Kron4Component */] },
                 { path: 'bakersfield-news-23abc', component: __WEBPACK_IMPORTED_MODULE_22__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */] },
                 { path: 'abc30-bakersfield', component: __WEBPACK_IMPORTED_MODULE_23__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */] },
-                { path: 'news-3-abc', component: __WEBPACK_IMPORTED_MODULE_38__stations_main_california_news_3_abc_palmsprings_news_3_abc_palmsprings_component__["a" /* News3AbcPalmspringsComponent */] },
-                { path: 'texas-tv-stations', component: __WEBPACK_IMPORTED_MODULE_36__stations_main_texas_texas_component__["a" /* TexasComponent */] },
-                { path: 'fow-4-texas', component: __WEBPACK_IMPORTED_MODULE_37__stations_main_texas_fox_4_texas_fox_4_texas_component__["a" /* Fox4TexasComponent */] },
+                { path: 'news-3-abc', component: __WEBPACK_IMPORTED_MODULE_37__stations_main_california_news_3_abc_palmsprings_news_3_abc_palmsprings_component__["a" /* News3AbcPalmspringsComponent */] },
+                { path: 'texas-tv-stations', component: __WEBPACK_IMPORTED_MODULE_35__stations_main_texas_texas_component__["a" /* TexasComponent */] },
+                { path: 'fow-4-texas', component: __WEBPACK_IMPORTED_MODULE_36__stations_main_texas_fox_4_texas_fox_4_texas_component__["a" /* Fox4TexasComponent */] },
                 { path: 'colorado-tv-stations', component: __WEBPACK_IMPORTED_MODULE_28__stations_main_colorado_colorado_component__["a" /* ColoradoComponent */] },
                 { path: 'colorado-9news', component: __WEBPACK_IMPORTED_MODULE_29__stations_main_colorado_colorado_9news_colorado_9news_component__["a" /* Colorado9newsComponent */] },
                 { path: 'nbc11news', component: __WEBPACK_IMPORTED_MODULE_30__stations_main_colorado_nbc11news_nbc11news_component__["a" /* Nbc11newsComponent */] },
@@ -1186,7 +1182,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}"
 /***/ "./src/app/stations-main/california/california.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">{{state}}</h6>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/socaltelevision\">SoCal Television</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/ktla5\">KTLA 5</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/fox5sandiego\">Fox 5 San Diego</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/news-3-abc\">News 3 ABC Palm Springs</a>\n        </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/cw-sandiego\">CW San Diego</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/fox11la\">Fox 11 LA</a>\n        </li>\n        <!-- <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"/bakersfield-news-23abc\">23 ABC - Bakersfield News</a>\n          </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"/abc30-bakersfield\">ABC30 - Bakersfield - FEED 2</a>\n            </li>\n        <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"/kron4\">KRON4 San Farancisco</a>\n          </li> -->\n  </ul>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">{{state}}</h6>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/socaltelevision\">SoCal Television</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/ktla5\">KTLA 5</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/fox5sandiego\">Fox 5 San Diego</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/news-3-abc\">News 3 ABC Palm Springs</a>\n        </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/fox11la\">Fox 11 LA</a>\n        </li>\n        <!-- <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"/bakersfield-news-23abc\">23 ABC - Bakersfield News</a>\n          </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"/abc30-bakersfield\">ABC30 - Bakersfield - FEED 2</a>\n            </li>\n        <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"/kron4\">KRON4 San Farancisco</a>\n          </li> -->\n  </ul>"
 
 /***/ }),
 
@@ -1224,57 +1220,6 @@ CaliforniaComponent = __decorate([
 ], CaliforniaComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/california.component.js.map
-
-/***/ }),
-
-/***/ "./src/app/stations-main/california/cw-sandiego/cw-sandiego.component.css":
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/stations-main/california/cw-sandiego/cw-sandiego.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "  <!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n\n  <div class=\"container\">\n      <div class=\"row\">\n                <!-- <div class=\"col-sm\" style=\"max-width:250px;\"> -->\n          <!-- Horoscope Start -->\n          <!-- <h5>Daily Horoscope</h5>\n            <iframe height=\"600px\" frameborder=\"0\" width=\"220px\" style=\"max-width:250px;\" src=\"https://www.ask-oracle.com/embed/?bgcolor=%23ccc&textcolor=%23ddd&linkcolor=blue\"></iframe>       -->\n          <!-- Horoscope End -->\n        <!-- </div> -->\n        <div class=\"col-sm\">\n            <span style=\"color: white\">Back to </span><a routerLink=\"/stations-main\"><button  class=\"btn-primary\" style=\"border-radius: 15px;\">LIVE TV CHANNELS</button></a>\n            <span class=\"embed-responsive embed-responsive-16by9\">\n                <script type='text/javascript' src='http://KFMBCW.images.worldnow.com/interface/js/WNVideo.js?rnd=870876700;hostDomain=www.thecwsandiego.com;playerWidth=630;playerHeight=380;isShowIcon=true;clipId=;flvUri=http://kfmb-lh.akamaihd.net/z/KFMB_735@52182/manifest.f4m;wnms1=http://kfmb-lh.akamaihd.net/i/KFMB_735@52182/master.m3u8;wnms2=http://mcdn.mobi/c/kfmb;partnerclipid=;adTag=News%20-%20Live%20Stream;advertisingZone=;enableAds=false;landingPage=;islandingPageoverride=;playerType=STANDARD_EMBEDDEDscript;controlsType=fixed;isLiveStream=true;streamType=live;headline=CBS%25208%2520Live%2520Stream'></script>\n              </span>\n            <br/><br/>\n            <span>{{description}}</span>\n          <p>{{subdescription}}</p>\n        </div>\n                <!-- <div class=\"col-sm\" > -->\n          <!-- Stock Market Widget Start -->\n          <!-- <h5>Daily Stocks</h5>\n            <iframe src=\"https://investingwidgets.com/leading-stocks?theme=darkTheme&hideTitle=true&roundedCorners=false\" width=\"110%\" height=\"600\" frameborder=\"0\" allowtransparency=\"true\" marginwidth=\"0\" marginheight=\"0\"></iframe><div class=\"poweredBy\" style=\"font-family: Arial, Helvetica, sans-serif; color: black;\">Powered by <a href=\"https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LEADING_STOCKS&amp;utm_content=Footer%20Link\" style=\"color: black;\" target=\"_blank\" rel=\"nofollow\">Investing.com</a></div> -->\n          <!-- Stock Market Widget End -->\n          <!-- </div> -->\n      </div>\n    </div>\n<!-- <p><a class=\"nav-link btn btn-primary\" href=\"//worldtelevision.tv/#/khou-11\" target=\"_blank\">Watch the News Conference of Santa Fe, Texas Shooting LIVE</a></p> -->"
-
-/***/ }),
-
-/***/ "./src/app/stations-main/california/cw-sandiego/cw-sandiego.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CwSandiegoComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var CwSandiegoComponent = (function () {
-    function CwSandiegoComponent() {
-        this.stationName = "CW San Diego";
-    }
-    CwSandiegoComponent.prototype.ngOnInit = function () {
-    };
-    return CwSandiegoComponent;
-}());
-CwSandiegoComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
-        selector: 'app-cw-sandiego',
-        template: __webpack_require__("./src/app/stations-main/california/cw-sandiego/cw-sandiego.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/california/cw-sandiego/cw-sandiego.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], CwSandiegoComponent);
-
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/cw-sandiego.component.js.map
 
 /***/ }),
 

@@ -35,7 +35,6 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { LiveTrafficCamsComponent } from './live-traffic-cams/live-traffic-cams.component';
 import { Cam10fwyWestOfMonteVistaAveComponent } from './live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component';
 import { SigalertComponent } from './live-traffic-cams/sigalert/sigalert.component';
-import { CwSandiegoComponent } from './stations-main/california/cw-sandiego/cw-sandiego.component';
 import { TexasComponent } from './stations-main/texas/texas.component';
 import { Fox4TexasComponent } from './stations-main/texas/fox-4-texas/fox-4-texas.component';
 import { News3AbcPalmspringsComponent } from './stations-main/california/news-3-abc-palmsprings/news-3-abc-palmsprings.component';
@@ -78,7 +77,6 @@ import { IndependancedayComponent } from './independanceday/independanceday.comp
     LiveTrafficCamsComponent,
     Cam10fwyWestOfMonteVistaAveComponent,
     SigalertComponent,
-    CwSandiegoComponent,
     TexasComponent,
     Fox4TexasComponent,
     News3AbcPalmspringsComponent,
@@ -114,7 +112,6 @@ import { IndependancedayComponent } from './independanceday/independanceday.comp
       { path: 'ktla5', component: Ktla5Component},
       { path: 'fox11la', component: Fox11laComponent},
       { path: 'fox5sandiego', component: Fox5sandiegoComponent},
-      {path: 'cw-sandiego', component: CwSandiegoComponent },
       { path: 'kron4', component: Kron4Component},
       { path: 'bakersfield-news-23abc', component: BakersfieldNews23abcComponent},
       { path: 'abc30-bakersfield', component: Abc30BakersfieldComponent},

@@ -42,6 +42,7 @@ import { Live2Component } from './live-2/live-2.component';
 import { HoroscopesComponent } from './extras/horoscopes/horoscopes.component';
 import { StockMarketComponent } from './extras/stock-market/stock-market.component';
 import { IndependancedayComponent } from './independanceday/independanceday.component';
+import { IcecreamComponent } from './national-day/icecream/icecream.component';
 
 
 
@@ -83,7 +84,8 @@ import { IndependancedayComponent } from './independanceday/independanceday.comp
     Live2Component,
     HoroscopesComponent,
     StockMarketComponent,
-    IndependancedayComponent
+    IndependancedayComponent,
+    IcecreamComponent
 
   ],
   imports: [
@@ -107,6 +109,8 @@ import { IndependancedayComponent } from './independanceday/independanceday.comp
       { path: 'stations-main', component: StationsMainComponent},
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
+
+      { path: 'national-day/icecream', component: IcecreamComponent},
 
       { path: 'california-tv-stations', component: CaliforniaComponent },
       { path: 'ktla5', component: Ktla5Component},

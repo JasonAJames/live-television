@@ -13,7 +13,7 @@ export class LiveComponent implements OnInit {
   }
 
   offlineMessage1 = "SoCal Television LIVE BREAKING NEWS"
-  subdesc = "BREAKING: Authorities are pursuing an SUV on the northbound 5 Freeway in the Downey area."
+  subdesc = "BREAKING: SkyLine brush fire just west of Corona, on the edge of the Cleveland National Forest. The #SkylineFire has burned at least 5-10 acres."
 
 
   stationName = 'SoCal Television LIVE'

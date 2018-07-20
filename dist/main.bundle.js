@@ -1931,7 +1931,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var LiveComponent = (function () {
     function LiveComponent() {
         this.offlineMessage1 = "SoCal Television LIVE BREAKING NEWS";
-        this.subdesc = "BREAKING: SkyLine brush fire just west of Corona, on the edge of the Cleveland National Forest. The #SkylineFire has burned at least 5-10 acres.";
+        this.subdesc = "BREAKING: SkyLine brush fire just west of Corona, on the edge of the Cleveland National Forest. The #SkylineFire has burned at nearly 100 acres and the Orchard Glen residential area of Corona is under mandatory evacuation.";
         this.stationName = 'SoCal Television LIVE';
         this.description = this.offlineMessage1;
         this.subdescription = this.subdesc;

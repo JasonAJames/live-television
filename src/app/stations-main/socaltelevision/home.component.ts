@@ -15,5 +15,6 @@ export class HomeComponent implements OnInit {
   }
 
 stationName = 'SoCal Television';
-
+description = 'LIVE at the OC FAIR';
+subdescription = 'Join SoCalTelevision LIVE at the OC FAIR! July 13-Aug. 12';
 }

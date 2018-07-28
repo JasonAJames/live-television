@@ -12,8 +12,8 @@ export class LiveComponent implements OnInit {
   ngOnInit() {
   }
 
-  offlineMessage1 = "SoCal Television LIVE BREAKING NEWS"
-  subdesc = "BREAKING: SkyLine brush fire just west of Corona, on the edge of the Cleveland National Forest. The #SkylineFire has burned at nearly 100 acres and the Orchard Glen residential area of Corona is under mandatory evacuation."
+  offlineMessage1 = "SoCal Television LIVE at the OC Fair"
+  subdesc = "Join SoCalTelevision LIVE at the OC FAIR! July 13-Aug. 12"
 
 
   stationName = 'SoCal Television LIVE'

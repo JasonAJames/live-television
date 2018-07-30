@@ -350,8 +350,8 @@ AppModule = __decorate([
                 { path: 'hawaii-news-now', component: __WEBPACK_IMPORTED_MODULE_18__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */] },
                 { path: 'kitv4-hawaii', component: __WEBPACK_IMPORTED_MODULE_19__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */] },
                 { path: 'khon2-hawaii', component: __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */] },
-                { path: '', redirectTo: '/home', pathMatch: 'full' },
-                { path: '**', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] }
+                { path: '', redirectTo: '/usopenofsurfing', pathMatch: 'full' },
+                { path: '**', component: __WEBPACK_IMPORTED_MODULE_43__vansusopenofsurfing_live_vansusopenofsurfing_live_component__["a" /* VansusopenofsurfingLiveComponent */] }
             ], { useHash: true }),
             __WEBPACK_IMPORTED_MODULE_5__app_router__["a" /* routes */]
         ],

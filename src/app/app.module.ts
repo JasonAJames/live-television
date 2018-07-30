@@ -43,6 +43,7 @@ import { HoroscopesComponent } from './extras/horoscopes/horoscopes.component';
 import { StockMarketComponent } from './extras/stock-market/stock-market.component';
 import { IndependancedayComponent } from './independanceday/independanceday.component';
 import { IcecreamComponent } from './national-day/icecream/icecream.component';
+import { VansusopenofsurfingLiveComponent } from './vansusopenofsurfing-live/vansusopenofsurfing-live.component';
 
 
 
@@ -85,7 +86,8 @@ import { IcecreamComponent } from './national-day/icecream/icecream.component';
     HoroscopesComponent,
     StockMarketComponent,
     IndependancedayComponent,
-    IcecreamComponent
+    IcecreamComponent,
+    VansusopenofsurfingLiveComponent
 
   ],
   imports: [
@@ -111,7 +113,7 @@ import { IcecreamComponent } from './national-day/icecream/icecream.component';
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
 
       { path: 'national-day/icecream', component: IcecreamComponent},
-
+      { path: 'usopenofsurfing', component: VansusopenofsurfingLiveComponent},
       { path: 'california-tv-stations', component: CaliforniaComponent },
       { path: 'ktla5', component: Ktla5Component},
       { path: 'fox11la', component: Fox11laComponent},

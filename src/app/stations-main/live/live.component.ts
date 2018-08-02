@@ -12,8 +12,8 @@ export class LiveComponent implements OnInit {
   ngOnInit() {
   }
 
-  offlineMessage1 = "SoCal Television LIVE at the OC Fair"
-  subdesc = "Join SoCalTelevision LIVE at the OC FAIR! July 13-Aug. 12"
+  offlineMessage1 = "SoCal Television Breaking News"
+  subdesc = "Police are pursuing a driver in the South L.A. area."
 
 
   stationName = 'SoCal Television LIVE'

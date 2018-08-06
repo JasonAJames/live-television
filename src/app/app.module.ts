@@ -138,8 +138,8 @@ import { VansusopenofsurfingLiveComponent } from './vansusopenofsurfing-live/van
       { path: 'kitv4-hawaii', component: Kitv4hawaiiComponent},
       { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
 
-      { path: '', redirectTo: '/usopenofsurfing', pathMatch: 'full'},
-      { path: '**', component: VansusopenofsurfingLiveComponent}
+      { path: '', redirectTo: '/home', pathMatch: 'full'},
+      { path: '**', component: HomeComponent}
     ], {useHash : true}),
     routes
   ],

@@ -13,7 +13,7 @@ export class LiveComponent implements OnInit {
   }
 
   offlineMessage1 = "SoCal Television Breaking News"
-  subdesc = "Watch live: The Holy Fire rages for a third day in O.C.’s Trabuco Canyon area. Authorities are providing an update on the Holy Fire burning in the Trabuco Canyon area after making an arrest. "
+  subdesc = "Watch live: The Holy Fire rages for a third day in O.C.’s Trabuco Canyon area. The Manager of Glen Eden Sun Club's providing an update on the Holy Fire burning in the Trabuco Canyon area after making an arrest. "
 
 
   stationName = 'SoCal Television #HolyFire LIVE'

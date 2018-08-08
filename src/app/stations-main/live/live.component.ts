@@ -13,10 +13,10 @@ export class LiveComponent implements OnInit {
   }
 
   offlineMessage1 = "SoCal Television Breaking News"
-  subdesc = "Police are pursuing a driver in the South L.A. area."
+  subdesc = "Watch live: The Holy Fire rages for a third day in O.C.’s Trabuco Canyon area."
 
 
-  stationName = 'SoCal Television LIVE'
+  stationName = 'SoCal Television #HolyFire LIVE'
   description = this.offlineMessage1
   subdescription = this.subdesc
 }

@@ -13,7 +13,13 @@ export class Live2Component implements OnInit {
   }
 
   offlineMessage1 = "SoCal Television LIVE BREAKING NEWS"
-  subdesc = "WATCH LIVE: A baboon has escaped its cage at the San Antonio International Airport and workers are currently trying to capture it."
+  subdesc = `The City of Corona, the Corona Fire Department and the Corona Police Department are ready with contingency plans if the #HolyFire continues into our City.
+
+  For those who live in the neighborhoods south of Upper and Masters on the U.S. Forest Service - Cleveland National Forest side, we encourage you to be prepared for possible evacuations by having a go-bag ready and by signing up for our Emergency Notification System.
+  
+  Learn more on how to prepare your home and your go-bag at www.ReadyForWildfire.org
+  
+  Sign up for our Emergency Notification System at www.CoronaCA.gov/ENS`
 
 
   stationName = 'SoCal Television LIVE'

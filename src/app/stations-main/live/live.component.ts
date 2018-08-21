@@ -13,10 +13,10 @@ export class LiveComponent implements OnInit {
   }
 
   offlineMessage1 = "SoCal Television Breaking News"
-  subdesc = "BREAKING: The Holy Fire is threatening homes in the McVicker Canyon Park neighborhood of Lake Elsinore and move evacuations have been ordered."
+  subdesc = "RAW BREAKING NEWS: Standoff in Southwest Bakersfield. Three suspects have exited the building so far, we will update with more information."
 
 
-  stationName = 'SoCal Television #HolyFire LIVE'
+  stationName = 'SoCal Television Breaking News LIVE'
   description = this.offlineMessage1
   subdescription = this.subdesc
 }

@@ -141,8 +141,8 @@ import { RollerCoasterComponent } from './national-day/roller-coaster/roller-coa
       { path: 'kitv4-hawaii', component: Kitv4hawaiiComponent},
       { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
 
-      { path: '', redirectTo: '/national-day/rollercoaster', pathMatch: 'full'},
-      { path: '**', component: RollerCoasterComponent}
+      { path: '', redirectTo: '/home', pathMatch: 'full'},
+      { path: '**', component: HomeComponent}
     ], {useHash : true}),
     routes
   ],

@@ -15,6 +15,6 @@ export class HomeComponent implements OnInit {
   }
 
 stationName = 'SoCal Television';
-description = 'LIVE at the OC FAIR';
-subdescription = 'Join SoCalTelevision LIVE at the OC FAIR! July 13-Aug. 12';
+description = 'Cajalco Labyrinth - Corona, California';
+subdescription = 'Join SoCalTelevision LIVE at the Cajalco Labyrinth in Corona, CA';
 }

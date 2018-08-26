@@ -45,6 +45,7 @@ import { IndependancedayComponent } from './independanceday/independanceday.comp
 import { IcecreamComponent } from './national-day/icecream/icecream.component';
 import { VansusopenofsurfingLiveComponent } from './vansusopenofsurfing-live/vansusopenofsurfing-live.component';
 import { RollerCoasterComponent } from './national-day/roller-coaster/roller-coaster.component';
+import { DogDayComponent } from './national-day/dog-day/dog-day.component';
 
 
 
@@ -89,7 +90,8 @@ import { RollerCoasterComponent } from './national-day/roller-coaster/roller-coa
     IndependancedayComponent,
     IcecreamComponent,
     VansusopenofsurfingLiveComponent,
-    RollerCoasterComponent
+    RollerCoasterComponent,
+    DogDayComponent
 
   ],
   imports: [
@@ -113,7 +115,8 @@ import { RollerCoasterComponent } from './national-day/roller-coaster/roller-coa
       { path: 'stations-main', component: StationsMainComponent},
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
-
+      
+      { path: 'national-day/dog-day', component: DogDayComponent},
       { path: 'national-day/icecream', component: IcecreamComponent},
       { path: 'national-day/rollercoaster', component: RollerCoasterComponent},
       { path: 'usopenofsurfing', component: VansusopenofsurfingLiveComponent},

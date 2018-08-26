@@ -11,5 +11,5 @@ export class DogDayComponent implements OnInit {
 
   ngOnInit() {
   }
-  nationalday = "Dog Day";
+  nationalday = "Dog";
 }

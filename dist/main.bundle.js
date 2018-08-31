@@ -762,7 +762,7 @@ var LaCountyFairComponent = (function () {
     function LaCountyFairComponent() {
         this.stationName = "SoCal Television";
         this.description = "LA County Fair";
-        this.subdescription = "Get Your Kicks at the LA County Fair!\n  <br/><br/>\n  Grab the kids, grab the sweetheart and prepare to meander down the Main Street of America \u2013 Route 66. It winds from Chicago to LA and right to the gates of Southern California\u2019s historic \n  LA County Fair. Uniquely situated just off Route 66, the LA County Fair draws the majority of its guests from the iconic highway corridor, from San Bernardino to Santa Monica.\n  <br/><br/>\n  The LA County Fair is open Aug. 31 - Sept. 23, 2018. Tickets on sale now at https://lacountyfair.com !";
+        this.subdescription = "Get Your Kicks at the LA County Fair!\n\n  Grab the kids, grab the sweetheart and prepare to meander down the Main Street of America \u2013 Route 66. It winds from Chicago to LA and right to the gates of Southern California\u2019s historic \n  LA County Fair. Uniquely situated just off Route 66, the LA County Fair draws the majority of its guests from the iconic highway corridor, from San Bernardino to Santa Monica.\n \n  The LA County Fair is open Aug. 31 - Sept. 23, 2018. Tickets on sale now at https://lacountyfair.com !";
     }
     LaCountyFairComponent.prototype.ngOnInit = function () {
     };

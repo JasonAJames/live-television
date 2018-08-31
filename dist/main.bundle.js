@@ -213,12 +213,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__vansusopenofsurfing_live_vansusopenofsurfing_live_component__ = __webpack_require__("./src/app/vansusopenofsurfing-live/vansusopenofsurfing-live.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__national_day_roller_coaster_roller_coaster_component__ = __webpack_require__("./src/app/national-day/roller-coaster/roller-coaster.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__national_day_dog_day_dog_day_component__ = __webpack_require__("./src/app/national-day/dog-day/dog-day.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__ = __webpack_require__("./src/app/la-county-fair/la-county-fair.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -312,7 +314,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_42__national_day_icecream_icecream_component__["a" /* IcecreamComponent */],
             __WEBPACK_IMPORTED_MODULE_43__vansusopenofsurfing_live_vansusopenofsurfing_live_component__["a" /* VansusopenofsurfingLiveComponent */],
             __WEBPACK_IMPORTED_MODULE_44__national_day_roller_coaster_roller_coaster_component__["a" /* RollerCoasterComponent */],
-            __WEBPACK_IMPORTED_MODULE_45__national_day_dog_day_dog_day_component__["a" /* DogDayComponent */]
+            __WEBPACK_IMPORTED_MODULE_45__national_day_dog_day_dog_day_component__["a" /* DogDayComponent */],
+            __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__["a" /* LaCountyFairComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -322,6 +325,7 @@ AppModule = __decorate([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
                 { path: 'live-2', component: __WEBPACK_IMPORTED_MODULE_38__live_2_live_2_component__["a" /* Live2Component */] },
+                { path: 'la-county-fair', component: __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__["a" /* LaCountyFairComponent */] },
                 { path: 'independence-day', component: __WEBPACK_IMPORTED_MODULE_41__independanceday_independanceday_component__["a" /* IndependancedayComponent */] },
                 { path: 'extras/daily-horoscope', component: __WEBPACK_IMPORTED_MODULE_39__extras_horoscopes_horoscopes_component__["a" /* HoroscopesComponent */] },
                 { path: 'extras/stock-market', component: __WEBPACK_IMPORTED_MODULE_40__extras_stock_market_stock_market_component__["a" /* StockMarketComponent */] },
@@ -358,8 +362,8 @@ AppModule = __decorate([
                 { path: 'hawaii-news-now', component: __WEBPACK_IMPORTED_MODULE_18__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */] },
                 { path: 'kitv4-hawaii', component: __WEBPACK_IMPORTED_MODULE_19__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */] },
                 { path: 'khon2-hawaii', component: __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */] },
-                { path: '', redirectTo: '/home', pathMatch: 'full' },
-                { path: '**', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] }
+                { path: '', redirectTo: '/la-county-fair', pathMatch: 'full' },
+                { path: '**', component: __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__["a" /* LaCountyFairComponent */] }
             ], { useHash: true }),
             __WEBPACK_IMPORTED_MODULE_5__app_router__["a" /* routes */]
         ],
@@ -721,6 +725,59 @@ IndependancedayComponent = __decorate([
 ], IndependancedayComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/independanceday.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/la-county-fair/la-county-fair.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/la-county-fair/la-county-fair.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "              <!-- Global site tag (gtag.js) - Google Analytics -->\n              <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n              <script>\n                window.dataLayer = window.dataLayer || [];\n                function gtag(){dataLayer.push(arguments);}\n                gtag('js', new Date());\n              \n                gtag('config', 'UA-92954301-6');\n              </script>\n              \n              <!-- Weather Component -->\n              <div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n              <!-- END Weather Component -->\n                <h3>You're Watching</h3>\n                <h1>{{stationName}}</h1>\n              \n                <div class=\"container\">\n                    <div class=\"row\">\n                      <!-- <div class=\"col-sm\" style=\"max-width:250px;\"> -->\n          <!-- Horoscope Start -->\n          <!-- <h5>Daily Horoscope</h5>\n            <iframe height=\"600px\" frameborder=\"0\" width=\"220px\" style=\"max-width:250px;\" src=\"https://www.ask-oracle.com/embed/?bgcolor=%23ccc&textcolor=%23ddd&linkcolor=blue\"></iframe>       -->\n          <!-- Horoscope End -->\n        <!-- </div> -->\n                      <div class=\"col-sm\">\n                          <span style=\"color: white\">Back to </span><a routerLink=\"/stations-main\"><button  class=\"btn-primary\" style=\"border-radius: 15px;\">LIVE TV CHANNELS</button></a>\n                          <span class=\"embed-responsive embed-responsive-16by9\">\n                            <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/P7hckV8QbHs\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>                            \n                          </span>\n                          <br/><br/>\n                          <span>{{description}}</span>\n                        <p>{{subdescription}}</p>\n                      </div>\n                              <!-- <div class=\"col-sm\" > -->\n          <!-- Stock Market Widget Start -->\n          <!-- <h5>Daily Stocks</h5>\n            <iframe src=\"https://investingwidgets.com/leading-stocks?theme=darkTheme&hideTitle=true&roundedCorners=false\" width=\"110%\" height=\"600\" frameborder=\"0\" allowtransparency=\"true\" marginwidth=\"0\" marginheight=\"0\"></iframe><div class=\"poweredBy\" style=\"font-family: Arial, Helvetica, sans-serif; color: black;\">Powered by <a href=\"https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LEADING_STOCKS&amp;utm_content=Footer%20Link\" style=\"color: black;\" target=\"_blank\" rel=\"nofollow\">Investing.com</a></div> -->\n          <!-- Stock Market Widget End -->\n          <!-- </div> -->\n                    </div>\n                  </div>\n              <!-- <p><a class=\"nav-link btn btn-primary\" href=\"//worldtelevision.tv/#/khou-11\" target=\"_blank\">Watch the News Conference of Santa Fe, Texas Shooting LIVE</a></p> -->\n          "
+
+/***/ }),
+
+/***/ "./src/app/la-county-fair/la-county-fair.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LaCountyFairComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var LaCountyFairComponent = (function () {
+    function LaCountyFairComponent() {
+        this.stationName = "SoCal Television";
+        this.description = "LA County Fair";
+        this.subdescription = "Get Your Kicks at the LA County Fair!\n  <br/><br/>\n  Grab the kids, grab the sweetheart and prepare to meander down the Main Street of America \u2013 Route 66. It winds from Chicago to LA and right to the gates of Southern California\u2019s historic \n  LA County Fair. Uniquely situated just off Route 66, the LA County Fair draws the majority of its guests from the iconic highway corridor, from San Bernardino to Santa Monica.\n  <br/><br/>\n  The LA County Fair is open Aug. 31 - Sept. 23, 2018. Tickets on sale now at https://lacountyfair.com !";
+    }
+    LaCountyFairComponent.prototype.ngOnInit = function () {
+    };
+    return LaCountyFairComponent;
+}());
+LaCountyFairComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-la-county-fair',
+        template: __webpack_require__("./src/app/la-county-fair/la-county-fair.component.html"),
+        styles: [__webpack_require__("./src/app/la-county-fair/la-county-fair.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], LaCountyFairComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/la-county-fair.component.js.map
 
 /***/ }),
 

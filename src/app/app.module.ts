@@ -46,6 +46,7 @@ import { IcecreamComponent } from './national-day/icecream/icecream.component';
 import { VansusopenofsurfingLiveComponent } from './vansusopenofsurfing-live/vansusopenofsurfing-live.component';
 import { RollerCoasterComponent } from './national-day/roller-coaster/roller-coaster.component';
 import { DogDayComponent } from './national-day/dog-day/dog-day.component';
+import { LaCountyFairComponent } from './la-county-fair/la-county-fair.component';
 
 
 
@@ -91,7 +92,8 @@ import { DogDayComponent } from './national-day/dog-day/dog-day.component';
     IcecreamComponent,
     VansusopenofsurfingLiveComponent,
     RollerCoasterComponent,
-    DogDayComponent
+    DogDayComponent,
+    LaCountyFairComponent
 
   ],
   imports: [
@@ -102,6 +104,7 @@ import { DogDayComponent } from './national-day/dog-day/dog-day.component';
       { path: 'home', component: HomeComponent},
       { path: 'live', component: LiveComponent},
       { path: 'live-2', component: Live2Component},
+      { path: 'la-county-fair', component: LaCountyFairComponent},
       { path: 'independence-day', component: IndependancedayComponent},
       { path: 'extras/daily-horoscope', component: HoroscopesComponent},
       { path: 'extras/stock-market', component: StockMarketComponent},
@@ -144,8 +147,8 @@ import { DogDayComponent } from './national-day/dog-day/dog-day.component';
       { path: 'kitv4-hawaii', component: Kitv4hawaiiComponent},
       { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
 
-      { path: '', redirectTo: '/home', pathMatch: 'full'},
-      { path: '**', component: HomeComponent}
+      { path: '', redirectTo: '/la-county-fair', pathMatch: 'full'},
+      { path: '**', component: LaCountyFairComponent}
     ], {useHash : true}),
     routes
   ],

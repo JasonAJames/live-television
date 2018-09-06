@@ -214,12 +214,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__national_day_roller_coaster_roller_coaster_component__ = __webpack_require__("./src/app/national-day/roller-coaster/roller-coaster.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__national_day_dog_day_dog_day_component__ = __webpack_require__("./src/app/national-day/dog-day/dog-day.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__ = __webpack_require__("./src/app/la-county-fair/la-county-fair.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__news_news_component__ = __webpack_require__("./src/app/news/news.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -315,7 +317,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_43__vansusopenofsurfing_live_vansusopenofsurfing_live_component__["a" /* VansusopenofsurfingLiveComponent */],
             __WEBPACK_IMPORTED_MODULE_44__national_day_roller_coaster_roller_coaster_component__["a" /* RollerCoasterComponent */],
             __WEBPACK_IMPORTED_MODULE_45__national_day_dog_day_dog_day_component__["a" /* DogDayComponent */],
-            __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__["a" /* LaCountyFairComponent */]
+            __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__["a" /* LaCountyFairComponent */],
+            __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -323,6 +326,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
+                { path: 'news', component: __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
                 { path: 'live-2', component: __WEBPACK_IMPORTED_MODULE_38__live_2_live_2_component__["a" /* Live2Component */] },
                 { path: 'la-county-fair', component: __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__["a" /* LaCountyFairComponent */] },
@@ -1189,6 +1193,56 @@ RollerCoasterComponent = __decorate([
 ], RollerCoasterComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/roller-coaster.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/news/news.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/news/news.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>SoCal Television - Local News Articles</h3>\n<p>\nSoCalTelevision&trade; Southern Californiia News</p>\n\n<p>Please Like and Follow @SoCalTelevision on social!</p>\n\n<p>SoCAL television is also distributed through DVD. <a routerLink=\"contact\">Contact us</a> for more information about DVD's of the show.\n</p>"
+
+/***/ }),
+
+/***/ "./src/app/news/news.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NewsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var NewsComponent = (function () {
+    function NewsComponent() {
+    }
+    NewsComponent.prototype.ngOnInit = function () {
+    };
+    return NewsComponent;
+}());
+NewsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-news',
+        template: __webpack_require__("./src/app/news/news.component.html"),
+        styles: [__webpack_require__("./src/app/news/news.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], NewsComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/news.component.js.map
 
 /***/ }),
 

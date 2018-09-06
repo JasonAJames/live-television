@@ -47,6 +47,7 @@ import { VansusopenofsurfingLiveComponent } from './vansusopenofsurfing-live/van
 import { RollerCoasterComponent } from './national-day/roller-coaster/roller-coaster.component';
 import { DogDayComponent } from './national-day/dog-day/dog-day.component';
 import { LaCountyFairComponent } from './la-county-fair/la-county-fair.component';
+import { NewsComponent } from './news/news.component';
 
 
 
@@ -93,7 +94,8 @@ import { LaCountyFairComponent } from './la-county-fair/la-county-fair.component
     VansusopenofsurfingLiveComponent,
     RollerCoasterComponent,
     DogDayComponent,
-    LaCountyFairComponent
+    LaCountyFairComponent,
+    NewsComponent
 
   ],
   imports: [
@@ -102,6 +104,7 @@ import { LaCountyFairComponent } from './la-county-fair/la-county-fair.component
     HttpModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent},
+      { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},
       { path: 'live-2', component: Live2Component},
       { path: 'la-county-fair', component: LaCountyFairComponent},

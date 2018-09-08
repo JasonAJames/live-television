@@ -13,7 +13,7 @@ export class LiveComponent implements OnInit {
   }
 
   offlineMessage1 = "SoCal Television Breaking News"
-  subdesc = "RAW BREAKING NEWS: BREAKING: LAPD is in pursuit of a murder suspect through Santa Monica"
+  subdesc = "RAW BREAKING NEWS: Authorities are chasing a convertible wanted for reckless driving on the Highway 60 in the Hacienda Heights area. "
 
 
   stationName = 'SoCal Television Breaking News LIVE'

@@ -2155,7 +2155,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var LiveComponent = (function () {
     function LiveComponent() {
-        this.offlineMessage1 = "SoCal Television 9/11 Memorial";
+        this.offlineMessage1 = "SoCal Television #LIVE";
         this.subdesc = "LIVE BREAKING NEWS: One person has been detained after reports of a shooting at a Kaiser hospital in Downey. Authorities are searching the hospital.";
         this.stationName = 'SoCal Television Breaking News LIVE';
         this.description = this.offlineMessage1;

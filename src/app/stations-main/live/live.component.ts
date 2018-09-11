@@ -12,7 +12,7 @@ export class LiveComponent implements OnInit {
   ngOnInit() {
   }
 
-  offlineMessage1 = "SoCal Television 9/11 Memorial"
+  offlineMessage1 = "SoCal Television #LIVE"
   subdesc = "LIVE BREAKING NEWS: One person has been detained after reports of a shooting at a Kaiser hospital in Downey. Authorities are searching the hospital."
 
 

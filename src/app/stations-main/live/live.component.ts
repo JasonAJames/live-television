@@ -12,8 +12,8 @@ export class LiveComponent implements OnInit {
   ngOnInit() {
   }
 
-  offlineMessage1 = "SoCal Television Breaking News"
-  subdesc = "RAW BREAKING NEWS: Authorities are chasing a convertible wanted for reckless driving on the Highway 60 in the Hacienda Heights area. "
+  offlineMessage1 = "SoCal Television 9/11 Memorial"
+  subdesc = "LIVE: President Donald Trump and first lady Melania Trump are due to participate in a Sept. 11 service at the Shanksville memorial for victims of Flight 93"
 
 
   stationName = 'SoCal Television Breaking News LIVE'

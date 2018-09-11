@@ -13,7 +13,7 @@ export class LiveComponent implements OnInit {
   }
 
   offlineMessage1 = "SoCal Television 9/11 Memorial"
-  subdesc = "LIVE: President Donald Trump and first lady Melania Trump are due to participate in a Sept. 11 service at the Shanksville memorial for victims of Flight 93"
+  subdesc = "LIVE BREAKING NEWS: One person has been detained after reports of a shooting at a Kaiser hospital in Downey. Authorities are searching the hospital."
 
 
   stationName = 'SoCal Television Breaking News LIVE'

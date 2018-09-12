@@ -16,6 +16,6 @@
     background-attachment: fixed;
     background-position: center;
     vertical-align: top;
-    width: 111px;
-    height: 65px;
+    width: "111px";
+    height: "65px";
 }

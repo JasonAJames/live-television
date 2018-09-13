@@ -9,13 +9,3 @@
     background-position: center;
     vertical-align: top;
 }
-
-.HeaderLogo {
-    background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/logo_16X9.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    vertical-align: top;
-    width: "111px";
-    height: "65px";
-}

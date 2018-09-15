@@ -2,6 +2,13 @@
     padding-top: 10%;
 }
 
+li {
+    padding:  1%;
+}
+.btn {
+    border-radius: 5px;
+}
+
 @media screen and (min-width: 400px) {
     .videoContainer {
         margin-left: 1%;

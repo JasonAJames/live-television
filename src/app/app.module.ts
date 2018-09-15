@@ -48,6 +48,7 @@ import { RollerCoasterComponent } from './national-day/roller-coaster/roller-coa
 import { DogDayComponent } from './national-day/dog-day/dog-day.component';
 import { LaCountyFairComponent } from './la-county-fair/la-county-fair.component';
 import { NewsComponent } from './news/news.component';
+import { CbsComponent } from './usa/cbs/cbs.component';
 
 
 
@@ -95,7 +96,8 @@ import { NewsComponent } from './news/news.component';
     RollerCoasterComponent,
     DogDayComponent,
     LaCountyFairComponent,
-    NewsComponent
+    NewsComponent,
+    CbsComponent
 
   ],
   imports: [
@@ -104,6 +106,10 @@ import { NewsComponent } from './news/news.component';
     HttpModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent},
+      { path: 'usa/cbs', component: CbsComponent},
+
+
+
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},
       { path: 'live-2', component: Live2Component},

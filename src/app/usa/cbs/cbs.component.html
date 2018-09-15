@@ -1,0 +1,43 @@
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92954301-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-92954301-6');
+    </script>
+    
+    <!-- Weather Component -->
+    <div style="width: 90%; margin: 10px;"><iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=87637" width="90%" height="92" frameborder="0" scrolling="no"></iframe><a style="position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right" href="https://www.willyweather.com/ca/riverside-county/corona.html" rel="nofollow">Corona weather info</a></div>
+    <!-- END Weather Component -->
+      <h3>You're Watching</h3>
+      <h1>{{stationName}}</h1>
+    
+      <div class="container">
+          <div class="row">
+                    <!-- <div class="col-sm" style="max-width:250px;"> -->
+          <!-- Horoscope Start -->
+          <!-- <h5>Daily Horoscope</h5>
+            <iframe height="600px" frameborder="0" width="220px" style="max-width:250px;" src="https://www.ask-oracle.com/embed/?bgcolor=%23ccc&textcolor=%23ddd&linkcolor=blue"></iframe>       -->
+          <!-- Horoscope End -->
+        <!-- </div> -->
+            <div class="col-sm">
+                <span style="color: white">Back to </span><a routerLink="/stations-main"><button  class="btn-primary" style="border-radius: 15px;">LIVE TV CHANNELS</button></a>
+                <span class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.firstonetv.net/embed/2969343d882be678b150197a70fd248f/us-85" width="800" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" 
+                    allowTransparency="true" allowFullScreen="true"></iframe>             
+                  </span>
+                <br/><br/>
+                <span>{{description}}</span>
+              <p>{{subdescription}}</p>
+            </div>
+                    <!-- <div class="col-sm" > -->
+          <!-- Stock Market Widget Start -->
+          <!-- <h5>Daily Stocks</h5>
+            <iframe src="https://investingwidgets.com/leading-stocks?theme=darkTheme&hideTitle=true&roundedCorners=false" width="110%" height="600" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif; color: black;">Powered by <a href="https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LEADING_STOCKS&amp;utm_content=Footer%20Link" style="color: black;" target="_blank" rel="nofollow">Investing.com</a></div> -->
+          <!-- Stock Market Widget End -->
+          <!-- </div> -->
+          </div>
+        </div>
+    <!-- <p><a class="nav-link btn btn-primary" href="//worldtelevision.tv/#/khou-11" target="_blank">Watch the News Conference of Santa Fe, Texas Shooting LIVE</a></p> -->

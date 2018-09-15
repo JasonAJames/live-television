@@ -215,12 +215,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__national_day_dog_day_dog_day_component__ = __webpack_require__("./src/app/national-day/dog-day/dog-day.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__ = __webpack_require__("./src/app/la-county-fair/la-county-fair.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__news_news_component__ = __webpack_require__("./src/app/news/news.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__ = __webpack_require__("./src/app/usa/cbs/cbs.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -318,7 +320,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_44__national_day_roller_coaster_roller_coaster_component__["a" /* RollerCoasterComponent */],
             __WEBPACK_IMPORTED_MODULE_45__national_day_dog_day_dog_day_component__["a" /* DogDayComponent */],
             __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__["a" /* LaCountyFairComponent */],
-            __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */]
+            __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */],
+            __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__["a" /* CbsComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -326,6 +329,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
+                { path: 'usa/cbs', component: __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__["a" /* CbsComponent */] },
                 { path: 'news', component: __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
                 { path: 'live-2', component: __WEBPACK_IMPORTED_MODULE_38__live_2_live_2_component__["a" /* Live2Component */] },
@@ -2340,7 +2344,7 @@ var _a;
 /***/ "./src/app/stations-main/stations-main.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 8%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -2491,6 +2495,58 @@ TexasComponent = __decorate([
 ], TexasComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/texas.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/usa/cbs/cbs.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
+
+/***/ }),
+
+/***/ "./src/app/usa/cbs/cbs.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "    <!-- Global site tag (gtag.js) - Google Analytics -->\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n    \n      gtag('config', 'UA-92954301-6');\n    </script>\n    \n    <!-- Weather Component -->\n    <div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n    <!-- END Weather Component -->\n      <h3>You're Watching</h3>\n      <h1>{{stationName}}</h1>\n    \n      <div class=\"container\">\n          <div class=\"row\">\n                    <!-- <div class=\"col-sm\" style=\"max-width:250px;\"> -->\n          <!-- Horoscope Start -->\n          <!-- <h5>Daily Horoscope</h5>\n            <iframe height=\"600px\" frameborder=\"0\" width=\"220px\" style=\"max-width:250px;\" src=\"https://www.ask-oracle.com/embed/?bgcolor=%23ccc&textcolor=%23ddd&linkcolor=blue\"></iframe>       -->\n          <!-- Horoscope End -->\n        <!-- </div> -->\n            <div class=\"col-sm\">\n                <span style=\"color: white\">Back to </span><a routerLink=\"/stations-main\"><button  class=\"btn-primary\" style=\"border-radius: 15px;\">LIVE TV CHANNELS</button></a>\n                <span class=\"embed-responsive embed-responsive-16by9\">\n                    <iframe src=\"https://www.firstonetv.net/embed/2969343d882be678b150197a70fd248f/us-85\" width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n                    allowTransparency=\"true\" allowFullScreen=\"true\"></iframe>             \n                  </span>\n                <br/><br/>\n                <span>{{description}}</span>\n              <p>{{subdescription}}</p>\n            </div>\n                    <!-- <div class=\"col-sm\" > -->\n          <!-- Stock Market Widget Start -->\n          <!-- <h5>Daily Stocks</h5>\n            <iframe src=\"https://investingwidgets.com/leading-stocks?theme=darkTheme&hideTitle=true&roundedCorners=false\" width=\"110%\" height=\"600\" frameborder=\"0\" allowtransparency=\"true\" marginwidth=\"0\" marginheight=\"0\"></iframe><div class=\"poweredBy\" style=\"font-family: Arial, Helvetica, sans-serif; color: black;\">Powered by <a href=\"https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LEADING_STOCKS&amp;utm_content=Footer%20Link\" style=\"color: black;\" target=\"_blank\" rel=\"nofollow\">Investing.com</a></div> -->\n          <!-- Stock Market Widget End -->\n          <!-- </div> -->\n          </div>\n        </div>\n    <!-- <p><a class=\"nav-link btn btn-primary\" href=\"//worldtelevision.tv/#/khou-11\" target=\"_blank\">Watch the News Conference of Santa Fe, Texas Shooting LIVE</a></p> -->\n"
+
+/***/ }),
+
+/***/ "./src/app/usa/cbs/cbs.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CbsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CbsComponent = (function () {
+    function CbsComponent() {
+        this.stationName = "CBS";
+        this.description = "CBS (an initialism of the network's former name, the Columbia Broadcasting System) is an American commercial broadcast television network that is a flagship property of CBS Corporation. The company is headquartered at the CBS Building in New York City with major production facilities and operations in New York City (at the CBS Broadcast Center) and Los Angeles (at CBS Television City and the CBS Studio Center).";
+    }
+    CbsComponent.prototype.ngOnInit = function () {
+    };
+    return CbsComponent;
+}());
+CbsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-cbs',
+        template: __webpack_require__("./src/app/usa/cbs/cbs.component.html"),
+        styles: [__webpack_require__("./src/app/usa/cbs/cbs.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], CbsComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/cbs.component.js.map
 
 /***/ }),
 

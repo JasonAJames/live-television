@@ -16,7 +16,7 @@ export class StationsMainComponent implements OnInit {
   source = 'https://livestream.com/accounts/9262780/events/3189705/player?width=770&height=433&autoPlay=true&mute=false&customAdTagParameters=Site%3D41641936%26pid%3Don-airlive-streaming'
   
   stationName = 'KTLA 5'
-  tv = 'Television Stations'
+  tv = 'TV Stations'
   tvhref = 'tv-stations'
 
 }

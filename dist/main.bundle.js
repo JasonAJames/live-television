@@ -687,14 +687,14 @@ StockMarketComponent = __decorate([
 /***/ "./src/app/home-video/home-video.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".container {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    height: 100vh;\n}\n.video {\n    width: 100%;\n}\n.c-video {\n    width: 100%;\n    max-width: 800px;\n}"
+module.exports = ".container {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    height: 100vh;\n}\n.video {\n    width: 100%;\n}\n.c-video {\n    width: 100%;\n    max-width: 800px;\n    position: relative;\n}\n.controls {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n    -ms-flex-wrap: wrap;\n        flex-wrap: wrap;\n    background: rgba(0, 0, 0, 0.7);\n}"
 
 /***/ }),
 
 /***/ "./src/app/home-video/home-video.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <div class=\"c-video\">\n    <video class=\"video\" src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4\" controls></video>\n    <div class=\"controls\">\n      <div class=\"orange-bar\">\n        <div class=\"orange-juice\"></div>\n      </div>\n      <div class=\"buttons\">\n        <button id=\"play-pause\"></button>\n      </div>\n    </div>\n  </div>\n</div>\n\n<script src=\"script.js\"></script>"
+module.exports = "<div class=\"container\">\n  <div class=\"c-video\">\n    <video class=\"video\" src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4\"></video>\n    <div class=\"controls\">\n      <div class=\"orange-bar\">\n        <div class=\"orange-juice\"></div>\n      </div>\n      <div class=\"buttons\">\n        <button id=\"play-pause\"></button>\n      </div>\n    </div>\n  </div>\n</div>\n\n<script src=\"script.js\"></script>"
 
 /***/ }),
 

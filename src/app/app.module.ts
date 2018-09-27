@@ -49,6 +49,7 @@ import { DogDayComponent } from './national-day/dog-day/dog-day.component';
 import { LaCountyFairComponent } from './la-county-fair/la-county-fair.component';
 import { NewsComponent } from './news/news.component';
 import { CbsComponent } from './usa/cbs/cbs.component';
+import { HomeVideoComponent } from './home-video/home-video.component';
 
 
 
@@ -97,7 +98,8 @@ import { CbsComponent } from './usa/cbs/cbs.component';
     DogDayComponent,
     LaCountyFairComponent,
     NewsComponent,
-    CbsComponent
+    CbsComponent,
+    HomeVideoComponent
 
   ],
   imports: [
@@ -108,7 +110,7 @@ import { CbsComponent } from './usa/cbs/cbs.component';
       { path: 'home', component: HomeComponent},
       { path: 'usa/cbs', component: CbsComponent},
 
-
+      {path: 'home-video', component: HomeVideoComponent},
 
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},

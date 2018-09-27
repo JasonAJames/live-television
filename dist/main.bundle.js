@@ -216,12 +216,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__ = __webpack_require__("./src/app/la-county-fair/la-county-fair.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__news_news_component__ = __webpack_require__("./src/app/news/news.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__ = __webpack_require__("./src/app/usa/cbs/cbs.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__ = __webpack_require__("./src/app/home-video/home-video.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -321,7 +323,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_45__national_day_dog_day_dog_day_component__["a" /* DogDayComponent */],
             __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__["a" /* LaCountyFairComponent */],
             __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */],
-            __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__["a" /* CbsComponent */]
+            __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__["a" /* CbsComponent */],
+            __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__["a" /* HomeVideoComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -330,6 +333,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
                 { path: 'usa/cbs', component: __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__["a" /* CbsComponent */] },
+                { path: 'home-video', component: __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__["a" /* HomeVideoComponent */] },
                 { path: 'news', component: __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
                 { path: 'live-2', component: __WEBPACK_IMPORTED_MODULE_38__live_2_live_2_component__["a" /* Live2Component */] },
@@ -677,6 +681,56 @@ StockMarketComponent = __decorate([
 ], StockMarketComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/stock-market.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n  <div class=\"c-video\">\n    <video class=\"video\" src=\"https://youtu.be/v1wTdw_NoYs\"></video>\n    <div class=\"controls\">\n      <div class=\"orange-bar\">\n        <div class=\"orange-juice\"></div>\n      </div>\n      <div class=\"buttons\">\n        <button id=\"play-pause\"></button>\n      </div>\n    </div>\n  </div>\n</div>\n\n<script src=\"script.js\"></script>"
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeVideoComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HomeVideoComponent = (function () {
+    function HomeVideoComponent() {
+    }
+    HomeVideoComponent.prototype.ngOnInit = function () {
+    };
+    return HomeVideoComponent;
+}());
+HomeVideoComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-home-video',
+        template: __webpack_require__("./src/app/home-video/home-video.component.html"),
+        styles: [__webpack_require__("./src/app/home-video/home-video.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], HomeVideoComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video.component.js.map
 
 /***/ }),
 

@@ -56,6 +56,28 @@ Watch SoCALtelevision 24/7 at https://www.SoCALtelevision.com!" />
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
+<!-- Video Controls START -->
+<script>
+var video = document.querySelector('.video');
+var juice = document.querySelector('.orange-juice');
+var btn = document.getElementById('play-pause');
+
+function togglePlayPause() {
+    if(video.paused) {
+        btn.className = 'pause';
+        video.play();
+    } else {
+        btn.className = 'play';
+        video.pause();
+    }
+}
+
+btn.onclick = function() {
+    togglePlayPause();
+}
+</script>
+<!-- Video Controls END -->
+
 <!-- Video.js start -->
 <link href="https://vjs.zencdn.net/7.1.0/video-js.css" rel="stylesheet">
   <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->

@@ -694,7 +694,7 @@ module.exports = ""
 /***/ "./src/app/home-video/home-video.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <div class=\"c-video\">\n    <video class=\"video\" src=\"https://youtu.be/v1wTdw_NoYs\"></video>\n    <div class=\"controls\">\n      <div class=\"orange-bar\">\n        <div class=\"orange-juice\"></div>\n      </div>\n      <div class=\"buttons\">\n        <button id=\"play-pause\"></button>\n      </div>\n    </div>\n  </div>\n</div>\n\n<script src=\"script.js\"></script>"
+module.exports = "<div class=\"container\">\n  <div class=\"c-video\">\n    <video class=\"video\" src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4\"></video>\n    <div class=\"controls\">\n      <div class=\"orange-bar\">\n        <div class=\"orange-juice\"></div>\n      </div>\n      <div class=\"buttons\">\n        <button id=\"play-pause\"></button>\n      </div>\n    </div>\n  </div>\n</div>\n\n<script src=\"script.js\"></script>"
 
 /***/ }),
 

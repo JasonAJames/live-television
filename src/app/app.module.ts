@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import {RouterModule} from '@angular/router'
+import {RouterModule} from '@angular/router';
 import { routes } from './app.router';
 
 import { AdvertiseCommercialComponent } from './advertise/advertise-commercial/advertise-commercial.component';

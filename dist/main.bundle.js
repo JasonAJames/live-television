@@ -336,7 +336,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
                 { path: 'usa/cbs', component: __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__["a" /* CbsComponent */] },
-                { path: 'home-video', component: __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__["a" /* HomeVideoComponent */] },
+                { path: 'home-video', component: __WEBPACK_IMPORTED_MODULE_50__landingpage_landingpage_component__["a" /* LandingpageComponent */] },
                 { path: 'news', component: __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
                 { path: 'live-2', component: __WEBPACK_IMPORTED_MODULE_38__live_2_live_2_component__["a" /* Live2Component */] },
@@ -856,7 +856,7 @@ module.exports = "#video_player {\n\tdisplay: table;\n\tline-height: 0;\n\tfont-
 /***/ "./src/app/landingpage/landingpage.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n      <video controls poster=\"vid-glacier.jpg\">\n        <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.webmhd.webm\" type=\"video/webm\">\n        <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4\" type=\"video/mp4\">\n      </video>\n    </div>\n    <figcaption>\n      <a href=\"glacier.mp4\" class=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4\">\n        <img src=\"glacier.jpg\" alt=\"Athabasca Glacier\">\n      </a>\n      <a href=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/BlueAngels_Promo.mp4.mp4\">\n        <img src=\"lake.jpg\" alt=\"Athabasca Lake\">\n      </a>\n      <a href=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\">\n        <img src=\"mountain.jpg\" alt=\"Mountain\">\n      </a>\n    </figcaption>\n  </figure>"
+module.exports = "<button id=\"playpausebtn\"></button>"
 
 /***/ }),
 

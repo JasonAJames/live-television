@@ -112,7 +112,7 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
       { path: 'home', component: HomeComponent},
       { path: 'usa/cbs', component: CbsComponent},
 
-      {path: 'home-video', component: HomeVideoComponent},
+      {path: 'home-video', component: LandingpageComponent},
 
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},

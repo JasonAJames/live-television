@@ -11,6 +11,10 @@
     width: 100%;
     max-width: 800px;
     position: relative;
+    overflow: hidden;
+}
+.c-video:hover .controls {
+    transform: translateY(0);
 }
 .controls {
     display: flex;
@@ -19,6 +23,12 @@
     width: 100%;
     flex-wrap: wrap;
     background: rgba(0, 0, 0, 0.7);
+    transform: translateY(100%) translateY(-5px);
+    transition: all 0.2s;
+}
+
+.buttons {
+    padding: 10px;
 }
 
 .buttons button {
@@ -37,4 +47,25 @@
     font-size: 28px;
     color: #fff;
     -webkit-font-smoothing: antialiased;
+}
+
+.buttons button.play:before {
+    content: '\f144';
+}
+
+.buttons button.pause:before {
+    content: '\f28b';
+}
+
+.orange-bar {
+    height: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.orange-juice {
+    height: 10px;
+    background-color: orangered;
 }

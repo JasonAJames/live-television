@@ -217,12 +217,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__news_news_component__ = __webpack_require__("./src/app/news/news.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__ = __webpack_require__("./src/app/usa/cbs/cbs.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__ = __webpack_require__("./src/app/home-video/home-video.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__landingpage_landingpage_component__ = __webpack_require__("./src/app/landingpage/landingpage.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -324,7 +326,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__["a" /* LaCountyFairComponent */],
             __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */],
             __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__["a" /* CbsComponent */],
-            __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__["a" /* HomeVideoComponent */]
+            __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__["a" /* HomeVideoComponent */],
+            __WEBPACK_IMPORTED_MODULE_50__landingpage_landingpage_component__["a" /* LandingpageComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -694,7 +697,7 @@ module.exports = ".container {\n    display: -webkit-box;\n    display: -ms-flex
 /***/ "./src/app/home-video/home-video.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <div class=\"c-video\">\n    <video class=\"video\" src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4\"></video>\n    <div class=\"controls\">\n      <div class=\"orange-bar\">\n        <div class=\"orange-juice\"></div>\n      </div>\n      <div class=\"buttons\">\n        <button id=\"play-pause\"></button>\n      </div>\n    </div>\n  </div>\n</div>\n\n<script src=\"script.js\"></script>"
+module.exports = "<div class=\"container\">\n  <div class=\"c-video\">\n    <video class=\"video\" src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4\"></video>\n    <div class=\"controls\">\n      <div class=\"orange-bar\">\n        <div class=\"orange-juice\"></div>\n      </div>\n      <div class=\"buttons\">\n        <button id=\"play-pause\"></button>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -840,6 +843,56 @@ LaCountyFairComponent = __decorate([
 ], LaCountyFairComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/la-county-fair.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/landingpage/landingpage.component.css":
+/***/ (function(module, exports) {
+
+module.exports = "#video_player {\n\tdisplay: table;\n\tline-height: 0;\n\tfont-size: 0;\n\tbackground: #000;\n\tmax-width: 1000px;\n\tmargin: 0 auto;\n}\n#video_container {\n\tposition: relative; \n}\n#video_player div,\n#video_player figcaption {\n\tdisplay: table-cell;\n\tvertical-align: top;\n}\n#video_container video { \n\tposition: absolute;\n\tdisplay: block;\n\twidth: 100%;\n\theight: 100%;\n\ttop: 0;\n}\n#video_player figcaption { \n\twidth: 25%; \n}\n#video_player figcaption a {\n\tdisplay: block;\n}\n#video_player figcaption a {\n\topacity: .5;\n\t-webkit-transition: 1s opacity;\n\ttransition: 1s opacity;\n}\n#video_player figcaption a img,\nfigure video {\n\twidth: 100%;\n\theight: auto;\n}\n#video_player figcaption a.currentvid,\n#video_player figcaption a:hover,\n#video_player figcaption a:focus { \n\topacity: 1; \n}\n@media (max-width: 700px) {\n\t#video_player video,\n\t#video_player figcaption { \n\t\tdisplay: table-row;\n\t}\n\t#video_container {\n\t\tpadding-top: 56.25%; \n\t}\n\t#video_player figcaption a {\n\t\tdisplay: inline-block;\n\t\twidth: 33.33%; \n\t}\n}"
+
+/***/ }),
+
+/***/ "./src/app/landingpage/landingpage.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n      <video controls poster=\"vid-glacier.jpg\">\n        <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.webmhd.webm\" type=\"video/webm\">\n        <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4\" type=\"video/mp4\">\n      </video>\n    </div>\n    <figcaption>\n      <a href=\"glacier.mp4\" class=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4\">\n        <img src=\"glacier.jpg\" alt=\"Athabasca Glacier\">\n      </a>\n      <a href=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/BlueAngels_Promo.mp4.mp4\">\n        <img src=\"lake.jpg\" alt=\"Athabasca Lake\">\n      </a>\n      <a href=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\">\n        <img src=\"mountain.jpg\" alt=\"Mountain\">\n      </a>\n    </figcaption>\n  </figure>"
+
+/***/ }),
+
+/***/ "./src/app/landingpage/landingpage.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LandingpageComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var LandingpageComponent = (function () {
+    function LandingpageComponent() {
+    }
+    LandingpageComponent.prototype.ngOnInit = function () {
+    };
+    return LandingpageComponent;
+}());
+LandingpageComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-landingpage',
+        template: __webpack_require__("./src/app/landingpage/landingpage.component.html"),
+        styles: [__webpack_require__("./src/app/landingpage/landingpage.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], LandingpageComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/landingpage.component.js.map
 
 /***/ }),
 

@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-video.component.css']
 })
 
+
 export class HomeVideoComponent implements OnInit {
+
+  
 
   constructor() { }
 

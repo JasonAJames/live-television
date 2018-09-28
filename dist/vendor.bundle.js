@@ -71689,11 +71689,11 @@ var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["
 /* unused harmony reexport NavigationEnd */
 /* unused harmony reexport NavigationError */
 /* unused harmony reexport NavigationStart */
-/* unused harmony reexport Router */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["b"]; });
 /* unused harmony reexport RoutesRecognized */
 /* unused harmony reexport ROUTER_CONFIGURATION */
 /* unused harmony reexport ROUTER_INITIALIZER */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["c"]; });
 /* unused harmony reexport provideRoutes */
 /* unused harmony reexport RouterOutletMap */
 /* unused harmony reexport NoPreloading */
@@ -73847,12 +73847,12 @@ function RouterOutlet_tsickle_Closure_declarations() {
 /* unused harmony reexport NavigationEnd */
 /* unused harmony reexport NavigationError */
 /* unused harmony reexport NavigationStart */
-/* unused harmony reexport Router */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_4__router__["b"]; });
 /* unused harmony reexport RoutesRecognized */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__router_module__ = __webpack_require__("./node_modules/@angular/router/src/router_module.js");
 /* unused harmony reexport ROUTER_CONFIGURATION */
 /* unused harmony reexport ROUTER_INITIALIZER */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_5__router_module__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_5__router_module__["b"]; });
 /* unused harmony reexport provideRoutes */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__router_outlet_map__ = __webpack_require__("./node_modules/@angular/router/src/router_outlet_map.js");
 /* unused harmony reexport RouterOutletMap */

@@ -348,7 +348,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
+            __WEBPACK_IMPORTED_MODULE_4__angular_router__["c" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
                 { path: 'usa/cbs', component: __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__["a" /* CbsComponent */] },
                 { path: 'home-video', component: __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__["a" /* HomeVideoComponent */] },
@@ -442,7 +442,7 @@ var router = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: '**', component: __WEBPACK_IMPORTED_MODULE_4__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] }
 ];
-var routes = __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* RouterModule */].forRoot(router, { useHash: true });
+var routes = __WEBPACK_IMPORTED_MODULE_0__angular_router__["c" /* RouterModule */].forRoot(router, { useHash: true });
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/app.router.js.map
 
 /***/ }),
@@ -1012,7 +1012,7 @@ module.exports = "body { background: #222; }\n#video_player { \n  display: table
 /***/ "./src/app/home-video/home-video.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n    <video controls poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline id=\"myVideo\" onended=\"alert('The video has ended')\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  <figcaption>\n    <a href=\"http://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n      <img src=\"http://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/lake.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/mountain.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n    </a>\n  </figcaption>\n  </figure>"
+module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n    <video controls poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline id=\"myVideo\" onended=\"onend()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  <figcaption>\n    <a href=\"http://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n      <img src=\"http://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/lake.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/mountain.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n    </a>\n  </figcaption>\n  </figure>"
 
 /***/ }),
 
@@ -1022,6 +1022,7 @@ module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeVideoComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/index.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1032,9 +1033,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var HomeVideoComponent = (function () {
-    function HomeVideoComponent() {
+    function HomeVideoComponent(router) {
+        this.router = router;
     }
+    HomeVideoComponent.prototype.onend = function () {
+        // do init at here for current route.
+        var _this = this;
+        setTimeout(function () {
+            _this.router.navigate(['home']);
+        }, 1000); //1s
+    };
     HomeVideoComponent.prototype.ngOnInit = function () {
     };
     return HomeVideoComponent;
@@ -1045,9 +1055,10 @@ HomeVideoComponent = __decorate([
         template: __webpack_require__("./src/app/home-video/home-video.component.html"),
         styles: [__webpack_require__("./src/app/home-video/home-video.component.css")]
     }),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _a || Object])
 ], HomeVideoComponent);
 
+var _a;
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video.component.js.map
 
 /***/ }),

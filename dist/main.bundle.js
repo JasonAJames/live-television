@@ -721,6 +721,7 @@ module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeVideo0Component; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/index.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -731,9 +732,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var HomeVideo0Component = (function () {
-    function HomeVideo0Component() {
+    function HomeVideo0Component(router) {
+        this.router = router;
     }
+    HomeVideo0Component.prototype.videoEnd = function () {
+        var _this = this;
+        // do init at here for current route.
+        console.log('videoEnd function fired.');
+        setTimeout(function () {
+            console.log('fired inside setTimeout function.');
+            _this.router.navigate(['home-video-1']);
+            console.log('Should have redirected by now.');
+        }, 1000); //1s
+    };
     HomeVideo0Component.prototype.ngOnInit = function () {
     };
     return HomeVideo0Component;
@@ -744,9 +757,10 @@ HomeVideo0Component = __decorate([
         template: __webpack_require__("./src/app/home-video/home-video-0/home-video-0.component.html"),
         styles: [__webpack_require__("./src/app/home-video/home-video.component.css")]
     }),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _a || Object])
 ], HomeVideo0Component);
 
+var _a;
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-0.component.js.map
 
 /***/ }),

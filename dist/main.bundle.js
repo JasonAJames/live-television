@@ -393,7 +393,7 @@ AppModule = __decorate([
                 { path: 'kitv4-hawaii', component: __WEBPACK_IMPORTED_MODULE_19__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */] },
                 { path: 'khon2-hawaii', component: __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */] },
                 { path: '', redirectTo: '/la-county-fair', pathMatch: 'full' },
-                { path: '**', component: __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__["a" /* LaCountyFairComponent */] }
+                { path: '**', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] }
             ], { useHash: true }),
             __WEBPACK_IMPORTED_MODULE_5__app_router__["a" /* routes */]
         ],
@@ -1012,7 +1012,7 @@ module.exports = "body { background: #222; }\n#video_player { \n  display: table
 /***/ "./src/app/home-video/home-video.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n    <video controls poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline id=\"myVideo\" onended=\"onend()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  <figcaption>\n    <a href=\"http://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n      <img src=\"http://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/lake.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/mountain.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n    </a>\n  </figcaption>\n  </figure>"
+module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n    <video controls poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline id=\"myVideo\" (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  <figcaption>\n    <a href=\"http://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n      <img src=\"http://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/lake.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/mountain.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n    </a>\n  </figcaption>\n  </figure>"
 
 /***/ }),
 
@@ -1038,11 +1038,14 @@ var HomeVideoComponent = (function () {
     function HomeVideoComponent(router) {
         this.router = router;
     }
-    HomeVideoComponent.prototype.onend = function () {
-        // do init at here for current route.
+    HomeVideoComponent.prototype.videoEnd = function () {
         var _this = this;
+        // do init at here for current route.
+        console.log('videoEnd function fired.');
         setTimeout(function () {
+            console.log('fired inside setTimeout function.');
             _this.router.navigate(['home']);
+            console.log('Should have redirected by now.');
         }, 1000); //1s
     };
     HomeVideoComponent.prototype.ngOnInit = function () {

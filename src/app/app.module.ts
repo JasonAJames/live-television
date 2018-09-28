@@ -171,7 +171,7 @@ import { HomeVideo5Component } from './home-video/home-video-5/home-video-5.comp
       { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
 
       { path: '', redirectTo: '/la-county-fair', pathMatch: 'full'},
-      { path: '**', component: LaCountyFairComponent}
+      { path: '**', component: HomeComponent}
     ], {useHash : true}),
     routes
   ],

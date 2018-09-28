@@ -13,11 +13,13 @@ export class HomeVideoComponent implements OnInit {
 
   constructor(private router: Router) {}
 
-  onend() {
+  videoEnd() {
     // do init at here for current route.
-
+    console.log('videoEnd function fired.');
     setTimeout(() => {
+      console.log('fired inside setTimeout function.');
       this.router.navigate(['home']);
+      console.log('Should have redirected by now.');
   }, 1000);  //1s
   }
 

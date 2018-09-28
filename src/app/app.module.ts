@@ -179,8 +179,8 @@ import { Ad1Component } from './home-video/ad/ad1/ad1.component';
       { path: 'kitv4-hawaii', component: Kitv4hawaiiComponent},
       { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
 
-      { path: '', redirectTo: '/la-county-fair', pathMatch: 'full'},
-      { path: '**', component: HomeComponent}
+      { path: '', redirectTo: '/home-video-0', pathMatch: 'full'},
+      { path: '**', component: HomeVideo0Component }
     ], {useHash : true}),
     routes
   ],

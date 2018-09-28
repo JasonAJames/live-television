@@ -9,7 +9,6 @@ import { Component, OnInit } from '@angular/core';
 
 
 export class HomeVideoComponent implements OnInit {
-  poster1 = '"http://thenewcode.com/assets/images/vid-glacier.jpg"'
 
   constructor() { }
 

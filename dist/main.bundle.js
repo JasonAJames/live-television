@@ -708,6 +708,13 @@ StockMarketComponent = __decorate([
 
 /***/ }),
 
+/***/ "./src/app/home-video/home-video-0/home-video-0.component.css":
+/***/ (function(module, exports) {
+
+module.exports = "body { background: #222; }\n#video_player { \n  display: table; line-height: 0;\n  font-size: 0; background: #000;\n  max-width: 1000px;\n  margin: 0 auto;\n}\n#video_container { \n  position: relative;\n}\n#video_player div, #video_player figcaption { \n  display: table-cell;\n  vertical-align: top; \n}\n#video_container video { \n  position: absolute; \n  display: block;\n  width: 100%;\n  height: 100%;\n  top: 0;\n}\n#video_player figcaption { width: 25%; }\n#video_player figcaption a { display: block; }\n#video_player figcaption a { \n  opacity: .5;\n  -webkit-transition: 1s opacity;\n  transition: 1s opacity; \n}\n#video_player figcaption a img, figure video { \n  width: 100%; height: auto; \n}\n#video_player figcaption a.currentvid, #video_player figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }\n@media (max-width: 700px) {\n  #video_player video, #video_player figcaption { \n    display: table-row; \n  }\n#video_container { padding-top: 56.25%; }\n#video_player figcaption a { \n  display: inline-block; width: 33.33%; \n}\n}\n"
+
+/***/ }),
+
 /***/ "./src/app/home-video/home-video-0/home-video-0.component.html":
 /***/ (function(module, exports) {
 
@@ -755,7 +762,7 @@ HomeVideo0Component = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-home-video-0',
         template: __webpack_require__("./src/app/home-video/home-video-0/home-video-0.component.html"),
-        styles: [__webpack_require__("./src/app/home-video/home-video.component.css")]
+        styles: [__webpack_require__("./src/app/home-video/home-video.component.css"), __webpack_require__("./src/app/home-video/home-video-0/home-video-0.component.css")]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _a || Object])
 ], HomeVideo0Component);

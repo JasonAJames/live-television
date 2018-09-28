@@ -13,7 +13,7 @@ export class Ad1Component implements OnInit {
   ngOnInit() {
   }
 
-  videoEnd0() {
+  videoEnd() {
     // do init at here for current route.
     console.log('videoEnd function fired.');
     setTimeout(() => {

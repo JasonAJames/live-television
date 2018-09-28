@@ -715,14 +715,14 @@ StockMarketComponent = __decorate([
 /***/ "./src/app/home-video/ad/ad1/ad1.component.css":
 /***/ (function(module, exports) {
 
-module.exports = "body { background: #222; }\n\n.hideVideo {\n  display: none;\n}\n\n.showVideo {\n  display: block;\n}\n\n#video_player { \n  display: table; line-height: 0;\n  font-size: 0; background: #000;\n  max-width: 1000px;\n  margin: 0 auto;\n}\n\n#video_container { \n  position: relative;\n}\n\n#video_player div, #video_player figcaption { \n  display: table-cell;\n  vertical-align: top; \n}\n\n#video_container video { \n  position: absolute; \n  display: block;\n  width: 100%;\n  height: 100%;\n  top: 0;\n}\n\n#video_player figcaption { width: 25%; }\n\n#video_player figcaption a { display: block; }\n\n#video_player figcaption a { \n  opacity: .5;\n  -webkit-transition: 1s opacity;\n  transition: 1s opacity; \n}\n\n#video_player figcaption a img, figure video { \n  width: 100%; height: auto; \n}\n\n#video_player figcaption a.currentvid, #video_player figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }\n\n@media (max-width: 700px) {\n  #video_player video, #video_player figcaption { \n    display: table-row; \n  }\n#video_container { padding-top: 56.25%; }\n#video_player figcaption a { \n  display: inline-block; width: 33.33%; \n}\n}\n"
+module.exports = "body { background: #222; }\n\n.hideVideo {\n  display: none;\n}\n\n.showVideo {\n  display: block;\n}\n\n.video_player { \n  display: table; line-height: 0;\n  font-size: 0; background: #000;\n  max-width: 1000px;\n  margin: 0 auto;\n}\n\n.video_container { \n  position: relative;\n}\n\n.video_player div, .video_player figcaption { \n  display: table-cell;\n  vertical-align: top; \n}\n\n.video_container video { \n  position: absolute; \n  display: block;\n  width: 100%;\n  height: 100%;\n  top: 0;\n}\n\n.video_player figcaption { width: 25%; }\n\n.video_player figcaption a { display: block; }\n\n.video_player figcaption a { \n  opacity: .5;\n  -webkit-transition: 1s opacity;\n  transition: 1s opacity; \n}\n\n.video_player figcaption a img, figure video { \n  width: 100%; height: auto; \n}\n\n.video_player figcaption a.currentvid, .video_player figcaption a:hover, .video_player figcaption a:focus { opacity: 1; }\n\n@media (max-width: 700px) {\n  .video_player video, .video_player figcaption { \n    display: table-row; \n  }\n.video_container { padding-top: 56.25%; }\n.video_player figcaption a { \n  display: inline-block; width: 33.33%; \n}\n}\n"
 
 /***/ }),
 
 /***/ "./src/app/home-video/ad/ad1/ad1.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n    <video autoplay poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline id=\"Ad1\" (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  <figcaption>\n    <a href=\"https://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n      <img src=\"https://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n    </a>\n    <a href=\"https://thenewcode.com/assets/videos/lake.mp4\">\n      <img src=\"https://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n    </a>\n    <a href=\"https://thenewcode.com/assets/videos/mountain.mp4\">\n      <img src=\"https://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n    </a>\n  </figcaption>\n  </figure>"
+module.exports = "<figure class=\"video_player\">\n    <div class=\"video_container\">\n    <video autoplay poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline class=\"Ad\" (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  <figcaption>\n    <a href=\"https://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n      <img src=\"https://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n    </a>\n    <a href=\"https://thenewcode.com/assets/videos/lake.mp4\">\n      <img src=\"https://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n    </a>\n    <a href=\"https://thenewcode.com/assets/videos/mountain.mp4\">\n      <img src=\"https://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n    </a>\n  </figcaption>\n  </figure>"
 
 /***/ }),
 
@@ -750,7 +750,7 @@ var Ad1Component = (function () {
     }
     Ad1Component.prototype.ngOnInit = function () {
     };
-    Ad1Component.prototype.videoEnd0 = function () {
+    Ad1Component.prototype.videoEnd = function () {
         var _this = this;
         // do init at here for current route.
         console.log('videoEnd function fired.');
@@ -812,7 +812,7 @@ var HomeVideo0Component = (function () {
     function HomeVideo0Component(router) {
         this.router = router;
     }
-    HomeVideo0Component.prototype.videoEnd0 = function () {
+    HomeVideo0Component.prototype.videoEnd = function () {
         var _this = this;
         // do init at here for current route.
         console.log('videoEnd function fired.');

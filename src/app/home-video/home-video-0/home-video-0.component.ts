@@ -10,7 +10,7 @@ export class HomeVideo0Component implements OnInit {
 
   constructor(private router: Router) {}
 
-  videoEnd0() {
+  videoEnd() {
     // do init at here for current route.
     console.log('videoEnd function fired.');
     setTimeout(() => {

@@ -50,6 +50,12 @@ import { LaCountyFairComponent } from './la-county-fair/la-county-fair.component
 import { NewsComponent } from './news/news.component';
 import { CbsComponent } from './usa/cbs/cbs.component';
 import { HomeVideoComponent } from './home-video/home-video.component';
+import { HomeVideo0Component } from './home-video/home-video-0/home-video-0.component';
+import { HomeVideo1Component } from './home-video/home-video-1/home-video-1.component';
+import { HomeVideo2Component } from './home-video/home-video-2/home-video-2.component';
+import { HomeVideo3Component } from './home-video/home-video-3/home-video-3.component';
+import { HomeVideo4Component } from './home-video/home-video-4/home-video-4.component';
+import { HomeVideo5Component } from './home-video/home-video-5/home-video-5.component';
 
 
 
@@ -99,7 +105,13 @@ import { HomeVideoComponent } from './home-video/home-video.component';
     LaCountyFairComponent,
     NewsComponent,
     CbsComponent,
-    HomeVideoComponent
+    HomeVideoComponent,
+    HomeVideo0Component,
+    HomeVideo1Component,
+    HomeVideo2Component,
+    HomeVideo3Component,
+    HomeVideo4Component,
+    HomeVideo5Component
 
   ],
   imports: [

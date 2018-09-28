@@ -217,12 +217,24 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__news_news_component__ = __webpack_require__("./src/app/news/news.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__ = __webpack_require__("./src/app/usa/cbs/cbs.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__ = __webpack_require__("./src/app/home-video/home-video.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__home_video_home_video_0_home_video_0_component__ = __webpack_require__("./src/app/home-video/home-video-0/home-video-0.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__home_video_home_video_1_home_video_1_component__ = __webpack_require__("./src/app/home-video/home-video-1/home-video-1.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__home_video_home_video_2_home_video_2_component__ = __webpack_require__("./src/app/home-video/home-video-2/home-video-2.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__home_video_home_video_3_home_video_3_component__ = __webpack_require__("./src/app/home-video/home-video-3/home-video-3.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__home_video_home_video_4_home_video_4_component__ = __webpack_require__("./src/app/home-video/home-video-4/home-video-4.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__home_video_home_video_5_home_video_5_component__ = __webpack_require__("./src/app/home-video/home-video-5/home-video-5.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
+
+
+
 
 
 
@@ -324,7 +336,13 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__["a" /* LaCountyFairComponent */],
             __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */],
             __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__["a" /* CbsComponent */],
-            __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__["a" /* HomeVideoComponent */]
+            __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__["a" /* HomeVideoComponent */],
+            __WEBPACK_IMPORTED_MODULE_50__home_video_home_video_0_home_video_0_component__["a" /* HomeVideo0Component */],
+            __WEBPACK_IMPORTED_MODULE_51__home_video_home_video_1_home_video_1_component__["a" /* HomeVideo1Component */],
+            __WEBPACK_IMPORTED_MODULE_52__home_video_home_video_2_home_video_2_component__["a" /* HomeVideo2Component */],
+            __WEBPACK_IMPORTED_MODULE_53__home_video_home_video_3_home_video_3_component__["a" /* HomeVideo3Component */],
+            __WEBPACK_IMPORTED_MODULE_54__home_video_home_video_4_home_video_4_component__["a" /* HomeVideo4Component */],
+            __WEBPACK_IMPORTED_MODULE_55__home_video_home_video_5_home_video_5_component__["a" /* HomeVideo5Component */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -684,6 +702,306 @@ StockMarketComponent = __decorate([
 
 /***/ }),
 
+/***/ "./src/app/home-video/home-video-0/home-video-0.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-0/home-video-0.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  home-video-0 works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-0/home-video-0.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeVideo0Component; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HomeVideo0Component = (function () {
+    function HomeVideo0Component() {
+    }
+    HomeVideo0Component.prototype.ngOnInit = function () {
+    };
+    return HomeVideo0Component;
+}());
+HomeVideo0Component = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-home-video-0',
+        template: __webpack_require__("./src/app/home-video/home-video-0/home-video-0.component.html"),
+        styles: [__webpack_require__("./src/app/home-video/home-video-0/home-video-0.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], HomeVideo0Component);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-0.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-1/home-video-1.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-1/home-video-1.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  home-video-1 works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-1/home-video-1.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeVideo1Component; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HomeVideo1Component = (function () {
+    function HomeVideo1Component() {
+    }
+    HomeVideo1Component.prototype.ngOnInit = function () {
+    };
+    return HomeVideo1Component;
+}());
+HomeVideo1Component = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-home-video-1',
+        template: __webpack_require__("./src/app/home-video/home-video-1/home-video-1.component.html"),
+        styles: [__webpack_require__("./src/app/home-video/home-video-1/home-video-1.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], HomeVideo1Component);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-1.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-2/home-video-2.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-2/home-video-2.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  home-video-2 works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-2/home-video-2.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeVideo2Component; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HomeVideo2Component = (function () {
+    function HomeVideo2Component() {
+    }
+    HomeVideo2Component.prototype.ngOnInit = function () {
+    };
+    return HomeVideo2Component;
+}());
+HomeVideo2Component = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-home-video-2',
+        template: __webpack_require__("./src/app/home-video/home-video-2/home-video-2.component.html"),
+        styles: [__webpack_require__("./src/app/home-video/home-video-2/home-video-2.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], HomeVideo2Component);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-2.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-3/home-video-3.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-3/home-video-3.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  home-video-3 works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-3/home-video-3.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeVideo3Component; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HomeVideo3Component = (function () {
+    function HomeVideo3Component() {
+    }
+    HomeVideo3Component.prototype.ngOnInit = function () {
+    };
+    return HomeVideo3Component;
+}());
+HomeVideo3Component = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-home-video-3',
+        template: __webpack_require__("./src/app/home-video/home-video-3/home-video-3.component.html"),
+        styles: [__webpack_require__("./src/app/home-video/home-video-3/home-video-3.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], HomeVideo3Component);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-3.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-4/home-video-4.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-4/home-video-4.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  home-video-4 works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-4/home-video-4.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeVideo4Component; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HomeVideo4Component = (function () {
+    function HomeVideo4Component() {
+    }
+    HomeVideo4Component.prototype.ngOnInit = function () {
+    };
+    return HomeVideo4Component;
+}());
+HomeVideo4Component = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-home-video-4',
+        template: __webpack_require__("./src/app/home-video/home-video-4/home-video-4.component.html"),
+        styles: [__webpack_require__("./src/app/home-video/home-video-4/home-video-4.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], HomeVideo4Component);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-4.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-5/home-video-5.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-5/home-video-5.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  home-video-5 works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/home-video/home-video-5/home-video-5.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeVideo5Component; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HomeVideo5Component = (function () {
+    function HomeVideo5Component() {
+    }
+    HomeVideo5Component.prototype.ngOnInit = function () {
+    };
+    return HomeVideo5Component;
+}());
+HomeVideo5Component = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-home-video-5',
+        template: __webpack_require__("./src/app/home-video/home-video-5/home-video-5.component.html"),
+        styles: [__webpack_require__("./src/app/home-video/home-video-5/home-video-5.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], HomeVideo5Component);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-5.component.js.map
+
+/***/ }),
+
 /***/ "./src/app/home-video/home-video.component.css":
 /***/ (function(module, exports) {
 
@@ -694,7 +1012,7 @@ module.exports = "body { background: #222; }\n#video_player { \n  display: table
 /***/ "./src/app/home-video/home-video.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n    <video controls poster=\"http://thenewcode.com/assets/images/vid-glacier.jpg\" playsinline>\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  <figcaption>\n    <a href=\"http://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n      <img src=\"http://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/lake.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/mountain.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n    </a>\n  </figcaption>\n  </figure>"
+module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n    <video controls poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline>\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  <figcaption>\n    <a href=\"http://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n      <img src=\"http://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/lake.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/mountain.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n    </a>\n  </figcaption>\n  </figure>"
 
 /***/ }),
 

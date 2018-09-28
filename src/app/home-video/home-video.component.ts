@@ -11,8 +11,6 @@ import { Component, OnInit } from '@angular/core';
 
 export class HomeVideoComponent implements OnInit {
 
-  
-
   constructor() { }
 
   ngOnInit() {

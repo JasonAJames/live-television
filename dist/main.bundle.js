@@ -1032,11 +1032,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-document.getElementById('myVideo').addEventListener('ended', myHandler, false);
-function myHandler(e) {
-    // What you want to do after the event
-    window.location.href = "https://socaltelevision.com/#/home";
-}
 var HomeVideoComponent = (function () {
     function HomeVideoComponent() {
     }

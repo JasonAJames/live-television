@@ -23,4 +23,8 @@ export class Ad1Component implements OnInit {
   }, );  // ,1000 1s
   }
 
+  stationName = 'SoCal Television - YES on Prop 8';
+  description = 'VOTE YES on Proposition 8';
+  subdescription = 'Vote with the Patients... Not the Clinics! VOTE YES on 8!';
+
 }

@@ -23,4 +23,8 @@ export class HomeVideo1Component implements OnInit {
   ngOnInit() {
   }
 
+  stationName = 'SoCal Television';
+  description = 'The Thunderbirds';
+  subdescription = 'The Sky thunders with the Thunderbirds flying by March Airforce Base, CA';
+
 }

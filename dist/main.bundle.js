@@ -708,13 +708,6 @@ StockMarketComponent = __decorate([
 
 /***/ }),
 
-/***/ "./src/app/home-video/home-video-0/home-video-0.component.css":
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
 /***/ "./src/app/home-video/home-video-0/home-video-0.component.html":
 /***/ (function(module, exports) {
 
@@ -749,7 +742,7 @@ HomeVideo0Component = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-home-video-0',
         template: __webpack_require__("./src/app/home-video/home-video-0/home-video-0.component.html"),
-        styles: [__webpack_require__("./src/app/home-video/home-video-0/home-video-0.component.css")]
+        styles: [__webpack_require__("./src/app/home-video/home-video.component.css")]
     }),
     __metadata("design:paramtypes", [])
 ], HomeVideo0Component);

@@ -352,6 +352,12 @@ AppModule = __decorate([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
                 { path: 'usa/cbs', component: __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__["a" /* CbsComponent */] },
                 { path: 'home-video', component: __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__["a" /* HomeVideoComponent */] },
+                { path: 'home-video-0', component: __WEBPACK_IMPORTED_MODULE_50__home_video_home_video_0_home_video_0_component__["a" /* HomeVideo0Component */] },
+                { path: 'home-video-1', component: __WEBPACK_IMPORTED_MODULE_51__home_video_home_video_1_home_video_1_component__["a" /* HomeVideo1Component */] },
+                { path: 'home-video-2', component: __WEBPACK_IMPORTED_MODULE_52__home_video_home_video_2_home_video_2_component__["a" /* HomeVideo2Component */] },
+                { path: 'home-video-3', component: __WEBPACK_IMPORTED_MODULE_53__home_video_home_video_3_home_video_3_component__["a" /* HomeVideo3Component */] },
+                { path: 'home-video-4', component: __WEBPACK_IMPORTED_MODULE_54__home_video_home_video_4_home_video_4_component__["a" /* HomeVideo4Component */] },
+                { path: 'home-video-5', component: __WEBPACK_IMPORTED_MODULE_55__home_video_home_video_5_home_video_5_component__["a" /* HomeVideo5Component */] },
                 { path: 'news', component: __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
                 { path: 'live-2', component: __WEBPACK_IMPORTED_MODULE_38__live_2_live_2_component__["a" /* Live2Component */] },
@@ -712,7 +718,7 @@ module.exports = ""
 /***/ "./src/app/home-video/home-video-0/home-video-0.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  home-video-0 works!\n</p>\n"
+module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n    <video controls poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline id=\"myVideo\" (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  </figure>"
 
 /***/ }),
 
@@ -1044,7 +1050,7 @@ var HomeVideoComponent = (function () {
         console.log('videoEnd function fired.');
         setTimeout(function () {
             console.log('fired inside setTimeout function.');
-            _this.router.navigate(['home']);
+            _this.router.navigate(['home-video-0']);
             console.log('Should have redirected by now.');
         }, 1000); //1s
     };

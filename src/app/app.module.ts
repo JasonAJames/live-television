@@ -123,6 +123,12 @@ import { HomeVideo5Component } from './home-video/home-video-5/home-video-5.comp
       { path: 'usa/cbs', component: CbsComponent},
 
       {path: 'home-video', component: HomeVideoComponent},
+      {path: 'home-video-0', component: HomeVideo0Component},
+      {path: 'home-video-1', component: HomeVideo1Component},
+      {path: 'home-video-2', component: HomeVideo2Component},
+      {path: 'home-video-3', component: HomeVideo3Component},
+      {path: 'home-video-4', component: HomeVideo4Component},
+      {path: 'home-video-5', component: HomeVideo5Component},
 
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},

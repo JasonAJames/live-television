@@ -18,7 +18,7 @@ export class Ad1Component implements OnInit {
     console.log('videoEnd function fired.');
     setTimeout(() => {
       console.log('fired inside setTimeout function.');
-      this.router.navigate(['home-video']);
+      this.router.navigate(['home-video-1']);
       console.log('Should have redirected by now.');
   }, );  // ,1000 1s
   }

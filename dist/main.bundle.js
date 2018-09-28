@@ -722,7 +722,7 @@ module.exports = "body { background: #222; }\n\n.hideVideo {\n  display: none;\n
 /***/ "./src/app/home-video/ad/ad1/ad1.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<figure class=\"video_player\">\n    <div class=\"video_container\">\n    <video autoplay poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline class=\"Ad\" (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  <figcaption>\n    <a href=\"https://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n      <img src=\"https://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n    </a>\n    <a href=\"https://thenewcode.com/assets/videos/lake.mp4\">\n      <img src=\"https://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n    </a>\n    <a href=\"https://thenewcode.com/assets/videos/mountain.mp4\">\n      <img src=\"https://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n    </a>\n  </figcaption>\n  </figure>"
+module.exports = "<figure class=\"video_player\">\n    <div class=\"video_container\">\n    <video autoplay poster=\"assets/images/video_thumbs/YESon8_thumb.png\" playsinline class=\"Ad\" (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/Video+ADs/prop8_Video.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/Video+ADs/prop8_Video.webmhd.webm\" type=\"video/webm\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/Video+ADs/prop8_Video.oggtheora.ogv\" type=\"video/ogg\">\n  </video>\n  </div>\n  <figcaption>\n      <a  routerLink=\"home-video-0\">\n          <img src=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" alt=\"Cajalco Labyrinth\">\n        </a>\n        <a routerLink=\"ad1\" class=\"currentvid\">\n          <img src=\"assets/images/video_thumbs/YESon8_thumb.png\" alt=\"PSA - YES on 8\">\n        </a>\n        <a routerLink=\"home-video-1\">\n          <img src=\"assets/images/video_thumbs/Thunderbirds_thumb.jpg\" alt=\"The Thunderbirds\">\n        </a>\n  </figcaption>\n  </figure>"
 
 /***/ }),
 
@@ -756,7 +756,7 @@ var Ad1Component = (function () {
         console.log('videoEnd function fired.');
         setTimeout(function () {
             console.log('fired inside setTimeout function.');
-            _this.router.navigate(['home-video']);
+            _this.router.navigate(['home-video-1']);
             console.log('Should have redirected by now.');
         }); // ,1000 1s
     };
@@ -786,7 +786,7 @@ module.exports = "body { background: #222; }\n\n.hideVideo {\n  display: none;\n
 /***/ "./src/app/home-video/home-video-0/home-video-0.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<figure class=\"video_player\">\n        <div class=\"video_container\">\n        <video autoplay controls poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n      </video>\n      </div>\n      <figcaption>\n        <a href=\"https://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n          <img src=\"https://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n        </a>\n        <a href=\"https://thenewcode.com/assets/videos/lake.mp4\">\n          <img src=\"https://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n        </a>\n        <a href=\"https://thenewcode.com/assets/videos/mountain.mp4\">\n          <img src=\"https://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n        </a>\n      </figcaption>\n      </figure>"
+module.exports = "<figure class=\"video_player\">\n        <div class=\"video_container\">\n        <video autoplay controls poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.oggtheora.ogv\" type=\"video/ogg\">\n      </video>\n      </div>\n      <figcaption>\n        <a routerLink=\"home-video-0\" class=\"currentvid\">\n          <img src=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" alt=\"Cajalco Labyrinth\">\n        </a>\n        <a routerLink=\"ad1\">\n          <img src=\"assets/images/video_thumbs/YESon8_thumb.png\" alt=\"PSA - YES on 8\">\n        </a>\n        <a routerLink=\"home-video-1\">\n          <img src=\"assets/images/video_thumbs/Thunderbirds_thumb.jpg\" alt=\"The Thunderbirds\">\n        </a>\n      </figcaption>\n      </figure>"
 
 /***/ }),
 
@@ -843,14 +843,14 @@ var _a;
 /***/ "./src/app/home-video/home-video-1/home-video-1.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "body { background: #222; }\n\n.hideVideo {\n  display: none;\n}\n\n.showVideo {\n  display: block;\n}\n\n.video_player { \n  display: table; line-height: 0;\n  font-size: 0; background: #000;\n  max-width: 1000px;\n  margin: 0 auto;\n}\n\n.video_container { \n  position: relative;\n}\n\n.video_player div, .video_player figcaption { \n  display: table-cell;\n  vertical-align: top; \n}\n\n.video_container video { \n  position: absolute; \n  display: block;\n  width: 100%;\n  height: 100%;\n  top: 0;\n}\n\n.video_player figcaption { width: 25%; }\n\n.video_player figcaption a { display: block; }\n\n.video_player figcaption a { \n  opacity: .5;\n  -webkit-transition: 1s opacity;\n  transition: 1s opacity; \n}\n\n.video_player figcaption a img, figure video { \n  width: 100%; height: auto; \n}\n\n.video_player figcaption a.currentvid, .video_player figcaption a:hover, .video_player figcaption a:focus { opacity: 1; }\n\n@media (max-width: 700px) {\n  .video_player video, .video_player figcaption { \n    display: table-row; \n  }\n.video_container { padding-top: 56.25%; }\n.video_player figcaption a { \n  display: inline-block; width: 33.33%; \n}\n}\n"
 
 /***/ }),
 
 /***/ "./src/app/home-video/home-video-1/home-video-1.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  home-video-1 works!\n</p>\n"
+module.exports = "<figure class=\"video_player\">\n    <div class=\"video_container\">\n    <video autoplay controls poster=\"assets/images/video_thumbs/Thunderbirds_thumb.jpg\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.webmhd.webm\" type=\"video/webm\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.oggtheora.ogv\" type=\"video/ogg\">\n  </video>\n  </div>\n  <figcaption>\n    <a routerLink=\"home-video-0\" class=\"currentvid\">\n      <img src=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" alt=\"Cajalco Labyrinth\">\n    </a>\n    <a routerLink=\"ad1\">\n      <img src=\"assets/images/video_thumbs/YESon8_thumb.png\" alt=\"PSA - YES on 8\">\n    </a>\n    <a routerLink=\"home-video-1\">\n      <img src=\"assets/images/video_thumbs/Thunderbirds_thumb.jpg\" alt=\"The Thunderbirds\">\n    </a>\n  </figcaption>\n  </figure>"
 
 /***/ }),
 
@@ -860,6 +860,7 @@ module.exports = "<p>\n  home-video-1 works!\n</p>\n"
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeVideo1Component; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/index.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -870,9 +871,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var HomeVideo1Component = (function () {
-    function HomeVideo1Component() {
+    function HomeVideo1Component(router) {
+        this.router = router;
     }
+    HomeVideo1Component.prototype.videoEnd = function () {
+        var _this = this;
+        // do init at here for current route.
+        console.log('videoEnd function fired.');
+        setTimeout(function () {
+            console.log('fired inside setTimeout function.');
+            _this.router.navigate(['home-video-0']);
+            console.log('Should have redirected by now.');
+        }); // ,1000 1s
+    };
     HomeVideo1Component.prototype.ngOnInit = function () {
     };
     return HomeVideo1Component;
@@ -883,9 +896,10 @@ HomeVideo1Component = __decorate([
         template: __webpack_require__("./src/app/home-video/home-video-1/home-video-1.component.html"),
         styles: [__webpack_require__("./src/app/home-video/home-video-1/home-video-1.component.css")]
     }),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _a || Object])
 ], HomeVideo1Component);
 
+var _a;
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-1.component.js.map
 
 /***/ }),

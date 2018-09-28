@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-home-video-0',
   templateUrl: './home-video-0.component.html',
-  styleUrls: ['../home-video.component.css','./home-video-0.component.css']
+  styleUrls: ['./home-video-0.component.css']
 })
 export class HomeVideo0Component implements OnInit {
 

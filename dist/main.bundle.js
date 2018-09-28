@@ -718,7 +718,7 @@ module.exports = "body { background: #222; }\n#video_player { \n  display: table
 /***/ "./src/app/home-video/home-video-0/home-video-0.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n    <video controls poster=\"../../../assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  </figure>"
+module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n    <video controls poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  </figure>"
 
 /***/ }),
 

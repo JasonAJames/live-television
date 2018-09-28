@@ -56,7 +56,7 @@ import { HomeVideo2Component } from './home-video/home-video-2/home-video-2.comp
 import { HomeVideo3Component } from './home-video/home-video-3/home-video-3.component';
 import { HomeVideo4Component } from './home-video/home-video-4/home-video-4.component';
 import { HomeVideo5Component } from './home-video/home-video-5/home-video-5.component';
-
+import { Ad1Component } from './home-video/ad/ad1/ad1.component';
 
 
 
@@ -111,7 +111,8 @@ import { HomeVideo5Component } from './home-video/home-video-5/home-video-5.comp
     HomeVideo2Component,
     HomeVideo3Component,
     HomeVideo4Component,
-    HomeVideo5Component
+    HomeVideo5Component,
+    Ad1Component
 
   ],
   imports: [
@@ -129,6 +130,8 @@ import { HomeVideo5Component } from './home-video/home-video-5/home-video-5.comp
       {path: 'home-video-3', component: HomeVideo3Component},
       {path: 'home-video-4', component: HomeVideo4Component},
       {path: 'home-video-5', component: HomeVideo5Component},
+
+      {path: 'ad1', component: Ad1Component},
 
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},

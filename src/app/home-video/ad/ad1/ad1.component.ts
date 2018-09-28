@@ -2,25 +2,25 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-home-video-0',
-  templateUrl: './home-video-0.component.html',
-  styleUrls: ['./home-video-0.component.css']
+  selector: 'app-ad1',
+  templateUrl: './ad1.component.html',
+  styleUrls: ['./ad1.component.css']
 })
-export class HomeVideo0Component implements OnInit {
+export class Ad1Component implements OnInit {
 
   constructor(private router: Router) {}
+
+  ngOnInit() {
+  }
 
   videoEnd0() {
     // do init at here for current route.
     console.log('videoEnd function fired.');
     setTimeout(() => {
       console.log('fired inside setTimeout function.');
-      this.router.navigate(['ad1']);
+      this.router.navigate(['home-video']);
       console.log('Should have redirected by now.');
   }, );  // ,1000 1s
-  }
-
-  ngOnInit() {
   }
 
 }

@@ -711,14 +711,14 @@ StockMarketComponent = __decorate([
 /***/ "./src/app/home-video/home-video-0/home-video-0.component.css":
 /***/ (function(module, exports) {
 
-module.exports = "body { background: #222; }\n#video_player { \n  display: table; line-height: 0;\n  font-size: 0; background: #000;\n  max-width: 1000px;\n  margin: 0 auto;\n}\n#video_container { \n  position: relative;\n}\n#video_player div, #video_player figcaption { \n  display: table-cell;\n  vertical-align: top; \n}\n#video_container video { \n  position: absolute; \n  display: block;\n  width: 100%;\n  height: 100%;\n  top: 0;\n}\n#video_player figcaption { width: 25%; }\n#video_player figcaption a { display: block; }\n#video_player figcaption a { \n  opacity: .5;\n  -webkit-transition: 1s opacity;\n  transition: 1s opacity; \n}\n#video_player figcaption a img, figure video { \n  width: 100%; height: auto; \n}\n#video_player figcaption a.currentvid, #video_player figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }\n@media (max-width: 700px) {\n  #video_player video, #video_player figcaption { \n    display: table-row; \n  }\n#video_container { padding-top: 56.25%; }\n#video_player figcaption a { \n  display: inline-block; width: 33.33%; \n}\n}\n"
+module.exports = "body { background: #222; }\n\n#video_container2 {\n  display: none;\n}\n\n.hideVideo {\n  display: none;\n}\n\n.showVideo {\n  display: block;\n}\n\n#video_player { \n  display: table; line-height: 0;\n  font-size: 0; background: #000;\n  max-width: 1000px;\n  margin: 0 auto;\n}\n\n#video_container { \n  position: relative;\n}\n\n#video_player div, #video_player figcaption { \n  display: table-cell;\n  vertical-align: top; \n}\n\n#video_container video { \n  position: absolute; \n  display: block;\n  width: 100%;\n  height: 100%;\n  top: 0;\n}\n\n#video_player figcaption { width: 25%; }\n\n#video_player figcaption a { display: block; }\n\n#video_player figcaption a { \n  opacity: .5;\n  -webkit-transition: 1s opacity;\n  transition: 1s opacity; \n}\n\n#video_player figcaption a img, figure video { \n  width: 100%; height: auto; \n}\n\n#video_player figcaption a.currentvid, #video_player figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }\n\n@media (max-width: 700px) {\n  #video_player video, #video_player figcaption { \n    display: table-row; \n  }\n#video_container { padding-top: 56.25%; }\n#video_player figcaption a { \n  display: inline-block; width: 33.33%; \n}\n}\n"
 
 /***/ }),
 
 /***/ "./src/app/home-video/home-video-0/home-video-0.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<figure id=\"video_player\">\n        <div id=\"video_container\">\n        <video controls poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline id=\"myVideo0\" (ended)=\"videoEnd0()\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n      </video>\n      </div>\n      <figcaption>\n        <a href=\"https://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n          <img src=\"https://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n        </a>\n        <a href=\"https://thenewcode.com/assets/videos/lake.mp4\">\n          <img src=\"https://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n        </a>\n        <a href=\"https://thenewcode.com/assets/videos/mountain.mp4\">\n          <img src=\"https://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n        </a>\n      </figcaption>\n      </figure>"
+module.exports = "<figure id=\"video_player\">\n        <div id=\"video_container\">\n        <video controls poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline id=\"myVideo0\" (ended)=\"videoEnd0()\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n      </video>\n      </div>\n      <div id=\"video_container2\">\n            <video controls poster=\"assets/images/video_thumbs/Cajaclco-laberynth.png\" playsinline id=\"myVideo1\" (ended)=\"videoEnd0()\">\n              <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n              <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n          </video>\n          </div>\n      <figcaption>\n        <a href=\"https://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n          <img src=\"https://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n        </a>\n        <a href=\"https://thenewcode.com/assets/videos/lake.mp4\">\n          <img src=\"https://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n        </a>\n        <a href=\"https://thenewcode.com/assets/videos/mountain.mp4\">\n          <img src=\"https://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n        </a>\n      </figcaption>\n      </figure>"
 
 /***/ }),
 
@@ -745,12 +745,15 @@ var HomeVideo0Component = (function () {
         this.router = router;
     }
     HomeVideo0Component.prototype.videoEnd0 = function () {
-        var _this = this;
         // do init at here for current route.
         console.log('videoEnd function fired.');
         setTimeout(function () {
             console.log('fired inside setTimeout function.');
-            _this.router.navigate(['home-video-1']);
+            var element = document.getElementById("video_container1");
+            var element2 = document.getElementById("video_container2");
+            element.classList.add("hideVideo");
+            element2.classList.add("showVideo");
+            // this.router.navigate(['home-video-1']);
             console.log('Should have redirected by now.');
         }, 1000); //1s
     };

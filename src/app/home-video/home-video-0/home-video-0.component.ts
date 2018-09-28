@@ -15,7 +15,11 @@ export class HomeVideo0Component implements OnInit {
     console.log('videoEnd function fired.');
     setTimeout(() => {
       console.log('fired inside setTimeout function.');
-      this.router.navigate(['home-video-1']);
+      var element = document.getElementById("video_container1");
+      var element2 = document.getElementById("video_container2");
+    element.classList.add("hideVideo");
+    element2.classList.add("showVideo");
+     // this.router.navigate(['home-video-1']);
       console.log('Should have redirected by now.');
   }, 1000);  //1s
   }

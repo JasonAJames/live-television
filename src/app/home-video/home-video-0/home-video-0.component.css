@@ -1,4 +1,14 @@
 body { background: #222; }
+
+#video_container2 {
+  display: none;
+}
+.hideVideo {
+  display: none;
+}
+.showVideo {
+  display: block;
+}
 #video_player { 
   display: table; line-height: 0;
   font-size: 0; background: #000;

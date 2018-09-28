@@ -50,7 +50,6 @@ import { LaCountyFairComponent } from './la-county-fair/la-county-fair.component
 import { NewsComponent } from './news/news.component';
 import { CbsComponent } from './usa/cbs/cbs.component';
 import { HomeVideoComponent } from './home-video/home-video.component';
-import { LandingpageComponent } from './landingpage/landingpage.component';
 
 
 
@@ -100,8 +99,7 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
     LaCountyFairComponent,
     NewsComponent,
     CbsComponent,
-    HomeVideoComponent,
-    LandingpageComponent
+    HomeVideoComponent
 
   ],
   imports: [
@@ -112,7 +110,7 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
       { path: 'home', component: HomeComponent},
       { path: 'usa/cbs', component: CbsComponent},
 
-      {path: 'home-video', component: LandingpageComponent},
+      {path: 'home-video', component: HomeVideoComponent},
 
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},

@@ -217,14 +217,12 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__news_news_component__ = __webpack_require__("./src/app/news/news.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__ = __webpack_require__("./src/app/usa/cbs/cbs.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__ = __webpack_require__("./src/app/home-video/home-video.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__landingpage_landingpage_component__ = __webpack_require__("./src/app/landingpage/landingpage.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 
@@ -326,8 +324,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_46__la_county_fair_la_county_fair_component__["a" /* LaCountyFairComponent */],
             __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */],
             __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__["a" /* CbsComponent */],
-            __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__["a" /* HomeVideoComponent */],
-            __WEBPACK_IMPORTED_MODULE_50__landingpage_landingpage_component__["a" /* LandingpageComponent */]
+            __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__["a" /* HomeVideoComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -336,7 +333,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
                 { path: 'usa/cbs', component: __WEBPACK_IMPORTED_MODULE_48__usa_cbs_cbs_component__["a" /* CbsComponent */] },
-                { path: 'home-video', component: __WEBPACK_IMPORTED_MODULE_50__landingpage_landingpage_component__["a" /* LandingpageComponent */] },
+                { path: 'home-video', component: __WEBPACK_IMPORTED_MODULE_49__home_video_home_video_component__["a" /* HomeVideoComponent */] },
                 { path: 'news', component: __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
                 { path: 'live-2', component: __WEBPACK_IMPORTED_MODULE_38__live_2_live_2_component__["a" /* Live2Component */] },
@@ -690,14 +687,14 @@ StockMarketComponent = __decorate([
 /***/ "./src/app/home-video/home-video.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".container {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    height: 100vh;\n}\n.video {\n    width: 100%;\n}\n.c-video {\n    width: 100%;\n    max-width: 800px;\n    position: relative;\n    overflow: hidden;\n}\n.c-video:hover .controls {\n    -webkit-transform: translateY(0);\n            transform: translateY(0);\n}\n.controls {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n    -ms-flex-wrap: wrap;\n        flex-wrap: wrap;\n    background: rgba(0, 0, 0, 0.7);\n    -webkit-transform: translateY(100%) translateY(-5px);\n            transform: translateY(100%) translateY(-5px);\n    -webkit-transition: all 0.2s;\n    transition: all 0.2s;\n}\n.buttons {\n    padding: 10px;\n}\n.buttons button {\n    background: none;\n    border: 0;\n    outline: 0;\n    cursor: pointer;\n}\n.buttons button:before {\n    content: '\\f144';\n    font-family: 'Font Awesome 5 Free';\n    width: 30px;\n    height: 30px;\n    display: inline-block;\n    font-size: 28px;\n    color: #fff;\n    -webkit-font-smoothing: antialiased;\n}\n.buttons button.play:before {\n    content: '\\f144';\n}\n.buttons button.pause:before {\n    content: '\\f28b';\n}\n.orange-bar {\n    height: 10px;\n    top: 0;\n    left: 0;\n    width: 100%;\n    background-color: black;\n}\n.orange-juice {\n    height: 10px;\n    background-color: orangered;\n}"
+module.exports = "body { background: #222; }\n#video_player { \n  display: table; line-height: 0;\n  font-size: 0; background: #000;\n  max-width: 1000px;\n  margin: 0 auto;\n}\n#video_container { \n  position: relative;\n}\n#video_player div, #video_player figcaption { \n  display: table-cell;\n  vertical-align: top; \n}\n#video_container video { \n  position: absolute; \n  display: block;\n  width: 100%;\n  height: 100%;\n  top: 0;\n}\n#video_player figcaption { width: 25%; }\n#video_player figcaption a { display: block; }\n#video_player figcaption a { \n  opacity: .5;\n  -webkit-transition: 1s opacity;\n  transition: 1s opacity; \n}\n#video_player figcaption a img, figure video { \n  width: 100%; height: auto; \n}\n#video_player figcaption a.currentvid, #video_player figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }\n@media (max-width: 700px) {\n  #video_player video, #video_player figcaption { \n    display: table-row; \n  }\n#video_container { padding-top: 56.25%; }\n#video_player figcaption a { \n  display: inline-block; width: 33.33%; \n}\n}\n"
 
 /***/ }),
 
 /***/ "./src/app/home-video/home-video.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <div class=\"c-video\">\n    <video class=\"video\" src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4\"></video>\n    <div class=\"controls\">\n      <div class=\"orange-bar\">\n        <div class=\"orange-juice\"></div>\n      </div>\n      <div class=\"buttons\">\n        <button id=\"play-pause\"></button>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n    <video controls poster=\"http://thenewcode.com/assets/images/vid-glacier.jpg\" playsinline>\n      <source src=\"http://thenewcode.com/assets/videos/glacier.mp4\" type=\"video/mp4\">\n      <source src=\"http://thenewcode.com/assets/videos/glacier.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  <figcaption>\n    <a href=\"http://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n      <img src=\"http://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/lake.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/mountain.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n    </a>\n  </figcaption>\n  </figure>"
 
 /***/ }),
 
@@ -843,56 +840,6 @@ LaCountyFairComponent = __decorate([
 ], LaCountyFairComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/la-county-fair.component.js.map
-
-/***/ }),
-
-/***/ "./src/app/landingpage/landingpage.component.css":
-/***/ (function(module, exports) {
-
-module.exports = "#video_player {\n\tdisplay: table;\n\tline-height: 0;\n\tfont-size: 0;\n\tbackground: #000;\n\tmax-width: 1000px;\n\tmargin: 0 auto;\n}\n#video_container {\n\tposition: relative; \n}\n#video_player div,\n#video_player figcaption {\n\tdisplay: table-cell;\n\tvertical-align: top;\n}\n#video_container video { \n\tposition: absolute;\n\tdisplay: block;\n\twidth: 100%;\n\theight: 100%;\n\ttop: 0;\n}\n#video_player figcaption { \n\twidth: 25%; \n}\n#video_player figcaption a {\n\tdisplay: block;\n}\n#video_player figcaption a {\n\topacity: .5;\n\t-webkit-transition: 1s opacity;\n\ttransition: 1s opacity;\n}\n#video_player figcaption a img,\nfigure video {\n\twidth: 100%;\n\theight: auto;\n}\n#video_player figcaption a.currentvid,\n#video_player figcaption a:hover,\n#video_player figcaption a:focus { \n\topacity: 1; \n}\n@media (max-width: 700px) {\n\t#video_player video,\n\t#video_player figcaption { \n\t\tdisplay: table-row;\n\t}\n\t#video_container {\n\t\tpadding-top: 56.25%; \n\t}\n\t#video_player figcaption a {\n\t\tdisplay: inline-block;\n\t\twidth: 33.33%; \n\t}\n}"
-
-/***/ }),
-
-/***/ "./src/app/landingpage/landingpage.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<button id=\"playpausebtn\"></button>"
-
-/***/ }),
-
-/***/ "./src/app/landingpage/landingpage.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LandingpageComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var LandingpageComponent = (function () {
-    function LandingpageComponent() {
-    }
-    LandingpageComponent.prototype.ngOnInit = function () {
-    };
-    return LandingpageComponent;
-}());
-LandingpageComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
-        selector: 'app-landingpage',
-        template: __webpack_require__("./src/app/landingpage/landingpage.component.html"),
-        styles: [__webpack_require__("./src/app/landingpage/landingpage.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], LandingpageComponent);
-
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/landingpage.component.js.map
 
 /***/ }),
 

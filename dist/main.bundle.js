@@ -694,7 +694,7 @@ module.exports = "body { background: #222; }\n#video_player { \n  display: table
 /***/ "./src/app/home-video/home-video.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n      {{ currentvideo }}\n\n  </div>\n  <figcaption>\n    <a href=\"http://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n      <img src=\"http://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/lake.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/mountain.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n    </a>\n  </figcaption>\n  </figure>"
+module.exports = "<figure id=\"video_player\">\n    <div id=\"video_container\">\n    <video controls poster={{ poster1 }} playsinline>\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  <figcaption>\n    <a href=\"http://thenewcode.com/assets/videos/glacier.mp4\" class=\"currentvid\">\n      <img src=\"http://thenewcode.com/assets/images/vid-glacier.jpg\" alt=\"Athabasca Glacier\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/lake.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-lake.jpg\" alt=\"Athabasca Lake\">\n    </a>\n    <a href=\"http://thenewcode.com/assets/videos/mountain.mp4\">\n      <img src=\"http://thenewcode.com/assets/images/vid-mountain.jpg\" alt=\"Mountain\">\n    </a>\n  </figcaption>\n  </figure>"
 
 /***/ }),
 
@@ -716,7 +716,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var HomeVideoComponent = (function () {
     function HomeVideoComponent() {
-        this.currentvideo = "\n  <video controls poster=\"http://thenewcode.com/assets/images/vid-glacier.jpg\" playsinline>\n  <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.mp4.mp4\" type=\"video/mp4\">\n  <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/CajalcoLabyrinth_CoronaCalifornia.webmhd.webm\" type=\"video/webm\">\n</video>\n  ";
+        this.poster1 = '"http://thenewcode.com/assets/images/vid-glacier.jpg"';
     }
     HomeVideoComponent.prototype.ngOnInit = function () {
     };

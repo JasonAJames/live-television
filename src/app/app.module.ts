@@ -57,6 +57,7 @@ import { HomeVideo3Component } from './home-video/home-video-3/home-video-3.comp
 import { HomeVideo4Component } from './home-video/home-video-4/home-video-4.component';
 import { HomeVideo5Component } from './home-video/home-video-5/home-video-5.component';
 import { Ad1Component } from './home-video/ad/ad1/ad1.component';
+import { CoffeeDayComponent } from './national-day/coffee-day/coffee-day.component';
 
 
 
@@ -112,7 +113,8 @@ import { Ad1Component } from './home-video/ad/ad1/ad1.component';
     HomeVideo3Component,
     HomeVideo4Component,
     HomeVideo5Component,
-    Ad1Component
+    Ad1Component,
+    CoffeeDayComponent
 
   ],
   imports: [
@@ -154,6 +156,7 @@ import { Ad1Component } from './home-video/ad/ad1/ad1.component';
       { path: 'national-day/dog-day', component: DogDayComponent},
       { path: 'national-day/icecream', component: IcecreamComponent},
       { path: 'national-day/rollercoaster', component: RollerCoasterComponent},
+      { path: 'national-day/coffee-day', component: CoffeeDayComponent},
       { path: 'usopenofsurfing', component: VansusopenofsurfingLiveComponent},
       { path: 'california-tv-stations', component: CaliforniaComponent },
       { path: 'ktla5', component: Ktla5Component},

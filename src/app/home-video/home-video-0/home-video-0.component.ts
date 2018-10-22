@@ -24,7 +24,7 @@ export class HomeVideo0Component implements OnInit {
   }
 
   stationName = 'SoCal Television';
-  description = 'Cajalco Laberynth';
-  subdescription = 'Corona, CA';
+  description = 'Skyland Ale Works - www.SkylandAleWorks.com';
+  subdescription = '1869 Pomona Rd E & F, Corona, CA 92880';
 
 }

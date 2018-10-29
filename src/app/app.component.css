@@ -15,9 +15,7 @@
         box-shadow:1px 1px 45px lightgray;
         margin-left: 5%;
     }
-    .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark {
-        display: none;
-    }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -33,6 +31,9 @@
         border-radius: 25px;
         box-shadow:1px 1px 45px lightgray;
         margin-left: 25%;
+    }
+    .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark {
+        display: none;
     }
 }
 

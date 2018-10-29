@@ -2,7 +2,7 @@
     padding-top: 10%;
 }
 
-@media screen and (min-width: 400px) {
+@media only screen and (min-width: 400px) {
     .videoContainer {
         margin-left: 1%;
         padding-right: 2%;
@@ -32,10 +32,29 @@
         box-shadow:1px 1px 45px lightgray;
         margin-left: 25%;
     }
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark {
         display: none;
     }
-}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark {
+        display: none;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark {
+        display: none;
+    }
+} 
 
 
 #videoContainer {

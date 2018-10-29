@@ -49,13 +49,6 @@
     }
 } 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark {
-        display: none;
-    }
-} 
-
 
 #videoContainer {
     padding-left: 25%;

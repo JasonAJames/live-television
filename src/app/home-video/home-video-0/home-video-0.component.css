@@ -1,5 +1,12 @@
 body { background: #222; }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .weatherwidget {
+    display: none;
+  }
+} 
+
 .hideVideo {
   display: none;
 }

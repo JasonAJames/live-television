@@ -120,7 +120,7 @@ AdvertiseCommercialComponent = __decorate([
 /***/ "./src/app/app.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n    .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark {\n        display: none;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -225,12 +225,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__home_video_home_video_5_home_video_5_component__ = __webpack_require__("./src/app/home-video/home-video-5/home-video-5.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__home_video_ad_ad1_ad1_component__ = __webpack_require__("./src/app/home-video/ad/ad1/ad1.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__national_day_coffee_day_coffee_day_component__ = __webpack_require__("./src/app/national-day/coffee-day/coffee-day.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__feeds_socaltelevision_socaltelevision_component__ = __webpack_require__("./src/app/feeds/socaltelevision/socaltelevision.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -348,7 +350,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_54__home_video_home_video_4_home_video_4_component__["a" /* HomeVideo4Component */],
             __WEBPACK_IMPORTED_MODULE_55__home_video_home_video_5_home_video_5_component__["a" /* HomeVideo5Component */],
             __WEBPACK_IMPORTED_MODULE_56__home_video_ad_ad1_ad1_component__["a" /* Ad1Component */],
-            __WEBPACK_IMPORTED_MODULE_57__national_day_coffee_day_coffee_day_component__["a" /* CoffeeDayComponent */]
+            __WEBPACK_IMPORTED_MODULE_57__national_day_coffee_day_coffee_day_component__["a" /* CoffeeDayComponent */],
+            __WEBPACK_IMPORTED_MODULE_58__feeds_socaltelevision_socaltelevision_component__["a" /* SocaltelevisionComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -713,6 +716,56 @@ StockMarketComponent = __decorate([
 ], StockMarketComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/stock-market.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/feeds/socaltelevision/socaltelevision.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/feeds/socaltelevision/socaltelevision.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  socaltelevision works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/feeds/socaltelevision/socaltelevision.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SocaltelevisionComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var SocaltelevisionComponent = (function () {
+    function SocaltelevisionComponent() {
+    }
+    SocaltelevisionComponent.prototype.ngOnInit = function () {
+    };
+    return SocaltelevisionComponent;
+}());
+SocaltelevisionComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-socaltelevision',
+        template: __webpack_require__("./src/app/feeds/socaltelevision/socaltelevision.component.html"),
+        styles: [__webpack_require__("./src/app/feeds/socaltelevision/socaltelevision.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], SocaltelevisionComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/socaltelevision.component.js.map
 
 /***/ }),
 

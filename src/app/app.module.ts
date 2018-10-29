@@ -58,6 +58,7 @@ import { HomeVideo4Component } from './home-video/home-video-4/home-video-4.comp
 import { HomeVideo5Component } from './home-video/home-video-5/home-video-5.component';
 import { Ad1Component } from './home-video/ad/ad1/ad1.component';
 import { CoffeeDayComponent } from './national-day/coffee-day/coffee-day.component';
+import { SocaltelevisionComponent } from './feeds/socaltelevision/socaltelevision.component';
 
 
 
@@ -114,7 +115,8 @@ import { CoffeeDayComponent } from './national-day/coffee-day/coffee-day.compone
     HomeVideo4Component,
     HomeVideo5Component,
     Ad1Component,
-    CoffeeDayComponent
+    CoffeeDayComponent,
+    SocaltelevisionComponent
 
   ],
   imports: [

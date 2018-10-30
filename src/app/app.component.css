@@ -40,6 +40,10 @@
     .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark, .ui.inverted.vertical.footer.segment {
         display: none;
     }
+    .weatherwidget {
+        display: none;
+      }
+
 } 
 
 

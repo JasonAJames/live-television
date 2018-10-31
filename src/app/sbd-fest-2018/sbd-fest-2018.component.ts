@@ -12,4 +12,6 @@ export class SbdFest2018Component implements OnInit {
   ngOnInit() {
   }
   stationName = "SBD Fest 2018"
+  description = "SoCalTelevision visits SBD Fest 2018 behind the scenes..."
+  subdescription = "SBD Fest is November 3rd & 4th 2018 - Info & Tickets Available at www.SBDfest.com"
 }

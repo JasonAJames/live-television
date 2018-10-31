@@ -1892,6 +1892,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var SbdFest2018Component = (function () {
     function SbdFest2018Component() {
         this.stationName = "SBD Fest 2018";
+        this.description = "SoCalTelevision visits SBD Fest 2018 behind the scenes...";
+        this.subdescription = "SBD Fest is November 3rd & 4th 2018 - Info & Tickets Available at www.SBDfest.com";
     }
     SbdFest2018Component.prototype.ngOnInit = function () {
     };

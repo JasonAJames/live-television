@@ -60,6 +60,7 @@ import { Ad1Component } from './home-video/ad/ad1/ad1.component';
 import { CoffeeDayComponent } from './national-day/coffee-day/coffee-day.component';
 import { SocaltelevisionComponent } from './feeds/socaltelevision/socaltelevision.component';
 import { SbdFest2018Component } from './sbd-fest-2018/sbd-fest-2018.component';
+import { VeteransDay2018Component } from './veterans-day-2018/veterans-day-2018.component';
 
 
 
@@ -118,7 +119,8 @@ import { SbdFest2018Component } from './sbd-fest-2018/sbd-fest-2018.component';
     Ad1Component,
     CoffeeDayComponent,
     SocaltelevisionComponent,
-    SbdFest2018Component
+    SbdFest2018Component,
+    VeteransDay2018Component
 
   ],
   imports: [
@@ -139,6 +141,7 @@ import { SbdFest2018Component } from './sbd-fest-2018/sbd-fest-2018.component';
 
       {path: 'ad1', component: Ad1Component},
 
+      { path: 'veterans-day-2018', component: VeteransDay2018Component},
       { path: 'sbd-fest-2018', component: SbdFest2018Component },
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},

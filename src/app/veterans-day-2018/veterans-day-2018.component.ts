@@ -13,7 +13,7 @@ export class VeteransDay2018Component implements OnInit {
   }
   stationName = "SoCalTelevision"
   description = "2018 VETERANS DAY FREE MEALS, DISCOUNTS & CELEBRATIONS"
-  subdesctription = `FREE MEALS BEFORE VETERANS DAY
+  subdescription = `FREE MEALS BEFORE VETERANS DAY
   Huddle House, Nov. 9 – 12, 2018.
   
   FREE order of Sweet Cakes (Huddle House’s fluffy, platter-size pancakes available in eight different flavor and topping combinations) to all active military members and veterans with proper I.D. on Veterans Day at all Huddle House locations nationwide. Locations.

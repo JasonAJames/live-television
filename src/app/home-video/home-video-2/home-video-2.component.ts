@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home-video-2',
@@ -7,9 +8,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeVideo2Component implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) {}
+
+  videoEnd() {
+    // do init at here for current route.
+    console.log('videoEnd function fired.');
+    setTimeout(() => {
+      console.log('fired inside setTimeout function.');
+      this.router.navigate(['home-video-0']);
+      console.log('Should have redirected by now.');
+  }, );  // ,1000 1s
+  }
 
   ngOnInit() {
   }
+
+  stationName = 'SoCal Television';
+  description = 'The Thunderbirds';
+  subdescription = 'The Sky Thunders over the Inland Empire with the roar of the Thunderbirds';
 
 }

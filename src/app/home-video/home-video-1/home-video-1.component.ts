@@ -15,7 +15,7 @@ export class HomeVideo1Component implements OnInit {
     console.log('videoEnd function fired.');
     setTimeout(() => {
       console.log('fired inside setTimeout function.');
-      this.router.navigate(['home-video-0']);
+      this.router.navigate(['home-video-2']);
       console.log('Should have redirected by now.');
   }, );  // ,1000 1s
   }
@@ -24,7 +24,7 @@ export class HomeVideo1Component implements OnInit {
   }
 
   stationName = 'SoCal Television';
-  description = 'The Thunderbirds';
-  subdescription = 'The Sky thunders with the Thunderbirds flying by March Airforce Base, CA';
+  description = 'The SBD Fest';
+  subdescription = 'The Sky Thunders over San Bernardino, CA';
 
 }

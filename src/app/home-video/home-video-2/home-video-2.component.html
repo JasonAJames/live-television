@@ -1,3 +1,38 @@
-<p>
-  home-video-2 works!
-</p>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92954301-6"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'UA-92954301-6');
+            </script>
+            
+            <!-- Weather Component -->
+            <div style="width: 90%; margin: 10px;"><iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=87637" width="90%" height="92" frameborder="0" scrolling="no"></iframe><a style="position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right" href="https://www.willyweather.com/ca/riverside-county/corona.html" rel="nofollow">Corona weather info</a></div>
+            <!-- END Weather Component -->
+              <h3>You're Watching</h3>
+              <h1>{{stationName}}</h1>
+<figure class="video_player">
+    <div class="video_container">
+    <video autoplay controls poster="assets/images/video_thumbs/Thunderbirds_thumb.jpg" playsinline class="myVideo" (ended)="videoEnd()">
+      <source src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4" type="video/mp4">
+      <source src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.webmhd.webm" type="video/webm">
+      <source src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.oggtheora.ogv" type="video/ogg">
+  </video>
+  </div>
+  <figcaption>
+    <a routerLink="/home-video-0">
+      <img src="https://s3-us-west-2.amazonaws.com/socaltelevision/SpecialSpots_Thumb.png" alt="Special Spots">
+    </a>
+    <a routerLink="/home-video-1">
+      <img src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest2018_thumb.png" alt="SBD Fest">
+    </a>
+    <a routerLink="/home-video-2" class="currentvid">
+      <img src="assets/images/video_thumbs/Thunderbirds_thumb.png" alt="The Thunderbirds">
+    </a>
+  </figcaption>
+  </figure>
+  <br/><br/>
+  <span>{{description}}</span>
+<p>{{subdescription}}</p>

@@ -15,7 +15,7 @@ export class HomeVideo0Component implements OnInit {
     console.log('videoEnd function fired.');
     setTimeout(() => {
       console.log('fired inside setTimeout function.');
-      this.router.navigate(['ad1']);
+      this.router.navigate(['home-video-1']);
       console.log('Should have redirected by now.');
   }, );  // ,1000 1s
   }
@@ -24,7 +24,7 @@ export class HomeVideo0Component implements OnInit {
   }
 
   stationName = 'SoCal Television';
-  description = 'Skyland Ale Works - www.SkylandAleWorks.com';
-  subdescription = '1869 Pomona Rd E & F, Corona, CA 92880';
+  description = 'Special Spots';
+  subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...';
 
 }

@@ -120,7 +120,7 @@ AdvertiseCommercialComponent = __decorate([
 /***/ "./src/app/app.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media only screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n    \n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n\n/* @media only screen and (max-width: 600px) {\n    .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark, .ui.inverted.vertical.footer.segment {\n        display: none;\n    }\n    .weatherwidget {\n        display: none;\n      }\n\n}  */\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media only screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n    \n}\n\n/* uncomment class below when mobile app is launched */\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n\n/* @media only screen and (max-width: 600px) {\n    .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark, .ui.inverted.vertical.footer.segment {\n        display: none;\n    }\n    .weatherwidget {\n        display: none;\n      }\n\n}  */\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -850,7 +850,7 @@ module.exports = "body { background: #222; }\n\n/* Small devices (portrait table
 /***/ "./src/app/home-video/home-video-0/home-video-0.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "            <!-- Global site tag (gtag.js) - Google Analytics -->\n            <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n            <script>\n              window.dataLayer = window.dataLayer || [];\n              function gtag(){dataLayer.push(arguments);}\n              gtag('js', new Date());\n            \n              gtag('config', 'UA-92954301-6');\n            </script>\n            \n            <!-- Weather Component -->\n            <div class=\"weatherwidget\" style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n            <!-- END Weather Component -->\n              <h3>You're Watching</h3>\n              <h1>{{stationName}}</h1>\n<figure class=\"video_player\">\n        <div class=\"video_container\">\n        <video autoplay controls poster=\"assets/images/video_thumbs/SkylandAleWorks_screenshot.png\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/SkylandAleWorks/SkylandAleWorks_Final_v1.mp4\" type=\"video/mp4\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/SkylandAleWorks/SkylandAleWorks_Final_v1.webmhd.webm\" type=\"video/webm\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/SkylandAleWorks/SkylandAleWorks_Final_v1.oggtheora.ogv\" type=\"video/ogg\">\n      </video>\n      </div>\n      <figcaption>\n        <a routerLink=\"/home-video-0\" class=\"currentvid\">\n          <img src=\"assets/images/video_thumbs/SkylandAleWorks_screenshot.png\" alt=\"Skyland Ale Works\">\n        </a>\n        <a routerLink=\"/ad1\">\n          <img src=\"assets/images/video_thumbs/YESon8_thumb.png\" alt=\"PSA - YES on 8\">\n        </a>\n        <a routerLink=\"/ad1\">\n          <img src=\"assets/images/video_thumbs/Thunderbirds_thumb.png\" alt=\"The Thunderbirds\">\n        </a>\n      </figcaption>\n      </figure>\n      <br/><br/>\n      <span>{{description}}</span>\n    <p>{{subdescription}}</p>"
+module.exports = "            <!-- Global site tag (gtag.js) - Google Analytics -->\n            <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n            <script>\n              window.dataLayer = window.dataLayer || [];\n              function gtag(){dataLayer.push(arguments);}\n              gtag('js', new Date());\n            \n              gtag('config', 'UA-92954301-6');\n            </script>\n            \n            <!-- Weather Component -->\n            <div class=\"weatherwidget\" style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n            <!-- END Weather Component -->\n              <h3>You're Watching</h3>\n              <h1>{{stationName}}</h1>\n<figure class=\"video_player\">\n        <div class=\"video_container\">\n        <video autoplay controls poster=\"https://s3-us-west-2.amazonaws.com/socaltelevision/SpecialSpots_Thumb.png\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/intro2018_1080.mp4\" type=\"video/mp4\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/intro2018_1080.webmhd.webm\" type=\"video/webm\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/intro2018_1080.oggtheora.ogv\" type=\"video/ogg\">\n      </video>\n      </div>\n      <figcaption>\n        <a routerLink=\"/home-video-0\" class=\"currentvid\">\n          <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/SpecialSpots_Thumb.png\" alt=\"Special Spots\">\n        </a>\n        <a routerLink=\"/home-video-1\">\n          <img src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest2018_thumb.png\" alt=\"PSA - YES on 8\">\n        </a>\n        <a routerLink=\"/home-video-2\">\n          <img src=\"assets/images/video_thumbs/Thunderbirds_thumb.png\" alt=\"The Thunderbirds\">\n        </a>\n      </figcaption>\n      </figure>\n      <br/><br/>\n      <span>{{description}}</span>\n    <p>{{subdescription}}</p>"
 
 /***/ }),
 
@@ -876,8 +876,8 @@ var HomeVideo0Component = (function () {
     function HomeVideo0Component(router) {
         this.router = router;
         this.stationName = 'SoCal Television';
-        this.description = 'Skyland Ale Works - www.SkylandAleWorks.com';
-        this.subdescription = '1869 Pomona Rd E & F, Corona, CA 92880';
+        this.description = 'Special Spots';
+        this.subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...';
     }
     HomeVideo0Component.prototype.videoEnd = function () {
         var _this = this;
@@ -885,7 +885,7 @@ var HomeVideo0Component = (function () {
         console.log('videoEnd function fired.');
         setTimeout(function () {
             console.log('fired inside setTimeout function.');
-            _this.router.navigate(['ad1']);
+            _this.router.navigate(['home-video-1']);
             console.log('Should have redirected by now.');
         }); // ,1000 1s
     };
@@ -917,7 +917,7 @@ module.exports = "body { background: #222; }\n\n.hideVideo {\n  display: none;\n
 /***/ "./src/app/home-video/home-video-1/home-video-1.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "            <!-- Global site tag (gtag.js) - Google Analytics -->\n            <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n            <script>\n              window.dataLayer = window.dataLayer || [];\n              function gtag(){dataLayer.push(arguments);}\n              gtag('js', new Date());\n            \n              gtag('config', 'UA-92954301-6');\n            </script>\n            \n            <!-- Weather Component -->\n            <div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n            <!-- END Weather Component -->\n              <h3>You're Watching</h3>\n              <h1>{{stationName}}</h1>\n<figure class=\"video_player\">\n    <div class=\"video_container\">\n    <video autoplay controls poster=\"assets/images/video_thumbs/Thunderbirds_thumb.jpg\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.webmhd.webm\" type=\"video/webm\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.oggtheora.ogv\" type=\"video/ogg\">\n  </video>\n  </div>\n  <figcaption>\n    <a routerLink=\"/home-video-0\">\n      <img src=\"assets/images/video_thumbs/SkylandAleWorks_screenshot.png\" alt=\"Skyland Ale Works\">\n    </a>\n    <a routerLink=\"/ad1\">\n      <img src=\"assets/images/video_thumbs/YESon8_thumb.png\" alt=\"PSA - YES on 8\">\n    </a>\n    <a routerLink=\"/home-video-1\" class=\"currentvid\">\n      <img src=\"assets/images/video_thumbs/Thunderbirds_thumb.png\" alt=\"The Thunderbirds\">\n    </a>\n  </figcaption>\n  </figure>\n  <br/><br/>\n  <span>{{description}}</span>\n<p>{{subdescription}}</p>"
+module.exports = "            <!-- Global site tag (gtag.js) - Google Analytics -->\n            <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n            <script>\n              window.dataLayer = window.dataLayer || [];\n              function gtag(){dataLayer.push(arguments);}\n              gtag('js', new Date());\n            \n              gtag('config', 'UA-92954301-6');\n            </script>\n            \n            <!-- Weather Component -->\n            <div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n            <!-- END Weather Component -->\n              <h3>You're Watching</h3>\n              <h1>{{stationName}}</h1>\n<figure class=\"video_player\">\n    <div class=\"video_container\">\n    <video autoplay controls poster=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest2018_thumb.png\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_FULLLENHGTH_noIntro.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_FULLLENHGTH_noIntro.webmhd.webm\" type=\"video/webm\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_FULLLENHGTH_noIntro.oggtheora.ogv\" type=\"video/ogg\">\n  </video>\n  </div>\n  <figcaption>\n    <a routerLink=\"/home-video-0\">\n      <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/SpecialSpots_Thumb.png\" alt=\"Special Spots\">\n    </a>\n    <a routerLink=\"/home-video-1\" class=\"currentvid\">\n      <img src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest2018_thumb.png\" alt=\"SBD Fest\">\n    </a>\n    <a routerLink=\"/home-video-2\">\n      <img src=\"assets/images/video_thumbs/Thunderbirds_thumb.png\" alt=\"The Thunderbirds\">\n    </a>\n  </figcaption>\n  </figure>\n  <br/><br/>\n  <span>{{description}}</span>\n<p>{{subdescription}}</p>"
 
 /***/ }),
 
@@ -943,8 +943,8 @@ var HomeVideo1Component = (function () {
     function HomeVideo1Component(router) {
         this.router = router;
         this.stationName = 'SoCal Television';
-        this.description = 'The Thunderbirds';
-        this.subdescription = 'The Sky thunders with the Thunderbirds flying by March Airforce Base, CA';
+        this.description = 'The SBD Fest';
+        this.subdescription = 'The Sky Thunders over San Bernardino, CA';
     }
     HomeVideo1Component.prototype.videoEnd = function () {
         var _this = this;
@@ -952,7 +952,7 @@ var HomeVideo1Component = (function () {
         console.log('videoEnd function fired.');
         setTimeout(function () {
             console.log('fired inside setTimeout function.');
-            _this.router.navigate(['home-video-0']);
+            _this.router.navigate(['home-video-2']);
             console.log('Should have redirected by now.');
         }); // ,1000 1s
     };
@@ -977,14 +977,14 @@ var _a;
 /***/ "./src/app/home-video/home-video-2/home-video-2.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "body { background: #222; }\n\n.hideVideo {\n  display: none;\n}\n\n.showVideo {\n  display: block;\n}\n\n.video_player { \n  display: table; line-height: 0;\n  font-size: 0; background: #000;\n  max-width: 1000px;\n  margin: 0 0 1% 0;\n}\n\n.video_container { \n  position: relative;\n}\n\n.video_player div, .video_player figcaption { \n  display: table-cell;\n  vertical-align: top; \n}\n\n.video_container video { \n  position: absolute; \n  display: block;\n  width: 100%;\n  height: 100%;\n  top: 0;\n}\n\n.video_player figcaption { width: 25%; }\n\n.video_player figcaption a { display: block; }\n\n.video_player figcaption a { \n  opacity: .5;\n  -webkit-transition: 1s opacity;\n  transition: 1s opacity; \n}\n\n.video_player figcaption a img, figure video { \n  width: 100%; height: auto; \n}\n\n.video_player figcaption a.currentvid, .video_player figcaption a:hover, .video_player figcaption a:focus { opacity: 1; }\n\n@media (max-width: 700px) {\n  .video_player video, .video_player figcaption { \n    display: table-row; \n  }\n.video_container { padding-top: 56.25%; }\n.video_player figcaption a { \n  display: inline-block; width: 33.33%; \n}\n}\n"
 
 /***/ }),
 
 /***/ "./src/app/home-video/home-video-2/home-video-2.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  home-video-2 works!\n</p>\n"
+module.exports = "            <!-- Global site tag (gtag.js) - Google Analytics -->\n            <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n            <script>\n              window.dataLayer = window.dataLayer || [];\n              function gtag(){dataLayer.push(arguments);}\n              gtag('js', new Date());\n            \n              gtag('config', 'UA-92954301-6');\n            </script>\n            \n            <!-- Weather Component -->\n            <div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n            <!-- END Weather Component -->\n              <h3>You're Watching</h3>\n              <h1>{{stationName}}</h1>\n<figure class=\"video_player\">\n    <div class=\"video_container\">\n    <video autoplay controls poster=\"assets/images/video_thumbs/Thunderbirds_thumb.jpg\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.webmhd.webm\" type=\"video/webm\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.oggtheora.ogv\" type=\"video/ogg\">\n  </video>\n  </div>\n  <figcaption>\n    <a routerLink=\"/home-video-0\">\n      <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/SpecialSpots_Thumb.png\" alt=\"Special Spots\">\n    </a>\n    <a routerLink=\"/home-video-1\">\n      <img src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest2018_thumb.png\" alt=\"SBD Fest\">\n    </a>\n    <a routerLink=\"/home-video-2\" class=\"currentvid\">\n      <img src=\"assets/images/video_thumbs/Thunderbirds_thumb.png\" alt=\"The Thunderbirds\">\n    </a>\n  </figcaption>\n  </figure>\n  <br/><br/>\n  <span>{{description}}</span>\n<p>{{subdescription}}</p>"
 
 /***/ }),
 
@@ -994,6 +994,7 @@ module.exports = "<p>\n  home-video-2 works!\n</p>\n"
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeVideo2Component; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/index.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1004,9 +1005,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var HomeVideo2Component = (function () {
-    function HomeVideo2Component() {
+    function HomeVideo2Component(router) {
+        this.router = router;
+        this.stationName = 'SoCal Television';
+        this.description = 'The Thunderbirds';
+        this.subdescription = 'The Sky Thunders over the Inland Empire with the roar of the Thunderbirds';
     }
+    HomeVideo2Component.prototype.videoEnd = function () {
+        var _this = this;
+        // do init at here for current route.
+        console.log('videoEnd function fired.');
+        setTimeout(function () {
+            console.log('fired inside setTimeout function.');
+            _this.router.navigate(['home-video-0']);
+            console.log('Should have redirected by now.');
+        }); // ,1000 1s
+    };
     HomeVideo2Component.prototype.ngOnInit = function () {
     };
     return HomeVideo2Component;
@@ -1017,9 +1033,10 @@ HomeVideo2Component = __decorate([
         template: __webpack_require__("./src/app/home-video/home-video-2/home-video-2.component.html"),
         styles: [__webpack_require__("./src/app/home-video/home-video-2/home-video-2.component.css")]
     }),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _a || Object])
 ], HomeVideo2Component);
 
+var _a;
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-2.component.js.map
 
 /***/ }),

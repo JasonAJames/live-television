@@ -63,7 +63,6 @@ import { SbdFest2018Component } from './sbd-fest-2018/sbd-fest-2018.component';
 import { VeteransDay2018Component } from './veterans-day-2018/veterans-day-2018.component';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -140,8 +139,7 @@ import { VeteransDay2018Component } from './veterans-day-2018/veterans-day-2018.
       {path: 'home-video-5', component: HomeVideo5Component},
 
       {path: 'ad1', component: Ad1Component},
-
-      { path: 'veterans-day-2018', component: VeteransDay2018Component},
+      {path: 'veterans-day-2018', component: VeteransDay2018Component},
       { path: 'sbd-fest-2018', component: SbdFest2018Component },
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},

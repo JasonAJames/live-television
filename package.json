@@ -32,6 +32,7 @@
     "core-js": "^2.4.1",
     "enhanced-resolve": "3.3.0",
     "express": "4.16.3",
+    "font-awesome": "4.7.0",
     "fw-videojs-playlist": "4.0.4",
     "jasmine-core": "2.5.2",
     "jasmine-spec-reporter": "2.5.0",

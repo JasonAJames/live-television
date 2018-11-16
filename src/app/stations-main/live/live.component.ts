@@ -13,7 +13,7 @@ export class LiveComponent implements OnInit {
   }
 
   offlineMessage1 = "SoCal Television #LIVE"
-  subdesc = "LIVE BREAKING NEWS: Live: Authorities are in pursuit of a vehicle in the Orange County."
+  subdesc = "LIVE BREAKING NEWS: Stu Mundel is over a police pursuit that began in the Monterey Park area."
 
 
   stationName = 'SoCal Television Breaking News LIVE'

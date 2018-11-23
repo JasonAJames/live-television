@@ -61,6 +61,7 @@ import { CoffeeDayComponent } from './national-day/coffee-day/coffee-day.compone
 import { SocaltelevisionComponent } from './feeds/socaltelevision/socaltelevision.component';
 import { SbdFest2018Component } from './sbd-fest-2018/sbd-fest-2018.component';
 import { VeteransDay2018Component } from './veterans-day-2018/veterans-day-2018.component';
+import { MissionInnFestivalOfLightsComponent } from './mission-inn-festival-of-lights/mission-inn-festival-of-lights.component';
 
 
 @NgModule({
@@ -119,7 +120,8 @@ import { VeteransDay2018Component } from './veterans-day-2018/veterans-day-2018.
     CoffeeDayComponent,
     SocaltelevisionComponent,
     SbdFest2018Component,
-    VeteransDay2018Component
+    VeteransDay2018Component,
+    MissionInnFestivalOfLightsComponent
 
   ],
   imports: [
@@ -141,6 +143,8 @@ import { VeteransDay2018Component } from './veterans-day-2018/veterans-day-2018.
       {path: 'ad1', component: Ad1Component},
       {path: 'veterans-day-2018', component: VeteransDay2018Component},
       { path: 'sbd-fest-2018', component: SbdFest2018Component },
+      { path: 'mission-inn-festival-of-lights', component: MissionInnFestivalOfLightsComponent },
+
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},
       { path: 'live-2', component: Live2Component},

@@ -1,0 +1,65 @@
+<meta property="og:description"   content="{{ description }}" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92954301-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-92954301-6');
+    </script>
+    
+    <!-- Weather Component -->
+    <div style="width: 90%; margin: 10px;"><iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=87637" width="90%" height="92" frameborder="0" scrolling="no"></iframe><a style="position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right" href="https://www.willyweather.com/ca/riverside-county/corona.html" rel="nofollow">Corona weather info</a></div>
+    <!-- END Weather Component -->
+      <h3>You're Watching</h3>
+      <h1>{{stationName}}</h1>
+    
+      <div class="container">
+          <div class="row">
+                    <div class="col-sm" style="max-width:250px;">
+          <!-- Events Start -->
+          <h5>LIVE Event:</h5>
+
+          <img src="/assets/images/MissionInnSwitchOnCeremony.png" width="240px" max-width="300px" alt="26TH ANNUAL FESTIVAL OF LIGHTS SWITCH-ON CEREMONY" class="img img-responsive" /><br/>
+          <h6>TODAY's FEATURED #LIVE #EVENT:<br/>26TH ANNUAL FESTIVAL OF LIGHTS SWITCH-ON CEREMONY</h6>            
+        </div>
+            <div class="col-sm" style="padding: 1%;">
+                <span style="color: white;">Back to </span><a routerLink="/stations-main"><button  class="btn-primary" style="border-radius: 15px;">LIVE TV CHANNELS</button></a>
+                <span class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F352560155505717%2F&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>             
+                  </span>
+
+
+<div id="share">
+<h5>Share this on:</h5>
+    <!-- facebook -->
+    <a class="facebook" href="https://www.facebook.com/share.php?u={{url}}&title={{title}}" target="blank"><i class="fab fa-facebook-f"></i></a>
+  
+    <!-- twitter -->
+    <a class="twitter" href="https://twitter.com/intent/tweet?status=Come visit or Check Out this+{{title}}+Click on 'Veterans Day Celebrations' on+{{url}}" target="blank"><i class="fab fa-twitter"></i></a>
+  
+    <!-- google plus -->
+    <a class="googleplus" href="https://plus.google.com/share?url={{url}}" target="blank"><i class="fab fa-google-plus-g"></i></a>
+      
+  </div>
+                <br/>
+                <span>{{description}}</span>
+              <p>
+                &nbsp;
+              </p>
+            </div>
+                    <div class="col-sm" >
+          <!-- Event Description Start -->
+          <h5>Event Description</h5>
+          <p>{{subdescription}}</p>
+            <blockquote>
+              If LIVE Feed is not playing, Please refresh the screen, if the LIVE stream is still unavailable, then our SoCalTelevision.com LIVE STREAM may be Currently Offline,<br/>
+              But you can still Watch SoCal Television LIVE Events on our Facebook Page LIVE feed at <a href="https://www.facebook.com/SoCalTelevision/live_videos/" target="_blank" class="btn btn-info">facebook.com/SoCalTelevision</a><br/><br/>
+              
+              
+            </blockquote>
+          <!-- Event Description End -->
+          </div>
+          </div>
+        </div>

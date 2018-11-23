@@ -1667,7 +1667,7 @@ var MissionInnFestivalOfLightsComponent = (function () {
         this.header_link = "Mission Inn Festival of Lights";
         this.url = "https://www.socaltelevision.com/+#+/mission-inn-festival-of-lights";
         this.description = "Join us on Friday, November 23rd at 4:30PM as we officially kick off the holiday season with our 26th Annual Festival of Lights celebration!";
-        this.subdescription = "You're not going to want to miss this very special annivesary celebration featuring guests like Robin Thicke!! If you can't make it to the celebration, We've got you covered. Watch the Switch On Ceremony #LIVE on www.SoCalTelevision.com";
+        this.subdescription = "You're not going to want to miss this very special anniversary celebration featuring guests like Robin Thicke!! If you can't make it to the celebration, We've got you covered. Watch the Switch On Ceremony #LIVE on www.SoCalTelevision.com";
     }
     MissionInnFestivalOfLightsComponent.prototype.ngOnInit = function () {
     };

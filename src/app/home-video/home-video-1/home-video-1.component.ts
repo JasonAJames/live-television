@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-home-video-1',
   templateUrl: './home-video-1.component.html',
-  styleUrls: ['./home-video-1.component.css']
+  styleUrls: ['./home-video-1.component.css', '../../../assets/css/social-share.css']
 })
 export class HomeVideo1Component implements OnInit {
 
@@ -23,8 +23,12 @@ export class HomeVideo1Component implements OnInit {
   ngOnInit() {
   }
 
-  stationName = 'SoCal Television';
-  description = 'The SBD Fest';
-  subdescription = 'The Sky Thunders over San Bernardino, CA';
+  stationName = "SoCalTelevision"
+  title = "26TH ANNUAL FESTIVAL OF LIGHTS SWITCH-ON CEREMONY"
+  header_link = "Mission Inn Festival of Lights"
+  url = "https://www.socaltelevision.com/+#+/mission-inn-festival-of-lights"
+  description = "Join us on Friday, November 23rd at 4:30PM as we officially kick off the holiday season with our 26th Annual Festival of Lights celebration!"
+  subdescription = "You're not going to want to miss this very special anniversary celebration featuring guests like Robin Thicke!! If you can't make it to the celebration, We've got you covered. Watch the Switch On Ceremony #LIVE on www.SoCalTelevision.com"
+
 
 }

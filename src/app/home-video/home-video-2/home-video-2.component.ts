@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-home-video-2',
   templateUrl: './home-video-2.component.html',
-  styleUrls: ['./home-video-2.component.css']
+  styleUrls: ['./home-video-2.component.css', '../../../assets/css/social-share.css']
 })
 export class HomeVideo2Component implements OnInit {
 
@@ -24,7 +24,6 @@ export class HomeVideo2Component implements OnInit {
   }
 
   stationName = 'SoCal Television';
-  description = 'The Thunderbirds';
-  subdescription = 'The Sky Thunders over the Inland Empire with the roar of the Thunderbirds';
-
+  description = 'The SBD Fest';
+  subdescription = 'The Sky Thunders over San Bernardino, CA';
 }

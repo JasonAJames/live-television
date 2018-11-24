@@ -17,10 +17,10 @@
               <h1>{{stationName}}</h1>
 <figure class="video_player">
     <div class="video_container">
-    <video autoplay controls poster="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest2018_thumb.png" playsinline class="myVideo" (ended)="videoEnd()">
-      <source src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.mp4" type="video/mp4">
-      <source src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.webmhd.webm" type="video/webm">
-      <source src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.oggtheora.ogv" type="video/ogg">
+    <video autoplay controls poster="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/MissionInnFestivalOfLightsCeremony_RobinThicke/MissionInnFestivalOfLights_Thumb.png" playsinline class="myVideo" (ended)="videoEnd()">
+      <source src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/MissionInnFestivalOfLightsCeremony_RobinThicke/MissionInn_SwitchonCeremony_featuringRobinThicke.mp4" type="video/mp4">
+      <!-- <source src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.webmhd.webm" type="video/webm">
+      <source src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.oggtheora.ogv" type="video/ogg"> -->
   </video>
   </div>
   <figcaption>
@@ -28,7 +28,7 @@
       <img src="https://s3-us-west-2.amazonaws.com/socaltelevision/SpecialSpots_Thumb.png" alt="Special Spots">
     </a>
     <a routerLink="/home-video-1" class="currentvid">
-      <img src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest2018_thumb.png" alt="SBD Fest">
+      <img src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/MissionInnFestivalOfLightsCeremony_RobinThicke/MissionInnFestivalOfLights_Thumb.png" alt="26th Annual Festival of Lights Switch-On Celebration featuring Robin Thicke">
     </a>
     <a routerLink="/home-video-2">
       <img src="assets/images/video_thumbs/Thunderbirds_thumb.png" alt="The Thunderbirds">
@@ -38,5 +38,17 @@
   <br/><br/>
   <span>{{description}}</span>
 <p>{{subdescription}}</p>
+<div id="share">
+    <h5>Share this on:</h5>
+        <!-- facebook -->
+        <a class="facebook" href="https://www.facebook.com/share.php?u={{url}}&title={{title}}&placeholder={{title}}" target="blank"><i class="fab fa-facebook-f"></i></a>
+      
+        <!-- twitter -->
+        <a class="twitter" href="https://twitter.com/intent/tweet?status=Come visit or Check Out this+{{title}}+Click on '+{{header_link}}+' on+{{url}}" target="blank"><i class="fab fa-twitter"></i></a>
+      
+        <!-- google plus -->
+        <a class="googleplus" href="https://plus.google.com/share?url={{url}}&placeholder={{title}}&aria-label={{title}}" target="blank"><i class="fab fa-google-plus-g"></i></a>
+          
+      </div>
     <!-- <h5>We're #LIVE:</h5>
       <a routerLink="/veterans-day-2018"><img src="/assets/images/SonsOfLibertyMarineBirthday.png" width="240px" max-width="300px" alt="Sons Of Liberty Aleworks 243rd Marine Birthday Celebration" class="img img-responsive" />&nbsp; <strong>Click Here to Watch #LIVE</strong></a> -->

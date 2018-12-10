@@ -62,6 +62,8 @@ import { SocaltelevisionComponent } from './feeds/socaltelevision/socaltelevisio
 import { SbdFest2018Component } from './sbd-fest-2018/sbd-fest-2018.component';
 import { VeteransDay2018Component } from './veterans-day-2018/veterans-day-2018.component';
 import { MissionInnFestivalOfLightsComponent } from './mission-inn-festival-of-lights/mission-inn-festival-of-lights.component';
+import { SnowSummitComponent } from './extras/snow-summit/snow-summit.component';
+import { JobsComponent } from './contact/jobs/jobs.component';
 
 
 @NgModule({
@@ -121,7 +123,9 @@ import { MissionInnFestivalOfLightsComponent } from './mission-inn-festival-of-l
     SocaltelevisionComponent,
     SbdFest2018Component,
     VeteransDay2018Component,
-    MissionInnFestivalOfLightsComponent
+    MissionInnFestivalOfLightsComponent,
+    SnowSummitComponent,
+    JobsComponent
 
   ],
   imports: [

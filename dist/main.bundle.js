@@ -120,7 +120,7 @@ AdvertiseCommercialComponent = __decorate([
 /***/ "./src/app/app.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media only screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n    \n}\n\n/* uncomment class below when mobile app is launched */\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n\n/* @media only screen and (max-width: 600px) {\n    .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark, .ui.inverted.vertical.footer.segment {\n        display: none;\n    }\n    .weatherwidget {\n        display: none;\n      }\n\n}  */\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media only screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n    \n}\n\n/* uncomment class below when mobile app is launched */\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n\n@media only screen and (max-width: 600px) {\n    .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark, .ui.inverted.vertical.footer.segment {\n        display: none;\n    }\n    .weatherwidget {\n        display: none;\n      }\n\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -229,12 +229,16 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__sbd_fest_2018_sbd_fest_2018_component__ = __webpack_require__("./src/app/sbd-fest-2018/sbd-fest-2018.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__veterans_day_2018_veterans_day_2018_component__ = __webpack_require__("./src/app/veterans-day-2018/veterans-day-2018.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__mission_inn_festival_of_lights_mission_inn_festival_of_lights_component__ = __webpack_require__("./src/app/mission-inn-festival-of-lights/mission-inn-festival-of-lights.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__extras_snow_summit_snow_summit_component__ = __webpack_require__("./src/app/extras/snow-summit/snow-summit.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__contact_jobs_jobs_component__ = __webpack_require__("./src/app/contact/jobs/jobs.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -360,7 +364,9 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_58__feeds_socaltelevision_socaltelevision_component__["a" /* SocaltelevisionComponent */],
             __WEBPACK_IMPORTED_MODULE_59__sbd_fest_2018_sbd_fest_2018_component__["a" /* SbdFest2018Component */],
             __WEBPACK_IMPORTED_MODULE_60__veterans_day_2018_veterans_day_2018_component__["a" /* VeteransDay2018Component */],
-            __WEBPACK_IMPORTED_MODULE_61__mission_inn_festival_of_lights_mission_inn_festival_of_lights_component__["a" /* MissionInnFestivalOfLightsComponent */]
+            __WEBPACK_IMPORTED_MODULE_61__mission_inn_festival_of_lights_mission_inn_festival_of_lights_component__["a" /* MissionInnFestivalOfLightsComponent */],
+            __WEBPACK_IMPORTED_MODULE_62__extras_snow_summit_snow_summit_component__["a" /* SnowSummitComponent */],
+            __WEBPACK_IMPORTED_MODULE_63__contact_jobs_jobs_component__["a" /* JobsComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -581,6 +587,56 @@ module.exports = "/*!\n * # Semantic UI 2.3.0 - Transition\n * http://github.com
 
 /***/ }),
 
+/***/ "./src/app/contact/jobs/jobs.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/contact/jobs/jobs.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  jobs works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/contact/jobs/jobs.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JobsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var JobsComponent = (function () {
+    function JobsComponent() {
+    }
+    JobsComponent.prototype.ngOnInit = function () {
+    };
+    return JobsComponent;
+}());
+JobsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-jobs',
+        template: __webpack_require__("./src/app/contact/jobs/jobs.component.html"),
+        styles: [__webpack_require__("./src/app/contact/jobs/jobs.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], JobsComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/jobs.component.js.map
+
+/***/ }),
+
 /***/ "./src/app/contactus/contactus.component.css":
 /***/ (function(module, exports) {
 
@@ -678,6 +734,56 @@ HoroscopesComponent = __decorate([
 ], HoroscopesComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/horoscopes.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/extras/snow-summit/snow-summit.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/extras/snow-summit/snow-summit.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  snow-summit works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/extras/snow-summit/snow-summit.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SnowSummitComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var SnowSummitComponent = (function () {
+    function SnowSummitComponent() {
+    }
+    SnowSummitComponent.prototype.ngOnInit = function () {
+    };
+    return SnowSummitComponent;
+}());
+SnowSummitComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-snow-summit',
+        template: __webpack_require__("./src/app/extras/snow-summit/snow-summit.component.html"),
+        styles: [__webpack_require__("./src/app/extras/snow-summit/snow-summit.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], SnowSummitComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/snow-summit.component.js.map
 
 /***/ }),
 

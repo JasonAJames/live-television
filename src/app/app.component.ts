@@ -32,14 +32,4 @@ export class AppComponent {
   title = 'SoCalTelevision.com';
 
 
-  currentRoute: string = '';
-  constructor(router: Router) {
-    router.subscribe((route) => {
-      var newRoute = route || '/';
-      if(newRoute !== this.currentRoute) {
-        ga('send', 'pageview', newRoute);
-        this.currentRoute = newRoute;
-      }
-    });
-  }
 }

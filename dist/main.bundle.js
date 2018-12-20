@@ -1315,6 +1315,7 @@ var HomeVideo0Component = (function () {
         this.description = 'Special Spots';
         this.subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...';
         ga('set', 'page', '/home-video-0');
+        ga('send', 'pageview');
     }
     HomeVideo0Component.prototype.videoEnd = function () {
         var _this = this;
@@ -1397,6 +1398,7 @@ var HomeVideo1Component = (function () {
         this.description = "Join us on Friday, November 23rd at 4:30PM as we officially kick off the holiday season with our 26th Annual Festival of Lights celebration!";
         this.subdescription = "You're not going to want to miss this very special anniversary celebration featuring guests like Robin Thicke!! If you can't make it to the celebration, We've got you covered. Watch the Switch On Ceremony #LIVE on www.SoCalTelevision.com";
         ga('set', 'page', '/home-video-1');
+        ga('send', 'pageview');
     }
     HomeVideo1Component.prototype.videoEnd = function () {
         var _this = this;
@@ -1476,6 +1478,7 @@ var HomeVideo2Component = (function () {
         this.description = 'The SBD Fest';
         this.subdescription = 'The Sky Thunders over San Bernardino, CA';
         ga('set', 'page', '/home-video-2');
+        ga('send', 'pageview');
     }
     HomeVideo2Component.prototype.videoEnd = function () {
         var _this = this;

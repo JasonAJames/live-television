@@ -12,6 +12,7 @@ export class HomeVideo1Component implements OnInit {
 
   constructor(private router: Router) {
     ga('set', 'page', '/home-video-1');
+    ga('send', 'pageview');
   }
 
   videoEnd() {

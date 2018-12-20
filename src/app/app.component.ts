@@ -1,9 +1,5 @@
 import { Component } from '@angular/core';
-import { NavigationEnd, Router } from '@angular/router';
-import { router } from './app.router';
 
-// Declare ga function as ambient
-declare var ga:Function;
 
 @Component({
   selector: 'app-root',

@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
+import { router } from './app.router';
 
+// Declare ga function as ambient
+declare var ga:Function;
 
 @Component({
   selector: 'app-root',
@@ -24,10 +28,18 @@ import { Component } from '@angular/core';
 ]
 })
 
-
 export class AppComponent {
   title = 'SoCalTelevision.com';
-  
 
 
+  currentRoute: string = '';
+  constructor(router: Router) {
+    router.subscribe((route) => {
+      var newRoute = route || '/';
+      if(newRoute !== this.currentRoute) {
+        ga('send', 'pageview', newRoute);
+        this.currentRoute = newRoute;
+      }
+    });
+  }
 }

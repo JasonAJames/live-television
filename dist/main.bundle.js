@@ -2663,7 +2663,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "\n.title {\n    color: navy;\n    width: 50%;\n}\n.btn {\n    border-color: 2px solid navy;\n    width: 50%;\n}\n.HomeBG {\n    background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/christmas-bg_branded.jpg.png');\n}\n.container-1 {\n    background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/christmas-bg_branded.jpg.png');\n    background-repeat: no-repeat;\n    background-attachment: fixed;\n    background-position: center;\n    vertical-align: top;\n    padding: 5%;\n}", ""]);
+exports.push([module.i, "\n.title {\n    color: navy;\n    width: 50%;\n}\n.btn {\n    border-color: 2px solid navy;\n    width: 50%;\n}\n.HomeBG {\n    background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/christmas-bg_branded.jpg.png');\n}\n.container-1 {\n    background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/christmas-bg_branded.jpg.png');\n    background-repeat: no-repeat;\n    background-attachment: fixed;\n    background-position: center;\n    vertical-align: top;\n    padding: 5%;\n    margin-bottom: 3%;\n}", ""]);
 
 // exports
 

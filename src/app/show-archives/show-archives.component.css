@@ -1,3 +1,10 @@
 .btn {
-    padding-top: 1%;
+    margin-top: 1%;
+}
+.col-sm-6 {
+    background-color: skyblue;
+    border-bottom-color: navy;
+}
+.col-sm-4 {
+    border-bottom-color: navy;
 }

@@ -15,8 +15,13 @@ export class HomeVideo2Component implements OnInit {
     ga('send', 'pageview');
   }
 
+  
+
   videoEnd() {
     // do init at here for current route.
+
+   // this.router
+
     console.log('videoEnd function fired.');
     setTimeout(() => {
       console.log('fired inside setTimeout function.');

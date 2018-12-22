@@ -64,6 +64,7 @@ import { VeteransDay2018Component } from './veterans-day-2018/veterans-day-2018.
 import { MissionInnFestivalOfLightsComponent } from './mission-inn-festival-of-lights/mission-inn-festival-of-lights.component';
 import { SnowSummitComponent } from './extras/snow-summit/snow-summit.component';
 import { JobsComponent } from './contact/jobs/jobs.component';
+import { ShowArchivesComponent } from './show-archives/show-archives.component';
 
 
 @NgModule({
@@ -125,7 +126,8 @@ import { JobsComponent } from './contact/jobs/jobs.component';
     VeteransDay2018Component,
     MissionInnFestivalOfLightsComponent,
     SnowSummitComponent,
-    JobsComponent
+    JobsComponent,
+    ShowArchivesComponent
 
   ],
   imports: [
@@ -195,6 +197,8 @@ import { JobsComponent } from './contact/jobs/jobs.component';
       { path: 'hawaii-news-now', component: HawaiiNewsNowComponent },
       { path: 'kitv4-hawaii', component: Kitv4hawaiiComponent},
       { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
+      
+      { path: "show-archives", component: ShowArchivesComponent },
 
       { path: '', redirectTo: '/home-video-0', pathMatch: 'full'},
       { path: '**', component: HomeVideo0Component }

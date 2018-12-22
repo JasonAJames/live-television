@@ -160,7 +160,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- FREE VERSION -->\n<div class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-dark\">\n    <div class=\"container\">\n      <a routerLink=\"home-video-0\" class=\"navbar-brand\">\n        <span class=\"HeaderLogo\"></span>\n        <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/logo_16X9.png\" width=\"111px\" height=\"65px\"/> \n         SoCal Television</a>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n              <span class=\"navbar-toggler-icon\"></span>\n            </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n\n        <ul class=\"navbar-nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"about\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"stations-main\">TV Stations</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link btn-danger\" routerLink=\"live\">LIVE</a>\n          </li>\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link btn-info\" routerLink=\"usopenofsurfing\">Vans US Open of Surfing LIVE</a>\n            </li> -->\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link btn btn-info\" routerLink=\"independence-day\">Independence Day Celebrations LIVE</a>\n            </li> -->\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"live-traffic/sigalert\">TRAFFIC</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"mission-inn-festival-of-lights\">Mission Inn Festival of Lights</a>\n            </li>\n            <!-- <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"sbd-fest-2018\">SBD Fest</a>\n            </li> -->\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"//worldtelevision.tv/#/breaking-news-1\" target=\"_blank\">BREAKING NEWS WORLD-WIDE</a>\n            </li> -->\n        </ul>\n\n        <ul class=\"nav navbar-nav ml-auto\">\n            <li class=\"nav-item dropdown\">\n                <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                  Extras...\n                </a>\n                <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                    <a class=\"dropdown-item\" routerLink=\"national-day/coffee-day\">National Day of...</a>\n                    <div class=\"dropdown-divider\"></div>\n                  <a class=\"dropdown-item\" routerLink=\"extras/daily-horoscope\">Daily Horoscopes</a>\n                  <div class=\"dropdown-divider\"></div>\n                  <a class=\"dropdown-item\" routerLink=\"extras/stock-market\">Stock Markets</a>\n                </div>\n              </li>\n          <!-- <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"contact\">Contact Us</a>\n          </li> -->\n        </ul>\n\n      </div>\n    </div>\n  </div>\n\n\n  <div class=\"ui container\">\n    <p class=\"top\"></p>\n    <!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n    <!-- <iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe> -->\n\n   <router-outlet></router-outlet>\n    <!-- <app-hero-form></app-hero-form> -->\n  </div>\n\n  <div class=\"ui inverted vertical footer segment\">\n      <div class=\"ui container\">\n        <div class=\"ui stackable inverted divided equal height stackable grid\">\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">About</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"about\" class=\"item\">About</a>\n              <a routerLink=\"stations-main\" class=\"item\">Channel Guide</a>\n              <a routerLink=\"stations-main\" class=\"item\">Shows</a>\n              <a routerLink=\"local-reviews\" class=\"item\">Local Reviews</a>\n            </div>\n          </div>\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">Services</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"live\" class=\"item\">WATCH LIVE</a>\n              <a routerLink=\"social\" class=\"item\">SoCal Community Connection</a>\n              <a routerLink=\"contact\" class=\"item\">Advertise / Showcase your Event</a>\n              <a routerLink=\"contact\" class=\"item\">Contact Us</a>\n            </div>\n          </div>\n          <div class=\"seven wide column\">\n            <h4 class=\"ui inverted header\"></h4>\n            <p></p>\n            <p style=\"text-align:center;\" id=\"copyright\">Find out what's going on in your area, LIKE - FOLLOW - SHARE @SoCalTelevision on <a href=\"https://www.facebook.com/SoCalTelevision/\" target=\"_blank\">Facebook</a>, <a href=\"https://www.instagram.com/SoCalTelevision/\" target=\"_blank\">Instagram</a>, &amp; <a href=\"https://www.twitter.com/SoCalTelevision/\" target=\"_blank\">Twitter!</a><br><br>© <span id=\"copyrightDate\">2018</span> The Inland Empire Television Network - SoCalTelevision<br> a subsidiary of <a href=\"http://www.jppmsolutions.com\" target=\"_blank\">James Programming, Printing, &amp; Media Solutions</a>.<br><br>Content may not be replicated, duplicated, or rebroadcasted in any way, both in part or full, without expressed written consent from the Inland Empire Television Network, James Programming, Printing &amp; Media Solutions, or its subsidiary's - All Rights Reserved.<br/>Weather information based on data supplied by <a href=\"http://noaa.gov\" target=\"_blank\">NOAA.gov</a></p>\n            <script>\n              var d = new Date();\n              document.getElementById(\"copyrightDate\").innerHTML = d.getFullYear();\n            </script> \n          </div>\n        </div>\n      </div>\n    </div>"
+module.exports = "<!-- FREE VERSION -->\n<div class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-dark\">\n    <div class=\"container\">\n      <a routerLink=\"home-video-0\" class=\"navbar-brand\">\n        <span class=\"HeaderLogo\"></span>\n        <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/logo_16X9.png\" width=\"111px\" height=\"65px\"/> \n         SoCal Television</a>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n              <span class=\"navbar-toggler-icon\"></span>\n            </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n\n        <ul class=\"navbar-nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"about\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"stations-main\">TV Stations</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link btn-danger\" routerLink=\"live\">LIVE</a>\n          </li>\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link btn-info\" routerLink=\"usopenofsurfing\">Vans US Open of Surfing LIVE</a>\n            </li> -->\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link btn btn-info\" routerLink=\"independence-day\">Independence Day Celebrations LIVE</a>\n            </li> -->\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"live-traffic/sigalert\">TRAFFIC</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"mission-inn-festival-of-lights\">Mission Inn Festival of Lights</a>\n            </li>\n            <!-- <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"sbd-fest-2018\">SBD Fest</a>\n            </li> -->\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"//worldtelevision.tv/#/breaking-news-1\" target=\"_blank\">BREAKING NEWS WORLD-WIDE</a>\n            </li> -->\n        </ul>\n\n        <ul class=\"nav navbar-nav ml-auto\">\n            <li class=\"nav-item dropdown\">\n                <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                  Extras...\n                </a>\n                <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                    <a class=\"dropdown-item\" routerLink=\"national-day/coffee-day\">National Day of...</a>\n                    <div class=\"dropdown-divider\"></div>\n                  <a class=\"dropdown-item\" routerLink=\"extras/daily-horoscope\">Daily Horoscopes</a>\n                  <div class=\"dropdown-divider\"></div>\n                  <a class=\"dropdown-item\" routerLink=\"extras/stock-market\">Stock Markets</a>\n                </div>\n              </li>\n          <!-- <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"contact\">Contact Us</a>\n          </li> -->\n        </ul>\n\n      </div>\n    </div>\n  </div>\n\n\n  <div class=\"ui container\">\n    <p class=\"top\"></p>\n    <!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n    <!-- <iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe> -->\n\n   <router-outlet></router-outlet>\n    <!-- <app-hero-form></app-hero-form> -->\n  </div>\n\n  <div class=\"ui inverted vertical footer segment\">\n      <div class=\"ui container\">\n        <div class=\"ui stackable inverted divided equal height stackable grid\">\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">About</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"about\" class=\"item\">About</a>\n              <a routerLink=\"stations-main\" class=\"item\">TV Channels</a>\n              <a routerLink=\"show-archives\" class=\"item\">Show Archives</a>\n              <a routerLink=\"local-reviews\" class=\"item\">Local Reviews</a>\n            </div>\n          </div>\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">Services</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"live\" class=\"item\">WATCH LIVE</a>\n              <a routerLink=\"social\" class=\"item\">SoCal Community Connection</a>\n              <a routerLink=\"contact\" class=\"item\">Advertise / Showcase your Event</a>\n              <a routerLink=\"contact\" class=\"item\">Contact Us</a>\n            </div>\n          </div>\n          <div class=\"seven wide column\">\n            <h4 class=\"ui inverted header\"></h4>\n            <p></p>\n            <p style=\"text-align:center;\" id=\"copyright\">Find out what's going on in your area, LIKE - FOLLOW - SHARE @SoCalTelevision on <a href=\"https://www.facebook.com/SoCalTelevision/\" target=\"_blank\">Facebook</a>, <a href=\"https://www.instagram.com/SoCalTelevision/\" target=\"_blank\">Instagram</a>, &amp; <a href=\"https://www.twitter.com/SoCalTelevision/\" target=\"_blank\">Twitter!</a><br><br>© <span id=\"copyrightDate\">2018</span> The Inland Empire Television Network - SoCalTelevision<br> a subsidiary of <a href=\"http://www.jppmsolutions.com\" target=\"_blank\">James Programming, Printing, &amp; Media Solutions</a>.<br><br>Content may not be replicated, duplicated, or rebroadcasted in any way, both in part or full, without expressed written consent from the Inland Empire Television Network, James Programming, Printing &amp; Media Solutions, or its subsidiary's - All Rights Reserved.<br/>Weather information based on data supplied by <a href=\"http://noaa.gov\" target=\"_blank\">NOAA.gov</a></p>\n            <script>\n              var d = new Date();\n              document.getElementById(\"copyrightDate\").innerHTML = d.getFullYear();\n            </script> \n          </div>\n        </div>\n      </div>\n    </div>"
 
 /***/ }),
 
@@ -264,12 +264,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__mission_inn_festival_of_lights_mission_inn_festival_of_lights_component__ = __webpack_require__("../../../../../src/app/mission-inn-festival-of-lights/mission-inn-festival-of-lights.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__extras_snow_summit_snow_summit_component__ = __webpack_require__("../../../../../src/app/extras/snow-summit/snow-summit.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__contact_jobs_jobs_component__ = __webpack_require__("../../../../../src/app/contact/jobs/jobs.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__show_archives_show_archives_component__ = __webpack_require__("../../../../../src/app/show-archives/show-archives.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -399,7 +401,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_60__veterans_day_2018_veterans_day_2018_component__["a" /* VeteransDay2018Component */],
             __WEBPACK_IMPORTED_MODULE_61__mission_inn_festival_of_lights_mission_inn_festival_of_lights_component__["a" /* MissionInnFestivalOfLightsComponent */],
             __WEBPACK_IMPORTED_MODULE_62__extras_snow_summit_snow_summit_component__["a" /* SnowSummitComponent */],
-            __WEBPACK_IMPORTED_MODULE_63__contact_jobs_jobs_component__["a" /* JobsComponent */]
+            __WEBPACK_IMPORTED_MODULE_63__contact_jobs_jobs_component__["a" /* JobsComponent */],
+            __WEBPACK_IMPORTED_MODULE_64__show_archives_show_archives_component__["a" /* ShowArchivesComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -460,6 +463,7 @@ AppModule = __decorate([
                 { path: 'hawaii-news-now', component: __WEBPACK_IMPORTED_MODULE_18__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */] },
                 { path: 'kitv4-hawaii', component: __WEBPACK_IMPORTED_MODULE_19__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */] },
                 { path: 'khon2-hawaii', component: __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */] },
+                { path: "show-archives", component: __WEBPACK_IMPORTED_MODULE_64__show_archives_show_archives_component__["a" /* ShowArchivesComponent */] },
                 { path: '', redirectTo: '/home-video-0', pathMatch: 'full' },
                 { path: '**', component: __WEBPACK_IMPORTED_MODULE_50__home_video_home_video_0_home_video_0_component__["a" /* HomeVideo0Component */] }
             ], { useHash: true }),
@@ -1481,8 +1485,9 @@ var HomeVideo2Component = (function () {
         ga('send', 'pageview');
     }
     HomeVideo2Component.prototype.videoEnd = function () {
-        var _this = this;
         // do init at here for current route.
+        var _this = this;
+        // this.router
         console.log('videoEnd function fired.');
         setTimeout(function () {
             console.log('fired inside setTimeout function.');
@@ -2647,6 +2652,73 @@ SbdFest2018Component = __decorate([
 ], SbdFest2018Component);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/v2019/live-television/src/sbd-fest-2018.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/show-archives/show-archives.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/show-archives/show-archives.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>SoCal Television - Show Archives</h3>\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-sm-8\">{{ show0_title }}</div>\n    <div class=\"col-sm-4\"><a href=\"{{ show0_url }}\" target=\"_blank\" class=\"btn btn-primary\">{{ show0_url }}</a></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-8\">{{ show1_title }}</div>\n    <div class=\"col-sm-4\"><a href=\"{{ show1_url }}\" target=\"_blank\" class=\"btn btn-primary\">{{ show1_url }}</a></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-8\">{{ show2_title }}</div>\n    <div class=\"col-sm-4\"><a href=\"{{ show2_url }}\" target=\"_blank\" class=\"btn btn-primary\">{{ show2_url }}</a></div>\n  </div>\n</div>\n\n<p>Watch SoCal Television 24/7 at <a class=\"nav-link\" routerLink=\"\">www.SoCalTelevision.com</a></p>\n\n<p>Please Like and Follow @SoCalTelevision on social!</p>\n\n<p>SoCAL television is also distributed through DVD. <a routerLink=\"contact\">Contact us</a> for more information about DVD's of the show.\n</p>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/show-archives/show-archives.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShowArchivesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ShowArchivesComponent = (function () {
+    function ShowArchivesComponent() {
+        this.show0_title = "Skyland Ale Works";
+        this.show0_url = "https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/SkylandAleWorks/SkylandAleWorks_Final_v1.mp4";
+        this.show1_title = "SBD Fest 2018";
+        this.show1_url = "https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.mp4";
+        this.show2_title = "Mission Inn Festival of Lights Switch On Ceremony featuring Robin Thicke";
+        this.show2_url = "https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/MissionInnFestivalOfLightsCeremony_RobinThicke/MissionInn_SwitchonCeremony_featuringRobinThicke.mp4";
+    }
+    ShowArchivesComponent.prototype.ngOnInit = function () {
+    };
+    return ShowArchivesComponent;
+}());
+ShowArchivesComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-show-archives',
+        template: __webpack_require__("../../../../../src/app/show-archives/show-archives.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/show-archives/show-archives.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], ShowArchivesComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/v2019/live-television/src/show-archives.component.js.map
 
 /***/ }),
 

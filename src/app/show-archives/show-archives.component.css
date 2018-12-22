@@ -8,7 +8,7 @@
     width: 50%;
 }
 
-.HomeBG {
+.container-1 {
     background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/christmas-bg_branded.jpg.png');
     background-repeat: no-repeat;
     background-attachment: fixed;

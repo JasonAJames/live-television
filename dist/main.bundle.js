@@ -2663,7 +2663,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".btn {\n    margin-top: 1%;\n}\n.col-sm-6 {\n    background-color: skyblue;\n    border-bottom-color: navy;\n}\n.col-sm-4 {\n    border-bottom-color: navy;\n}", ""]);
+exports.push([module.i, ".btn, .col-sm-4, .col-sm-6 {\n    margin-top: 1%;\n}\n.col-sm-6 {\n    background-color: cornflowerblue;\n    border-bottom-color: 2px solid navy;\n}\n.col-sm-4 {\n    background-color: cornflowerblue;\n    border-bottom-color: 2px solid navy;\n}", ""]);
 
 // exports
 

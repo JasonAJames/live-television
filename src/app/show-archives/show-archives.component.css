@@ -1,10 +1,11 @@
-.btn {
+.btn, .col-sm-4, .col-sm-6 {
     margin-top: 1%;
 }
 .col-sm-6 {
-    background-color: skyblue;
-    border-bottom-color: navy;
+    background-color: cornflowerblue;
+    border-bottom-color: 2px solid navy;
 }
 .col-sm-4 {
-    border-bottom-color: navy;
+    background-color: cornflowerblue;
+    border-bottom-color: 2px solid navy;
 }

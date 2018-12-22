@@ -8,6 +8,10 @@
     width: 50%;
 }
 
+.HomeBG {
+    background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/christmas-bg_branded.jpg.png');
+}
+
 .container-1 {
     background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/christmas-bg_branded.jpg.png');
     background-repeat: no-repeat;

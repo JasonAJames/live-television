@@ -1,7 +1,17 @@
 
 .title {
     color: navy;
+    width: 50%;
 }
 .btn {
     border-color: 2px solid navy;
+    width: 50%;
+}
+
+.HomeBG {
+    background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/christmas-bg_branded.jpg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    vertical-align: top;
 }

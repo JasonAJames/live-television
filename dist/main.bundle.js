@@ -1491,7 +1491,7 @@ var HomeVideo2Component = (function () {
         console.log('videoEnd function fired.');
         setTimeout(function () {
             console.log('fired inside setTimeout function.');
-            _this.router.navigate(['home-video-0']);
+            _this.router.navigate(['stations-main']);
             console.log('Should have redirected by now.');
         }); // ,1000 1s
     };

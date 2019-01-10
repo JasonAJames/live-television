@@ -25,7 +25,7 @@ export class HomeVideo2Component implements OnInit {
     console.log('videoEnd function fired.');
     setTimeout(() => {
       console.log('fired inside setTimeout function.');
-      this.router.navigate(['home-video-0']);
+      this.router.navigate(['stations-main']);
       console.log('Should have redirected by now.');
   }, );  // ,1000 1s
   }

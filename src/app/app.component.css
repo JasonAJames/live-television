@@ -2,6 +2,15 @@
     padding-top: 10%;
 }
 
+.container {
+    height: 60px;
+}
+
+.navbar-brand > img {
+    display: inline-block;
+    margin-top: -25px;
+}
+
 @media only screen and (min-width: 400px) {
     .videoContainer {
         margin-left: 1%;

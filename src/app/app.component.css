@@ -6,6 +6,10 @@
     height: 60px;
 } */
 
+.nav-link.btn-danger {
+    border-radius: 5px;
+}
+
 .navbar-brand > img {
     display: inline-block;
     margin-top: -25px;

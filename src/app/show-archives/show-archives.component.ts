@@ -18,5 +18,4 @@ export class ShowArchivesComponent implements OnInit {
   show1_url = "https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.mp4";
   show2_title = "Mission Inn Festival of Lights Switch On Ceremony featuring Robin Thicke";
   show2_url = "https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/MissionInnFestivalOfLightsCeremony_RobinThicke/MissionInn_SwitchonCeremony_featuringRobinThicke.mp4";
-
 }

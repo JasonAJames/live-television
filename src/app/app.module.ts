@@ -65,6 +65,7 @@ import { MissionInnFestivalOfLightsComponent } from './mission-inn-festival-of-l
 import { SnowSummitComponent } from './extras/snow-summit/snow-summit.component';
 import { JobsComponent } from './contact/jobs/jobs.component';
 import { ShowArchivesComponent } from './show-archives/show-archives.component';
+import { MissionInnFestivalOfLights2018Component } from './mission-inn-festival-of-lights2018/mission-inn-festival-of-lights2018.component';
 
 
 @NgModule({
@@ -127,7 +128,8 @@ import { ShowArchivesComponent } from './show-archives/show-archives.component';
     MissionInnFestivalOfLightsComponent,
     SnowSummitComponent,
     JobsComponent,
-    ShowArchivesComponent
+    ShowArchivesComponent,
+    MissionInnFestivalOfLights2018Component
 
   ],
   imports: [

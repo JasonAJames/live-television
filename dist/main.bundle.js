@@ -1399,11 +1399,11 @@ var HomeVideo1Component = (function () {
     function HomeVideo1Component(router) {
         this.router = router;
         this.stationName = "SoCalTelevision";
-        this.title = "26TH ANNUAL FESTIVAL OF LIGHTS SWITCH-ON CEREMONY";
-        this.header_link = "Mission Inn Festival of Lights";
-        this.url = "https://www.socaltelevision.com/+#+/mission-inn-festival-of-lights";
-        this.description = "Join us on Friday, November 23rd at 4:30PM as we officially kick off the holiday season with our 26th Annual Festival of Lights celebration!";
-        this.subdescription = "You're not going to want to miss this very special anniversary celebration featuring guests like Robin Thicke!! If you can't make it to the celebration, We've got you covered. Watch the Switch On Ceremony #LIVE on www.SoCalTelevision.com";
+        this.title = "Salvation Mountain";
+        this.header_link = "Salvation Mountain";
+        this.url = "https://www.socaltelevision.com/+#+/home-video-1";
+        this.description = "Join us at Leonard Knight's Salvation Mountain.";
+        this.subdescription = "Leonard Knight's Salvation Mountain. Salvation Mountain is located in the lower desert of Southern California in Imperial County just east of the Salton Sea and about a hour and a half from Palm Springs. Salvation Mountain is Leonard's tribute to God and his gift to the world with its simple yet powerful message: 'God Is Love.' Leonard's passion has lovingly created this brilliant 'outsider art' masterpiece resplendent with not only biblical and religious scripture such as the Lord's Prayer, John 3:16, and the Sinner's Prayer, but also including flowers, trees, waterfalls, suns, bluebirds, and many other fascinating and colorful objects. Salvation Mountain must be seen to be fully appreciated as those who have made the journey will attest. Its 50 foot height and 150 foot breadth is made totally of local adobe clay and donated paint and is truly unique in the United States and probably the world... #LIVE on www.SoCalTelevision.com";
         ga('set', 'page', '/home-video-1');
         ga('send', 'pageview');
     }

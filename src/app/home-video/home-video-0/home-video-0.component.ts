@@ -28,8 +28,11 @@ export class HomeVideo0Component implements OnInit {
   ngOnInit() {
   }
 
-  stationName = 'SoCal Television';
+  stationName = 'SoCal Television'
+  title = "Special Spots"
+  header_link = "Special Spots"
+  url = "https://www.socaltelevision.com/+#+/home-video-0"
   description = 'Special Spots';
-  subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...';
+  subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
 
 }

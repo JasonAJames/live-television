@@ -34,6 +34,6 @@ export class HomeVideo2Component implements OnInit {
   }
 
   stationName = 'SoCal Television';
-  description = 'The SBD Fest';
-  subdescription = 'The Sky Thunders over San Bernardino, CA';
+  description = 'Come visit the Piedras Blancas Light Station with us!';
+  subdescription = 'Piedras Blancas means "white rocks" in Spanish. Long before the establishment of a light station, Native Americans harvested the abundant natural resources at Point Piedras Blancas. Early mariners used the large white offshore rocks as navigational landmarks. In 1875, a light station was established at Point Piedras Blancas to aid maritime navigation. The lighthouse, with its distinct light pattern of a white flash every 15 seconds, assured mariners of their location and warned of the rocky coastline. For Tour Information, visit: https://piedrasblancas.org/tours.html';
 }

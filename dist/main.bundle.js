@@ -139,6 +139,559 @@ AdvertiseCommercialComponent = __decorate([
 
 /***/ }),
 
+/***/ "../../../../../src/app/amazon-product-reviews/amazon-product-reviews.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/amazon-product-reviews.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-sm-12\">{{pagetitle}}</div>\n    <div class=\"col-sm-12\">{{subtitle0}}</div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B079QHML21&asins=B079QHML21&linkId=0debeaffb0eaeea152b56f36b1a8c241&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B0791TX5P5&asins=B0791TX5P5&linkId=d28e223bda90c3a69696a429cf24f010&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B06Y56NDF4&asins=B06Y56NDF4&linkId=ad20499450624c6204070777a1f96d3a&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B0792KTHKJ&asins=B0792KTHKJ&linkId=43940aef2a5f84031730548031cec54e&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B075XN1NZC&asins=B075XN1NZC&linkId=a1de7499b3ac0d7db9bf7567b757d75a&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-12\">{{subtitle1}}</div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B07BTS6H4W&asins=B07BTS6H4W&linkId=d6cf8190399bac6eb8b0131db8bc9e87&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B078DPCY3T&asins=B078DPCY3T&linkId=6644ffbeca680352fb0fd92a61668004&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B073JYC4XM&asins=B073JYC4XM&linkId=f0b6df9ecbf8a51c8d97046e6b472fb1&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B00WR23VRI&asins=B00WR23VRI&linkId=360b6ef8cd441599be26dd73dc64f317&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B06W55K9N6&asins=B06W55K9N6&linkId=2e93d44c9aaed469278527c2da28d619&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-12\">{{subtitle2}}</div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B07NQGRWSF&asins=B07NQGRWSF&linkId=ab434acc04885ac88938af019b3aba22&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B076H3SRXG&asins=B076H3SRXG&linkId=2e70f916d57b11c8e2083a3a767fbb6d&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B07DGR98VQ&asins=B07DGR98VQ&linkId=3304fa6c7656873f0416f4c9d2f411b0&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B079TGL2BZ&asins=B079TGL2BZ&linkId=f6109e7b77d907ba71df6653d4895bf9&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B07K3BZSNK&asins=B07K3BZSNK&linkId=58546f6b545ebdceb524f6a5247be997&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/amazon-product-reviews.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AmazonProductReviewsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var AmazonProductReviewsComponent = (function () {
+    function AmazonProductReviewsComponent() {
+        this.pagetitle = "Amazon Product Reviews";
+        this.subtitle0 = "Electronics & Home Accessories";
+        this.subtitle1 = "Computers, Tablets & Peripherals";
+        this.subtitle2 = "Cameras & Photography Equipment";
+    }
+    AmazonProductReviewsComponent.prototype.ngOnInit = function () {
+    };
+    return AmazonProductReviewsComponent;
+}());
+AmazonProductReviewsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-amazon-product-reviews',
+        template: __webpack_require__("../../../../../src/app/amazon-product-reviews/amazon-product-reviews.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/amazon-product-reviews/amazon-product-reviews.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], AmazonProductReviewsComponent);
+
+//# sourceMappingURL=/Users/socaltelevision/Documents/websites/live-television/src/amazon-product-reviews.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/camera-video-camcorder-accessories/camera-video-camcorder-accessories.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/camera-video-camcorder-accessories/camera-video-camcorder-accessories.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  camera-video-camcorder-accessories works!\n</p>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/camera-video-camcorder-accessories/camera-video-camcorder-accessories.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CameraVideoCamcorderAccessoriesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CameraVideoCamcorderAccessoriesComponent = (function () {
+    function CameraVideoCamcorderAccessoriesComponent() {
+    }
+    CameraVideoCamcorderAccessoriesComponent.prototype.ngOnInit = function () {
+    };
+    return CameraVideoCamcorderAccessoriesComponent;
+}());
+CameraVideoCamcorderAccessoriesComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-camera-video-camcorder-accessories',
+        template: __webpack_require__("../../../../../src/app/amazon-product-reviews/camera-video-camcorder-accessories/camera-video-camcorder-accessories.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/amazon-product-reviews/camera-video-camcorder-accessories/camera-video-camcorder-accessories.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], CameraVideoCamcorderAccessoriesComponent);
+
+//# sourceMappingURL=/Users/socaltelevision/Documents/websites/live-television/src/camera-video-camcorder-accessories.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/cameras-video-camcorders/cameras-video-camcorders.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/cameras-video-camcorders/cameras-video-camcorders.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  cameras-video-camcorders works!\n</p>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/cameras-video-camcorders/cameras-video-camcorders.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CamerasVideoCamcordersComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CamerasVideoCamcordersComponent = (function () {
+    function CamerasVideoCamcordersComponent() {
+    }
+    CamerasVideoCamcordersComponent.prototype.ngOnInit = function () {
+    };
+    return CamerasVideoCamcordersComponent;
+}());
+CamerasVideoCamcordersComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-cameras-video-camcorders',
+        template: __webpack_require__("../../../../../src/app/amazon-product-reviews/cameras-video-camcorders/cameras-video-camcorders.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/amazon-product-reviews/cameras-video-camcorders/cameras-video-camcorders.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], CamerasVideoCamcordersComponent);
+
+//# sourceMappingURL=/Users/socaltelevision/Documents/websites/live-television/src/cameras-video-camcorders.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/computers-laptops-peripherals/computers-laptops-peripherals.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/computers-laptops-peripherals/computers-laptops-peripherals.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  computers-laptops-peripherals works!\n</p>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/computers-laptops-peripherals/computers-laptops-peripherals.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComputersLaptopsPeripheralsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ComputersLaptopsPeripheralsComponent = (function () {
+    function ComputersLaptopsPeripheralsComponent() {
+    }
+    ComputersLaptopsPeripheralsComponent.prototype.ngOnInit = function () {
+    };
+    return ComputersLaptopsPeripheralsComponent;
+}());
+ComputersLaptopsPeripheralsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-computers-laptops-peripherals',
+        template: __webpack_require__("../../../../../src/app/amazon-product-reviews/computers-laptops-peripherals/computers-laptops-peripherals.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/amazon-product-reviews/computers-laptops-peripherals/computers-laptops-peripherals.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], ComputersLaptopsPeripheralsComponent);
+
+//# sourceMappingURL=/Users/socaltelevision/Documents/websites/live-television/src/computers-laptops-peripherals.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  electronics-home-accessories works!\n</p>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElectronicsHomeAccessoriesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ElectronicsHomeAccessoriesComponent = (function () {
+    function ElectronicsHomeAccessoriesComponent() {
+    }
+    ElectronicsHomeAccessoriesComponent.prototype.ngOnInit = function () {
+    };
+    return ElectronicsHomeAccessoriesComponent;
+}());
+ElectronicsHomeAccessoriesComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-electronics-home-accessories',
+        template: __webpack_require__("../../../../../src/app/amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], ElectronicsHomeAccessoriesComponent);
+
+//# sourceMappingURL=/Users/socaltelevision/Documents/websites/live-television/src/electronics-home-accessories.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/electronics-home-audio/electronics-home-audio.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/electronics-home-audio/electronics-home-audio.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  electronics-home-audio works!\n</p>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/electronics-home-audio/electronics-home-audio.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElectronicsHomeAudioComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ElectronicsHomeAudioComponent = (function () {
+    function ElectronicsHomeAudioComponent() {
+    }
+    ElectronicsHomeAudioComponent.prototype.ngOnInit = function () {
+    };
+    return ElectronicsHomeAudioComponent;
+}());
+ElectronicsHomeAudioComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-electronics-home-audio',
+        template: __webpack_require__("../../../../../src/app/amazon-product-reviews/electronics-home-audio/electronics-home-audio.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/amazon-product-reviews/electronics-home-audio/electronics-home-audio.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], ElectronicsHomeAudioComponent);
+
+//# sourceMappingURL=/Users/socaltelevision/Documents/websites/live-television/src/electronics-home-audio.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/home-improvement/home-improvement.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/home-improvement/home-improvement.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  home-improvement works!\n</p>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/home-improvement/home-improvement.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeImprovementComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HomeImprovementComponent = (function () {
+    function HomeImprovementComponent() {
+    }
+    HomeImprovementComponent.prototype.ngOnInit = function () {
+    };
+    return HomeImprovementComponent;
+}());
+HomeImprovementComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-home-improvement',
+        template: __webpack_require__("../../../../../src/app/amazon-product-reviews/home-improvement/home-improvement.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/amazon-product-reviews/home-improvement/home-improvement.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], HomeImprovementComponent);
+
+//# sourceMappingURL=/Users/socaltelevision/Documents/websites/live-television/src/home-improvement.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/mobile-phone-accessories/mobile-phone-accessories.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/mobile-phone-accessories/mobile-phone-accessories.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  mobile-phone-accessories works!\n</p>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/mobile-phone-accessories/mobile-phone-accessories.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MobilePhoneAccessoriesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var MobilePhoneAccessoriesComponent = (function () {
+    function MobilePhoneAccessoriesComponent() {
+    }
+    MobilePhoneAccessoriesComponent.prototype.ngOnInit = function () {
+    };
+    return MobilePhoneAccessoriesComponent;
+}());
+MobilePhoneAccessoriesComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-mobile-phone-accessories',
+        template: __webpack_require__("../../../../../src/app/amazon-product-reviews/mobile-phone-accessories/mobile-phone-accessories.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/amazon-product-reviews/mobile-phone-accessories/mobile-phone-accessories.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], MobilePhoneAccessoriesComponent);
+
+//# sourceMappingURL=/Users/socaltelevision/Documents/websites/live-television/src/mobile-phone-accessories.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/mobile-phones/mobile-phones.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/mobile-phones/mobile-phones.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  mobile-phones works!\n</p>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/amazon-product-reviews/mobile-phones/mobile-phones.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MobilePhonesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var MobilePhonesComponent = (function () {
+    function MobilePhonesComponent() {
+    }
+    MobilePhonesComponent.prototype.ngOnInit = function () {
+    };
+    return MobilePhonesComponent;
+}());
+MobilePhonesComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-mobile-phones',
+        template: __webpack_require__("../../../../../src/app/amazon-product-reviews/mobile-phones/mobile-phones.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/amazon-product-reviews/mobile-phones/mobile-phones.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], MobilePhonesComponent);
+
+//# sourceMappingURL=/Users/socaltelevision/Documents/websites/live-television/src/mobile-phones.component.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/app.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -266,12 +819,30 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__contact_jobs_jobs_component__ = __webpack_require__("../../../../../src/app/contact/jobs/jobs.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__show_archives_show_archives_component__ = __webpack_require__("../../../../../src/app/show-archives/show-archives.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__mission_inn_festival_of_lights2018_mission_inn_festival_of_lights2018_component__ = __webpack_require__("../../../../../src/app/mission-inn-festival-of-lights2018/mission-inn-festival-of-lights2018.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__amazon_product_reviews_amazon_product_reviews_component__ = __webpack_require__("../../../../../src/app/amazon-product-reviews/amazon-product-reviews.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__amazon_product_reviews_computers_laptops_peripherals_computers_laptops_peripherals_component__ = __webpack_require__("../../../../../src/app/amazon-product-reviews/computers-laptops-peripherals/computers-laptops-peripherals.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__amazon_product_reviews_electronics_home_audio_electronics_home_audio_component__ = __webpack_require__("../../../../../src/app/amazon-product-reviews/electronics-home-audio/electronics-home-audio.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__amazon_product_reviews_cameras_video_camcorders_cameras_video_camcorders_component__ = __webpack_require__("../../../../../src/app/amazon-product-reviews/cameras-video-camcorders/cameras-video-camcorders.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__amazon_product_reviews_camera_video_camcorder_accessories_camera_video_camcorder_accessories_component__ = __webpack_require__("../../../../../src/app/amazon-product-reviews/camera-video-camcorder-accessories/camera-video-camcorder-accessories.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__amazon_product_reviews_mobile_phones_mobile_phones_component__ = __webpack_require__("../../../../../src/app/amazon-product-reviews/mobile-phones/mobile-phones.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__amazon_product_reviews_mobile_phone_accessories_mobile_phone_accessories_component__ = __webpack_require__("../../../../../src/app/amazon-product-reviews/mobile-phone-accessories/mobile-phone-accessories.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__amazon_product_reviews_electronics_home_accessories_electronics_home_accessories_component__ = __webpack_require__("../../../../../src/app/amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__amazon_product_reviews_home_improvement_home_improvement_component__ = __webpack_require__("../../../../../src/app/amazon-product-reviews/home-improvement/home-improvement.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
+
+
+
+
+
+
 
 
 
@@ -405,7 +976,16 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_62__extras_snow_summit_snow_summit_component__["a" /* SnowSummitComponent */],
             __WEBPACK_IMPORTED_MODULE_63__contact_jobs_jobs_component__["a" /* JobsComponent */],
             __WEBPACK_IMPORTED_MODULE_64__show_archives_show_archives_component__["a" /* ShowArchivesComponent */],
-            __WEBPACK_IMPORTED_MODULE_65__mission_inn_festival_of_lights2018_mission_inn_festival_of_lights2018_component__["a" /* MissionInnFestivalOfLights2018Component */]
+            __WEBPACK_IMPORTED_MODULE_65__mission_inn_festival_of_lights2018_mission_inn_festival_of_lights2018_component__["a" /* MissionInnFestivalOfLights2018Component */],
+            __WEBPACK_IMPORTED_MODULE_66__amazon_product_reviews_amazon_product_reviews_component__["a" /* AmazonProductReviewsComponent */],
+            __WEBPACK_IMPORTED_MODULE_67__amazon_product_reviews_computers_laptops_peripherals_computers_laptops_peripherals_component__["a" /* ComputersLaptopsPeripheralsComponent */],
+            __WEBPACK_IMPORTED_MODULE_68__amazon_product_reviews_electronics_home_audio_electronics_home_audio_component__["a" /* ElectronicsHomeAudioComponent */],
+            __WEBPACK_IMPORTED_MODULE_69__amazon_product_reviews_cameras_video_camcorders_cameras_video_camcorders_component__["a" /* CamerasVideoCamcordersComponent */],
+            __WEBPACK_IMPORTED_MODULE_70__amazon_product_reviews_camera_video_camcorder_accessories_camera_video_camcorder_accessories_component__["a" /* CameraVideoCamcorderAccessoriesComponent */],
+            __WEBPACK_IMPORTED_MODULE_71__amazon_product_reviews_mobile_phones_mobile_phones_component__["a" /* MobilePhonesComponent */],
+            __WEBPACK_IMPORTED_MODULE_72__amazon_product_reviews_mobile_phone_accessories_mobile_phone_accessories_component__["a" /* MobilePhoneAccessoriesComponent */],
+            __WEBPACK_IMPORTED_MODULE_73__amazon_product_reviews_electronics_home_accessories_electronics_home_accessories_component__["a" /* ElectronicsHomeAccessoriesComponent */],
+            __WEBPACK_IMPORTED_MODULE_74__amazon_product_reviews_home_improvement_home_improvement_component__["a" /* HomeImprovementComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -425,6 +1005,7 @@ AppModule = __decorate([
                 { path: 'veterans-day-2018', component: __WEBPACK_IMPORTED_MODULE_60__veterans_day_2018_veterans_day_2018_component__["a" /* VeteransDay2018Component */] },
                 { path: 'sbd-fest-2018', component: __WEBPACK_IMPORTED_MODULE_59__sbd_fest_2018_sbd_fest_2018_component__["a" /* SbdFest2018Component */] },
                 { path: 'mission-inn-festival-of-lights', component: __WEBPACK_IMPORTED_MODULE_61__mission_inn_festival_of_lights_mission_inn_festival_of_lights_component__["a" /* MissionInnFestivalOfLightsComponent */] },
+                { path: 'amazon-product-reviews', component: __WEBPACK_IMPORTED_MODULE_66__amazon_product_reviews_amazon_product_reviews_component__["a" /* AmazonProductReviewsComponent */] },
                 { path: 'news', component: __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
                 { path: 'live-2', component: __WEBPACK_IMPORTED_MODULE_38__live_2_live_2_component__["a" /* Live2Component */] },
@@ -2182,7 +2763,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/local-reviews/local-reviews.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<span class=\"videoContainer\">\n  <h1>{{stationName}}</h1>\n  <h3><a target=\"_blank\" href=\"https://{{reviewPath}}/maps/contrib/102030280377814322093/reviews/@33.9156664,-117.5619134,16z/data=!3m1!4b1!4m3!8m2!3m1!1e1\">Click Here to See Our SoCal Local Guide Reviews on Google</a></h3>\n  <iframe src=\"https://www.google.com/maps/contrib/102030280377814322093/photos/@33.9156664,-117.5619134,16z/data=!3m1!4b1!4m3!8m2!3m1!1e1\" style=\"width:800;height:600;border:none;overflow:hidden\">\n  </iframe>\n<br/>\n<a class=\"twitter-timeline\" data-lang=\"en\" data-width=\"600\" data-dnt=\"true\" data-theme=\"dark\" href=\"https://twitter.com/SoCALtelevision?ref_src=twsrc%5Etfw\">Tweets by SoCALtelevision</a> <script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n</span>\n"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<span class=\"videoContainer\">\n  <h1>{{stationName}}</h1>\n  <h3><a target=\"_blank\" href=\"https://www.google.com/maps/contrib/102030280377814322093/reviews/@33.9156664,-117.5619134,16z/data=!3m1!4b1!4m3!8m2!3m1!1e1\">Click Here to See Our SoCal Local Guide Reviews on Google</a></h3>\n  <h3><a routerLink=\"/amazon-product-reviews\">Click Here to View Our Amazon Product Reviews</a></h3>\n<br/>\n<a class=\"twitter-timeline\" data-lang=\"en\" data-width=\"600\" data-dnt=\"true\" data-theme=\"dark\" href=\"https://twitter.com/SoCALtelevision?ref_src=twsrc%5Etfw\">Tweets by SoCALtelevision</a> <script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n</span>\n"
 
 /***/ }),
 
@@ -2205,7 +2786,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var LocalReviewsComponent = (function () {
     function LocalReviewsComponent() {
         this.stationName = "SoCal Reviews";
-        this.reviewPath = "www.google.com";
     }
     LocalReviewsComponent.prototype.ngOnInit = function () {
     };

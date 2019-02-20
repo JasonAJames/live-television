@@ -66,6 +66,15 @@ import { SnowSummitComponent } from './extras/snow-summit/snow-summit.component'
 import { JobsComponent } from './contact/jobs/jobs.component';
 import { ShowArchivesComponent } from './show-archives/show-archives.component';
 import { MissionInnFestivalOfLights2018Component } from './mission-inn-festival-of-lights2018/mission-inn-festival-of-lights2018.component';
+import { AmazonProductReviewsComponent } from './amazon-product-reviews/amazon-product-reviews.component';
+import { ComputersLaptopsPeripheralsComponent } from './amazon-product-reviews/computers-laptops-peripherals/computers-laptops-peripherals.component';
+import { ElectronicsHomeAudioComponent } from './amazon-product-reviews/electronics-home-audio/electronics-home-audio.component';
+import { CamerasVideoCamcordersComponent } from './amazon-product-reviews/cameras-video-camcorders/cameras-video-camcorders.component';
+import { CameraVideoCamcorderAccessoriesComponent } from './amazon-product-reviews/camera-video-camcorder-accessories/camera-video-camcorder-accessories.component';
+import { MobilePhonesComponent } from './amazon-product-reviews/mobile-phones/mobile-phones.component';
+import { MobilePhoneAccessoriesComponent } from './amazon-product-reviews/mobile-phone-accessories/mobile-phone-accessories.component';
+import { ElectronicsHomeAccessoriesComponent } from './amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component';
+import { HomeImprovementComponent } from './amazon-product-reviews/home-improvement/home-improvement.component';
 
 
 @NgModule({
@@ -129,7 +138,16 @@ import { MissionInnFestivalOfLights2018Component } from './mission-inn-festival-
     SnowSummitComponent,
     JobsComponent,
     ShowArchivesComponent,
-    MissionInnFestivalOfLights2018Component
+    MissionInnFestivalOfLights2018Component,
+    AmazonProductReviewsComponent,
+    ComputersLaptopsPeripheralsComponent,
+    ElectronicsHomeAudioComponent,
+    CamerasVideoCamcordersComponent,
+    CameraVideoCamcorderAccessoriesComponent,
+    MobilePhonesComponent,
+    MobilePhoneAccessoriesComponent,
+    ElectronicsHomeAccessoriesComponent,
+    HomeImprovementComponent
 
   ],
   imports: [
@@ -152,6 +170,9 @@ import { MissionInnFestivalOfLights2018Component } from './mission-inn-festival-
       {path: 'veterans-day-2018', component: VeteransDay2018Component},
       { path: 'sbd-fest-2018', component: SbdFest2018Component },
       { path: 'mission-inn-festival-of-lights', component: MissionInnFestivalOfLightsComponent },
+
+      {path: 'amazon-product-reviews', component: AmazonProductReviewsComponent},
+
 
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},

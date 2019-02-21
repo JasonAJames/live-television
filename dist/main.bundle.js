@@ -147,7 +147,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".container {\n    background-color: white;\n    border-radius: 15%;\n    border: 1px solid #555;\n}\n", ""]);
 
 // exports
 

@@ -12,4 +12,7 @@ export class ElectronicsHomeAccessoriesComponent implements OnInit {
   ngOnInit() {
   }
 
+  pagetitle = "Amazon Products"
+  subtitle0 = "Electronics & Home Accessories"
+
 }

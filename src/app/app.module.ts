@@ -174,6 +174,7 @@ import { TwitterFeedComponent } from './extras/twitter-feed/twitter-feed.compone
       { path: 'mission-inn-festival-of-lights', component: MissionInnFestivalOfLightsComponent },
 
       {path: 'amazon-product-reviews', component: AmazonProductReviewsComponent},
+      {path: 'amazon-product-reviews/electronics-home-accessories', component: ElectronicsHomeAccessoriesComponent},
 
 
       { path: 'news', component: NewsComponent},

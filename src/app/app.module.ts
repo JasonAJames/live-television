@@ -75,6 +75,7 @@ import { MobilePhonesComponent } from './amazon-product-reviews/mobile-phones/mo
 import { MobilePhoneAccessoriesComponent } from './amazon-product-reviews/mobile-phone-accessories/mobile-phone-accessories.component';
 import { ElectronicsHomeAccessoriesComponent } from './amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component';
 import { HomeImprovementComponent } from './amazon-product-reviews/home-improvement/home-improvement.component';
+import { TwitterFeedComponent } from './extras/twitter-feed/twitter-feed.component';
 
 
 @NgModule({
@@ -147,7 +148,8 @@ import { HomeImprovementComponent } from './amazon-product-reviews/home-improvem
     MobilePhonesComponent,
     MobilePhoneAccessoriesComponent,
     ElectronicsHomeAccessoriesComponent,
-    HomeImprovementComponent
+    HomeImprovementComponent,
+    TwitterFeedComponent
 
   ],
   imports: [
@@ -181,6 +183,7 @@ import { HomeImprovementComponent } from './amazon-product-reviews/home-improvem
       { path: 'independence-day', component: IndependancedayComponent},
       { path: 'extras/daily-horoscope', component: HoroscopesComponent},
       { path: 'extras/stock-market', component: StockMarketComponent},
+      { path: 'extras/twitter-feed', component: TwitterFeedComponent},
       { path: 'local-reviews', component: LocalReviewsComponent},
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},

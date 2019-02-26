@@ -63,7 +63,7 @@ AboutComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], AboutComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/about.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/about.component.js.map
 
 /***/ }),
 
@@ -113,7 +113,7 @@ AdvertiseCommercialComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], AdvertiseCommercialComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/advertise-commercial.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/advertise-commercial.component.js.map
 
 /***/ }),
 
@@ -158,7 +158,7 @@ AppComponent = __decorate([
     })
 ], AppComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/app.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/app.component.js.map
 
 /***/ }),
 
@@ -427,7 +427,7 @@ AppModule = __decorate([
     })
 ], AppModule);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/app.module.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/app.module.js.map
 
 /***/ }),
 
@@ -468,7 +468,7 @@ var router = [
     { path: '**', component: __WEBPACK_IMPORTED_MODULE_4__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] }
 ];
 var routes = __WEBPACK_IMPORTED_MODULE_0__angular_router__["c" /* RouterModule */].forRoot(router, { useHash: true });
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/app.router.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/app.router.js.map
 
 /***/ }),
 
@@ -623,7 +623,7 @@ ContactusComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], ContactusComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/contactus.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/contactus.component.js.map
 
 /***/ }),
 
@@ -673,7 +673,7 @@ HoroscopesComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], HoroscopesComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/horoscopes.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/horoscopes.component.js.map
 
 /***/ }),
 
@@ -723,7 +723,7 @@ StockMarketComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], StockMarketComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/stock-market.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/stock-market.component.js.map
 
 /***/ }),
 
@@ -773,7 +773,7 @@ SocaltelevisionComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], SocaltelevisionComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/socaltelevision.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/socaltelevision.component.js.map
 
 /***/ }),
 
@@ -840,7 +840,7 @@ Ad1Component = __decorate([
 ], Ad1Component);
 
 var _a;
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/ad1.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/ad1.component.js.map
 
 /***/ }),
 
@@ -907,7 +907,7 @@ HomeVideo0Component = __decorate([
 ], HomeVideo0Component);
 
 var _a;
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-0.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/home-video-0.component.js.map
 
 /***/ }),
 
@@ -974,7 +974,7 @@ HomeVideo1Component = __decorate([
 ], HomeVideo1Component);
 
 var _a;
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-1.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/home-video-1.component.js.map
 
 /***/ }),
 
@@ -1041,7 +1041,7 @@ HomeVideo2Component = __decorate([
 ], HomeVideo2Component);
 
 var _a;
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-2.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/home-video-2.component.js.map
 
 /***/ }),
 
@@ -1091,7 +1091,7 @@ HomeVideo3Component = __decorate([
     __metadata("design:paramtypes", [])
 ], HomeVideo3Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-3.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/home-video-3.component.js.map
 
 /***/ }),
 
@@ -1141,7 +1141,7 @@ HomeVideo4Component = __decorate([
     __metadata("design:paramtypes", [])
 ], HomeVideo4Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-4.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/home-video-4.component.js.map
 
 /***/ }),
 
@@ -1191,7 +1191,7 @@ HomeVideo5Component = __decorate([
     __metadata("design:paramtypes", [])
 ], HomeVideo5Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video-5.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/home-video-5.component.js.map
 
 /***/ }),
 
@@ -1255,7 +1255,7 @@ HomeVideoComponent = __decorate([
 ], HomeVideoComponent);
 
 var _a;
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home-video.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/home-video.component.js.map
 
 /***/ }),
 
@@ -1311,7 +1311,7 @@ IndependancedayComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], IndependancedayComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/independanceday.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/independanceday.component.js.map
 
 /***/ }),
 
@@ -1364,7 +1364,7 @@ LaCountyFairComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], LaCountyFairComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/la-county-fair.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/la-county-fair.component.js.map
 
 /***/ }),
 
@@ -1419,7 +1419,7 @@ Live2Component = __decorate([
     __metadata("design:paramtypes", [])
 ], Live2Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/live-2.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/live-2.component.js.map
 
 /***/ }),
 
@@ -1469,7 +1469,7 @@ Cam10fwyWestOfMonteVistaAveComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Cam10fwyWestOfMonteVistaAveComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/cam-10fwy-west-of-monte-vista-ave.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/cam-10fwy-west-of-monte-vista-ave.component.js.map
 
 /***/ }),
 
@@ -1519,7 +1519,7 @@ LiveTrafficCamsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], LiveTrafficCamsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/live-traffic-cams.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/live-traffic-cams.component.js.map
 
 /***/ }),
 
@@ -1570,7 +1570,7 @@ SigalertComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], SigalertComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/sigalert.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/sigalert.component.js.map
 
 /***/ }),
 
@@ -1622,7 +1622,7 @@ LocalReviewsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], LocalReviewsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/local-reviews.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/local-reviews.component.js.map
 
 /***/ }),
 
@@ -1673,7 +1673,7 @@ CoffeeDayComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], CoffeeDayComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/coffee-day.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/coffee-day.component.js.map
 
 /***/ }),
 
@@ -1724,7 +1724,7 @@ DogDayComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], DogDayComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/dog-day.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/dog-day.component.js.map
 
 /***/ }),
 
@@ -1775,7 +1775,7 @@ IcecreamComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], IcecreamComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/icecream.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/icecream.component.js.map
 
 /***/ }),
 
@@ -1826,7 +1826,7 @@ RollerCoasterComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], RollerCoasterComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/roller-coaster.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/roller-coaster.component.js.map
 
 /***/ }),
 
@@ -1876,7 +1876,7 @@ NewsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], NewsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/news.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/news.component.js.map
 
 /***/ }),
 
@@ -1929,7 +1929,7 @@ SbdFest2018Component = __decorate([
     __metadata("design:paramtypes", [])
 ], SbdFest2018Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/sbd-fest-2018.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/sbd-fest-2018.component.js.map
 
 /***/ }),
 
@@ -1982,7 +1982,7 @@ ArizonaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], ArizonaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/arizona.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/arizona.component.js.map
 
 /***/ }),
 
@@ -2033,7 +2033,7 @@ Fox10phoenixComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Fox10phoenixComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/fox10phoenix.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/fox10phoenix.component.js.map
 
 /***/ }),
 
@@ -2084,7 +2084,7 @@ Abc30BakersfieldComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Abc30BakersfieldComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/abc30-bakersfield.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/abc30-bakersfield.component.js.map
 
 /***/ }),
 
@@ -2135,7 +2135,7 @@ BakersfieldNews23abcComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], BakersfieldNews23abcComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/bakersfield-news-23abc.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/bakersfield-news-23abc.component.js.map
 
 /***/ }),
 
@@ -2186,7 +2186,7 @@ CaliforniaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], CaliforniaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/california.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/california.component.js.map
 
 /***/ }),
 
@@ -2237,7 +2237,7 @@ Fox11laComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Fox11laComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/fox11la.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/fox11la.component.js.map
 
 /***/ }),
 
@@ -2288,7 +2288,7 @@ Fox5sandiegoComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Fox5sandiegoComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/fox5sandiego.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/fox5sandiego.component.js.map
 
 /***/ }),
 
@@ -2339,7 +2339,7 @@ Kron4Component = __decorate([
     __metadata("design:paramtypes", [])
 ], Kron4Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/kron4.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/kron4.component.js.map
 
 /***/ }),
 
@@ -2390,7 +2390,7 @@ Ktla5Component = __decorate([
     __metadata("design:paramtypes", [])
 ], Ktla5Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/ktla5.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/ktla5.component.js.map
 
 /***/ }),
 
@@ -2441,7 +2441,7 @@ News3AbcPalmspringsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], News3AbcPalmspringsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/news-3-abc-palmsprings.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/news-3-abc-palmsprings.component.js.map
 
 /***/ }),
 
@@ -2494,7 +2494,7 @@ Colorado9newsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Colorado9newsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/colorado-9news.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/colorado-9news.component.js.map
 
 /***/ }),
 
@@ -2549,7 +2549,7 @@ ColoradoComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], ColoradoComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/colorado.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/colorado.component.js.map
 
 /***/ }),
 
@@ -2602,7 +2602,7 @@ Nbc11newsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Nbc11newsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/nbc11news.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/nbc11news.component.js.map
 
 /***/ }),
 
@@ -2653,7 +2653,7 @@ HawaiiComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], HawaiiComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/hawaii.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/hawaii.component.js.map
 
 /***/ }),
 
@@ -2704,7 +2704,7 @@ HawaiiNewsNowComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], HawaiiNewsNowComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/hawaii-news-now.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/hawaii-news-now.component.js.map
 
 /***/ }),
 
@@ -2755,7 +2755,7 @@ Khon2hawaiiComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Khon2hawaiiComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/khon2hawaii.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/khon2hawaii.component.js.map
 
 /***/ }),
 
@@ -2806,7 +2806,7 @@ Kitv4hawaiiComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Kitv4hawaiiComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/kitv4hawaii.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/kitv4hawaii.component.js.map
 
 /***/ }),
 
@@ -2861,7 +2861,7 @@ LiveComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], LiveComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/live.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/live.component.js.map
 
 /***/ }),
 
@@ -2912,7 +2912,7 @@ Boston25NewsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Boston25NewsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/boston-25-news.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/boston-25-news.component.js.map
 
 /***/ }),
 
@@ -2963,7 +2963,7 @@ MassachusettsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], MassachusettsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/massachusetts.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/massachusetts.component.js.map
 
 /***/ }),
 
@@ -3020,7 +3020,7 @@ HomeComponent = __decorate([
 ], HomeComponent);
 
 var _a;
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/home.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/home.component.js.map
 
 /***/ }),
 
@@ -3075,7 +3075,7 @@ StationsMainComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], StationsMainComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/stations-main.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/stations-main.component.js.map
 
 /***/ }),
 
@@ -3126,7 +3126,7 @@ Fox4TexasComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Fox4TexasComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/fox-4-texas.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/fox-4-texas.component.js.map
 
 /***/ }),
 
@@ -3177,7 +3177,7 @@ TexasComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], TexasComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/texas.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/texas.component.js.map
 
 /***/ }),
 
@@ -3229,7 +3229,7 @@ CbsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], CbsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/cbs.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/cbs.component.js.map
 
 /***/ }),
 
@@ -3281,7 +3281,7 @@ VansusopenofsurfingLiveComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], VansusopenofsurfingLiveComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/vansusopenofsurfing-live.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/vansusopenofsurfing-live.component.js.map
 
 /***/ }),
 
@@ -3336,7 +3336,7 @@ VeteransDay2018Component = __decorate([
     __metadata("design:paramtypes", [])
 ], VeteransDay2018Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/veterans-day-2018.component.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/veterans-day-2018.component.js.map
 
 /***/ }),
 
@@ -3360,7 +3360,7 @@ module.exports = "/* container */\n\n#share {\n\twidth: 100%;\n  \tmargin: 5% au
 var environment = {
     production: false
 };
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/environment.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/environment.js.map
 
 /***/ }),
 
@@ -3381,7 +3381,7 @@ if (__WEBPACK_IMPORTED_MODULE_2__environments_environment__["a" /* environment *
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_28" /* enableProdMode */])();
 }
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_3__app_app_module__["a" /* AppModule */]);
-//# sourceMappingURL=/Users/jasonjames/heroku/socaltelevision/live-television/src/main.js.map
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/main.js.map
 
 /***/ }),
 

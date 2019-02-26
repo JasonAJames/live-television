@@ -6,7 +6,8 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}) );
 
-app.use( express.static(__dirname + '/dist' ) );
+var cacheTime = 86400000*7;     // 7 days
+app.use( express.static(__dirname + '/dist',{ maxAge: cacheTime } ) );
 
 app.get('/*', (req, res) =>{
     res.sendFile(path.resolve(__dirname, '/dist'));

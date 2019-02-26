@@ -9,6 +9,13 @@ app.use(bodyParser.urlencoded({extended: true}) );
 var cacheTime = 86400000*7;     // 7 days
 app.use( express.static(__dirname + '/dist',{ maxAge: cacheTime } ) );
 
+app.use(function (req, res, next) {
+  if (req.url.match(/^\/(css|js|img|font)\/.+/)) {
+      res.setHeader('Cache-Control', 'public, max-age=3600'); // cache header
+  }
+  next();
+});
+
 app.get('/*', (req, res) =>{
     res.sendFile(path.resolve(__dirname, '/dist'));
   });

@@ -13,5 +13,4 @@ export class LocalReviewsComponent implements OnInit {
   }
 
   stationName = "SoCal Reviews"
-  reviewPath = "www.google.com"
 }

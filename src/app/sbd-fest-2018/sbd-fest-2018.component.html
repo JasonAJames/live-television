@@ -20,7 +20,11 @@
                       <div class="col-sm">
                           <span style="color: black">Back to </span><a routerLink="/stations-main"><button  class="btn-primary" style="border-radius: 15px;">LIVE TV CHANNELS</button></a>
                           <span class="embed-responsive embed-responsive-16by9">
-                              <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F196513077908400%2F&width=800" width="800" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>                            
+                              <video autoplay controls poster="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest2018_thumb.png" playsinline class="myVideo" (ended)="videoEnd()">
+                                <source src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.mp4" type="video/mp4">
+                                <source src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.webmhd.webm" type="video/webm">
+                                <source src="https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.oggtheora.ogv" type="video/ogg">
+                            </video>
                             </span>
                           <br/><br/>
                           <span>{{description}}</span>

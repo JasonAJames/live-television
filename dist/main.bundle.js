@@ -27,7 +27,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}"
 /***/ "./src/app/about/about.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>About SoCal Television</h3>\n<p>\nSoCalTelevision&trade; is part of the Inland Empire Television Network&trade;, located east of Los Angeles and west of Palm Springs, in the heart of Southern California, the Inland Empire. The Inland Empire (I.E.) is one of the largest and fastest growing regional areas in the United States. The \"I.E.\" encompasses the counties of Riverside and San Bernardino, and is home to the Inland Empire Television Network&trade;</p>\n\n<p>SoCal Television&trade; is an on-location television production that ventures throughout Southern California to showcase special travel locations, entertainment, tourist attractions, upcoming current events, and local news. Along with fine dining reviews and MUCH MORE!</p>\n\n<p>SoCal Television&trade; can be viewed online on the \"Inland Empire Television Network\". It is easily accessible and broadcasted worldwide over the Internet.</p>\n\n<p>Watch SoCal Television 24/7 at <a class=\"nav-link\" routerLink=\"\">www.SoCalTelevision.com</a></p>\n\n<p>Please Like and Follow @SoCalTelevision on social!</p>\n\n<p>SoCAL television is also distributed through DVD. <a routerLink=\"contact\">Contact us</a> for more information about DVD's of the show.\n</p>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>About SoCal Television</h3>\n<p>\nSoCalTelevision&trade; is part of the Inland Empire Television Network&trade;, located east of Los Angeles and west of Palm Springs, in the heart of Southern California, the Inland Empire. The Inland Empire (I.E.) is one of the largest and fastest growing regional areas in the United States. The \"I.E.\" encompasses the counties of Riverside and San Bernardino, and is home to the Inland Empire Television Network&trade;</p>\n\n<p>SoCal Television&trade; is an on-location television production that ventures throughout Southern California to showcase special travel locations, entertainment, tourist attractions, upcoming current events, and local news. Along with fine dining reviews and MUCH MORE!</p>\n\n<p>SoCal Television&trade; can be viewed online on the \"Inland Empire Television Network\". It is easily accessible and broadcasted worldwide over the Internet.</p>\n\n<p>Watch SoCal Television 24/7 at <a class=\"nav-link\" routerLink=\"\">www.SoCalTelevision.com</a></p>\n\n<p>Please Like and Follow @SoCalTelevision on social!</p>\n\n<p>SoCAL television is also distributed through DVD. <a routerLink=\"/contact\">Contact us</a> for more information about DVD's of the show.\n</p>"
 
 /***/ }),
 
@@ -117,17 +117,473 @@ AdvertiseCommercialComponent = __decorate([
 
 /***/ }),
 
+/***/ "./src/app/amazon-product-reviews/amazon-product-reviews.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".container {\n    background-color: white;\n    border-radius: 1%;\n    border: 1px solid #555;\n    padding: 2%;\n}\n"
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/amazon-product-reviews.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-sm-12\"><h2>{{pagetitle}}</h2></div>\n    <div class=\"col-sm-12\"><h3><a routerLink=\"/amazon-product-reviews/electronics-home-accessories\">{{subtitle0}} > ></a></h3></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B079QHML21&asins=B079QHML21&linkId=0debeaffb0eaeea152b56f36b1a8c241&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B0791TX5P5&asins=B0791TX5P5&linkId=d28e223bda90c3a69696a429cf24f010&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B06Y56NDF4&asins=B06Y56NDF4&linkId=ad20499450624c6204070777a1f96d3a&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B0792KTHKJ&asins=B0792KTHKJ&linkId=43940aef2a5f84031730548031cec54e&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B075XN1NZC&asins=B075XN1NZC&linkId=a1de7499b3ac0d7db9bf7567b757d75a&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-12\"><h3>{{subtitle1}}</h3></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B07BTS6H4W&asins=B07BTS6H4W&linkId=d6cf8190399bac6eb8b0131db8bc9e87&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B078DPCY3T&asins=B078DPCY3T&linkId=6644ffbeca680352fb0fd92a61668004&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B073JYC4XM&asins=B073JYC4XM&linkId=f0b6df9ecbf8a51c8d97046e6b472fb1&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B00WR23VRI&asins=B00WR23VRI&linkId=360b6ef8cd441599be26dd73dc64f317&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B06W55K9N6&asins=B06W55K9N6&linkId=2e93d44c9aaed469278527c2da28d619&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-12\"><h3>{{subtitle2}}</h3></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B07NQGRWSF&asins=B07NQGRWSF&linkId=ab434acc04885ac88938af019b3aba22&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B076H3SRXG&asins=B076H3SRXG&linkId=2e70f916d57b11c8e2083a3a767fbb6d&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B07DGR98VQ&asins=B07DGR98VQ&linkId=3304fa6c7656873f0416f4c9d2f411b0&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B079TGL2BZ&asins=B079TGL2BZ&linkId=f6109e7b77d907ba71df6653d4895bf9&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B07K3BZSNK&asins=B07K3BZSNK&linkId=58546f6b545ebdceb524f6a5247be997&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n  </div>\n  <br/>\n</div>\n <br/><br/><br/>"
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/amazon-product-reviews.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AmazonProductReviewsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var AmazonProductReviewsComponent = (function () {
+    function AmazonProductReviewsComponent() {
+        this.pagetitle = "Amazon Products";
+        this.subtitle0 = "Electronics & Home Accessories";
+        this.subtitle1 = "Computers, Tablets & Peripherals";
+        this.subtitle2 = "Cameras & Photography Equipment";
+    }
+    AmazonProductReviewsComponent.prototype.ngOnInit = function () {
+    };
+    return AmazonProductReviewsComponent;
+}());
+AmazonProductReviewsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-amazon-product-reviews',
+        template: __webpack_require__("./src/app/amazon-product-reviews/amazon-product-reviews.component.html"),
+        styles: [__webpack_require__("./src/app/amazon-product-reviews/amazon-product-reviews.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], AmazonProductReviewsComponent);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/amazon-product-reviews.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/camera-video-camcorder-accessories/camera-video-camcorder-accessories.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/camera-video-camcorder-accessories/camera-video-camcorder-accessories.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  camera-video-camcorder-accessories works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/camera-video-camcorder-accessories/camera-video-camcorder-accessories.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CameraVideoCamcorderAccessoriesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CameraVideoCamcorderAccessoriesComponent = (function () {
+    function CameraVideoCamcorderAccessoriesComponent() {
+    }
+    CameraVideoCamcorderAccessoriesComponent.prototype.ngOnInit = function () {
+    };
+    return CameraVideoCamcorderAccessoriesComponent;
+}());
+CameraVideoCamcorderAccessoriesComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-camera-video-camcorder-accessories',
+        template: __webpack_require__("./src/app/amazon-product-reviews/camera-video-camcorder-accessories/camera-video-camcorder-accessories.component.html"),
+        styles: [__webpack_require__("./src/app/amazon-product-reviews/camera-video-camcorder-accessories/camera-video-camcorder-accessories.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], CameraVideoCamcorderAccessoriesComponent);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/camera-video-camcorder-accessories.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/cameras-video-camcorders/cameras-video-camcorders.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/cameras-video-camcorders/cameras-video-camcorders.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  cameras-video-camcorders works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/cameras-video-camcorders/cameras-video-camcorders.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CamerasVideoCamcordersComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CamerasVideoCamcordersComponent = (function () {
+    function CamerasVideoCamcordersComponent() {
+    }
+    CamerasVideoCamcordersComponent.prototype.ngOnInit = function () {
+    };
+    return CamerasVideoCamcordersComponent;
+}());
+CamerasVideoCamcordersComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-cameras-video-camcorders',
+        template: __webpack_require__("./src/app/amazon-product-reviews/cameras-video-camcorders/cameras-video-camcorders.component.html"),
+        styles: [__webpack_require__("./src/app/amazon-product-reviews/cameras-video-camcorders/cameras-video-camcorders.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], CamerasVideoCamcordersComponent);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/cameras-video-camcorders.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/computers-laptops-peripherals/computers-laptops-peripherals.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/computers-laptops-peripherals/computers-laptops-peripherals.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  computers-laptops-peripherals works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/computers-laptops-peripherals/computers-laptops-peripherals.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComputersLaptopsPeripheralsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ComputersLaptopsPeripheralsComponent = (function () {
+    function ComputersLaptopsPeripheralsComponent() {
+    }
+    ComputersLaptopsPeripheralsComponent.prototype.ngOnInit = function () {
+    };
+    return ComputersLaptopsPeripheralsComponent;
+}());
+ComputersLaptopsPeripheralsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-computers-laptops-peripherals',
+        template: __webpack_require__("./src/app/amazon-product-reviews/computers-laptops-peripherals/computers-laptops-peripherals.component.html"),
+        styles: [__webpack_require__("./src/app/amazon-product-reviews/computers-laptops-peripherals/computers-laptops-peripherals.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], ComputersLaptopsPeripheralsComponent);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/computers-laptops-peripherals.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".container {\n    background-color: white;\n    border-radius: 1%;\n    border: 1px solid #555;\n    padding: 2%;\n}\n"
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-sm-12\"><h2>{{pagetitle}}</h2></div>\n    <div class=\"col-sm-12\"><h3>{{subtitle0}}</h3></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B079QHML21&asins=B079QHML21&linkId=0debeaffb0eaeea152b56f36b1a8c241&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B0791TX5P5&asins=B0791TX5P5&linkId=d28e223bda90c3a69696a429cf24f010&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B06Y56NDF4&asins=B06Y56NDF4&linkId=ad20499450624c6204070777a1f96d3a&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B0792KTHKJ&asins=B0792KTHKJ&linkId=43940aef2a5f84031730548031cec54e&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B075XN1NZC&asins=B075XN1NZC&linkId=a1de7499b3ac0d7db9bf7567b757d75a&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-12\"><h3>{{subtitle1}}</h3></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B01N1NT9Y6&asins=B01N1NT9Y6&linkId=c31e331543b08015bb1b21747089f9c1&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B07JK98NNQ&asins=B07JK98NNQ&linkId=6ce9d3d4f73dc6e7508f0467e1fc2389&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B079NH4VHR&asins=B079NH4VHR&linkId=d1ba47ddb283e525954c0e40d1febac7&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B074J1GPB8&asins=B074J1GPB8&linkId=516888696dde1f3d7cc66adb82fa60e4&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B073P73RTZ&asins=B073P73RTZ&linkId=e08d961ca063703c1b704bba863f3fe1&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-12\"><h3>{{subtitle2}}</h3></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B07NQGRWSF&asins=B07NQGRWSF&linkId=ab434acc04885ac88938af019b3aba22&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B076H3SRXG&asins=B076H3SRXG&linkId=2e70f916d57b11c8e2083a3a767fbb6d&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B07DGR98VQ&asins=B07DGR98VQ&linkId=3304fa6c7656873f0416f4c9d2f411b0&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B079TGL2BZ&asins=B079TGL2BZ&linkId=f6109e7b77d907ba71df6653d4895bf9&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n    <div class=\"col-sm\"><iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=product-review-spec-20&marketplace=amazon&region=US&placement=B07K3BZSNK&asins=B07K3BZSNK&linkId=58546f6b545ebdceb524f6a5247be997&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n    </iframe></div>\n  </div>\n  <br/>\n</div>\n <br/><br/><br/>\n"
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElectronicsHomeAccessoriesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ElectronicsHomeAccessoriesComponent = (function () {
+    function ElectronicsHomeAccessoriesComponent() {
+        this.pagetitle = "Amazon Products";
+        this.subtitle0 = "Electronics & Home Accessories";
+    }
+    ElectronicsHomeAccessoriesComponent.prototype.ngOnInit = function () {
+    };
+    return ElectronicsHomeAccessoriesComponent;
+}());
+ElectronicsHomeAccessoriesComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-electronics-home-accessories',
+        template: __webpack_require__("./src/app/amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component.html"),
+        styles: [__webpack_require__("./src/app/amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], ElectronicsHomeAccessoriesComponent);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/electronics-home-accessories.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/electronics-home-audio/electronics-home-audio.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/electronics-home-audio/electronics-home-audio.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  electronics-home-audio works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/electronics-home-audio/electronics-home-audio.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElectronicsHomeAudioComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ElectronicsHomeAudioComponent = (function () {
+    function ElectronicsHomeAudioComponent() {
+    }
+    ElectronicsHomeAudioComponent.prototype.ngOnInit = function () {
+    };
+    return ElectronicsHomeAudioComponent;
+}());
+ElectronicsHomeAudioComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-electronics-home-audio',
+        template: __webpack_require__("./src/app/amazon-product-reviews/electronics-home-audio/electronics-home-audio.component.html"),
+        styles: [__webpack_require__("./src/app/amazon-product-reviews/electronics-home-audio/electronics-home-audio.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], ElectronicsHomeAudioComponent);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/electronics-home-audio.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/home-improvement/home-improvement.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/home-improvement/home-improvement.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  home-improvement works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/home-improvement/home-improvement.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeImprovementComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HomeImprovementComponent = (function () {
+    function HomeImprovementComponent() {
+    }
+    HomeImprovementComponent.prototype.ngOnInit = function () {
+    };
+    return HomeImprovementComponent;
+}());
+HomeImprovementComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-home-improvement',
+        template: __webpack_require__("./src/app/amazon-product-reviews/home-improvement/home-improvement.component.html"),
+        styles: [__webpack_require__("./src/app/amazon-product-reviews/home-improvement/home-improvement.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], HomeImprovementComponent);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/home-improvement.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/mobile-phone-accessories/mobile-phone-accessories.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/mobile-phone-accessories/mobile-phone-accessories.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  mobile-phone-accessories works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/mobile-phone-accessories/mobile-phone-accessories.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MobilePhoneAccessoriesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var MobilePhoneAccessoriesComponent = (function () {
+    function MobilePhoneAccessoriesComponent() {
+    }
+    MobilePhoneAccessoriesComponent.prototype.ngOnInit = function () {
+    };
+    return MobilePhoneAccessoriesComponent;
+}());
+MobilePhoneAccessoriesComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-mobile-phone-accessories',
+        template: __webpack_require__("./src/app/amazon-product-reviews/mobile-phone-accessories/mobile-phone-accessories.component.html"),
+        styles: [__webpack_require__("./src/app/amazon-product-reviews/mobile-phone-accessories/mobile-phone-accessories.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], MobilePhoneAccessoriesComponent);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/mobile-phone-accessories.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/mobile-phones/mobile-phones.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/mobile-phones/mobile-phones.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  mobile-phones works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/amazon-product-reviews/mobile-phones/mobile-phones.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MobilePhonesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var MobilePhonesComponent = (function () {
+    function MobilePhonesComponent() {
+    }
+    MobilePhonesComponent.prototype.ngOnInit = function () {
+    };
+    return MobilePhonesComponent;
+}());
+MobilePhonesComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-mobile-phones',
+        template: __webpack_require__("./src/app/amazon-product-reviews/mobile-phones/mobile-phones.component.html"),
+        styles: [__webpack_require__("./src/app/amazon-product-reviews/mobile-phones/mobile-phones.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], MobilePhonesComponent);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/mobile-phones.component.js.map
+
+/***/ }),
+
 /***/ "./src/app/app.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media only screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n    \n}\n\n/* uncomment class below when mobile app is launched */\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n\n/* @media only screen and (max-width: 600px) {\n    .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark, .ui.inverted.vertical.footer.segment {\n        display: none;\n    }\n    .weatherwidget {\n        display: none;\n      }\n\n}  */\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\n/* .container {\n    height: 60px;\n} */\n\n.nav-link.btn-danger {\n    border-radius: 5px;\n}\n\n.navbar-brand > img {\n    display: inline-block;\n    margin-top: -25px;\n}\n\n@media only screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n    \n}\n\n/* uncomment class below when mobile app is launched */\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n\n@media only screen and (max-width: 700px) {\n    .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark, .ui.inverted.vertical.footer.segment {\n        display: none;\n    }\n    .weatherwidget {\n        display: none;\n      }\n\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- FREE VERSION -->\n<div class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-dark\">\n    <div class=\"container\">\n      <a routerLink=\"home-video-0\" class=\"navbar-brand\">\n        <span class=\"HeaderLogo\"></span>\n        <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/logo_16X9.png\" width=\"111px\" height=\"65px\"/> \n         SoCal Television</a>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n              <span class=\"navbar-toggler-icon\"></span>\n            </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n\n        <ul class=\"navbar-nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"about\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"stations-main\">TV Stations</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link btn-danger\" routerLink=\"live\">LIVE</a>\n          </li>\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link btn-info\" routerLink=\"usopenofsurfing\">Vans US Open of Surfing LIVE</a>\n            </li> -->\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link btn btn-info\" routerLink=\"independence-day\">Independence Day Celebrations LIVE</a>\n            </li> -->\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"live-traffic/sigalert\">TRAFFIC</a>\n            </li>\n            <!-- <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"veterans-day-2018\">Veterans Day Celebrations</a>\n            </li> -->\n            <!-- <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"sbd-fest-2018\">SBD Fest</a>\n            </li> -->\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"//worldtelevision.tv/#/breaking-news-1\" target=\"_blank\">BREAKING NEWS WORLD-WIDE</a>\n            </li> -->\n        </ul>\n\n        <ul class=\"nav navbar-nav ml-auto\">\n            <li class=\"nav-item dropdown\">\n                <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                  Extras...\n                </a>\n                <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                    <a class=\"dropdown-item\" routerLink=\"national-day/coffee-day\">National Day of...</a>\n                    <div class=\"dropdown-divider\"></div>\n                  <a class=\"dropdown-item\" routerLink=\"extras/daily-horoscope\">Daily Horoscopes</a>\n                  <div class=\"dropdown-divider\"></div>\n                  <a class=\"dropdown-item\" routerLink=\"extras/stock-market\">Stock Markets</a>\n                </div>\n              </li>\n          <!-- <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"contact\">Contact Us</a>\n          </li> -->\n        </ul>\n\n      </div>\n    </div>\n  </div>\n\n\n  <div class=\"ui container\">\n    <p class=\"top\"></p>\n    <!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n    <!-- <iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe> -->\n\n   <router-outlet></router-outlet>\n    <!-- <app-hero-form></app-hero-form> -->\n  </div>\n\n  <div class=\"ui inverted vertical footer segment\">\n      <div class=\"ui container\">\n        <div class=\"ui stackable inverted divided equal height stackable grid\">\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">About</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"about\" class=\"item\">About</a>\n              <a routerLink=\"stations-main\" class=\"item\">Channel Guide</a>\n              <a routerLink=\"stations-main\" class=\"item\">Shows</a>\n              <a routerLink=\"local-reviews\" class=\"item\">Local Reviews</a>\n            </div>\n          </div>\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">Services</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"live\" class=\"item\">WATCH LIVE</a>\n              <a routerLink=\"social\" class=\"item\">SoCal Community Connection</a>\n              <a routerLink=\"contact\" class=\"item\">Advertise / Showcase your Event</a>\n              <a routerLink=\"contact\" class=\"item\">Contact Us</a>\n            </div>\n          </div>\n          <div class=\"seven wide column\">\n            <h4 class=\"ui inverted header\"></h4>\n            <p></p>\n            <p style=\"text-align:center;\" id=\"copyright\">Find out what's going on in your area, LIKE - FOLLOW - SHARE @SoCalTelevision on <a href=\"https://www.facebook.com/SoCalTelevision/\" target=\"_blank\">Facebook</a>, <a href=\"https://www.instagram.com/SoCalTelevision/\" target=\"_blank\">Instagram</a>, &amp; <a href=\"https://www.twitter.com/SoCalTelevision/\" target=\"_blank\">Twitter!</a><br><br>© <span id=\"copyrightDate\">2018</span> The Inland Empire Television Network - SoCalTelevision<br> a subsidiary of <a href=\"http://www.jppmsolutions.com\" target=\"_blank\">James Programming, Printing, &amp; Media Solutions</a>.<br><br>Content may not be replicated, duplicated, or rebroadcasted in any way, both in part or full, without expressed written consent from the Inland Empire Television Network, James Programming, Printing &amp; Media Solutions, or its subsidiary's - All Rights Reserved.<br/>Weather information based on data supplied by <a href=\"http://noaa.gov\" target=\"_blank\">NOAA.gov</a></p>\n            <script>\n              var d = new Date();\n              document.getElementById(\"copyrightDate\").innerHTML = d.getFullYear();\n            </script> \n          </div>\n        </div>\n      </div>\n    </div>"
+module.exports = "<!-- FREE VERSION -->\n<div class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-dark\">\n    <div class=\"container\">\n      <a routerLink=\"home-video-0\" class=\"navbar-brand\">\n        <span class=\"HeaderLogo\"></span>\n        <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/logo_16X9.png\" width=\"111px\" height=\"65px\"/> \n         SoCal Television</a>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n              <span class=\"navbar-toggler-icon\"></span>\n            </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n\n        <ul class=\"navbar-nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"about\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"stations-main\">TV Channels</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link btn-danger\" routerLink=\"live\">LIVE</a>\n          </li>\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link btn-info\" routerLink=\"usopenofsurfing\">Vans US Open of Surfing LIVE</a>\n            </li> -->\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link btn btn-info\" routerLink=\"independence-day\">Independence Day Celebrations LIVE</a>\n            </li> -->\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"live-traffic/sigalert\">TRAFFIC</a>\n            </li>\n            <!-- <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"mission-inn-festival-of-lights\">Mission Inn Festival of Lights</a>\n            </li> -->\n            <!-- <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"sbd-fest-2018\">SBD Fest</a>\n            </li> -->\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"//worldtelevision.tv/#/breaking-news-1\" target=\"_blank\">BREAKING NEWS WORLD-WIDE</a>\n            </li> -->\n        </ul>\n\n        <ul class=\"nav navbar-nav ml-auto\">\n            <li class=\"nav-item dropdown\">\n                <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                  Extras...\n                </a>\n                <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                    <a class=\"dropdown-item\" routerLink=\"national-day/coffee-day\">National Day of...</a>\n                    <div class=\"dropdown-divider\"></div>\n                  <a class=\"dropdown-item\" routerLink=\"extras/daily-horoscope\">Daily Horoscopes</a>\n                  <div class=\"dropdown-divider\"></div>\n                  <a class=\"dropdown-item\" routerLink=\"extras/stock-market\">Stock Markets</a>\n                  <div class=\"dropdown-divider\"></div>\n                  <a class=\"dropdown-item\" routerLink=\"extras/twitter-feed\">Our Twitter Feed</a>\n                </div>\n              </li>\n          <!-- <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"contact\">Contact Us</a>\n          </li> -->\n        </ul>\n\n      </div>\n    </div>\n  </div>\n\n\n  <div class=\"ui container\">\n    <p class=\"top\"></p>\n    <!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n    <!-- <iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe> -->\n\n   <router-outlet></router-outlet>\n    <!-- <app-hero-form></app-hero-form> -->\n  </div>\n\n  <div class=\"ui inverted vertical footer segment\">\n      <div class=\"ui container\">\n        <div class=\"ui stackable inverted divided equal height stackable grid\">\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">About</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"about\" class=\"item\">About</a>\n              <a routerLink=\"stations-main\" class=\"item\">TV Channels</a>\n              <a routerLink=\"show-archives\" class=\"item\">Show Archives</a>\n              <a routerLink=\"local-reviews\" class=\"item\">SoCal Reviews</a>\n            </div>\n          </div>\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">Services</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"live\" class=\"item\">WATCH LIVE</a>\n              <a routerLink=\"social\" class=\"item\">SoCal Community Connection</a>\n              <a routerLink=\"contact\" class=\"item\">Advertise / Showcase your Event</a>\n              <a routerLink=\"contact\" class=\"item\">Contact Us</a>\n            </div>\n          </div>\n          <div class=\"seven wide column\">\n            <h4 class=\"ui inverted header\"></h4>\n            <p></p>\n            <p style=\"text-align:center;\" id=\"copyright\">Find out what's going on in your area, LIKE - FOLLOW - SHARE @SoCalTelevision on <a href=\"https://www.facebook.com/SoCalTelevision/\" target=\"_blank\">Facebook</a>, <a href=\"https://www.instagram.com/SoCalTelevision/\" target=\"_blank\">Instagram</a>, &amp; <a href=\"https://www.twitter.com/SoCalTelevision/\" target=\"_blank\">Twitter!</a><br><br>© <span id=\"copyrightDate\">2018</span> The Inland Empire Television Network - SoCalTelevision<br> a subsidiary of <a href=\"http://www.jppmsolutions.com\" target=\"_blank\">James Programming, Printing, &amp; Media Solutions</a>.<br><br>Content may not be replicated, duplicated, or rebroadcasted in any way, both in part or full, without expressed written consent from the Inland Empire Television Network, James Programming, Printing &amp; Media Solutions, or its subsidiary's - All Rights Reserved.<br/>Weather information based on data supplied by <a href=\"http://noaa.gov\" target=\"_blank\">NOAA.gov</a></p>\n            <script>\n              var d = new Date();\n              document.getElementById(\"copyrightDate\").innerHTML = d.getFullYear();\n            </script> \n          </div>\n        </div>\n      </div>\n    </div>"
 
 /***/ }),
 
@@ -228,12 +684,42 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__feeds_socaltelevision_socaltelevision_component__ = __webpack_require__("./src/app/feeds/socaltelevision/socaltelevision.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__sbd_fest_2018_sbd_fest_2018_component__ = __webpack_require__("./src/app/sbd-fest-2018/sbd-fest-2018.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__veterans_day_2018_veterans_day_2018_component__ = __webpack_require__("./src/app/veterans-day-2018/veterans-day-2018.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__mission_inn_festival_of_lights_mission_inn_festival_of_lights_component__ = __webpack_require__("./src/app/mission-inn-festival-of-lights/mission-inn-festival-of-lights.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__extras_snow_summit_snow_summit_component__ = __webpack_require__("./src/app/extras/snow-summit/snow-summit.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__contact_jobs_jobs_component__ = __webpack_require__("./src/app/contact/jobs/jobs.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__show_archives_show_archives_component__ = __webpack_require__("./src/app/show-archives/show-archives.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__mission_inn_festival_of_lights2018_mission_inn_festival_of_lights2018_component__ = __webpack_require__("./src/app/mission-inn-festival-of-lights2018/mission-inn-festival-of-lights2018.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__amazon_product_reviews_amazon_product_reviews_component__ = __webpack_require__("./src/app/amazon-product-reviews/amazon-product-reviews.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__amazon_product_reviews_computers_laptops_peripherals_computers_laptops_peripherals_component__ = __webpack_require__("./src/app/amazon-product-reviews/computers-laptops-peripherals/computers-laptops-peripherals.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__amazon_product_reviews_electronics_home_audio_electronics_home_audio_component__ = __webpack_require__("./src/app/amazon-product-reviews/electronics-home-audio/electronics-home-audio.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__amazon_product_reviews_cameras_video_camcorders_cameras_video_camcorders_component__ = __webpack_require__("./src/app/amazon-product-reviews/cameras-video-camcorders/cameras-video-camcorders.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__amazon_product_reviews_camera_video_camcorder_accessories_camera_video_camcorder_accessories_component__ = __webpack_require__("./src/app/amazon-product-reviews/camera-video-camcorder-accessories/camera-video-camcorder-accessories.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__amazon_product_reviews_mobile_phones_mobile_phones_component__ = __webpack_require__("./src/app/amazon-product-reviews/mobile-phones/mobile-phones.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__amazon_product_reviews_mobile_phone_accessories_mobile_phone_accessories_component__ = __webpack_require__("./src/app/amazon-product-reviews/mobile-phone-accessories/mobile-phone-accessories.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__amazon_product_reviews_electronics_home_accessories_electronics_home_accessories_component__ = __webpack_require__("./src/app/amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__amazon_product_reviews_home_improvement_home_improvement_component__ = __webpack_require__("./src/app/amazon-product-reviews/home-improvement/home-improvement.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__extras_twitter_feed_twitter_feed_component__ = __webpack_require__("./src/app/extras/twitter-feed/twitter-feed.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -357,7 +843,22 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_57__national_day_coffee_day_coffee_day_component__["a" /* CoffeeDayComponent */],
             __WEBPACK_IMPORTED_MODULE_58__feeds_socaltelevision_socaltelevision_component__["a" /* SocaltelevisionComponent */],
             __WEBPACK_IMPORTED_MODULE_59__sbd_fest_2018_sbd_fest_2018_component__["a" /* SbdFest2018Component */],
-            __WEBPACK_IMPORTED_MODULE_60__veterans_day_2018_veterans_day_2018_component__["a" /* VeteransDay2018Component */]
+            __WEBPACK_IMPORTED_MODULE_60__veterans_day_2018_veterans_day_2018_component__["a" /* VeteransDay2018Component */],
+            __WEBPACK_IMPORTED_MODULE_61__mission_inn_festival_of_lights_mission_inn_festival_of_lights_component__["a" /* MissionInnFestivalOfLightsComponent */],
+            __WEBPACK_IMPORTED_MODULE_62__extras_snow_summit_snow_summit_component__["a" /* SnowSummitComponent */],
+            __WEBPACK_IMPORTED_MODULE_63__contact_jobs_jobs_component__["a" /* JobsComponent */],
+            __WEBPACK_IMPORTED_MODULE_64__show_archives_show_archives_component__["a" /* ShowArchivesComponent */],
+            __WEBPACK_IMPORTED_MODULE_65__mission_inn_festival_of_lights2018_mission_inn_festival_of_lights2018_component__["a" /* MissionInnFestivalOfLights2018Component */],
+            __WEBPACK_IMPORTED_MODULE_66__amazon_product_reviews_amazon_product_reviews_component__["a" /* AmazonProductReviewsComponent */],
+            __WEBPACK_IMPORTED_MODULE_67__amazon_product_reviews_computers_laptops_peripherals_computers_laptops_peripherals_component__["a" /* ComputersLaptopsPeripheralsComponent */],
+            __WEBPACK_IMPORTED_MODULE_68__amazon_product_reviews_electronics_home_audio_electronics_home_audio_component__["a" /* ElectronicsHomeAudioComponent */],
+            __WEBPACK_IMPORTED_MODULE_69__amazon_product_reviews_cameras_video_camcorders_cameras_video_camcorders_component__["a" /* CamerasVideoCamcordersComponent */],
+            __WEBPACK_IMPORTED_MODULE_70__amazon_product_reviews_camera_video_camcorder_accessories_camera_video_camcorder_accessories_component__["a" /* CameraVideoCamcorderAccessoriesComponent */],
+            __WEBPACK_IMPORTED_MODULE_71__amazon_product_reviews_mobile_phones_mobile_phones_component__["a" /* MobilePhonesComponent */],
+            __WEBPACK_IMPORTED_MODULE_72__amazon_product_reviews_mobile_phone_accessories_mobile_phone_accessories_component__["a" /* MobilePhoneAccessoriesComponent */],
+            __WEBPACK_IMPORTED_MODULE_73__amazon_product_reviews_electronics_home_accessories_electronics_home_accessories_component__["a" /* ElectronicsHomeAccessoriesComponent */],
+            __WEBPACK_IMPORTED_MODULE_74__amazon_product_reviews_home_improvement_home_improvement_component__["a" /* HomeImprovementComponent */],
+            __WEBPACK_IMPORTED_MODULE_75__extras_twitter_feed_twitter_feed_component__["a" /* TwitterFeedComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -376,6 +877,9 @@ AppModule = __decorate([
                 { path: 'ad1', component: __WEBPACK_IMPORTED_MODULE_56__home_video_ad_ad1_ad1_component__["a" /* Ad1Component */] },
                 { path: 'veterans-day-2018', component: __WEBPACK_IMPORTED_MODULE_60__veterans_day_2018_veterans_day_2018_component__["a" /* VeteransDay2018Component */] },
                 { path: 'sbd-fest-2018', component: __WEBPACK_IMPORTED_MODULE_59__sbd_fest_2018_sbd_fest_2018_component__["a" /* SbdFest2018Component */] },
+                { path: 'mission-inn-festival-of-lights', component: __WEBPACK_IMPORTED_MODULE_61__mission_inn_festival_of_lights_mission_inn_festival_of_lights_component__["a" /* MissionInnFestivalOfLightsComponent */] },
+                { path: 'amazon-product-reviews', component: __WEBPACK_IMPORTED_MODULE_66__amazon_product_reviews_amazon_product_reviews_component__["a" /* AmazonProductReviewsComponent */] },
+                { path: 'amazon-product-reviews/electronics-home-accessories', component: __WEBPACK_IMPORTED_MODULE_73__amazon_product_reviews_electronics_home_accessories_electronics_home_accessories_component__["a" /* ElectronicsHomeAccessoriesComponent */] },
                 { path: 'news', component: __WEBPACK_IMPORTED_MODULE_47__news_news_component__["a" /* NewsComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
                 { path: 'live-2', component: __WEBPACK_IMPORTED_MODULE_38__live_2_live_2_component__["a" /* Live2Component */] },
@@ -383,6 +887,7 @@ AppModule = __decorate([
                 { path: 'independence-day', component: __WEBPACK_IMPORTED_MODULE_41__independanceday_independanceday_component__["a" /* IndependancedayComponent */] },
                 { path: 'extras/daily-horoscope', component: __WEBPACK_IMPORTED_MODULE_39__extras_horoscopes_horoscopes_component__["a" /* HoroscopesComponent */] },
                 { path: 'extras/stock-market', component: __WEBPACK_IMPORTED_MODULE_40__extras_stock_market_stock_market_component__["a" /* StockMarketComponent */] },
+                { path: 'extras/twitter-feed', component: __WEBPACK_IMPORTED_MODULE_75__extras_twitter_feed_twitter_feed_component__["a" /* TwitterFeedComponent */] },
                 { path: 'local-reviews', component: __WEBPACK_IMPORTED_MODULE_9__local_reviews_local_reviews_component__["a" /* LocalReviewsComponent */] },
                 { path: 'advertise-commercial', component: __WEBPACK_IMPORTED_MODULE_6__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */] },
                 { path: 'about', component: __WEBPACK_IMPORTED_MODULE_8__about_about_component__["a" /* AboutComponent */] },
@@ -417,6 +922,7 @@ AppModule = __decorate([
                 { path: 'hawaii-news-now', component: __WEBPACK_IMPORTED_MODULE_18__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */] },
                 { path: 'kitv4-hawaii', component: __WEBPACK_IMPORTED_MODULE_19__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */] },
                 { path: 'khon2-hawaii', component: __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */] },
+                { path: "show-archives", component: __WEBPACK_IMPORTED_MODULE_64__show_archives_show_archives_component__["a" /* ShowArchivesComponent */] },
                 { path: '', redirectTo: '/home-video-0', pathMatch: 'full' },
                 { path: '**', component: __WEBPACK_IMPORTED_MODULE_50__home_video_home_video_0_home_video_0_component__["a" /* HomeVideo0Component */] }
             ], { useHash: true }),
@@ -577,6 +1083,56 @@ module.exports = "/*!\n * # Semantic UI 2.3.0 - Transition\n * http://github.com
 
 /***/ }),
 
+/***/ "./src/app/contact/jobs/jobs.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/contact/jobs/jobs.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  jobs works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/contact/jobs/jobs.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JobsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var JobsComponent = (function () {
+    function JobsComponent() {
+    }
+    JobsComponent.prototype.ngOnInit = function () {
+    };
+    return JobsComponent;
+}());
+JobsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-jobs',
+        template: __webpack_require__("./src/app/contact/jobs/jobs.component.html"),
+        styles: [__webpack_require__("./src/app/contact/jobs/jobs.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], JobsComponent);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/jobs.component.js.map
+
+/***/ }),
+
 /***/ "./src/app/contactus/contactus.component.css":
 /***/ (function(module, exports) {
 
@@ -677,6 +1233,56 @@ HoroscopesComponent = __decorate([
 
 /***/ }),
 
+/***/ "./src/app/extras/snow-summit/snow-summit.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/extras/snow-summit/snow-summit.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  snow-summit works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/extras/snow-summit/snow-summit.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SnowSummitComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var SnowSummitComponent = (function () {
+    function SnowSummitComponent() {
+    }
+    SnowSummitComponent.prototype.ngOnInit = function () {
+    };
+    return SnowSummitComponent;
+}());
+SnowSummitComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-snow-summit',
+        template: __webpack_require__("./src/app/extras/snow-summit/snow-summit.component.html"),
+        styles: [__webpack_require__("./src/app/extras/snow-summit/snow-summit.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], SnowSummitComponent);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/snow-summit.component.js.map
+
+/***/ }),
+
 /***/ "./src/app/extras/stock-market/stock-market.component.css":
 /***/ (function(module, exports) {
 
@@ -724,6 +1330,57 @@ StockMarketComponent = __decorate([
 ], StockMarketComponent);
 
 //# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/stock-market.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/extras/twitter-feed/twitter-feed.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/extras/twitter-feed/twitter-feed.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<h2>{{title}}</h2>\n<a class=\"twitter-timeline\" data-lang=\"en\" data-width=\"600\" data-dnt=\"true\" data-theme=\"light\" href=\"https://twitter.com/SoCALtelevision?ref_src=twsrc%5Etfw\">Tweets by SoCALtelevision</a> <script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n<br/><br/>"
+
+/***/ }),
+
+/***/ "./src/app/extras/twitter-feed/twitter-feed.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TwitterFeedComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var TwitterFeedComponent = (function () {
+    function TwitterFeedComponent() {
+        this.title = "SoCal Television Twitter Feed";
+    }
+    TwitterFeedComponent.prototype.ngOnInit = function () {
+    };
+    return TwitterFeedComponent;
+}());
+TwitterFeedComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-twitter-feed',
+        template: __webpack_require__("./src/app/extras/twitter-feed/twitter-feed.component.html"),
+        styles: [__webpack_require__("./src/app/extras/twitter-feed/twitter-feed.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], TwitterFeedComponent);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/twitter-feed.component.js.map
 
 /***/ }),
 
@@ -854,7 +1511,7 @@ module.exports = "body { background: #222; }\n\n/* Small devices (portrait table
 /***/ "./src/app/home-video/home-video-0/home-video-0.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "            <!-- Global site tag (gtag.js) - Google Analytics -->\n            <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n            <script>\n              window.dataLayer = window.dataLayer || [];\n              function gtag(){dataLayer.push(arguments);}\n              gtag('js', new Date());\n            \n              gtag('config', 'UA-92954301-6');\n            </script>\n            \n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a6847f94' name='a6847f94' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=5&amp;target=_blank&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;ct0=INSERT_ENCODED_CLICKURL_HERE' frameborder='0' scrolling='no' width='728' height='90' style=\"text-align: center;\"><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=afbf7059&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=5&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=afbf7059&amp;ct0=INSERT_ENCODED_CLICKURL_HERE' class=\"img-responsive\" border='0' alt='DOMAIN NAME SALE!' /></a></iframe>\n\n            <!-- Weather Component -->\n            <div class=\"weatherwidget\" style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n            <!-- END Weather Component -->\n              <h3>You're Watching</h3>\n              <h1>{{stationName}}</h1>\n<figure class=\"video_player\">\n        <div class=\"video_container\">\n        <video autoplay controls poster=\"https://s3-us-west-2.amazonaws.com/socaltelevision/SpecialSpots_Thumb.png\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/intro2018_1080.mp4\" type=\"video/mp4\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/intro2018_1080.webmhd.webm\" type=\"video/webm\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/intro2018_1080.oggtheora.ogv\" type=\"video/ogg\">\n      </video>\n      </div>\n      <figcaption>\n        <a routerLink=\"/home-video-0\" class=\"currentvid\">\n          <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/SpecialSpots_Thumb.png\" alt=\"Special Spots\">\n        </a>\n        <a routerLink=\"/home-video-1\">\n          <img src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest2018_thumb.png\" alt=\"SBD Fest\">\n        </a>\n        <a routerLink=\"/home-video-2\">\n          <img src=\"assets/images/video_thumbs/Thunderbirds_thumb.png\" alt=\"The Thunderbirds\">\n        </a>\n      </figcaption>\n      </figure>\n      <br/><br/>\n      <span>{{description}}</span>\n    <p>{{subdescription}}</p>\n        <!-- <h5>We're #LIVE:</h5>\n          <a routerLink=\"/veterans-day-2018\"><img src=\"/assets/images/SonsOfLibertyMarineBirthday.png\" width=\"240px\" max-width=\"300px\" alt=\"Sons Of Liberty Aleworks 243rd Marine Birthday Celebration\" class=\"img img-responsive\" />&nbsp; <strong>Click Here to Watch #LIVE</strong></a> -->"
+module.exports = "            <!-- Global site tag (gtag.js) - Google Analytics -->\n            <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n            <script>\n              window.dataLayer = window.dataLayer || [];\n              function gtag(){dataLayer.push(arguments);}\n              gtag('js', new Date());\n            \n              gtag('config', 'UA-92954301-6');\n            </script>\n            \n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a6847f94' name='a6847f94'  class=\"img-fluid\" src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=5&amp;target=_blank&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;ct0=INSERT_ENCODED_CLICKURL_HERE' frameborder='0' scrolling='no' width='90%' height='90' style=\"text-align: center;\"><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=afbf7059&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=5&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=afbf7059&amp;ct0=INSERT_ENCODED_CLICKURL_HERE' class=\"img-responsive\" border='0' alt='DOMAIN NAME SALE!' /></a></iframe>\n\n            <!-- Weather Component -->\n            <div class=\"weatherwidget\" style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n            <!-- END Weather Component -->\n              <h3>You're Watching</h3>\n              <h1>{{stationName}}</h1>\n<figure class=\"video_player\">\n        <div class=\"video_container\">\n        <video autoplay controls poster=\"https://s3-us-west-2.amazonaws.com/socaltelevision/SpecialSpots_Thumb.png\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/intro_v2019.mp4\" type=\"video/mp4\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/intro_v2019.webmhd.webm\" type=\"video/webm\">\n          <source src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/intro_v2019.oggtheora.ogv\" type=\"video/ogg\">\n      </video>\n      </div>\n      <figcaption>\n        <a routerLink=\"/home-video-0\" class=\"currentvid\">\n          <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/SpecialSpots_Thumb.png\" alt=\"Special Spots\">\n        </a>\n        <a routerLink=\"/home-video-1\">\n          <img src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/SalvationMountain.png\" alt=\"Salvation Mountain\">\n        </a>\n        <a routerLink=\"/home-video-2\">\n          <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/PiedrasBlancasLightStation/PiedrasBlancasLightStation.png\" alt=\"Piedras Blancas Light Station\">\n        </a>\n      </figcaption>\n      </figure>\n      <br/><br/>\n      <span>{{description}}</span>\n    <p>{{subdescription}}</p>\n    <div id=\"share\">\n      <h5>Share this on:</h5>\n          <!-- facebook -->\n          <a class=\"facebook\" href=\"https://www.facebook.com/share.php?u={{url}}&title={{title}}&placeholder={{title}}\" target=\"blank\"><i class=\"fab fa-facebook-f\"></i></a>\n        \n          <!-- twitter -->\n          <a class=\"twitter\" href=\"https://twitter.com/intent/tweet?status=Come visit or Check Out this+{{title}}+Click on '+{{header_link}}+' on+{{url}}\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>\n        \n          <!-- google plus -->\n          <a class=\"googleplus\" href=\"https://plus.google.com/share?url={{url}}&placeholder={{title}}&aria-label={{title}}\" target=\"blank\"><i class=\"fab fa-google-plus-g\"></i></a>\n            \n        </div>\n        <!-- <h5>We're #LIVE:</h5>\n          <a routerLink=\"/veterans-day-2018\"><img src=\"/assets/images/SonsOfLibertyMarineBirthday.png\" width=\"240px\" max-width=\"300px\" alt=\"Sons Of Liberty Aleworks 243rd Marine Birthday Celebration\" class=\"img img-responsive\" />&nbsp; <strong>Click Here to Watch #LIVE</strong></a> -->"
 
 /***/ }),
 
@@ -880,8 +1537,13 @@ var HomeVideo0Component = (function () {
     function HomeVideo0Component(router) {
         this.router = router;
         this.stationName = 'SoCal Television';
+        this.title = "Special Spots";
+        this.header_link = "Special Spots";
+        this.url = "https://www.socaltelevision.com/+#+/home-video-0";
         this.description = 'Special Spots';
         this.subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...';
+        ga('set', 'page', '/home-video-0');
+        ga('send', 'pageview');
     }
     HomeVideo0Component.prototype.videoEnd = function () {
         var _this = this;
@@ -901,7 +1563,7 @@ HomeVideo0Component = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-home-video-0',
         template: __webpack_require__("./src/app/home-video/home-video-0/home-video-0.component.html"),
-        styles: [__webpack_require__("./src/app/home-video/home-video-0/home-video-0.component.css")]
+        styles: [__webpack_require__("./src/app/home-video/home-video-0/home-video-0.component.css"), __webpack_require__("./src/assets/css/social-share.css")]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _a || Object])
 ], HomeVideo0Component);
@@ -921,7 +1583,7 @@ module.exports = "body { background: #222; }\n\n.hideVideo {\n  display: none;\n
 /***/ "./src/app/home-video/home-video-1/home-video-1.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "            <!-- Global site tag (gtag.js) - Google Analytics -->\n            <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n            <script>\n              window.dataLayer = window.dataLayer || [];\n              function gtag(){dataLayer.push(arguments);}\n              gtag('js', new Date());\n            \n              gtag('config', 'UA-92954301-6');\n            </script>\n            <!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a6847f94' name='a6847f94'  class=\"img-fluid\" src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=5&amp;target=_blank&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;ct0=INSERT_ENCODED_CLICKURL_HERE' frameborder='0' scrolling='no' width='90%' height='90' style=\"text-align: center;\"><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=afbf7059&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=5&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=afbf7059&amp;ct0=INSERT_ENCODED_CLICKURL_HERE' class=\"img-responsive\" border='0' alt='DOMAIN NAME SALE!' /></a></iframe>\n\n            <!-- Weather Component -->\n            <div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n            <!-- END Weather Component -->\n              <h3>You're Watching</h3>\n              <h1>{{stationName}}</h1>\n<figure class=\"video_player\">\n    <div class=\"video_container\">\n    <video autoplay controls poster=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest2018_thumb.png\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.webmhd.webm\" type=\"video/webm\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.oggtheora.ogv\" type=\"video/ogg\">\n  </video>\n  </div>\n  <figcaption>\n    <a routerLink=\"/home-video-0\">\n      <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/SpecialSpots_Thumb.png\" alt=\"Special Spots\">\n    </a>\n    <a routerLink=\"/home-video-1\" class=\"currentvid\">\n      <img src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest2018_thumb.png\" alt=\"SBD Fest\">\n    </a>\n    <a routerLink=\"/home-video-2\">\n      <img src=\"assets/images/video_thumbs/Thunderbirds_thumb.png\" alt=\"The Thunderbirds\">\n    </a>\n  </figcaption>\n  </figure>\n  <br/><br/>\n  <span>{{description}}</span>\n<p>{{subdescription}}</p>\n    <!-- <h5>We're #LIVE:</h5>\n      <a routerLink=\"/veterans-day-2018\"><img src=\"/assets/images/SonsOfLibertyMarineBirthday.png\" width=\"240px\" max-width=\"300px\" alt=\"Sons Of Liberty Aleworks 243rd Marine Birthday Celebration\" class=\"img img-responsive\" />&nbsp; <strong>Click Here to Watch #LIVE</strong></a> -->"
+module.exports = "            <!-- Global site tag (gtag.js) - Google Analytics -->\n            <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n            <script>\n              window.dataLayer = window.dataLayer || [];\n              function gtag(){dataLayer.push(arguments);}\n              gtag('js', new Date());\n            \n              gtag('config', 'UA-92954301-6');\n            </script>\n            <!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a6847f94' name='a6847f94'  class=\"img-fluid\" src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=5&amp;target=_blank&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;ct0=INSERT_ENCODED_CLICKURL_HERE' frameborder='0' scrolling='no' width='90%' height='90' style=\"text-align: center;\"><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=afbf7059&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=5&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=afbf7059&amp;ct0=INSERT_ENCODED_CLICKURL_HERE' class=\"img-responsive\" border='0' alt='DOMAIN NAME SALE!' /></a></iframe>\n\n            <!-- Weather Component -->\n            <div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n            <!-- END Weather Component -->\n              <h3>You're Watching</h3>\n              <h1>{{stationName}}</h1>\n<figure class=\"video_player\">\n    <div class=\"video_container\">\n    <video autoplay controls poster=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/SalvationMountain.png\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/SalvationMountain_Complete.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/SalvationMountain_Complete.webmhd.webm\" type=\"video/webm\">\n  </video>\n  </div>\n  <figcaption>\n    <a routerLink=\"/home-video-0\">\n      <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/SpecialSpots_Thumb.png\" alt=\"Special Spots\">\n    </a>\n    <a routerLink=\"/home-video-1\" class=\"currentvid\">\n      <img src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/SalvationMountain.png\" alt=\"Salvation Mountain\">\n    </a>\n    <a routerLink=\"/home-video-2\">\n      <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/PiedrasBlancasLightStation/PiedrasBlancasLightStation.png\" alt=\"Piedras Blancas Light Station\">\n    </a>\n  </figcaption>\n  </figure>\n  <br/><br/>\n  <span>{{description}}</span>\n<p>{{subdescription}}</p>\n<div id=\"share\">\n    <h5>Share this on:</h5>\n        <!-- facebook -->\n        <a class=\"facebook\" href=\"https://www.facebook.com/share.php?u={{url}}&title={{title}}&placeholder={{title}}\" target=\"blank\"><i class=\"fab fa-facebook-f\"></i></a>\n      \n        <!-- twitter -->\n        <a class=\"twitter\" href=\"https://twitter.com/intent/tweet?status=Come visit or Check Out this+{{title}}+Click on '+{{header_link}}+' on+{{url}}\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>\n      \n        <!-- google plus -->\n        <a class=\"googleplus\" href=\"https://plus.google.com/share?url={{url}}&placeholder={{title}}&aria-label={{title}}\" target=\"blank\"><i class=\"fab fa-google-plus-g\"></i></a>\n          \n      </div>\n    <!-- <h5>We're #LIVE:</h5>\n      <a routerLink=\"/veterans-day-2018\"><img src=\"/assets/images/SonsOfLibertyMarineBirthday.png\" width=\"240px\" max-width=\"300px\" alt=\"Sons Of Liberty Aleworks 243rd Marine Birthday Celebration\" class=\"img img-responsive\" />&nbsp; <strong>Click Here to Watch #LIVE</strong></a> -->"
 
 /***/ }),
 
@@ -946,9 +1608,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var HomeVideo1Component = (function () {
     function HomeVideo1Component(router) {
         this.router = router;
-        this.stationName = 'SoCal Television';
-        this.description = 'The SBD Fest';
-        this.subdescription = 'The Sky Thunders over San Bernardino, CA';
+        this.stationName = "SoCalTelevision";
+        this.title = "Salvation Mountain";
+        this.header_link = "Salvation Mountain";
+        this.url = "https://www.socaltelevision.com/+#+/home-video-1";
+        this.description = "Join us at Leonard Knight's Salvation Mountain.";
+        this.subdescription = "Leonard Knight's Salvation Mountain. Salvation Mountain is located in the lower desert of Southern California in Imperial County just east of the Salton Sea and about a hour and a half from Palm Springs. Salvation Mountain is Leonard's tribute to God and his gift to the world with its simple yet powerful message: 'God Is Love.' Leonard's passion has lovingly created this brilliant 'outsider art' masterpiece resplendent with not only biblical and religious scripture such as the Lord's Prayer, John 3:16, and the Sinner's Prayer, but also including flowers, trees, waterfalls, suns, bluebirds, and many other fascinating and colorful objects. Salvation Mountain must be seen to be fully appreciated as those who have made the journey will attest. Its 50 foot height and 150 foot breadth is made totally of local adobe clay and donated paint and is truly unique in the United States and probably the world... #LIVE on www.SoCalTelevision.com";
+        ga('set', 'page', '/home-video-1');
+        ga('send', 'pageview');
     }
     HomeVideo1Component.prototype.videoEnd = function () {
         var _this = this;
@@ -968,7 +1635,7 @@ HomeVideo1Component = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-home-video-1',
         template: __webpack_require__("./src/app/home-video/home-video-1/home-video-1.component.html"),
-        styles: [__webpack_require__("./src/app/home-video/home-video-1/home-video-1.component.css")]
+        styles: [__webpack_require__("./src/app/home-video/home-video-1/home-video-1.component.css"), __webpack_require__("./src/assets/css/social-share.css")]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _a || Object])
 ], HomeVideo1Component);
@@ -988,7 +1655,7 @@ module.exports = "body { background: #222; }\n\n.hideVideo {\n  display: none;\n
 /***/ "./src/app/home-video/home-video-2/home-video-2.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "            <!-- Global site tag (gtag.js) - Google Analytics -->\n            <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n            <script>\n              window.dataLayer = window.dataLayer || [];\n              function gtag(){dataLayer.push(arguments);}\n              gtag('js', new Date());\n            \n              gtag('config', 'UA-92954301-6');\n            </script>\n            <!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a6847f94' name='a6847f94' class=\"img-fluid\" src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=5&amp;target=_blank&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;ct0=INSERT_ENCODED_CLICKURL_HERE' frameborder='0' scrolling='no' width='90%' height='90' style=\"text-align: center;\"><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=afbf7059&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=5&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=afbf7059&amp;ct0=INSERT_ENCODED_CLICKURL_HERE' class=\"img-responsive\" border='0' alt='DOMAIN NAME SALE!' /></a></iframe>\n\n            <!-- Weather Component -->\n            <div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n            <!-- END Weather Component -->\n              <h3>You're Watching</h3>\n              <h1>{{stationName}}</h1>\n<figure class=\"video_player\">\n    <div class=\"video_container\">\n    <video autoplay controls poster=\"assets/images/video_thumbs/Thunderbirds_thumb.jpg\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.webmhd.webm\" type=\"video/webm\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/AirFest08_Thunderbirds2.oggtheora.ogv\" type=\"video/ogg\">\n  </video>\n  </div>\n  <figcaption>\n    <a routerLink=\"/home-video-0\">\n      <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/SpecialSpots_Thumb.png\" alt=\"Special Spots\">\n    </a>\n    <a routerLink=\"/home-video-1\">\n      <img src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest2018_thumb.png\" alt=\"SBD Fest\">\n    </a>\n    <a routerLink=\"/home-video-2\" class=\"currentvid\">\n      <img src=\"assets/images/video_thumbs/Thunderbirds_thumb.png\" alt=\"The Thunderbirds\">\n    </a>\n  </figcaption>\n  </figure>\n  <br/><br/>\n  <span>{{description}}</span>\n<p>{{subdescription}}</p>\n    <!-- <h5>We're #LIVE:</h5>\n      <a routerLink=\"/veterans-day-2018\"><img src=\"/assets/images/SonsOfLibertyMarineBirthday.png\" width=\"240px\" max-width=\"300px\" alt=\"Sons Of Liberty Aleworks 243rd Marine Birthday Celebration\" class=\"img img-responsive\" />&nbsp; <strong>Click Here to Watch #LIVE</strong></a> -->"
+module.exports = "            <!-- Global site tag (gtag.js) - Google Analytics -->\n            <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n            <script>\n              window.dataLayer = window.dataLayer || [];\n              function gtag(){dataLayer.push(arguments);}\n              gtag('js', new Date());\n            \n              gtag('config', 'UA-92954301-6');\n            </script>\n            <!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a6847f94' name='a6847f94'  class=\"img-fluid\" src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=5&amp;target=_blank&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;ct0=INSERT_ENCODED_CLICKURL_HERE' frameborder='0' scrolling='no' width='90%' height='90' style=\"text-align: center;\"><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=afbf7059&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=5&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=afbf7059&amp;ct0=INSERT_ENCODED_CLICKURL_HERE' class=\"img-responsive\" border='0' alt='DOMAIN NAME SALE!' /></a></iframe>\n\n            <!-- Weather Component -->\n            <div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n            <!-- END Weather Component -->\n              <h3>You're Watching</h3>\n              <h1>{{stationName}}</h1>\n<figure class=\"video_player\">\n    <div class=\"video_container\">\n    <video autoplay controls poster=\"https://s3-us-west-2.amazonaws.com/socaltelevision/PiedrasBlancasLightStation/PiedrasBlancasLightStation.png\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/PiedrasBlancasLightStation/PiedrasBlancasLightStation2019.mp4.mp4\" type=\"video/mp4\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/PiedrasBlancasLightStation/PiedrasBlancasLightStation2019.webmhd.webm\" type=\"video/webm\">\n      <source src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/PiedrasBlancasLightStation/PiedrasBlancasLightStation2019.oggtheora.ogv\" type=\"video/ogg\">\n  </video>\n  </div>\n  <figcaption>\n    <a routerLink=\"/home-video-0\">\n      <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/SpecialSpots_Thumb.png\" alt=\"Special Spots\">\n    </a>\n    <a routerLink=\"/home-video-1\">\n      <img src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/SalvationMountain.png\" alt=\"Salvation Mountain\">\n    </a>\n    <a routerLink=\"/home-video-2\" class=\"currentvid\">\n      <img src=\"https://s3-us-west-2.amazonaws.com/socaltelevision/PiedrasBlancasLightStation/PiedrasBlancasLightStation.png\" alt=\"Piedras Blancas Light Station\">\n    </a>\n  </figcaption>\n  </figure>\n  <br/><br/>\n  <span>{{description}}</span>\n<p>{{subdescription}}</p>\n<div id=\"share\">\n  <h5>Share this on:</h5>\n      <!-- facebook -->\n      <a class=\"facebook\" href=\"https://www.facebook.com/share.php?u={{url}}&title={{title}}&placeholder={{title}}\" target=\"blank\"><i class=\"fab fa-facebook-f\"></i></a>\n    \n      <!-- twitter -->\n      <a class=\"twitter\" href=\"https://twitter.com/intent/tweet?status=Come visit or Check Out this+{{title}}+Click on '+{{header_link}}+' on+{{url}}\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>\n    \n      <!-- google plus -->\n      <a class=\"googleplus\" href=\"https://plus.google.com/share?url={{url}}&placeholder={{title}}&aria-label={{title}}\" target=\"blank\"><i class=\"fab fa-google-plus-g\"></i></a>\n        \n    </div>\n    <!-- <h5>We're #LIVE:</h5>\n      <a routerLink=\"/veterans-day-2018\"><img src=\"/assets/images/SonsOfLibertyMarineBirthday.png\" width=\"240px\" max-width=\"300px\" alt=\"Sons Of Liberty Aleworks 243rd Marine Birthday Celebration\" class=\"img img-responsive\" />&nbsp; <strong>Click Here to Watch #LIVE</strong></a> -->"
 
 /***/ }),
 
@@ -1014,16 +1681,22 @@ var HomeVideo2Component = (function () {
     function HomeVideo2Component(router) {
         this.router = router;
         this.stationName = 'SoCal Television';
-        this.description = 'The Thunderbirds';
-        this.subdescription = 'The Sky Thunders over the Inland Empire with the roar of the Thunderbirds';
+        this.title = "Piedras Blancas Light Station";
+        this.header_link = "Piedras Blancas Light Station";
+        this.url = "https://www.socaltelevision.com/+#+/home-video-2";
+        this.description = 'Come visit the Piedras Blancas Light Station with us!';
+        this.subdescription = 'Piedras Blancas means "white rocks" in Spanish. Long before the establishment of a light station, Native Americans harvested the abundant natural resources at Point Piedras Blancas. Early mariners used the large white offshore rocks as navigational landmarks. In 1875, a light station was established at Point Piedras Blancas to aid maritime navigation. The lighthouse, with its distinct light pattern of a white flash every 15 seconds, assured mariners of their location and warned of the rocky coastline. For Tour Information, visit: https://piedrasblancas.org/tours.html';
+        ga('set', 'page', '/home-video-2');
+        ga('send', 'pageview');
     }
     HomeVideo2Component.prototype.videoEnd = function () {
-        var _this = this;
         // do init at here for current route.
+        var _this = this;
+        // this.router
         console.log('videoEnd function fired.');
         setTimeout(function () {
             console.log('fired inside setTimeout function.');
-            _this.router.navigate(['home-video-0']);
+            _this.router.navigate(['stations-main']);
             console.log('Should have redirected by now.');
         }); // ,1000 1s
     };
@@ -1035,7 +1708,7 @@ HomeVideo2Component = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-home-video-2',
         template: __webpack_require__("./src/app/home-video/home-video-2/home-video-2.component.html"),
-        styles: [__webpack_require__("./src/app/home-video/home-video-2/home-video-2.component.css")]
+        styles: [__webpack_require__("./src/app/home-video/home-video-2/home-video-2.component.css"), __webpack_require__("./src/assets/css/social-share.css")]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _a || Object])
 ], HomeVideo2Component);
@@ -1378,7 +2051,7 @@ module.exports = ""
 /***/ "./src/app/live-2/live-2.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n\n  <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-sm\" style=\"max-width:250px;\">\n          <!-- Horoscope Start -->\n          <h5>Daily Horoscope</h5>\n            <iframe height=\"600px\" frameborder=\"0\" width=\"220px\" style=\"max-width:250px;\" src=\"https://www.ask-oracle.com/embed/?bgcolor=%23ccc&textcolor=%23ddd&linkcolor=blue\"></iframe>      \n          <!-- Horoscope End -->\n        </div>\n        <div class=\"col-sm\">\n            <br/><div id=\"fb-root\"></div>\n            <!-- Your embedded video player code -->\n            <div class=\"fb-video\" data-href=\"https://www.facebook.com/CoronaFireDept/videos/2031191543634412/\" data-width=\"500\" data-show-text=\"false\">\n              <div class=\"fb-xfbml-parse-ignore\">\n                <blockquote>\n                  Our SoCal Television LIVE STREAM is Currently Offline.<br/>\n                  Please Check back Again Soon!<br/><br/>\n                  To go back to the <a href=\"https://www.socaltelevision.com\">SoCalTelevision Home page CLICK HERE</a>.\n                </blockquote>\n              </div>\n            </div>\n            <br/><br/>\n            <span>{{description}}</span>\n          <p>{{subdescription}}</p>\n          <br/><br/><span style=\"color: white\">Back to </span><a routerLink=\"/stations-main\"><button  class=\"btn-primary\" style=\"border-radius: 15px;\">LIVE TV CHANNELS</button></a>\n        </div>\n        <div class=\"col-sm\" >\n          <!-- Stock Market Widget Start -->\n          <h5>Daily Stocks</h5>\n            <iframe src=\"https://investingwidgets.com/leading-stocks?theme=darkTheme&hideTitle=true&roundedCorners=false\" width=\"110%\" height=\"600\" frameborder=\"0\" allowtransparency=\"true\" marginwidth=\"0\" marginheight=\"0\"></iframe><div class=\"poweredBy\" style=\"font-family: Arial, Helvetica, sans-serif; color: black;\">Powered by <a href=\"https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LEADING_STOCKS&amp;utm_content=Footer%20Link\" style=\"color: black;\" target=\"_blank\" rel=\"nofollow\">Investing.com</a></div>\n          <!-- Stock Market Widget End -->\n          </div>\n      </div>\n    </div>\n<!-- <p><a class=\"nav-link btn btn-primary\" href=\"//worldtelevision.tv/#/khou-11\" target=\"_blank\">Watch the News Conference of Santa Fe, Texas Shooting LIVE</a></p> -->"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n\n  <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-sm\" style=\"max-width:250px;\">\n          <!-- Horoscope Start -->\n          <h5>Daily Horoscope</h5>\n            <iframe height=\"600px\" frameborder=\"0\" width=\"220px\" style=\"max-width:250px;\" src=\"https://www.ask-oracle.com/embed/?bgcolor=%23ccc&textcolor=%23ddd&linkcolor=blue\"></iframe>      \n          <!-- Horoscope End -->\n        </div>\n        <div class=\"col-sm\">\n            <br/><div id=\"fb-root\"></div>\n            <!-- Your embedded video player code -->\n            <div class=\"fb-video\" data-href=\"https://www.facebook.com/WFMYNews2/videos/220206265542017/\" data-width=\"500\" data-show-text=\"false\">\n              <div class=\"fb-xfbml-parse-ignore\">\n                <blockquote>\n                  If LIVE Feed is not playing, Please refresh the screen, if the LIVE stream is still unavailable, then our SoCalTelevision.com LIVE STREAM may be Currently Offline.<br/>\n                  You Can Also Watch SoCal Television LIVE on our Facebook Page LIVE feed at <a href=\"https://www.facebook.com/SoCalTelevision/live_videos/\" target=\"_blank\" class=\"btn btn-info\">facebook.com/SoCalTelevision</a><br/><br/>\n                  Please Check back Again Soon!<br/><br/>\n                  To go back to the <a href=\"https://www.socaltelevision.com\">SoCalTelevision Home page CLICK HERE</a>.<br/><br/>\n                  \n                </blockquote>\n              </div>\n            </div>\n            <br/>\n            <br/>\n            <a routerLink=\"/live\" class=\"btn btn-danger\">LIVE Feed 1</a>\n            <br/>\n            <span>{{description}}</span>\n          <p>{{subdescription}}</p>\n          <br/><br/><span style=\"color: white\">Back to </span><a routerLink=\"/stations-main\"><button  class=\"btn-primary\" style=\"border-radius: 15px;\">LIVE TV CHANNELS</button></a>\n        </div>\n        <div class=\"col-sm\" >\n          <!-- Stock Market Widget Start -->\n          <h5>Daily Stocks</h5>\n            <iframe src=\"https://investingwidgets.com/leading-stocks?theme=darkTheme&hideTitle=true&roundedCorners=false\" width=\"110%\" height=\"600\" frameborder=\"0\" allowtransparency=\"true\" marginwidth=\"0\" marginheight=\"0\"></iframe><div class=\"poweredBy\" style=\"font-family: Arial, Helvetica, sans-serif; color: black;\">Powered by <a href=\"https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LEADING_STOCKS&amp;utm_content=Footer%20Link\" style=\"color: black;\" target=\"_blank\" rel=\"nofollow\">Investing.com</a></div>\n          <!-- Stock Market Widget End -->\n          </div>\n      </div>\n    </div>\n<!-- <p><a class=\"nav-link btn btn-primary\" href=\"//worldtelevision.tv/#/khou-11\" target=\"_blank\">Watch the News Conference of Santa Fe, Texas Shooting LIVE</a></p> -->"
 
 /***/ }),
 
@@ -1401,7 +2074,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var Live2Component = (function () {
     function Live2Component() {
         this.offlineMessage1 = "SoCal Television LIVE BREAKING NEWS";
-        this.subdesc = "The City of Corona, the Corona Fire Department and the Corona Police Department are ready with contingency plans if the #HolyFire continues into our City.\n\n  For those who live in the neighborhoods south of Upper and Masters on the U.S. Forest Service - Cleveland National Forest side, we encourage you to be prepared for possible evacuations by having a go-bag ready and by signing up for our Emergency Notification System.\n  \n  Learn more on how to prepare your home and your go-bag at www.ReadyForWildfire.org\n  \n  Sign up for our Emergency Notification System at www.CoronaCA.gov/ENS";
+        this.subdesc = "A 7.0 earthquake struck near Anchorage, Alaska this morning. Though a local TV station was knocked off the air";
         this.stationName = 'SoCal Television LIVE';
         this.description = this.offlineMessage1;
         this.subdescription = this.subdesc;
@@ -1584,7 +2257,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}"
 /***/ "./src/app/local-reviews/local-reviews.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<span class=\"videoContainer\">\n  <h1>{{stationName}}</h1>\n  <h3><a target=\"_blank\" href=\"https://{{reviewPath}}/maps/contrib/102030280377814322093/reviews/@33.9156664,-117.5619134,16z/data=!3m1!4b1!4m3!8m2!3m1!1e1\">Click Here to See Our SoCal Local Guide Reviews on Google</a></h3>\n  <iframe src=\"https://www.google.com/maps/contrib/102030280377814322093/photos/@33.9156664,-117.5619134,16z/data=!3m1!4b1!4m3!8m2!3m1!1e1\" style=\"width:800;height:600;border:none;overflow:hidden\">\n  </iframe>\n<br/>\n<a class=\"twitter-timeline\" data-lang=\"en\" data-width=\"600\" data-dnt=\"true\" data-theme=\"dark\" href=\"https://twitter.com/SoCALtelevision?ref_src=twsrc%5Etfw\">Tweets by SoCALtelevision</a> <script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n</span>\n"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<span class=\"videoContainer\">\n  <h1>{{stationName}}</h1>\n  <h3><a target=\"_blank\" href=\"https://www.google.com/maps/contrib/102030280377814322093/reviews/@33.9156664,-117.5619134,16z/data=!3m1!4b1!4m3!8m2!3m1!1e1\">Click Here to View Our SoCal Local Guide Reviews on Google</a></h3>\n  <h3><a routerLink=\"/amazon-product-reviews\">Click Here to View Our Amazon Products &amp; Reviews</a></h3>\n\n</span>\n<p style=\"padding-bottom: 40%;\">&nbsp;</p>"
 
 /***/ }),
 
@@ -1607,7 +2280,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var LocalReviewsComponent = (function () {
     function LocalReviewsComponent() {
         this.stationName = "SoCal Reviews";
-        this.reviewPath = "www.google.com";
     }
     LocalReviewsComponent.prototype.ngOnInit = function () {
     };
@@ -1623,6 +2295,112 @@ LocalReviewsComponent = __decorate([
 ], LocalReviewsComponent);
 
 //# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/local-reviews.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/mission-inn-festival-of-lights/mission-inn-festival-of-lights.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-width: 400px) {\n    .top {\n        padding-top: 15%;\n    }\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    .top {\n        padding-top: 15%;\n    }\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n"
+
+/***/ }),
+
+/***/ "./src/app/mission-inn-festival-of-lights/mission-inn-festival-of-lights.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<meta property=\"og:description\"   content=\"{{ description }}\" />\n    <!-- Global site tag (gtag.js) - Google Analytics -->\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n    \n      gtag('config', 'UA-92954301-6');\n    </script>\n    \n    <!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n    <iframe id='a6847f94' name='a6847f94' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=5&amp;target=_blank&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;ct0=INSERT_ENCODED_CLICKURL_HERE' frameborder='0' scrolling='no' width='728' height='90' style=\"text-align: center;\"><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=afbf7059&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=5&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=afbf7059&amp;ct0=INSERT_ENCODED_CLICKURL_HERE' class=\"img-responsive\" border='0' alt='DOMAIN NAME SALE!' /></a></iframe>\n\n    <!-- Weather Component -->\n    <div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n    <!-- END Weather Component -->\n      <h3>You're Watching</h3>\n      <h1>{{stationName}}</h1>\n    \n      <div class=\"container\">\n          <div class=\"row\">\n                    <div class=\"col-sm\" style=\"max-width:250px;\">\n          <!-- Events Start -->\n          <h5>TODAY's FEATURED #LIVE #EVENT:</h5>              \n          <img src=\"/assets/images/MissionInnSwitchOnCeremony.png\" width=\"240px\" max-width=\"300px\" alt=\"26TH ANNUAL FESTIVAL OF LIGHTS SWITCH-ON CEREMONY\" class=\"img img-responsive\" /><br/>\n          <h6>26TH ANNUAL FESTIVAL OF LIGHTS SWITCH-ON CEREMONY</h6>            \n        </div>\n            <div class=\"col-sm\" style=\"padding: 1%;\">\n                <span style=\"color: white;\">Back to </span><a routerLink=\"/stations-main\"><button  class=\"btn-primary\" style=\"border-radius: 15px;\">LIVE TV CHANNELS</button></a>\n                <span class=\"embed-responsive embed-responsive-16by9\">\n                        <video autoplay controls poster=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/MissionInnFestivalOfLightsCeremony_RobinThicke/MissionInnFestivalOfLights_Thumb.png\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n                          <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/MissionInnFestivalOfLightsCeremony_RobinThicke/MissionInn_SwitchonCeremony_featuringRobinThicke.mp4\" type=\"video/mp4\">\n                          <!-- <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/MissionInnFestivalOfLightsCeremony_RobinThicke/SBDfest_2018_wCredits_FINAL.webmhd.webm\" type=\"video/webm\">\n                          <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/MissionInnFestivalOfLightsCeremony_RobinThicke/SBDfest_2018_wCredits_FINAL.oggtheora.ogv\" type=\"video/ogg\"> -->\n                      </video>\n                  </span>\n\n\n<div id=\"share\">\n<h5>Share this on:</h5>\n    <!-- facebook -->\n    <a class=\"facebook\" href=\"https://www.facebook.com/share.php?u={{url}}&title={{title}}&placeholder={{title}}\" target=\"blank\"><i class=\"fab fa-facebook-f\"></i></a>\n  \n    <!-- twitter -->\n    <a class=\"twitter\" href=\"https://twitter.com/intent/tweet?status=Come visit or Check Out this+{{title}}+Click on '+{{header_link}}+' on+{{url}}\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>\n  \n    <!-- google plus -->\n    <a class=\"googleplus\" href=\"https://plus.google.com/share?url={{url}}&placeholder={{title}}&aria-label={{title}}\" target=\"blank\"><i class=\"fab fa-google-plus-g\"></i></a>\n      \n  </div>\n                <br/>\n                <span>{{description}}</span>\n              <p>\n                &nbsp;\n              </p>\n            </div>\n                    <div class=\"col-sm\" >\n          <!-- Event Description Start -->\n          <h5>Event Description</h5>\n          <p>{{subdescription}}</p>\n            <blockquote>\n              If LIVE Feed is not playing, Please refresh the screen, if the LIVE stream is still unavailable, then our SoCalTelevision.com LIVE STREAM may be Currently Offline,<br/>\n              But you can still Watch SoCal Television LIVE Events on our Facebook Page LIVE feed at <a href=\"https://www.facebook.com/SoCalTelevision/live_videos/\" target=\"_blank\" class=\"btn btn-info\">facebook.com/SoCalTelevision</a><br/><br/>\n              \n              \n            </blockquote>\n          <!-- Event Description End -->\n          </div>\n          </div>\n        </div>"
+
+/***/ }),
+
+/***/ "./src/app/mission-inn-festival-of-lights/mission-inn-festival-of-lights.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MissionInnFestivalOfLightsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var MissionInnFestivalOfLightsComponent = (function () {
+    function MissionInnFestivalOfLightsComponent() {
+        this.stationName = "SoCalTelevision";
+        this.title = "26TH ANNUAL FESTIVAL OF LIGHTS SWITCH-ON CEREMONY";
+        this.header_link = "Mission Inn Festival of Lights";
+        this.url = "https://www.socaltelevision.com/+#+/mission-inn-festival-of-lights";
+        this.description = "Join us on Friday, November 23rd at 4:30PM as we officially kick off the holiday season with our 26th Annual Festival of Lights celebration!";
+        this.subdescription = "You're not going to want to miss this very special anniversary celebration featuring guests like Robin Thicke!! If you can't make it to the celebration, We've got you covered. Watch the Switch On Ceremony #LIVE on www.SoCalTelevision.com";
+    }
+    MissionInnFestivalOfLightsComponent.prototype.ngOnInit = function () {
+    };
+    return MissionInnFestivalOfLightsComponent;
+}());
+MissionInnFestivalOfLightsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-mission-inn-festival-of-lights',
+        template: __webpack_require__("./src/app/mission-inn-festival-of-lights/mission-inn-festival-of-lights.component.html"),
+        styles: [__webpack_require__("./src/app/mission-inn-festival-of-lights/mission-inn-festival-of-lights.component.css"), __webpack_require__("./src/assets/css/social-share.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], MissionInnFestivalOfLightsComponent);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/mission-inn-festival-of-lights.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/mission-inn-festival-of-lights2018/mission-inn-festival-of-lights2018.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/mission-inn-festival-of-lights2018/mission-inn-festival-of-lights2018.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  mission-inn-festival-of-lights2018 works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/mission-inn-festival-of-lights2018/mission-inn-festival-of-lights2018.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MissionInnFestivalOfLights2018Component; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var MissionInnFestivalOfLights2018Component = (function () {
+    function MissionInnFestivalOfLights2018Component() {
+    }
+    MissionInnFestivalOfLights2018Component.prototype.ngOnInit = function () {
+    };
+    return MissionInnFestivalOfLights2018Component;
+}());
+MissionInnFestivalOfLights2018Component = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-mission-inn-festival-of-lights2018',
+        template: __webpack_require__("./src/app/mission-inn-festival-of-lights2018/mission-inn-festival-of-lights2018.component.html"),
+        styles: [__webpack_require__("./src/app/mission-inn-festival-of-lights2018/mission-inn-festival-of-lights2018.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], MissionInnFestivalOfLights2018Component);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/mission-inn-festival-of-lights2018.component.js.map
 
 /***/ }),
 
@@ -1890,7 +2668,7 @@ module.exports = ""
 /***/ "./src/app/sbd-fest-2018/sbd-fest-2018.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "              <!-- Global site tag (gtag.js) - Google Analytics -->\n              <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n              <script>\n                window.dataLayer = window.dataLayer || [];\n                function gtag(){dataLayer.push(arguments);}\n                gtag('js', new Date());\n              \n                gtag('config', 'UA-92954301-6');\n              </script>\n              \n              <!-- Weather Component -->\n              <div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n              <!-- END Weather Component -->\n                <h3>You're Watching</h3>\n                <h1>{{stationName}}</h1>\n              \n                <div class=\"container\">\n                    <div class=\"row\">\n\n                      <div class=\"col-sm\">\n                          <span style=\"color: black\">Back to </span><a routerLink=\"/stations-main\"><button  class=\"btn-primary\" style=\"border-radius: 15px;\">LIVE TV CHANNELS</button></a>\n                          <span class=\"embed-responsive embed-responsive-16by9\">\n                              <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F196513077908400%2F&width=800\" width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allowFullScreen=\"true\"></iframe>                            \n                            </span>\n                          <br/><br/>\n                          <span>{{description}}</span>\n                        <p>{{subdescription}}</p>\n                      </div>\n\n                    </div>\n                  </div>"
+module.exports = "              <!-- Global site tag (gtag.js) - Google Analytics -->\n              <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n              <script>\n                window.dataLayer = window.dataLayer || [];\n                function gtag(){dataLayer.push(arguments);}\n                gtag('js', new Date());\n              \n                gtag('config', 'UA-92954301-6');\n              </script>\n              \n              <!-- Weather Component -->\n              <div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n              <!-- END Weather Component -->\n                <h3>You're Watching</h3>\n                <h1>{{stationName}}</h1>\n              \n                <div class=\"container\">\n                    <div class=\"row\">\n\n                      <div class=\"col-sm\">\n                          <span style=\"color: black\">Back to </span><a routerLink=\"/stations-main\"><button  class=\"btn-primary\" style=\"border-radius: 15px;\">LIVE TV CHANNELS</button></a>\n                          <span class=\"embed-responsive embed-responsive-16by9\">\n                              <video autoplay controls poster=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest2018_thumb.png\" playsinline class=\"myVideo\" (ended)=\"videoEnd()\">\n                                <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.mp4\" type=\"video/mp4\">\n                                <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.webmhd.webm\" type=\"video/webm\">\n                                <source src=\"https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.oggtheora.ogv\" type=\"video/ogg\">\n                            </video>\n                            </span>\n                          <br/><br/>\n                          <span>{{description}}</span>\n                        <p>{{subdescription}}</p>\n                      </div>\n\n                    </div>\n                  </div>"
 
 /***/ }),
 
@@ -1930,6 +2708,64 @@ SbdFest2018Component = __decorate([
 ], SbdFest2018Component);
 
 //# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/sbd-fest-2018.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/show-archives/show-archives.component.css":
+/***/ (function(module, exports) {
+
+module.exports = "\n.title {\n    color: navy;\n    width: 50%;\n}\n.btn {\n    border-color: 2px solid navy;\n    width: 50%;\n}\n.container-1 {\n    vertical-align: top;\n    padding: 5%;\n    margin-bottom: 3%;\n}"
+
+/***/ }),
+
+/***/ "./src/app/show-archives/show-archives.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n<div class=\"container-1\">\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>SoCal Television - Show Archives</h3>\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-sm-6, title\">{{ show0_title }}</div>\n    <div class=\"col-sm-4, btn\"><a href=\"{{ show0_url }}\" target=\"_blank\" class=\"btn btn-primary\">Click Here to Watch</a></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-6, title\">{{ show1_title }}</div>\n    <div class=\"col-sm-4,  btn\"><a routerLink=\"/sbd-fest-2018\" target=\"_blank\" class=\"btn btn-primary\">Click Here to Watch</a></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-6, title\">{{ show2_title }}</div>\n    <div class=\"col-sm-4, btn\"><a href=\"{{ show2_url }}\" target=\"_blank\" class=\"btn btn-primary\">Click Here to Watch</a></div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-6, title\">{{ show3_title }}</div>\n    <div class=\"col-sm-4, btn\"><a href=\"{{ show3_url }}\" target=\"_blank\" class=\"btn btn-primary\">Click Here to Watch</a></div>\n  </div>\n</div>\n\n<p>Watch SoCal Television 24/7 at <a class=\"nav-link\" routerLink=\"\">www.SoCalTelevision.com</a></p>\n\n<p>Please Like and Follow @SoCalTelevision on social!</p>\n\n<p>SoCAL television is also distributed through DVD. <a routerLink=\"contact\">Contact us</a> for more information about DVD's of the show.\n</p>\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/show-archives/show-archives.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShowArchivesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ShowArchivesComponent = (function () {
+    function ShowArchivesComponent() {
+        this.show0_title = "Skyland Ale Works";
+        this.show0_url = "https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/SkylandAleWorks/SkylandAleWorks_Final_v1.mp4";
+        this.show1_title = "SBD Fest 2018";
+        this.show1_url = "https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/sbd-air-fest-2018/SBDfest_2018_wCredits_FINAL.mp4";
+        this.show2_title = "Mission Inn Festival of Lights Switch On Ceremony featuring Robin Thicke";
+        this.show2_url = "https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/MissionInnFestivalOfLightsCeremony_RobinThicke/MissionInn_SwitchonCeremony_featuringRobinThicke.mp4";
+        this.show3_title = "Cinnaholic Grand Opening at Corona Crossings";
+        this.show3_url = "https://s3-us-west-2.amazonaws.com/socaltelevision/Cinnaholic/GrandOpening_CinnoholicFULL.mp4";
+    }
+    ShowArchivesComponent.prototype.ngOnInit = function () {
+    };
+    return ShowArchivesComponent;
+}());
+ShowArchivesComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-show-archives',
+        template: __webpack_require__("./src/app/show-archives/show-archives.component.html"),
+        styles: [__webpack_require__("./src/app/show-archives/show-archives.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], ShowArchivesComponent);
+
+//# sourceMappingURL=/Volumes/SoCalTV_Ext1/BackUps/MacBookPro_13inch_BackUp_11-21-2018/jasonajames/heroku/socaltelevision/live-television/src/show-archives.component.js.map
 
 /***/ }),
 
@@ -2820,7 +3656,7 @@ module.exports = ".embed-responsive-16by9::before {\n    padding-top: 2%;\n}"
 /***/ "./src/app/stations-main/live/live.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "              <!-- Global site tag (gtag.js) - Google Analytics -->\n              <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n              <script>\n                window.dataLayer = window.dataLayer || [];\n                function gtag(){dataLayer.push(arguments);}\n                gtag('js', new Date());\n              \n                gtag('config', 'UA-92954301-6');\n              </script>\n              \n<!-- Revive Adserver iFrame Tag (click tracking for: Revive Adserver) - Generated with Revive Adserver v4.1.3 -->\n<iframe id='ac1261ef' name='ac1261ef' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=5&amp;target=_blank&amp;cb={random}&amp;ct0={clickurl_enc}' frameborder='0' scrolling='no' width='728' height='90' allowtransparency='true'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a90d85e6&amp;cb={random}' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=5&amp;cb={random}&amp;n=a90d85e6&amp;ct0={clickurl_enc}' border='0' alt='' /></a></iframe>\n\n              <!-- Weather Component -->\n              <div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n              <!-- END Weather Component -->\n                <h3>You're Watching</h3>\n                <h1>{{stationName}}</h1>\n              \n                <div class=\"container\">\n                    <div class=\"row\">\n                      <!-- <div class=\"col-sm\" style=\"max-width:250px;\"> -->\n          <!-- Horoscope Start -->\n          <!-- <h5>Daily Horoscope</h5>\n            <iframe height=\"600px\" frameborder=\"0\" width=\"220px\" style=\"max-width:250px;\" src=\"https://www.ask-oracle.com/embed/?bgcolor=%23ccc&textcolor=%23ddd&linkcolor=blue\"></iframe>       -->\n          <!-- Horoscope End -->\n        <!-- </div> -->\n                      <div class=\"col-sm\">\n                          <span style=\"color: white\">Back to </span><a routerLink=\"/stations-main\"><button  class=\"btn-primary\" style=\"border-radius: 15px;\">LIVE TV CHANNELS</button></a>\n                          <span class=\"embed-responsive embed-responsive-16by9\">\n                                  <!-- Load Facebook SDK for JavaScript -->\n                              <div id=\"fb-root\"></div>\n                              \n                            \n                              <!-- Original Feed https://www.facebook.com/SoCalTelevision/videos/2054179387955446/ -->\n                            \n                              <!-- Your embedded video player code -->\n                              <div class=\"fb-video\" data-href=\"https://www.facebook.com/CBSLA/videos/664077174030954/\" data-width=\"500\" data-show-text=\"false\">\n                                <div class=\"fb-xfbml-parse-ignore\">\n                                    <blockquote>\n                                        If LIVE Feed is not playing, Please refresh the screen, if the LIVE stream is still unavailable, then our SoCalTelevision.com LIVE STREAM may be Currently Offline.<br/>\n                                        You Can Also Watch SoCal Television LIVE on our Facebook Page LIVE feed at <a href=\"https://www.facebook.com/SoCalTelevision/live_videos/\" target=\"_blank\" class=\"btn btn-info\">facebook.com/SoCalTelevision</a><br/><br/>\n                                        Please Check back Again Soon!<br/><br/>\n                                        To go back to the <a href=\"https://www.socaltelevision.com\">SoCalTelevision Home page CLICK HERE</a>.<br/><br/>\n                                        \n                                      </blockquote>\n                                </div>\n                              </div>\n                                <!-- <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F2052326111474107%2F&width=400\" width=\"500\" height=\"280\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allowFullScreen=\"true\"></iframe> -->\n                            </span>\n                          <br/><br/>\n                          <span>{{description}}</span>\n                        <p>{{subdescription}}</p>\n                      </div>\n                              <!-- <div class=\"col-sm\" > -->\n          <!-- Stock Market Widget Start -->\n          <!-- <h5>Daily Stocks</h5>\n            <iframe src=\"https://investingwidgets.com/leading-stocks?theme=darkTheme&hideTitle=true&roundedCorners=false\" width=\"110%\" height=\"600\" frameborder=\"0\" allowtransparency=\"true\" marginwidth=\"0\" marginheight=\"0\"></iframe><div class=\"poweredBy\" style=\"font-family: Arial, Helvetica, sans-serif; color: black;\">Powered by <a href=\"https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LEADING_STOCKS&amp;utm_content=Footer%20Link\" style=\"color: black;\" target=\"_blank\" rel=\"nofollow\">Investing.com</a></div> -->\n          <!-- Stock Market Widget End -->\n          <!-- </div> -->\n                    </div>\n                  </div>\n              <!-- <p><a class=\"nav-link btn btn-primary\" href=\"//worldtelevision.tv/#/khou-11\" target=\"_blank\">Watch the News Conference of Santa Fe, Texas Shooting LIVE</a></p> -->\n          "
+module.exports = "              <!-- Global site tag (gtag.js) - Google Analytics -->\n              <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n              <script>\n                window.dataLayer = window.dataLayer || [];\n                function gtag(){dataLayer.push(arguments);}\n                gtag('js', new Date());\n              \n                gtag('config', 'UA-92954301-6');\n              </script>\n              \n<!-- Revive Adserver iFrame Tag (click tracking for: Revive Adserver) - Generated with Revive Adserver v4.1.3 -->\n<iframe id='ac1261ef' name='ac1261ef' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=5&amp;target=_blank&amp;cb={random}&amp;ct0={clickurl_enc}' frameborder='0' scrolling='no' width='728' height='90' allowtransparency='true'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a90d85e6&amp;cb={random}' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=5&amp;cb={random}&amp;n=a90d85e6&amp;ct0={clickurl_enc}' border='0' alt='' /></a></iframe>\n\n              <!-- Weather Component -->\n              <div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n              <!-- END Weather Component -->\n                <h3>You're Watching</h3>\n                <h1>{{stationName}}</h1>\n              \n                <div class=\"container\">\n                    <div class=\"row\">\n                      <!-- <div class=\"col-sm\" style=\"max-width:250px;\"> -->\n          <!-- Horoscope Start -->\n          <!-- <h5>Daily Horoscope</h5>\n            <iframe height=\"600px\" frameborder=\"0\" width=\"220px\" style=\"max-width:250px;\" src=\"https://www.ask-oracle.com/embed/?bgcolor=%23ccc&textcolor=%23ddd&linkcolor=blue\"></iframe>       -->\n          <!-- Horoscope End -->\n        <!-- </div> -->\n                      <div class=\"col-sm\">\n                          <span style=\"color: white\">Back to </span><a routerLink=\"/stations-main\"><button  class=\"btn-primary\" style=\"border-radius: 15px;\">LIVE TV CHANNELS</button></a>\n                          <span class=\"embed-responsive embed-responsive-16by9\">\n                                  <!-- Load Facebook SDK for JavaScript -->\n                              <div id=\"fb-root\"></div>\n                              \n                            \n                              <!-- Original Feed https://www.facebook.com/SoCalTelevision/videos/2054179387955446/ -->\n                            \n                              <!-- Your embedded video player code -->\n                              <div class=\"fb-video\" data-href=\"https://www.facebook.com/23ABCBakersfield/videos/380805595823604/\" data-width=\"500\" data-show-text=\"false\">\n                                <div class=\"fb-xfbml-parse-ignore\">\n                                    <blockquote>\n                                        If LIVE Feed is not playing, Please refresh the screen, if the LIVE stream is still unavailable, then our SoCalTelevision.com LIVE STREAM may be Currently Offline.<br/>\n                                        You Can Also Watch SoCal Television LIVE on our Facebook Page LIVE feed at <a href=\"https://www.facebook.com/SoCalTelevision/live_videos/\" target=\"_blank\" class=\"btn btn-info\">facebook.com/SoCalTelevision</a><br/><br/>\n                                        Please Check back Again Soon!<br/><br/>\n                                        To go back to the <a href=\"https://www.socaltelevision.com\">SoCalTelevision Home page CLICK HERE</a>.<br/><br/>\n                                        \n                                      </blockquote>\n                                </div>\n                              </div>\n                                <!-- <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F2052326111474107%2F&width=400\" width=\"500\" height=\"280\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allowFullScreen=\"true\"></iframe> -->\n                            </span>\n                          <br/>\n                          <a routerLink=\"/live-2\" class=\"btn btn-danger\">LIVE Feed 2</a>\n                          <br/>\n                          <span>{{description}}</span>\n                        <p>{{subdescription}}</p>\n                      </div>\n                              <!-- <div class=\"col-sm\" > -->\n          <!-- Stock Market Widget Start -->\n          <!-- <h5>Daily Stocks</h5>\n            <iframe src=\"https://investingwidgets.com/leading-stocks?theme=darkTheme&hideTitle=true&roundedCorners=false\" width=\"110%\" height=\"600\" frameborder=\"0\" allowtransparency=\"true\" marginwidth=\"0\" marginheight=\"0\"></iframe><div class=\"poweredBy\" style=\"font-family: Arial, Helvetica, sans-serif; color: black;\">Powered by <a href=\"https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LEADING_STOCKS&amp;utm_content=Footer%20Link\" style=\"color: black;\" target=\"_blank\" rel=\"nofollow\">Investing.com</a></div> -->\n          <!-- Stock Market Widget End -->\n          <!-- </div> -->\n                    </div>\n                  </div>\n              <!-- <p><a class=\"nav-link btn btn-primary\" href=\"//worldtelevision.tv/#/khou-11\" target=\"_blank\">Watch the News Conference of Santa Fe, Texas Shooting LIVE</a></p> -->\n          "
 
 /***/ }),
 
@@ -2843,7 +3679,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var LiveComponent = (function () {
     function LiveComponent() {
         this.offlineMessage1 = "SoCal Television #LIVE";
-        this.subdesc = "LIVE BREAKING NEWS: Stu Mundel is over a police pursuit that began in the Monterey Park area.";
+        this.subdesc = "#LIVE: A high speed chase is underway in Dallas, Texas.";
         this.stationName = 'SoCal Television Breaking News LIVE';
         this.description = this.offlineMessage1;
         this.subdescription = this.subdesc;
@@ -3027,14 +3863,14 @@ var _a;
 /***/ "./src/app/stations-main/stations-main.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\n.btn {\n    margin-bottom: 1%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
 /***/ "./src/app/stations-main/stations-main.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n<h3>Choose the Southern California Channel you want to Watch</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n    <!-- <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/arizona-{{ tvhref }}\">Arizona {{ tv }}</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/colorado-{{ tvhref }}\">Colorado {{ tv }}</a>\n        </li> -->\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/home-video-0\">SoCal Television</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/ktla5\">KTLA 5</a>\n        </li>\n        <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"/fox5sandiego\">Fox 5 San Diego</a>\n          </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"/news-3-abc\">News 3 ABC Palm Springs</a>\n            </li>\n          <!-- <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"/cw-sandiego\">CW San Diego</a>\n          </li> -->\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"/fox11la\">Fox 11 LA</a>\n            </li>\n          <p>Or Watch Television World-Wide by clicking the link below</p>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" href=\"//www.worldtelevision.tv\" target=\"_blank\">World Wide {{ tv }}</a>\n    </li>\n  </ul>\n"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<!-- Weather Component -->\n<div style=\"width: 90%; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"90%\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n<h3>Choose the Southern California Channel you want to Watch</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n    <!-- <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/arizona-{{ tvhref }}\">Arizona {{ tv }}</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/colorado-{{ tvhref }}\">Colorado {{ tv }}</a>\n        </li> -->\n        <li class=\"nav-item\">\n          <a class=\"nav-link btn btn-primary\" routerLink=\"/home-video-0\">SoCal Television</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link btn btn-primary\" routerLink=\"/ktla5\">KTLA 5</a>\n        </li>\n        <li class=\"nav-item\">\n            <a class=\"nav-link btn btn-primary\" routerLink=\"/fox5sandiego\">Fox 5 San Diego</a>\n          </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link btn btn-primary\" routerLink=\"/news-3-abc\">News 3 ABC Palm Springs</a>\n            </li>\n          <!-- <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"/cw-sandiego\">CW San Diego</a>\n          </li> -->\n          <li class=\"nav-item\">\n              <a class=\"nav-link btn btn-primary\" routerLink=\"/fox11la\">Fox 11 LA</a>\n            </li>\n          <p>Or Watch Television World-Wide by clicking the link below</p>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" href=\"//www.worldtelevision.tv\" target=\"_blank\">World Wide {{ tv }}</a>\n    </li>\n  </ul>\n\n  <ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n          <p>Do you have a TV Channel you would like to have aired on the Inland Empire Television Network</p>\n    <li class=\"nav-item\">\n      <a class=\"nav-link btn btn-success\" href=\"mailto:socaltelevision@gmail.com?subject=Interested in Adding my TV Station&body=Tell us about your TV Channel, Your TV Channel LIVE Feed URL, and your Contact Phone Number.\">Submit a TV Channel</a>\n    </li>\n  </ul>\n"
 
 /***/ }),
 

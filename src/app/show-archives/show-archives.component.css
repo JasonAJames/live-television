@@ -1,0 +1,15 @@
+
+.title {
+    color: navy;
+    width: 50%;
+}
+.btn {
+    border-color: 2px solid navy;
+    width: 50%;
+}
+
+.container-1 {
+    vertical-align: top;
+    padding: 5%;
+    margin-bottom: 3%;
+}

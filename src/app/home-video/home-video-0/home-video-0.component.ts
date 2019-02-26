@@ -1,14 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
+declare let ga: Function;
+
 @Component({
   selector: 'app-home-video-0',
   templateUrl: './home-video-0.component.html',
-  styleUrls: ['./home-video-0.component.css']
+  styleUrls: ['./home-video-0.component.css', '../../../assets/css/social-share.css']
 })
 export class HomeVideo0Component implements OnInit {
 
-  constructor(private router: Router) {}
+  constructor(private router: Router) {
+    ga('set', 'page', '/home-video-0');
+    ga('send', 'pageview');
+  }
 
   videoEnd() {
     // do init at here for current route.
@@ -23,8 +28,11 @@ export class HomeVideo0Component implements OnInit {
   ngOnInit() {
   }
 
-  stationName = 'SoCal Television';
+  stationName = 'SoCal Television'
+  title = "Special Spots"
+  header_link = "Special Spots"
+  url = "https://www.socaltelevision.com/+#+/home-video-0"
   description = 'Special Spots';
-  subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...';
+  subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
 
 }

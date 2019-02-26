@@ -1,9 +1,9 @@
 /* @import url('https://bootswatch.com/4/cyborg/bootstrap.min.css'); */
-@import url('https://bootswatch.com/4/spacelab/bootstrap.min.css');
-
+/* @import url('https://bootswatch.com/4/spacelab/bootstrap.min.css'); */
+@import url('https://bootswatch.com/3/cerulean/bootstrap.css');
 
 .HomeBG {
-    background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/surfers_walking.png');
+    background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/bg_socaltelevisionLOGO.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

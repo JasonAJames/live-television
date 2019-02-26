@@ -2,6 +2,19 @@
     padding-top: 10%;
 }
 
+/* .container {
+    height: 60px;
+} */
+
+.nav-link.btn-danger {
+    border-radius: 5px;
+}
+
+.navbar-brand > img {
+    display: inline-block;
+    margin-top: -25px;
+}
+
 @media only screen and (min-width: 400px) {
     .videoContainer {
         margin-left: 1%;
@@ -38,7 +51,7 @@
 /* uncomment class below when mobile app is launched */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark, .ui.inverted.vertical.footer.segment {
         display: none;
     }
@@ -46,7 +59,7 @@
         display: none;
       }
 
-}  */
+} 
 
 
 #videoContainer {

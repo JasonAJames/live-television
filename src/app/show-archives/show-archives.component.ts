@@ -20,5 +20,7 @@ export class ShowArchivesComponent implements OnInit {
   show2_url = "https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/MissionInnFestivalOfLightsCeremony_RobinThicke/MissionInn_SwitchonCeremony_featuringRobinThicke.mp4";
   show3_title = "Cinnaholic Grand Opening at Corona Crossings";
   show3_url = "https://s3-us-west-2.amazonaws.com/socaltelevision/Cinnaholic/GrandOpening_CinnoholicFULL.mp4";
+  show4_title = "Salvation Mountain";
+  show4_url = "https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/SalvationMountain_Complete.mp4.mp4";
 
 }

@@ -1612,7 +1612,7 @@ var HomeVideo1Component = (function () {
         this.title = "Super Bloom 2019";
         this.header_link = "Super Bloom";
         this.url = "https://www.socaltelevision.com/+#+/home-video-1";
-        this.description = "Have you seen the #SuperBloom2019?";
+        this.description = "Have you seen the #SuperBloom2019";
         this.subdescription = "SoCalTelevision.com visits the Flower Fields of the Inland Empire. Come along with us as we hike Walker Canyon off Lake Street and the 15 freeway... To Check Out The #SuperBloom2019! For more... #LIKE #FOLLOW #SHARE #SUBSCRIBE to SoCalTelevision on Instagram, Facebook, Twitter & YouTube, and watch www.SoCalTelevision.com - As Always Thank You for your continued viewership & support!";
         ga('set', 'page', '/home-video-1');
         ga('send', 'pageview');

@@ -32,7 +32,7 @@ export class HomeVideo1Component implements OnInit {
   title = "Super Bloom 2019"
   header_link = "Super Bloom"
   url = "https://www.socaltelevision.com/+#+/home-video-1"
-  description = "Have you seen the #SuperBloom2019?"
+  description = "Have you seen the #SuperBloom2019"
   subdescription = "SoCalTelevision.com visits the Flower Fields of the Inland Empire. Come along with us as we hike Walker Canyon off Lake Street and the 15 freeway... To Check Out The #SuperBloom2019! For more... #LIKE #FOLLOW #SHARE #SUBSCRIBE to SoCalTelevision on Instagram, Facebook, Twitter & YouTube, and watch www.SoCalTelevision.com - As Always Thank You for your continued viewership & support!"
 
 

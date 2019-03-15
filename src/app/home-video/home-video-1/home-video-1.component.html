@@ -17,7 +17,24 @@
               <h1>{{stationName}}</h1>
 <figure class="video_player">
     <div class="video_container">
-    <iframe width="100%" height="420" src="https://www.youtube.com/embed/_ubmX30M_mY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+
+                                <!-- Your embedded video player code -->
+                                <div class="fb-video" data-href="https://www.facebook.com/SoCalTelevision/videos/389280404987859/" data-width="100%" data-show-text="false">
+                                  <div class="fb-xfbml-parse-ignore">
+                                      <blockquote>
+                                          If Feed is not playing, Please refresh the screen, if the stream is still unavailable, then our SoCalTelevision.com STREAM may be Currently Offline.<br/>
+                                          You Can Also Watch SoCal Television LIVE on our Facebook Page LIVE feed at <a href="https://www.facebook.com/SoCalTelevision/live_videos/" target="_blank" class="btn btn-info">facebook.com/SoCalTelevision</a><br/><br/>
+                                          Please Check back Again Soon!<br/><br/>
+                                          To go back to the <a href="https://www.socaltelevision.com">SoCalTelevision Home page CLICK HERE</a>.<br/><br/>
+                                          
+                                        </blockquote>
+                                  </div>
+                                </div>
+                                <!-- <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F389280404987859%2F&show_text=0&width=560" width="100%" height="420" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>   -->
+    <!-- <iframe width="100%" height="420" src="https://www.youtube.com/embed/_ubmX30M_mY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
   </div>
   <figcaption>
     <a routerLink="/home-video-0">

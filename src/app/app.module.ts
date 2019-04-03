@@ -180,7 +180,8 @@ import { DowntownDisneyBallastPointComponent } from './downtown-disney-ballast-p
       {path: 'amazon-product-reviews', component: AmazonProductReviewsComponent},
       {path: 'amazon-product-reviews/electronics-home-accessories', component: ElectronicsHomeAccessoriesComponent},
 
-      {path: 'trader-sams', component: TraderSamsEnchantedTikkiRoomComponent},
+      {path: 'downtown-disney/trader-sams', component: TraderSamsEnchantedTikkiRoomComponent},
+      {path: 'downtown-disney/ballast-point-brewery', component: DowntownDisneyBallastPointComponent},
 
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},

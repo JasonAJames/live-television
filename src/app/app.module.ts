@@ -76,9 +76,6 @@ import { MobilePhoneAccessoriesComponent } from './amazon-product-reviews/mobile
 import { ElectronicsHomeAccessoriesComponent } from './amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component';
 import { HomeImprovementComponent } from './amazon-product-reviews/home-improvement/home-improvement.component';
 import { TwitterFeedComponent } from './extras/twitter-feed/twitter-feed.component';
-// import { TraderSamsEnchantedTikkiRoomComponent } from './trader-sams-enchanted-tikki-room/trader-sams-enchanted-tikki-room.component';
-// import { DowntownDisneyBallastPointComponent } from './downtown-disney-ballast-point/downtown-disney-ballast-point.component';
-
 
 @NgModule({
   declarations: [
@@ -152,8 +149,6 @@ import { TwitterFeedComponent } from './extras/twitter-feed/twitter-feed.compone
     ElectronicsHomeAccessoriesComponent,
     HomeImprovementComponent,
     TwitterFeedComponent
-    // TraderSamsEnchantedTikkiRoomComponent,
-    // DowntownDisneyBallastPointComponent
 
   ],
   imports: [
@@ -180,8 +175,6 @@ import { TwitterFeedComponent } from './extras/twitter-feed/twitter-feed.compone
       {path: 'amazon-product-reviews', component: AmazonProductReviewsComponent},
       {path: 'amazon-product-reviews/electronics-home-accessories', component: ElectronicsHomeAccessoriesComponent},
 
-      // {path: 'downtown-disney/trader-sams', component: TraderSamsEnchantedTikkiRoomComponent},
-      // {path: 'downtown-disney/ballast-point-brewery', component: DowntownDisneyBallastPointComponent},
 
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},

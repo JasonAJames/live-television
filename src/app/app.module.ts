@@ -76,6 +76,8 @@ import { MobilePhoneAccessoriesComponent } from './amazon-product-reviews/mobile
 import { ElectronicsHomeAccessoriesComponent } from './amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component';
 import { HomeImprovementComponent } from './amazon-product-reviews/home-improvement/home-improvement.component';
 import { TwitterFeedComponent } from './extras/twitter-feed/twitter-feed.component';
+import { TraderSamsEnchantedTikkiRoomComponent } from './trader-sams-enchanted-tikki-room/trader-sams-enchanted-tikki-room.component';
+import { DowntownDisneyBallastPointComponent } from './downtown-disney-ballast-point/downtown-disney-ballast-point.component';
 
 
 @NgModule({
@@ -149,7 +151,9 @@ import { TwitterFeedComponent } from './extras/twitter-feed/twitter-feed.compone
     MobilePhoneAccessoriesComponent,
     ElectronicsHomeAccessoriesComponent,
     HomeImprovementComponent,
-    TwitterFeedComponent
+    TwitterFeedComponent,
+    TraderSamsEnchantedTikkiRoomComponent,
+    DowntownDisneyBallastPointComponent
 
   ],
   imports: [
@@ -176,6 +180,7 @@ import { TwitterFeedComponent } from './extras/twitter-feed/twitter-feed.compone
       {path: 'amazon-product-reviews', component: AmazonProductReviewsComponent},
       {path: 'amazon-product-reviews/electronics-home-accessories', component: ElectronicsHomeAccessoriesComponent},
 
+      {path: 'trader-sams', component: TraderSamsEnchantedTikkiRoomComponent},
 
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},

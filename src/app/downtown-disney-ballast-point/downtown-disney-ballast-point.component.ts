@@ -6,7 +6,7 @@ declare let ga: Function;
 @Component({
   selector: 'app-downtown-disney-ballast-point',
   templateUrl: './downtown-disney-ballast-point.component.html',
-  styleUrls: ['./downtown-disney-ballast-point.component.css', '../../../assets/css/social-share.css']
+  styleUrls: ['./downtown-disney-ballast-point.component.css', '../../assets/css/social-share.css']
 })
 export class DowntownDisneyBallastPointComponent implements OnInit {
 
@@ -32,7 +32,7 @@ export class DowntownDisneyBallastPointComponent implements OnInit {
   title = "Special Spots"
   header_link = "Special Spots"
   url = "https://www.socaltelevision.com/+#+/downtown-disney/ballast-point-brewery"
-  description = 'Downtown Disney Ballast Point Brewery';
+  description = 'Downtown Disney Ballast Point Brewery'
   subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
 
 

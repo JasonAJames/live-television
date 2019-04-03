@@ -6,7 +6,7 @@ declare let ga: Function;
 @Component({
   selector: 'app-trader-sams-enchanted-tikki-room',
   templateUrl: './trader-sams-enchanted-tikki-room.component.html',
-  styleUrls: ['./trader-sams-enchanted-tikki-room.component.css', '../../../assets/css/social-share.css']
+  styleUrls: ['./trader-sams-enchanted-tikki-room.component.css', '../../assets/css/social-share.css']
 })
 export class TraderSamsEnchantedTikkiRoomComponent implements OnInit {
 
@@ -32,7 +32,7 @@ export class TraderSamsEnchantedTikkiRoomComponent implements OnInit {
   title = "Special Spots"
   header_link = "Special Spots"
   url = "https://www.socaltelevision.com/+#+/downtown-disney/trader-sams"
-  description = 'Downtown Disney Trader Sams Enchanted Tikki Room';
+  description = 'Downtown Disney Trader Sams Enchanted Tikki Room'
   subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
 
 }

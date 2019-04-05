@@ -76,6 +76,7 @@ import { MobilePhoneAccessoriesComponent } from './amazon-product-reviews/mobile
 import { ElectronicsHomeAccessoriesComponent } from './amazon-product-reviews/electronics-home-accessories/electronics-home-accessories.component';
 import { HomeImprovementComponent } from './amazon-product-reviews/home-improvement/home-improvement.component';
 import { TwitterFeedComponent } from './extras/twitter-feed/twitter-feed.component';
+import { WeatherComponent } from './weather/weather.component';
 
 @NgModule({
   declarations: [
@@ -148,7 +149,8 @@ import { TwitterFeedComponent } from './extras/twitter-feed/twitter-feed.compone
     MobilePhoneAccessoriesComponent,
     ElectronicsHomeAccessoriesComponent,
     HomeImprovementComponent,
-    TwitterFeedComponent
+    TwitterFeedComponent,
+    WeatherComponent
 
   ],
   imports: [

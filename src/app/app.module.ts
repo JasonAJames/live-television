@@ -169,6 +169,7 @@ import { WeatherComponent } from './weather/weather.component';
       {path: 'home-video-4', component: HomeVideo4Component},
       {path: 'home-video-5', component: HomeVideo5Component},
 
+      {path: 'weather', component: WeatherComponent },
       {path: 'ad1', component: Ad1Component},
       {path: 'veterans-day-2018', component: VeteransDay2018Component},
       { path: 'sbd-fest-2018', component: SbdFest2018Component },

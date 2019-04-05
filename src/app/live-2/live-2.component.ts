@@ -13,7 +13,7 @@ export class Live2Component implements OnInit {
   }
 
   offlineMessage1 = "SoCal Television LIVE BREAKING NEWS"
-  subdesc = `President Trump visits the US/Mexico Border #LIVE`
+  subdesc = `President Trump visits the US/Mexico Border #LIVE We're in Calexico, California as President Donald J. Trump visits a portion of replaced wall along the U.S.-Mexico border.`
 
 
   stationName = 'SoCal Television LIVE'

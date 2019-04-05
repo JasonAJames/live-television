@@ -6,8 +6,9 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}) );
 
-var cacheTime = 86400000*7;     // 7 days
-app.use( express.static(__dirname + '/dist',{ maxAge: cacheTime } ) );
+// var cacheTime = 86400000*7;     // 7 days
+app.use( express.static(__dirname + '/dist') );
+// app.use( express.static(__dirname + '/dist',{ maxAge: cacheTime } ) );
 
 app.use(function (req, res, next) {
   if (req.url.match(/^\/(css|js|img|font)\/.+/)) {

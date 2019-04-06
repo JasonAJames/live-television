@@ -6,7 +6,7 @@ declare let ga: Function;
 @Component({
   selector: 'app-home-video-1',
   templateUrl: './home-video-1.component.html',
-  styleUrls: ['./home-video-1.component.css','../../components/social-share-icons/social-share-icons.component.css']
+  styleUrls: ['./home-video-1.component.css','../../../components/social-share-icons/social-share-icons.component.css']
 })
 export class HomeVideo1Component implements OnInit {
 

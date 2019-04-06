@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-ad1',
   templateUrl: './ad1.component.html',
-  styleUrls: ['./ad1.component.css','../../components/social-share-icons/social-share-icons.component.css']
+  styleUrls: ['./ad1.component.css','../../../components/social-share-icons/social-share-icons.component.css']
 })
 export class Ad1Component implements OnInit {
 

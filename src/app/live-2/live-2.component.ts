@@ -16,7 +16,17 @@ export class Live2Component implements OnInit {
   subdesc = `President Trump visits the US/Mexico Border #LIVE We're in Calexico, California as President Donald J. Trump visits a portion of replaced wall along the U.S.-Mexico border.`
 
 
-  stationName = 'SoCal Television LIVE'
+  stationName = 'SoCal Television'
+    
+  // Social Sharing binding data
+  title = "SoCal Television"
+  header_link = "Special Spots"
+  url = "https://www.socaltelevision.com/+#+/home-video-0"
+  summary = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+  source_url = "https://www.socaltelevision.com/+#+/home-video-0"
+  subject = "Check Out this SoCalTelevision.com website"
+  body = 'SoCalTelevision.com Special Spots ventures throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+
   description = this.offlineMessage1
   subdescription = this.subdesc
 }

@@ -28,12 +28,18 @@ export class HomeVideo1Component implements OnInit {
   ngOnInit() {
   }
 
-  stationName = "SoCalTelevision"
-  title = "Super Bloom 2019"
-  header_link = "Super Bloom"
+  stationName = 'SoCal Television'
+  
+  // Social Sharing binding data
+  title = "SoCal Television"
+  header_link = "Special Spots"
   url = "https://www.socaltelevision.com/+#+/home-video-1"
-  description = "Have you seen the #SuperBloom2019?"
-  subdescription = "SoCalTelevision.com visits the Flower Fields of the Inland Empire. Come along with us as we hike Walker Canyon off Lake Street and the 15 freeway... To Check Out The #SuperBloom2019! For more... #LIKE #FOLLOW #SHARE #SUBSCRIBE to SoCalTelevision on Instagram, Facebook, Twitter & YouTube, and watch www.SoCalTelevision.com - As Always Thank You for your continued viewership & support!"
+  description = 'Special Spots';
+  subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+  summary = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+  source_url = this.url
+  subject = "Check Out this SoCalTelevision.com website"
+  body = 'SoCalTelevision.com Special Spots ventures throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
 
 
 }

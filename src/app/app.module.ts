@@ -77,6 +77,7 @@ import { ElectronicsHomeAccessoriesComponent } from './amazon-product-reviews/el
 import { HomeImprovementComponent } from './amazon-product-reviews/home-improvement/home-improvement.component';
 import { TwitterFeedComponent } from './extras/twitter-feed/twitter-feed.component';
 import { WeatherComponent } from './weather/weather.component';
+import { SocialShareIconsComponent } from './components/social-share-icons/social-share-icons.component';
 
 @NgModule({
   declarations: [
@@ -150,7 +151,8 @@ import { WeatherComponent } from './weather/weather.component';
     ElectronicsHomeAccessoriesComponent,
     HomeImprovementComponent,
     TwitterFeedComponent,
-    WeatherComponent
+    WeatherComponent,
+    SocialShareIconsComponent
 
   ],
   imports: [

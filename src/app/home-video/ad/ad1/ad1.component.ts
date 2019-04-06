@@ -23,8 +23,17 @@ export class Ad1Component implements OnInit {
   }, );  // ,1000 1s
   }
 
-  stationName = 'SoCal Television - YES on Prop 8';
-  description = 'VOTE YES on Proposition 8';
-  subdescription = 'Vote with the Patients... Not the Clinics! VOTE YES on 8!';
+  stationName = 'SoCal Television'
+    
+  // Social Sharing binding data
+  title = "SoCal Television"
+  header_link = "Special Spots"
+  url = "https://www.socaltelevision.com/+#+/ad1"
+  description = 'Special Spots';
+  subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+  summary = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+  source_url = this.url
+  subject = "Check Out this SoCalTelevision.com website"
+  body = 'SoCalTelevision.com Special Spots ventures throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
 
 }

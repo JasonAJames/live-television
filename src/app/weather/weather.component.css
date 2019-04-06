@@ -7,6 +7,9 @@
     z-index: -1; 
     margin-top: -5%; 
     border: none;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 .container {
     padding-right: 0px;
@@ -14,7 +17,7 @@
 }
 div.ui.container {
     width: 100%;
-    padding-top: 10%;
+    padding-top: -10%;
     padding-right: 0px;
     padding-left: 0px;
 }

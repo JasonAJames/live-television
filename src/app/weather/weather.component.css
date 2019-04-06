@@ -6,9 +6,16 @@
 
 #weather-map1 {
     z-index: -1; 
-    margin-top: -5%; 
     border: none;
     width: 100%;
     padding-right: 0px;
     padding-left: 0px;
 }
+/* #weather-map1 {
+    z-index: -1; 
+    margin-top: -5%; 
+    border: none;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+} */

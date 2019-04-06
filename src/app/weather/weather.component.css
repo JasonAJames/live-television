@@ -10,8 +10,20 @@
     width: 100%;
     padding-right: 0px;
     padding-left: 0px;
-    margin-top: 11%;
+    margin-top: -11%;
 }
+
+.pagetitle {
+    z-index: 1;
+}
+
+@media only screen and (min-width: 1200px) {
+   .ui.container[_ngcontent-qmn-0]  {
+       width: 100%;
+   }
+}
+
+
 /* #weather-map1 {
     z-index: -1; 
     margin-top: -5%; 

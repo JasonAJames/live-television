@@ -5,7 +5,7 @@ import { ActivatedRoute, Routes, RouterModule } from '@angular/router';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css', '../../app.component.css']
+  styleUrls: ['./home.component.css', '../../app.component.css','../../components/social-share-icons/social-share-icons.component.css']
 })
 export class HomeComponent implements OnInit {
 

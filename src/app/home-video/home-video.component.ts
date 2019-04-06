@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-home-video',
   templateUrl: './home-video.component.html',
-  styleUrls: ['./home-video.component.css','../../../components/social-share-icons/social-share-icons.component.css']
+  styleUrls: ['./home-video.component.css','../../components/social-share-icons/social-share-icons.component.css']
 })
 
 

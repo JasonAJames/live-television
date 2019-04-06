@@ -11,5 +11,5 @@ export class WeatherComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  title = "SoCal Weather"
 }

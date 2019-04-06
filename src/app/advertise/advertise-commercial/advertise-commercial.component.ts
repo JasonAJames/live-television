@@ -6,7 +6,7 @@ declare let paypal: any;
 @Component({
   selector: 'app-advertise-commercial',
   templateUrl: './advertise-commercial.component.html',
-  styleUrls: ['./advertise-commercial.component.css']
+  styleUrls: ['./advertise-commercial.component.css','../../components/social-share-icons/social-share-icons.component.css']
 })
 export class AdvertiseCommercialComponent implements OnInit {
 

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-show-archives',
   templateUrl: './show-archives.component.html',
-  styleUrls: ['./show-archives.component.css']
+  styleUrls: ['./show-archives.component.css','../components/social-share-icons/social-share-icons.component.css']
 })
 export class ShowArchivesComponent implements OnInit {
 

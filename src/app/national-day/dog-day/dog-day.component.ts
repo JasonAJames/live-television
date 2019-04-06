@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-dog-day',
   templateUrl: './dog-day.component.html',
-  styleUrls: ['./dog-day.component.css']
+  styleUrls: ['./dog-day.component.css','../../components/social-share-icons/social-share-icons.component.css']
 })
 export class DogDayComponent implements OnInit {
 

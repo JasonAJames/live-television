@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-horoscopes',
   templateUrl: './horoscopes.component.html',
-  styleUrls: ['./horoscopes.component.css']
+  styleUrls: ['./horoscopes.component.css','../../components/social-share-icons/social-share-icons.component.css']
 })
 export class HoroscopesComponent implements OnInit {
 

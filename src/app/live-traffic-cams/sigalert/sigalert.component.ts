@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-sigalert',
   templateUrl: './sigalert.component.html',
-  styleUrls: ['./sigalert.component.css']
+  styleUrls: ['./sigalert.component.css','../../components/social-share-icons/social-share-icons.component.css']
 })
 export class SigalertComponent implements OnInit {
 

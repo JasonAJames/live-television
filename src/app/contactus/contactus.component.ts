@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-contactus',
   templateUrl: './contactus.component.html',
-  styleUrls: ['./contactus.component.css']
+  styleUrls: ['./contactus.component.css','../components/social-share-icons/social-share-icons.component.css']
 })
 export class ContactusComponent implements OnInit {
 

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-electronics-home-accessories',
   templateUrl: './electronics-home-accessories.component.html',
-  styleUrls: ['./electronics-home-accessories.component.css']
+  styleUrls: ['./electronics-home-accessories.component.css','../../components/social-share-icons/social-share-icons.component.css']
 })
 export class ElectronicsHomeAccessoriesComponent implements OnInit {
 

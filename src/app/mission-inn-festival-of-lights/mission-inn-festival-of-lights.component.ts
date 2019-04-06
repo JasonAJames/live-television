@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-mission-inn-festival-of-lights',
   templateUrl: './mission-inn-festival-of-lights.component.html',
-  styleUrls: ['./mission-inn-festival-of-lights.component.css', '../../assets/css/social-share.css']
+  styleUrls: ['./mission-inn-festival-of-lights.component.css','../components/social-share-icons/social-share-icons.component.css']
 })
 export class MissionInnFestivalOfLightsComponent implements OnInit {
 

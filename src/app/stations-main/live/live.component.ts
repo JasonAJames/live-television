@@ -19,4 +19,14 @@ export class LiveComponent implements OnInit {
   stationName = 'SoCal Television Breaking News LIVE'
   description = this.offlineMessage1
   subdescription = this.subdesc
+
+  // Social Sharing binding data
+  title = "SoCal Television"
+  header_link = "Special Spots"
+  url = "https://www.socaltelevision.com/+#+/live"
+  summary = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+  source_url = this.url
+  subject = "Check Out this SoCalTelevision.com website"
+  body = 'SoCalTelevision.com Special Spots ventures throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+
 }

@@ -12,4 +12,6 @@ export class StockMarketComponent implements OnInit {
   ngOnInit() {
   }
 
+  
+
 }

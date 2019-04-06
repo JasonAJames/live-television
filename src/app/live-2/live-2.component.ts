@@ -21,9 +21,9 @@ export class Live2Component implements OnInit {
   // Social Sharing binding data
   title = "SoCal Television"
   header_link = "Special Spots"
-  url = "https://www.socaltelevision.com/+#+/home-video-0"
+  url = "https://www.socaltelevision.com/+#+/live-2"
   summary = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
-  source_url = "https://www.socaltelevision.com/+#+/home-video-0"
+  source_url = this.url
   subject = "Check Out this SoCalTelevision.com website"
   body = 'SoCalTelevision.com Special Spots ventures throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
 

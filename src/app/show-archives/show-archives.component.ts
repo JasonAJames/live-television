@@ -23,4 +23,16 @@ export class ShowArchivesComponent implements OnInit {
   show4_title = "Salvation Mountain";
   show4_url = "https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/SalvationMountain_Complete.mp4.mp4";
 
+
+  // Social Sharing binding data
+  title = "SoCal Television"
+  header_link = "Special Spots"
+  url = "https://www.socaltelevision.com/+#+/show-archives"
+  description = 'Special Spots';
+  subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+  summary = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+  source_url = this.url
+  subject = "Check Out this SoCalTelevision.com website"
+  body = 'SoCalTelevision.com Special Spots ventures throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+
 }

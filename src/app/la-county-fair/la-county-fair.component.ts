@@ -19,4 +19,15 @@ export class LaCountyFairComponent implements OnInit {
   LA County Fair. Uniquely situated just off Route 66, the LA County Fair draws the majority of its guests from the iconic highway corridor, from San Bernardino to Santa Monica.
  
   The LA County Fair is open Aug. 31 - Sept. 23, 2018. Tickets on sale now at https://lacountyfair.com !`;
+
+  // Social Sharing binding data
+  title = "SoCal Television"
+  header_link = "Special Spots"
+  url = "https://www.socaltelevision.com/+#+/la-county-fair"
+  summary = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+  source_url = this.url
+  subject = "Check Out this SoCalTelevision.com website"
+  body = 'SoCalTelevision.com Special Spots ventures throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+
+
 }

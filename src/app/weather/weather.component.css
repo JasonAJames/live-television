@@ -18,7 +18,7 @@
 }
 
 @media only screen and (min-width: 1200px) {
-   .ui.container[_ngcontent-qmn-0]  {
+   div.ui.container {
        width: 100%;
    }
 }

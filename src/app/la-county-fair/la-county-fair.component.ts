@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-la-county-fair',
   templateUrl: './la-county-fair.component.html',
-  styleUrls: ['./la-county-fair.component.css']
+  styleUrls: ['./la-county-fair.component.css','../components/social-share-icons/social-share-icons.component.css']
 })
 export class LaCountyFairComponent implements OnInit {
 

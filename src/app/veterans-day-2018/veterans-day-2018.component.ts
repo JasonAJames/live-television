@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-veterans-day-2018',
   templateUrl: './veterans-day-2018.component.html',
-  styleUrls: ['./veterans-day-2018.component.css', '../../assets/css/social-share.css']
+  styleUrls: ['./veterans-day-2018.component.css','../components/social-share-icons/social-share-icons.component.css']
 })
 export class VeteransDay2018Component implements OnInit {
 

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-cbs',
   templateUrl: './cbs.component.html',
-  styleUrls: ['./cbs.component.css']
+  styleUrls: ['./cbs.component.css','../../components/social-share-icons/social-share-icons.component.css']
 })
 export class CbsComponent implements OnInit {
 

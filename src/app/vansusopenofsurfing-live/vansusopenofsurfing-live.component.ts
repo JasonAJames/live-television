@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-vansusopenofsurfing-live',
   templateUrl: './vansusopenofsurfing-live.component.html',
-  styleUrls: ['./vansusopenofsurfing-live.component.css']
+  styleUrls: ['./vansusopenofsurfing-live.component.css','../components/social-share-icons/social-share-icons.component.css']
 })
 export class VansusopenofsurfingLiveComponent implements OnInit {
 

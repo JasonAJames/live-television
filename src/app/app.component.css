@@ -2,6 +2,9 @@
     padding-top: 10%;
 }
 
+#currentweather-nav-item {
+    margin-top: -23%;
+}
 /* .container {
     height: 60px;
 } */
@@ -29,6 +32,90 @@
         margin-left: 5%;
     }
 
+    #currentweather-nav-item {
+        margin-top: -90%;
+        margin-left: -22%;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    #videoContainer {
+        padding-left: 15%;
+        padding-right: 2%;
+    
+    }
+    .video {
+        border: none;
+        width: 620px;
+        height: 350px;
+        border-radius: 25px;
+        box-shadow:1px 1px 45px lightgray;
+        margin-left: 25%;
+    }
+    #currentweather-nav-item {
+        margin-top: -63%;
+        margin-left: -20%;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    #videoContainer {
+        padding-left: 15%;
+        padding-right: 2%;
+    
+    }
+    .video {
+        border: none;
+        width: 620px;
+        height: 350px;
+        border-radius: 25px;
+        box-shadow:1px 1px 45px lightgray;
+        margin-left: 25%;
+    }
+    #currentweather-nav-item {
+        margin-top: -63%;
+        margin-left: -20%;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    #videoContainer {
+        padding-left: 15%;
+        padding-right: 2%;
+    
+    }
+    .video {
+        border: none;
+        width: 620px;
+        height: 350px;
+        border-radius: 25px;
+        box-shadow:1px 1px 45px lightgray;
+        margin-left: 25%;
+    }
+    #currentweather-nav-item {
+        margin-top: -63%;
+        margin-left: -20%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    #videoContainer {
+        padding-left: 15%;
+        padding-right: 2%;
+    
+    }
+    .video {
+        border: none;
+        width: 620px;
+        height: 350px;
+        border-radius: 25px;
+        box-shadow:1px 1px 45px lightgray;
+        margin-left: 25%;
+    }
+    #currentweather-nav-item {
+        margin-top: -63%;
+        margin-left: -25%;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -45,7 +132,30 @@
         box-shadow:1px 1px 45px lightgray;
         margin-left: 25%;
     }
+    #currentweather-nav-item {
+        margin-top: -63%;
+        margin-left: -50%;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    #videoContainer {
+        padding-left: 15%;
+        padding-right: 2%;
     
+    }
+    .video {
+        border: none;
+        width: 620px;
+        height: 350px;
+        border-radius: 25px;
+        box-shadow:1px 1px 45px lightgray;
+        margin-left: 25%;
+    }
+    #currentweather-nav-item {
+        margin-top: -63%;
+        margin-left: -50%;
+    }
 }
 
 /* uncomment class below when mobile app is launched */

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-live',
   templateUrl: './live.component.html',
-  styleUrls: ['./live.component.css', '../../app.component.css']
+  styleUrls: ['./live.component.css', '../../components/social-share-icons/social-share-icons.component.css']
 })
 export class LiveComponent implements OnInit {
 

@@ -2,9 +2,12 @@
     padding-top: 10%;
 }
 
-/* #currentweather-nav-item {
-    margin-top: -23%;
-} */
+#currentweather-nav-item {
+    
+    padding-top: 35px;
+    margin-bottom: -5px;
+
+}
 /* .container {
     height: 60px;
 } */

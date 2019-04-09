@@ -23,7 +23,7 @@ export class ShowArchivesComponent implements OnInit {
   show4_title = "Salvation Mountain";
   show4_url = "https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/SalvationMountain_Complete.mp4.mp4";
   show5_title = "Nit Wit Ridge";
-  show5_url = "https://s3-us-west-2.amazonaws.com/jppmsolutions/Videos/NittWittRidge/NitWitHouse_4K.mp4";
+  show5_url = "/nit-wit-ridge";
 
 
   // Social Sharing binding data

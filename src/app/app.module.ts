@@ -78,6 +78,7 @@ import { HomeImprovementComponent } from './amazon-product-reviews/home-improvem
 import { TwitterFeedComponent } from './extras/twitter-feed/twitter-feed.component';
 import { WeatherComponent } from './weather/weather.component';
 import { SocialShareIconsComponent } from './components/social-share-icons/social-share-icons.component';
+import { NitWitRidgeComponent } from './nit-wit-ridge/nit-wit-ridge.component';
 
 @NgModule({
   declarations: [
@@ -152,7 +153,8 @@ import { SocialShareIconsComponent } from './components/social-share-icons/socia
     HomeImprovementComponent,
     TwitterFeedComponent,
     WeatherComponent,
-    SocialShareIconsComponent
+    SocialShareIconsComponent,
+    NitWitRidgeComponent
 
   ],
   imports: [
@@ -180,7 +182,7 @@ import { SocialShareIconsComponent } from './components/social-share-icons/socia
       {path: 'amazon-product-reviews', component: AmazonProductReviewsComponent},
       {path: 'amazon-product-reviews/electronics-home-accessories', component: ElectronicsHomeAccessoriesComponent},
 
-
+      {path: "nit-wit-ridge", component: NitWitRidgeComponent},
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},
       { path: 'live-2', component: Live2Component},

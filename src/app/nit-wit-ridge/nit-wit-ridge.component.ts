@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-nit-wit-ridge',
   templateUrl: './nit-wit-ridge.component.html',
-  styleUrls: ['./nit-wit-ridge.component.css']
+  styleUrls: ['./nit-wit-ridge.component.css','../components/social-share-icons/social-share-icons.component.css']
 })
 export class NitWitRidgeComponent implements OnInit {
 

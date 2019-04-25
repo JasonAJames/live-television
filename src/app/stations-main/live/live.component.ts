@@ -22,7 +22,7 @@ export class LiveComponent implements OnInit {
 
   // Social Sharing binding data
   title = "SoCal Television"
-  header_link = "Special Spots"
+  header_link = "Breaking News #LIVE"
   url = "https://www.socaltelevision.com/+#+/live"
   summary = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
   source_url = this.url

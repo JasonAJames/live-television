@@ -79,6 +79,7 @@ import { TwitterFeedComponent } from './extras/twitter-feed/twitter-feed.compone
 import { WeatherComponent } from './weather/weather.component';
 import { SocialShareIconsComponent } from './components/social-share-icons/social-share-icons.component';
 import { NitWitRidgeComponent } from './nit-wit-ridge/nit-wit-ridge.component';
+import { IsfeedworkingComponent } from './components/isfeedworking/isfeedworking.component';
 
 @NgModule({
   declarations: [
@@ -154,7 +155,8 @@ import { NitWitRidgeComponent } from './nit-wit-ridge/nit-wit-ridge.component';
     TwitterFeedComponent,
     WeatherComponent,
     SocialShareIconsComponent,
-    NitWitRidgeComponent
+    NitWitRidgeComponent,
+    IsfeedworkingComponent
 
   ],
   imports: [

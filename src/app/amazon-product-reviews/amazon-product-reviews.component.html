@@ -1,6 +1,10 @@
 <div class="container">
   <div class="row">
-    <div class="col-sm-12"><h2>{{pagetitle}}</h2></div>
+    <div class="col-sm-12"><h2>{{pagetitle}}</h2>
+
+      <input [(ngModel)]="searchterm" placeholder="Enter product...">&nbsp;<a href="https://www.amazon.com/s?k={{searchterm}}&camp=1789&creative=9325&linkCode=xm2&linkId=d6631bb329c34559e7cf05005912de64&tag=product-review-spec-20&ref=as_li_qf_sp_sr_il_tl" class="btn btn-primary" target="_blank">SEARCH</a>
+
+  </div>
     <div class="col-sm-12"><h3><a routerLink="/amazon-product-reviews/electronics-home-accessories">{{subtitle0}} > ></a></h3></div>
   </div>
   <div class="row">

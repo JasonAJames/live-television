@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-declare let ga: Function;
-
 @Component({
   selector: 'app-home-video-0',
   templateUrl: './home-video-0.component.html',
@@ -11,8 +9,6 @@ declare let ga: Function;
 export class HomeVideo0Component implements OnInit {
 
   constructor(private router: Router) {
-    ga('set', 'page', '/home-video-0');
-    ga('send', 'pageview');
   }
 
   videoEnd() {

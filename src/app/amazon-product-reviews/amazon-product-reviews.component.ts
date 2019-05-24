@@ -12,7 +12,7 @@ export class AmazonProductReviewsComponent implements OnInit {
   ngOnInit() {
   }
 
-  holiday = "Mother's Day"
+  holiday = "Featured Deals"
 
   pagetitle = "Featured Amazon Products"
   subtitle0 = "Electronics & Home Accessories"

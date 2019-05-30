@@ -82,6 +82,7 @@ import { NitWitRidgeComponent } from './nit-wit-ridge/nit-wit-ridge.component';
 import { IsfeedworkingComponent } from './components/isfeedworking/isfeedworking.component';
 import { AdrotatorLeaderbannerComponent } from './components/adrotator-leaderbanner/adrotator-leaderbanner.component';
 import { Ktla5VideoComponent } from './components/video-feeds/ktla5-video/ktla5-video.component';
+import { WeatherLeaderbannerComponent } from './components/weather-leaderbanner/weather-leaderbanner.component';
 
 @NgModule({
   declarations: [
@@ -160,7 +161,8 @@ import { Ktla5VideoComponent } from './components/video-feeds/ktla5-video/ktla5-
     NitWitRidgeComponent,
     IsfeedworkingComponent,
     AdrotatorLeaderbannerComponent,
-    Ktla5VideoComponent
+    Ktla5VideoComponent,
+    WeatherLeaderbannerComponent
 
   ],
   imports: [

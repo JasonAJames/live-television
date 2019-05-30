@@ -81,6 +81,7 @@ import { SocialShareIconsComponent } from './components/social-share-icons/socia
 import { NitWitRidgeComponent } from './nit-wit-ridge/nit-wit-ridge.component';
 import { IsfeedworkingComponent } from './components/isfeedworking/isfeedworking.component';
 import { AdrotatorLeaderbannerComponent } from './components/adrotator-leaderbanner/adrotator-leaderbanner.component';
+import { Ktla5VideoComponent } from './components/video-feeds/ktla5-video/ktla5-video.component';
 
 @NgModule({
   declarations: [
@@ -158,7 +159,8 @@ import { AdrotatorLeaderbannerComponent } from './components/adrotator-leaderban
     SocialShareIconsComponent,
     NitWitRidgeComponent,
     IsfeedworkingComponent,
-    AdrotatorLeaderbannerComponent
+    AdrotatorLeaderbannerComponent,
+    Ktla5VideoComponent
 
   ],
   imports: [

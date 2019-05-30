@@ -13,11 +13,10 @@
           <!-- Horoscope End -->
         <!-- </div> -->
             <div class="col-sm">
-                <span style="color: white">Back to </span><a routerLink="/stations-main"><button  class="btn-primary" style="border-radius: 15px;">LIVE TV CHANNELS</button></a>
-                <span class="embed-responsive embed-responsive-16by9">
+                <span style="color: navy">Back to </span><a routerLink="/stations-main"><button  class="btn-primary" style="border-radius: 15px;">LIVE TV CHANNELS</button></a>
 
-                  <iframe src="https://ktla.com/on-air/live-streaming/" width="800" height="881" style="padding-top: none; border:none;overflow:hidden" scrolling="yes" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
-                </span>
+                <app-ktla5-video></app-ktla5-video>
+
                 <br/><br/>
                 <span>{{description}}</span>
               <p>{{subdescription}}</p>

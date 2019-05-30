@@ -80,6 +80,7 @@ import { WeatherComponent } from './weather/weather.component';
 import { SocialShareIconsComponent } from './components/social-share-icons/social-share-icons.component';
 import { NitWitRidgeComponent } from './nit-wit-ridge/nit-wit-ridge.component';
 import { IsfeedworkingComponent } from './components/isfeedworking/isfeedworking.component';
+import { AdrotatorLeaderbannerComponent } from './components/adrotator-leaderbanner/adrotator-leaderbanner.component';
 
 @NgModule({
   declarations: [
@@ -156,7 +157,8 @@ import { IsfeedworkingComponent } from './components/isfeedworking/isfeedworking
     WeatherComponent,
     SocialShareIconsComponent,
     NitWitRidgeComponent,
-    IsfeedworkingComponent
+    IsfeedworkingComponent,
+    AdrotatorLeaderbannerComponent
 
   ],
   imports: [

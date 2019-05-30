@@ -11,6 +11,9 @@ a.navbar-brand {
     padding: 0px;
     height: 65px;
 }
+.navbar-dark .navbar-nav .nav-link {
+    padding-left: 2%;
+}
 
 div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
     width: 60%;

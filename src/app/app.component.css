@@ -7,6 +7,10 @@ nav {
     padding-top: 0px;
 }
 
+.navbar .dropdown-menu a {
+    color: #4183C4;
+}
+
 a.navbar-brand {
     padding: 0px;
     height: 65px;

@@ -7,8 +7,17 @@ nav {
     padding-top: 0px;
 }
 
+.main-links {
+    padding-top: 4%;
+}
+
 .navbar .dropdown-menu a {
     color: #4183C4;
+}
+
+.dropdown-tab {
+    padding-top: 4%;
+    padding-left: 4%;
 }
 
 a.navbar-brand {

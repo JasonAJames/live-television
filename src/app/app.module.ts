@@ -84,6 +84,7 @@ import { AdrotatorLeaderbannerComponent } from './components/adrotator-leaderban
 import { Ktla5VideoComponent } from './components/video-feeds/ktla5-video/ktla5-video.component';
 import { WeatherLeaderbannerComponent } from './components/weather-leaderbanner/weather-leaderbanner.component';
 import { AdvertiseComponent } from './advertise/advertise.component';
+import { AdvertisementBannersComponent } from './advertise/advertisement-banners/advertisement-banners.component';
 
 @NgModule({
   declarations: [
@@ -164,7 +165,8 @@ import { AdvertiseComponent } from './advertise/advertise.component';
     AdrotatorLeaderbannerComponent,
     Ktla5VideoComponent,
     WeatherLeaderbannerComponent,
-    AdvertiseComponent
+    AdvertiseComponent,
+    AdvertisementBannersComponent
 
   ],
   imports: [
@@ -185,6 +187,7 @@ import { AdvertiseComponent } from './advertise/advertise.component';
 
       {path: 'weather', component: WeatherComponent },
       {path: 'advertise', component: AdvertiseComponent },
+      {path: 'advertise/advertisement-banners', component: AdvertisementBannersComponent },
 
       {path: 'ad1', component: Ad1Component},
       {path: 'veterans-day-2018', component: VeteransDay2018Component},

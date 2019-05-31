@@ -186,7 +186,6 @@ import { AdvertiseComponent } from './advertise/advertise.component';
       {path: 'weather', component: WeatherComponent },
       {path: 'advertise', component: AdvertiseComponent },
 
-      
       {path: 'ad1', component: Ad1Component},
       {path: 'veterans-day-2018', component: VeteransDay2018Component},
       { path: 'sbd-fest-2018', component: SbdFest2018Component },

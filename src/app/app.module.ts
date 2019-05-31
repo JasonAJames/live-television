@@ -172,7 +172,7 @@ import { AdvertiseComponent } from './advertise/advertise.component';
     FormsModule,
     HttpModule,
     RouterModule.forRoot([
-      { path: 'home', component: HomeComponent},
+      { path: 'home', component: HomeVideo0Component},
       { path: 'usa/cbs', component: CbsComponent},
 
       {path: 'home-video', component: HomeVideoComponent},
@@ -194,7 +194,7 @@ import { AdvertiseComponent } from './advertise/advertise.component';
       {path: 'amazon-product-reviews', component: AmazonProductReviewsComponent},
       {path: 'amazon-product-reviews/electronics-home-accessories', component: ElectronicsHomeAccessoriesComponent},
 
-      {path: "nit-wit-ridge", component: NitWitRidgeComponent},
+      {path: 'nit-wit-ridge', component: NitWitRidgeComponent},
       { path: 'news', component: NewsComponent},
       { path: 'live', component: LiveComponent},
       { path: 'live-2', component: Live2Component},

@@ -83,6 +83,7 @@ import { IsfeedworkingComponent } from './components/isfeedworking/isfeedworking
 import { AdrotatorLeaderbannerComponent } from './components/adrotator-leaderbanner/adrotator-leaderbanner.component';
 import { Ktla5VideoComponent } from './components/video-feeds/ktla5-video/ktla5-video.component';
 import { WeatherLeaderbannerComponent } from './components/weather-leaderbanner/weather-leaderbanner.component';
+import { AdvertiseComponent } from './advertise/advertise.component';
 
 @NgModule({
   declarations: [
@@ -162,7 +163,8 @@ import { WeatherLeaderbannerComponent } from './components/weather-leaderbanner/
     IsfeedworkingComponent,
     AdrotatorLeaderbannerComponent,
     Ktla5VideoComponent,
-    WeatherLeaderbannerComponent
+    WeatherLeaderbannerComponent,
+    AdvertiseComponent
 
   ],
   imports: [
@@ -182,6 +184,9 @@ import { WeatherLeaderbannerComponent } from './components/weather-leaderbanner/
       {path: 'home-video-5', component: HomeVideo5Component},
 
       {path: 'weather', component: WeatherComponent },
+      {path: 'advertise', component: AdvertiseComponent },
+
+      
       {path: 'ad1', component: Ad1Component},
       {path: 'veterans-day-2018', component: VeteransDay2018Component},
       { path: 'sbd-fest-2018', component: SbdFest2018Component },

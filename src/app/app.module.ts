@@ -85,6 +85,7 @@ import { Ktla5VideoComponent } from './components/video-feeds/ktla5-video/ktla5-
 import { WeatherLeaderbannerComponent } from './components/weather-leaderbanner/weather-leaderbanner.component';
 import { AdvertiseComponent } from './advertise/advertise.component';
 import { AdvertisementBannersComponent } from './advertise/advertisement-banners/advertisement-banners.component';
+import { NikoYPopsTacosComponent } from './home-video/ad/mr-g-market/niko-y-pops-tacos/niko-y-pops-tacos.component';
 
 @NgModule({
   declarations: [
@@ -166,7 +167,8 @@ import { AdvertisementBannersComponent } from './advertise/advertisement-banners
     Ktla5VideoComponent,
     WeatherLeaderbannerComponent,
     AdvertiseComponent,
-    AdvertisementBannersComponent
+    AdvertisementBannersComponent,
+    NikoYPopsTacosComponent
 
   ],
   imports: [
@@ -193,6 +195,7 @@ import { AdvertisementBannersComponent } from './advertise/advertisement-banners
       {path: 'veterans-day-2018', component: VeteransDay2018Component},
       { path: 'sbd-fest-2018', component: SbdFest2018Component },
       { path: 'mission-inn-festival-of-lights', component: MissionInnFestivalOfLightsComponent },
+      { path: 'mr-g-market/niko-y-pops-tacos', component: NikoYPopsTacosComponent },
 
       {path: 'amazon-product-reviews', component: AmazonProductReviewsComponent},
       {path: 'amazon-product-reviews/electronics-home-accessories', component: ElectronicsHomeAccessoriesComponent},

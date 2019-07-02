@@ -216,7 +216,6 @@ import { NikoYPopsTacosComponent } from './home-video/ad/mr-g-market/niko-y-pops
       { path: 'live-traffic-cams', component: LiveTrafficCamsComponent},
       { path: 'live-traffic/sigalert', component: SigalertComponent},
       { path: 'live-traffic-cam/cam-10fwy_West-MonteVistaAve', component: Cam10fwyWestOfMonteVistaAveComponent},
-      { path: 'stations-main', component: StationsMainComponent},
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
       
@@ -251,6 +250,7 @@ import { NikoYPopsTacosComponent } from './home-video/ad/mr-g-market/niko-y-pops
       
       { path: "show-archives", component: ShowArchivesComponent },
 
+      { path: 'stations-main', component: StationsMainComponent},
       { path: '', redirectTo: '/home-video-0', pathMatch: 'full'},
       { path: '**', component: HomeVideo0Component }
     ], {useHash : true}),

@@ -251,8 +251,8 @@ import { NikoYPopsTacosComponent } from './home-video/ad/mr-g-market/niko-y-pops
       { path: "show-archives", component: ShowArchivesComponent },
 
       { path: 'stations-main', component: StationsMainComponent},
-      { path: '', redirectTo: '/home-video-0', pathMatch: 'full'},
-      { path: '**', component: HomeVideo0Component }
+      { path: '', redirectTo: '/mr-g-market/niko-y-pops-tacos', pathMatch: 'full'},
+      { path: '**', component: NikoYPopsTacosComponent }
     ], {useHash : true}),
     routes
   ],

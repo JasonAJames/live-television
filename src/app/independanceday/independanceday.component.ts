@@ -81,18 +81,18 @@ export class IndependancedayComponent implements OnInit {
   To learn more, please call (951) 736-2241!
   `
 
-  stationName = 'SoCal Television LIVE'
+  stationName = 'SoCal Television 4th of July LIVE'
   description = this.offlineMessage1
   subdescription = this.subdesc
 
   // Social Sharing binding data
-  title = "SoCal Television"
-  header_link = "Special Spots"
+  title = "21st Annual Main Street USA Corona Independence Day Parade"
+  header_link = this.title
   url = "https://www.socaltelevision.com/+#+/independence-day"
-  summary = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+  summary = this.subdesc
   source_url = this.url
   subject = "Check Out this SoCalTelevision.com website"
-  body = 'SoCalTelevision.com Special Spots ventures throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+  body = 'Check out the SoCalTelevision.com coverage of ' + this.subdesc + '!'
 
 
 }

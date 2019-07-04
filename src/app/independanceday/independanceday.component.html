@@ -3,7 +3,7 @@
               <!-- END Weather Component -->
                 <h3>You're Watching</h3>
                 <h1>{{stationName}}</h1>
-              
+                <h1>Main Street USA Independence Day Parade - Corona, CA</h1>
                 <div class="container">
                     <div class="row">
                       <!-- <div class="col-sm" style="max-width:250px;"> -->
@@ -33,16 +33,14 @@
                                   </blockquote>
                                 </div>
                               </div> -->
-
+                          
+                          <video controls controlsList="nodownload" poster="https://socaltelevision.s3-us-west-2.amazonaws.com/4th0fJuly.jpg" playsinline class="myVideo" (ended)="videoEnd()">
+                            <source src="https://socaltelevision.s3-us-west-2.amazonaws.com/MainStreetUSA_CoronaParade2019.mp4" type="video/mp4">
+                        </video>
                               <h2>Facebook LIVE cast:</h2>
                               <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F2154611871504808%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>                            </span>
                           <br/>
-                          <h1>Main Street USA Independence Day Parade - Corona, CA</h1>
-                          <div class="video_container">
-                            <video controls controlsList="nodownload" poster="https://socaltelevision.s3-us-west-2.amazonaws.com/4th0fJuly.jpg" playsinline class="myVideo" (ended)="videoEnd()">
-                              <source src="https://socaltelevision.s3-us-west-2.amazonaws.com/MainStreetUSA_CoronaParade2019.mp4" type="video/mp4">
-                          </video>
-                          </div>
+
                           <blockquote>
                             If Independence Day LIVE Feed is not playing, Please refresh the screen, if the LIVE stream is still unavailable, then our SoCalTelevision.com LIVE STREAM may be Currently Offline.<br/>
                             Check our Facebook page... You Can Also Watch SoCal Television LIVE on our Facebook Page LIVE feed at <a href="https://www.facebook.com/SoCalTelevision/live_videos/" target="_blank" class="btn btn-info">facebook.com/SoCalTelevision</a><br/><br/>

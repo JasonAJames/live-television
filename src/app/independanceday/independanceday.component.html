@@ -16,7 +16,7 @@
                           <span style="color: white">Back to </span><a routerLink="/stations-main"><button  class="btn-primary" style="border-radius: 15px;">LIVE TV CHANNELS</button></a>
                           <span class="embed-responsive embed-responsive-16by9">
                                   <!-- Load Facebook SDK for JavaScript -->
-                              <div id="fb-root"></div>
+                              <!-- <div id="fb-root"></div> -->
                               
                             
                               <!-- Original Feed https://www.facebook.com/SoCalTelevision/videos/2054179387955446/ -->
@@ -33,6 +33,13 @@
                                   </blockquote>
                                 </div>
                               </div> -->
+                              <h2>Main Street USA Independence Day Parade - Corona, CA</h2>
+                              <div class="video_container">
+                                <video controls controlsList="nodownload" poster="https://socaltelevision.s3-us-west-2.amazonaws.com/4th0fJuly.jpg" playsinline class="myVideo" (ended)="videoEnd()">
+                                  <source src="https://socaltelevision.s3-us-west-2.amazonaws.com/MainStreetUSA_CoronaParade2019.mp4" type="video/mp4">
+                              </video>
+                              </div>
+                              <h2>Facebook LIVE cast:</h2>
                               <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F2154611871504808%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>                            </span>
                           <br/>
                           <blockquote>

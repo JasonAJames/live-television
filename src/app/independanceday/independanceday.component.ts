@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-independanceday',
@@ -7,10 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IndependancedayComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) {
+  }
 
+  videoEnd() {
+    // do init at here for current route.
+    console.log('videoEnd function fired.');
+    setTimeout(() => {
+      console.log('fired inside setTimeout function.');
+      this.router.navigate(['/mr-g-market/niko-y-pops-tacos']);
+      console.log('Should have redirected by now.');
+  }, );  // ,1000 1s
+  }
   ngOnInit() {
   }
+
+  
 
   offlineMessage1 = "SoCal Television LIVE COVERAGE"
   subdesc = "The City of Corona is hosting its 21th Anniversary Main Street USA Parade"

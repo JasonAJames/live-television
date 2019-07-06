@@ -86,6 +86,7 @@ import { WeatherLeaderbannerComponent } from './components/weather-leaderbanner/
 import { AdvertiseComponent } from './advertise/advertise.component';
 import { AdvertisementBannersComponent } from './advertise/advertisement-banners/advertisement-banners.component';
 import { NikoYPopsTacosComponent } from './home-video/ad/mr-g-market/niko-y-pops-tacos/niko-y-pops-tacos.component';
+import { SocalQuakeTrackerComponent } from './extras/socal-quake-tracker/socal-quake-tracker.component';
 
 @NgModule({
   declarations: [
@@ -168,7 +169,8 @@ import { NikoYPopsTacosComponent } from './home-video/ad/mr-g-market/niko-y-pops
     WeatherLeaderbannerComponent,
     AdvertiseComponent,
     AdvertisementBannersComponent,
-    NikoYPopsTacosComponent
+    NikoYPopsTacosComponent,
+    SocalQuakeTrackerComponent
 
   ],
   imports: [
@@ -209,6 +211,7 @@ import { NikoYPopsTacosComponent } from './home-video/ad/mr-g-market/niko-y-pops
       { path: 'extras/daily-horoscope', component: HoroscopesComponent},
       { path: 'extras/stock-market', component: StockMarketComponent},
       { path: 'extras/twitter-feed', component: TwitterFeedComponent},
+      { path: 'extras/quake-tracker', component: SocalQuakeTrackerComponent},
       { path: 'local-reviews', component: LocalReviewsComponent},
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},

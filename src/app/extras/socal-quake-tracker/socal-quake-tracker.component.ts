@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-socal-quake-tracker',
   templateUrl: './socal-quake-tracker.component.html',
-  styleUrls: ['./socal-quake-tracker.component.css']
+  styleUrls: ['./socal-quake-tracker.component.css','../../components/social-share-icons/social-share-icons.component.css']
 })
 export class SocalQuakeTrackerComponent implements OnInit {
 

@@ -30,7 +30,7 @@ export class HomeVideo1Component implements OnInit {
   title = "SoCal Television"
   header_link = "Special Spots"
   url = "https://www.socaltelevision.com/+#+/home-video-1"
-  description = 'Higghland Park Bowl';
+  description = 'Highland Park Bowl';
   subdescription = 'We venture throughtout Southern California to bring you the Oldest Bowling Alley in Los Angeles. Highland Park Bowl Est. 1927... We are here to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
   summary = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
   source_url = this.url

@@ -24,17 +24,16 @@ export class HomeVideo0Component implements OnInit {
   ngOnInit() {
   }
 
-  stationName = 'SoCal Television'
-    
-  // Social Sharing binding data
-  title = "SoCal Television"
-  header_link = "Special Spots"
-  url = "https://www.socaltelevision.com/+#+/home-video-0"
-  description = 'Special Spots';
-  subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
-  summary = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
-  source_url = this.url
-  subject = "Check Out this SoCalTelevision.com website"
-  body = 'SoCalTelevision.com Special Spots ventures throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+  stationName = "Glen Ivy Hot Springs"
+  description = "Glen Ivy Hot Springs"
+  subdescription = "Located in Corona, Glen Ivy Hot Springs is open daily, offering a relaxing and rejuvenating experience for all! Visit www.GlenIvy.com to startyour relaxation time today!"
 
+  // Social Sharing binding data
+  title = "Glen Ivy Hot Springs"
+  header_link = "Glen Ivy Hot Springs"
+  url = "https://www.socaltelevision.com/+#+/home-video-0"
+  summary = this.subdescription
+  source_url = this.url
+  subject = this.header_link
+  body = this.subdescription
 }

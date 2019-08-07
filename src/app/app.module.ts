@@ -87,6 +87,7 @@ import { AdvertiseComponent } from './advertise/advertise.component';
 import { AdvertisementBannersComponent } from './advertise/advertisement-banners/advertisement-banners.component';
 import { NikoYPopsTacosComponent } from './home-video/ad/mr-g-market/niko-y-pops-tacos/niko-y-pops-tacos.component';
 import { SocalQuakeTrackerComponent } from './extras/socal-quake-tracker/socal-quake-tracker.component';
+import { GlenIvyComponent } from './components/videos/glen-ivy/glen-ivy.component';
 
 @NgModule({
   declarations: [
@@ -170,7 +171,8 @@ import { SocalQuakeTrackerComponent } from './extras/socal-quake-tracker/socal-q
     AdvertiseComponent,
     AdvertisementBannersComponent,
     NikoYPopsTacosComponent,
-    SocalQuakeTrackerComponent
+    SocalQuakeTrackerComponent,
+    GlenIvyComponent
 
   ],
   imports: [
@@ -254,8 +256,8 @@ import { SocalQuakeTrackerComponent } from './extras/socal-quake-tracker/socal-q
       { path: "show-archives", component: ShowArchivesComponent },
 
       { path: 'stations-main', component: StationsMainComponent},
-      { path: '', redirectTo: '/mr-g-market/niko-y-pops-tacos', pathMatch: 'full'},
-      { path: '**', component: NikoYPopsTacosComponent }
+      { path: '', redirectTo: '/home-video-0', pathMatch: 'full'},
+      { path: '**', component: HomeVideo0Component }
     ], {useHash : true}),
     routes
   ],

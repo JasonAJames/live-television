@@ -33,10 +33,10 @@ export class HomeVideo2Component implements OnInit {
     
   // Social Sharing binding data
   title = "SoCal Television"
-  header_link = "Special Spots"
+  header_link = "Special Spots visits Krispy Kreme Doughnuts"
   url = "https://www.socaltelevision.com/+#+/home-video-2"
   description = 'Special Spots';
-  subdescription = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
+  subdescription = 'We ventured throughtout Southern California and came upon Krispy Kreme Reeces Peanut Butter Doughnuts... Here for a Limited Time! Get them while they are hot!'
   summary = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
   source_url = this.url
   subject = "Check Out this SoCalTelevision.com website"

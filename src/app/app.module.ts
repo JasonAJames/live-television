@@ -88,6 +88,7 @@ import { AdvertisementBannersComponent } from './advertise/advertisement-banners
 import { NikoYPopsTacosComponent } from './home-video/ad/mr-g-market/niko-y-pops-tacos/niko-y-pops-tacos.component';
 import { SocalQuakeTrackerComponent } from './extras/socal-quake-tracker/socal-quake-tracker.component';
 import { GlenIvyComponent } from './components/videos/glen-ivy/glen-ivy.component';
+import { VideoKrispykremereecesdonutsComponent } from './components/videos/video-krispykremereecesdonuts/video-krispykremereecesdonuts.component';
 
 @NgModule({
   declarations: [
@@ -172,7 +173,8 @@ import { GlenIvyComponent } from './components/videos/glen-ivy/glen-ivy.componen
     AdvertisementBannersComponent,
     NikoYPopsTacosComponent,
     SocalQuakeTrackerComponent,
-    GlenIvyComponent
+    GlenIvyComponent,
+    VideoKrispykremereecesdonutsComponent
 
   ],
   imports: [

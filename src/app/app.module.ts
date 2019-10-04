@@ -89,6 +89,8 @@ import { NikoYPopsTacosComponent } from './home-video/ad/mr-g-market/niko-y-pops
 import { SocalQuakeTrackerComponent } from './extras/socal-quake-tracker/socal-quake-tracker.component';
 import { GlenIvyComponent } from './components/videos/glen-ivy/glen-ivy.component';
 import { VideoKrispykremereecesdonutsComponent } from './components/videos/video-krispykremereecesdonuts/video-krispykremereecesdonuts.component';
+import { Ocautoshow2019Component } from './ocautoshow2019/ocautoshow2019.component';
+import { VideoOcautoshow2019Component } from './components/videos/video-ocautoshow2019/video-ocautoshow2019.component';
 
 @NgModule({
   declarations: [
@@ -174,7 +176,9 @@ import { VideoKrispykremereecesdonutsComponent } from './components/videos/video
     NikoYPopsTacosComponent,
     SocalQuakeTrackerComponent,
     GlenIvyComponent,
-    VideoKrispykremereecesdonutsComponent
+    VideoKrispykremereecesdonutsComponent,
+    Ocautoshow2019Component,
+    VideoOcautoshow2019Component
 
   ],
   imports: [
@@ -256,10 +260,12 @@ import { VideoKrispykremereecesdonutsComponent } from './components/videos/video
       { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
       
       { path: "show-archives", component: ShowArchivesComponent },
+      
+      { path: "ocautoshow2019", component: Ocautoshow2019Component },
 
       { path: 'stations-main', component: StationsMainComponent},
-      { path: '', redirectTo: '/home-video-0', pathMatch: 'full'},
-      { path: '**', component: HomeVideo0Component }
+      { path: '', redirectTo: '/ocautoshow2019', pathMatch: 'full'},
+      { path: '**', component: Ocautoshow2019Component }
     ], {useHash : true}),
     routes
   ],

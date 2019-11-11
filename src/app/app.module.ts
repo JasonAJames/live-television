@@ -202,7 +202,7 @@ import { VideoOcautoshow2019Component } from './components/videos/video-ocautosh
       {path: 'advertise/advertisement-banners', component: AdvertisementBannersComponent },
 
       {path: 'ad1', component: Ad1Component},
-      {path: 'veterans-day-2018', component: VeteransDay2018Component},
+      {path: 'veterans-day', component: VeteransDay2018Component},
       { path: 'sbd-fest-2018', component: SbdFest2018Component },
       { path: 'mission-inn-festival-of-lights', component: MissionInnFestivalOfLightsComponent },
       { path: 'mr-g-market/niko-y-pops-tacos', component: NikoYPopsTacosComponent },
@@ -264,8 +264,8 @@ import { VideoOcautoshow2019Component } from './components/videos/video-ocautosh
       { path: "ocautoshow2019", component: Ocautoshow2019Component },
 
       { path: 'stations-main', component: StationsMainComponent},
-      { path: '', redirectTo: '/ocautoshow2019', pathMatch: 'full'},
-      { path: '**', component: Ocautoshow2019Component }
+      { path: '', redirectTo: '/veterans-day', pathMatch: 'full'},
+      { path: '**', component: VeteransDay2018Component }
     ], {useHash : true}),
     routes
   ],

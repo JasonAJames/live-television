@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-veterans-day-2018',
@@ -7,16 +8,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VeteransDay2018Component implements OnInit {
 
-  constructor() { }
-  
+  constructor(private router: Router) {
+  }
+
+  videoEnd() {
+    // do init at here for current route.
+    console.log('videoEnd function fired.');
+    setTimeout(() => {
+      console.log('fired inside setTimeout function.');
+      this.router.navigate(['home-video-0']);
+      console.log('Should have redirected by now.');
+  }, );  // ,1000 1s
+  }
 
   ngOnInit() {
   }
   stationName = "SoCalTelevision"
-  title = "Son's of Liberty Aleworks 243rd Marine Birthday Celebration"
-  url = "https://www.socaltelevision.com/+#+/veterans-day-2018"
-  description = "2018 VETERANS DAY FREE MEALS, DISCOUNTS & CELEBRATIONS"
-  subdescription = "Son's of Liberty Aleworks is having a Birthday Celebration this Saturday, November 10th. This will be an all day outdoor parking lot event celebrating the 243rd Anniversary of the founding of the, then, Continental Marines in 1775, later to become the United States Marine Corps. Come Join Us in Celebration."
+  title = "Veterans Day 2019"
+  url = "https://www.socaltelevision.com/+#+/veterans-day"
+  description = "2019 VETERANS DAY FREE MEALS, DISCOUNTS & CELEBRATIONS"
 
 // Social Sharing binding data
 header_link = "Special Spots"

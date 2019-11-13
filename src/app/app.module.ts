@@ -264,8 +264,8 @@ import { VideoOcautoshow2019Component } from './components/videos/video-ocautosh
       { path: "ocautoshow2019", component: Ocautoshow2019Component },
 
       { path: 'stations-main', component: StationsMainComponent},
-      { path: '', redirectTo: '/veterans-day', pathMatch: 'full'},
-      { path: '**', component: VeteransDay2018Component }
+      { path: '', redirectTo: '/home-video-0', pathMatch: 'full'},
+      { path: '**', component: HomeVideo0Component }
     ], {useHash : true}),
     routes
   ],

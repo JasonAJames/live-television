@@ -91,6 +91,8 @@ import { GlenIvyComponent } from './components/videos/glen-ivy/glen-ivy.componen
 import { VideoKrispykremereecesdonutsComponent } from './components/videos/video-krispykremereecesdonuts/video-krispykremereecesdonuts.component';
 import { Ocautoshow2019Component } from './ocautoshow2019/ocautoshow2019.component';
 import { VideoOcautoshow2019Component } from './components/videos/video-ocautoshow2019/video-ocautoshow2019.component';
+import { HomeYtshowsegmentplaylistComponent } from './home-video/home-ytshowsegmentplaylist/home-ytshowsegmentplaylist.component';
+import { YtshowsegmentplayerComponent } from './components/ytshowsegmentplayer/ytshowsegmentplayer.component';
 
 @NgModule({
   declarations: [
@@ -178,7 +180,9 @@ import { VideoOcautoshow2019Component } from './components/videos/video-ocautosh
     GlenIvyComponent,
     VideoKrispykremereecesdonutsComponent,
     Ocautoshow2019Component,
-    VideoOcautoshow2019Component
+    VideoOcautoshow2019Component,
+    HomeYtshowsegmentplaylistComponent,
+    YtshowsegmentplayerComponent
 
   ],
   imports: [
@@ -187,6 +191,7 @@ import { VideoOcautoshow2019Component } from './components/videos/video-ocautosh
     HttpModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeVideo0Component},
+      { path: 'welcome', component: HomeYtshowsegmentplaylistComponent},
       { path: 'usa/cbs', component: CbsComponent},
 
       {path: 'home-video', component: HomeVideoComponent},

@@ -269,8 +269,8 @@ import { YtshowsegmentplayerComponent } from './components/ytshowsegmentplayer/y
       { path: "ocautoshow2019", component: Ocautoshow2019Component },
 
       { path: 'stations-main', component: StationsMainComponent},
-      { path: '', redirectTo: '/home-video-0', pathMatch: 'full'},
-      { path: '**', component: HomeVideo0Component }
+      { path: '', redirectTo: '/welcome', pathMatch: 'full'},
+      { path: '**', component: HomeYtshowsegmentplaylistComponent }
     ], {useHash : true}),
     routes
   ],

@@ -41,7 +41,9 @@ export class AppComponent {
     })
   }
 
+  copyrightDate :string = Date();
+
   title = 'SoCalTelevision.com';
 
-
+  
 }

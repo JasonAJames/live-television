@@ -27,6 +27,8 @@ declare var gtag;
 ]
 })
 
+let copyrightDate = <HTMLInputElement>document.getElementById("copyrightDate");
+
 export class AppComponent {
 
 // Google Analytics tracker
@@ -41,7 +43,7 @@ export class AppComponent {
     })
   }
 
-  copyrightDate :string = Date();
+  copyrightDate = Date();
 
   title = 'SoCalTelevision.com';
 

@@ -27,8 +27,6 @@ declare var gtag;
 ]
 })
 
-let copyrightDate = <HTMLInputElement>document.getElementById("copyrightDate");
-
 export class AppComponent {
 
 // Google Analytics tracker

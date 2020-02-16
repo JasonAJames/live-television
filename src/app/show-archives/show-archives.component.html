@@ -1,34 +1,33 @@
 <div class="container-1">
 <!-- Weather Component -->
-<div style="width: 768px;" class="img-responsive"><iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=87679" width="768" height="92" frameborder="0" scrolling="no"></iframe><a style="float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em" href="https://www.willyweather.com/ca/riverside-county/corona.html" rel="nofollow"></a></div>
-<div style="text-align: center;"><a routerLink="/weather" >Click Here For More Weather</a></div>
+<app-weather-leaderbanner></app-weather-leaderbanner>
 <!-- END Weather Component -->
 <h3>SoCal Television - Show Archives</h3>
 
 <div class="container">
   <div class="row">
     <div class="col-sm-6, title">{{ show0_title }}</div>
-    <div class="col-sm-4, btn"><a href="{{ show0_url }}" target="_blank" class="btn btn-primary">Click Here to Watch</a></div>
+    <div class="col-sm-6, btn"><a href="{{ show0_url }}" target="_blank" class="btn btn-primary">Click Here to Watch</a></div>
   </div>
   <div class="row">
     <div class="col-sm-6, title">{{ show1_title }}</div>
-    <div class="col-sm-4,  btn"><a routerLink="/sbd-fest-2018" target="_blank" class="btn btn-primary">Click Here to Watch</a></div>
+    <div class="col-sm-6,  btn"><a routerLink="/sbd-fest-2018" target="_blank" class="btn btn-primary">Click Here to Watch</a></div>
   </div>
   <div class="row">
     <div class="col-sm-6, title">{{ show2_title }}</div>
-    <div class="col-sm-4, btn"><a href="{{ show2_url }}" target="_blank" class="btn btn-primary">Click Here to Watch</a></div>
+    <div class="col-sm-6, btn"><a href="{{ show2_url }}" target="_blank" class="btn btn-primary">Click Here to Watch</a></div>
   </div>
   <div class="row">
     <div class="col-sm-6, title">{{ show3_title }}</div>
-    <div class="col-sm-4, btn"><a href="{{ show3_url }}" target="_blank" class="btn btn-primary">Click Here to Watch</a></div>
+    <div class="col-sm-6, btn"><a href="{{ show3_url }}" target="_blank" class="btn btn-primary">Click Here to Watch</a></div>
   </div>
   <div class="row">
     <div class="col-sm-6, title">{{ show4_title }}</div>
-    <div class="col-sm-4, btn"><a href="{{ show4_url }}" target="_blank" class="btn btn-primary">Click Here to Watch</a></div>
+    <div class="col-sm-6, btn"><a href="{{ show4_url }}" target="_blank" class="btn btn-primary">Click Here to Watch</a></div>
   </div>
   <div class="row">
       <div class="col-sm-6, title">{{ show5_title }}</div>
-      <div class="col-sm-4, btn"><a routerLink="{{ show5_url }}" class="btn btn-primary">Click Here to Watch</a></div>
+      <div class="col-sm-6, btn"><a routerLink="{{ show5_url }}" class="btn btn-primary">Click Here to Watch</a></div>
     </div>
 </div>
 
@@ -36,7 +35,7 @@
 
 <p>Please Like and Follow @SoCalTelevision on social!</p>
 
-<p>SoCAL television is also distributed through DVD. <a routerLink="contact">Contact us</a> for more information about DVD's of the show.
+<p>SoCal Television is also distributed through digital copy. <a routerLink="/contact">Contact us</a> for more information about a digital copy of the show.
 </p>
 <div id="share">   <h5>Share this on:</h5>       <!-- facebook -->       <a class="facebook" href="https://www.facebook.com/share.php?u={{url}}&title={{title}}&placeholder={{title}}" target="blank"><i class="fab fa-facebook-f"></i></a>            <!-- twitter -->       <a class="twitter" href="https://twitter.com/intent/tweet?status=Come visit or Check Out this+{{title}}+Click on '+{{header_link}}+' on+{{url}}" target="blank"><i class="fab fa-twitter"></i></a>           <!-- Reddit (url, title) -->       <a href="http://reddit.com/submit?url={{url}}&title={{title}}" target="_blank" class="share-btn reddit">         <i class="fab fa-reddit"></i>       </a>        <!-- LinkedIn -->       <a href="http://www.linkedin.com/shareArticle?url={{url}}&title={{title}}&summary={{summary}}&source={{source_url}}" target="_blank" class="share-btn linkedin">         <i class="fab fa-linkedin"></i>       </a>        <!-- Email -->       <a href="mailto:?subject={{subject}}&body={{body}}" target="_blank" class="share-btn email">         <i class="fa fa-envelope"></i>       </a>      </div>
 </div>

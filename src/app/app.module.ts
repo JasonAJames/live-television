@@ -93,6 +93,7 @@ import { Ocautoshow2019Component } from './ocautoshow2019/ocautoshow2019.compone
 import { VideoOcautoshow2019Component } from './components/videos/video-ocautoshow2019/video-ocautoshow2019.component';
 import { HomeYtshowsegmentplaylistComponent } from './home-video/home-ytshowsegmentplaylist/home-ytshowsegmentplaylist.component';
 import { YtshowsegmentplayerComponent } from './components/ytshowsegmentplayer/ytshowsegmentplayer.component';
+import { YtLiveComponent } from './components/yt-live/yt-live.component';
 
 @NgModule({
   declarations: [
@@ -182,7 +183,8 @@ import { YtshowsegmentplayerComponent } from './components/ytshowsegmentplayer/y
     Ocautoshow2019Component,
     VideoOcautoshow2019Component,
     HomeYtshowsegmentplaylistComponent,
-    YtshowsegmentplayerComponent
+    YtshowsegmentplayerComponent,
+    YtLiveComponent
 
   ],
   imports: [

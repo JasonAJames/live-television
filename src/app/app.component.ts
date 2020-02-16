@@ -41,7 +41,8 @@ export class AppComponent {
     })
   }
 
-  copyrightDate: string = Date();
+  Date = new Date();
+  copyrightDate = this.Date.getFullYear();
 
   title: string = 'SoCalTelevision.com';
 

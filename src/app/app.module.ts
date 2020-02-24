@@ -94,6 +94,7 @@ import { VideoOcautoshow2019Component } from './components/videos/video-ocautosh
 import { HomeYtshowsegmentplaylistComponent } from './home-video/home-ytshowsegmentplaylist/home-ytshowsegmentplaylist.component';
 import { YtshowsegmentplayerComponent } from './components/ytshowsegmentplayer/ytshowsegmentplayer.component';
 import { YtLiveComponent } from './components/yt-live/yt-live.component';
+import { KobeBryantMemorialComponent } from './home-video/kobe-bryant-memorial/kobe-bryant-memorial.component';
 
 @NgModule({
   declarations: [
@@ -184,7 +185,8 @@ import { YtLiveComponent } from './components/yt-live/yt-live.component';
     VideoOcautoshow2019Component,
     HomeYtshowsegmentplaylistComponent,
     YtshowsegmentplayerComponent,
-    YtLiveComponent
+    YtLiveComponent,
+    KobeBryantMemorialComponent
 
   ],
   imports: [
@@ -195,6 +197,8 @@ import { YtLiveComponent } from './components/yt-live/yt-live.component';
       { path: 'home', component: HomeVideo0Component},
       { path: 'welcome', component: HomeYtshowsegmentplaylistComponent},
       { path: 'usa/cbs', component: CbsComponent},
+
+      { path: 'kobe-bryant-memorial', component: KobeBryantMemorialComponent},
 
       {path: 'home-video', component: HomeVideoComponent},
       {path: 'home-video-0', component: HomeVideo0Component},
@@ -271,8 +275,8 @@ import { YtLiveComponent } from './components/yt-live/yt-live.component';
       { path: "ocautoshow2019", component: Ocautoshow2019Component },
 
       { path: 'stations-main', component: StationsMainComponent},
-      { path: '', redirectTo: '/welcome', pathMatch: 'full'},
-      { path: '**', component: HomeYtshowsegmentplaylistComponent }
+      { path: '', redirectTo: '/kobe-bryant-memorial', pathMatch: 'full'},
+      { path: '**', component: KobeBryantMemorialComponent }
     ], {useHash : true}),
     routes
   ],

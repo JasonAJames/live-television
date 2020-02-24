@@ -14,12 +14,12 @@ export class KobeBryantMemorialComponent implements OnInit {
 
   stationName = "SoCal Television - A Celebration of Life"
   description = "#LIVE - Remembering Los Angeles Lakers legend Kobe Bryant and his daughter Gianna on SoCal Television"
-  subdescription = ""
+  subdescription = "A Celebration of Life!"
 
   // Social Sharing binding data
   title = "SoCal Television"
   header_link = "SoCal Television"
-  url = "https://www.socaltelevision.com/+#+/home-video-0"
+  url = "https://www.socaltelevision.com/+#+/kobe-bryant-memorial"
   summary = this.subdescription
   source_url = this.url
   subject = this.header_link

@@ -275,8 +275,8 @@ import { KobeBryantMemorialComponent } from './home-video/kobe-bryant-memorial/k
       { path: "ocautoshow2019", component: Ocautoshow2019Component },
 
       { path: 'stations-main', component: StationsMainComponent},
-      { path: '', redirectTo: '/kobe-bryant-memorial', pathMatch: 'full'},
-      { path: '**', component: KobeBryantMemorialComponent }
+      { path: '', redirectTo: '/welcome', pathMatch: 'full'},
+      { path: '**', component: HomeYtshowsegmentplaylistComponent }
     ], {useHash : true}),
     routes
   ],

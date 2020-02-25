@@ -26,6 +26,7 @@ export class ShowArchivesComponent implements OnInit {
   show5_url = "/nit-wit-ridge";
 
 
+
   // Social Sharing binding data
   title = "SoCal Television"
   header_link = "Special Spots"

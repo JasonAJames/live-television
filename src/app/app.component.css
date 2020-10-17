@@ -95,9 +95,7 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
     .navbar {
         display: none;
     }
-    .is-mobile {
-        display: none;
-    }
+
     app-adrotator-leaderbanner {
         display: none;
     }
@@ -134,9 +132,7 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
     .navbar {
         display: none;
     }
-    .is-mobile {
-        display: none;
-    }
+
     app-adrotator-leaderbanner {
         display: none;
     }

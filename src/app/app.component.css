@@ -92,6 +92,9 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
     .top {
         padding-top: 35%;
     }
+    .navbar {
+        display: none;
+    }
     app-adrotator-leaderbanner {
         display: none;
     }
@@ -124,6 +127,9 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
 @media screen and (max-width: 400px) {
     .top {
         padding-top: 35%;
+    }
+    .navbar {
+        display: none;
     }
     app-adrotator-leaderbanner {
         display: none;

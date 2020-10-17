@@ -68,6 +68,9 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
 }
 
 @media screen and (min-width: 800px) {
+    .is-mobile {
+        display: none;
+    }
     .leaderBanner {
         width: 771px;
         height: 92px;
@@ -95,7 +98,9 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
     .navbar {
         display: none;
     }
-
+    .is-mobile {
+        display: block;
+    }
     app-adrotator-leaderbanner {
         display: none;
     }
@@ -132,7 +137,9 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
     .navbar {
         display: none;
     }
-
+    .is-mobile {
+        display: block;
+    }
     app-adrotator-leaderbanner {
         display: none;
     }

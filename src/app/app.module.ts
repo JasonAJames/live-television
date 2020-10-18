@@ -95,6 +95,7 @@ import { HomeYtshowsegmentplaylistComponent } from './home-video/home-ytshowsegm
 import { YtshowsegmentplayerComponent } from './components/ytshowsegmentplayer/ytshowsegmentplayer.component';
 import { YtLiveComponent } from './components/yt-live/yt-live.component';
 import { KobeBryantMemorialComponent } from './home-video/kobe-bryant-memorial/kobe-bryant-memorial.component';
+import { Fox5sandiegoVideoComponent } from './components/video-feeds/fox5sandiego-video/fox5sandiego-video.component';
 
 @NgModule({
   declarations: [
@@ -186,7 +187,8 @@ import { KobeBryantMemorialComponent } from './home-video/kobe-bryant-memorial/k
     HomeYtshowsegmentplaylistComponent,
     YtshowsegmentplayerComponent,
     YtLiveComponent,
-    KobeBryantMemorialComponent
+    KobeBryantMemorialComponent,
+    Fox5sandiegoVideoComponent
 
   ],
   imports: [

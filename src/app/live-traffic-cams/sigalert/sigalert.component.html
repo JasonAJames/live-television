@@ -3,13 +3,26 @@
 <!-- END Weather Component -->
   <h3>You're Watching</h3>
   <h1>{{stationName}}</h1>
-  <span class="embed-responsive embed-responsive-16by9">
+  <!-- if mobile -->
+  <span class="is-mobile">
+
+    <iframe src="https://www.sigalert.com/default.asp?stay=1&lat=33.93845&lon=-117.41087&z=1" width="800" height="480" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+  </span>
+  <br/>
+  <h1 class="is-mobile">CHP Incidents</h1>
+  <span class="is-mobile">
+
+      <iframe src="https://m.chp.ca.gov/incident.aspx?DispatchId=INCC" width="800" height="480" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+    </span>
+
+    <!-- if desktop -->
+  <span class="appnodisplay embed-responsive embed-responsive-16by9">
 
       <iframe src="https://www.sigalert.com/default.asp?stay=1&lat=33.93845&lon=-117.41087&z=1" width="800" height="480" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
     </span>
     <br/>
-    <h1>CHP Incidents</h1>
-    <span class="embed-responsive embed-responsive-16by9">
+    <h1 class="appnodisplay">CHP Incidents</h1>
+    <span class="appnodisplay embed-responsive embed-responsive-16by9">
 
         <iframe src="https://m.chp.ca.gov/incident.aspx?DispatchId=INCC" width="800" height="480" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
       </span>

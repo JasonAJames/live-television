@@ -64,7 +64,9 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
         box-shadow:1px 1px 45px lightgray;
         margin-left: 5%;
     }
-
+    .appnodisplay {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -88,7 +90,9 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
         box-shadow:1px 1px 45px lightgray;
         margin-left: 25%;
     }
-
+    .appnodisplay {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 800px) {

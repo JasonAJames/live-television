@@ -19,9 +19,15 @@
         box-shadow:1px 1px 45px lightgray;
         margin-left: 5%;
     }
+    .appnodisplay {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 800px) {
+    .is-mobile {
+        display: none;
+    }
     #videoContainer {
         padding-left: 15%;
         padding-right: 2%;
@@ -35,8 +41,22 @@
         box-shadow:1px 1px 45px lightgray;
         margin-left: 25%;
     }
+    .appnodisplay {
+        display: block;
+    }
 }
 
+@media screen and (max-width: 400px) {
+    .appnodisplay {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .appnodisplay {
+        display: none;
+    }
+}
 
 #videoContainer {
     padding-left: 25%;

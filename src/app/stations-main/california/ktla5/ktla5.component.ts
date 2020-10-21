@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-ktla5',
   templateUrl: './ktla5.component.html',
-  styleUrls: ['./ktla5.component.css','../components/social-share-icons/social-share-icons.component.css']
+  styleUrls: ['./ktla5.component.css','../../components/social-share-icons/social-share-icons.component.css']
 })
 export class Ktla5Component implements OnInit {
 

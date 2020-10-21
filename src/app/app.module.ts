@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { LocalReviewsComponent } from './local-reviews/local-reviews.component';
 import { LiveComponent } from './stations-main/live/live.component';
-import { HomeComponent } from './stations-main/socaltelevision/home.component';
+import { SoCalTelevisionComponent } from './stations-main/socaltelevision/socaltelevision.component';
 import { CaliforniaComponent } from './stations-main/california/california.component';
 import { HawaiiComponent } from './stations-main/hawaii/hawaii.component';
 import { StationsMainComponent } from './stations-main/stations-main.component';
@@ -96,6 +96,7 @@ import { YtshowsegmentplayerComponent } from './components/ytshowsegmentplayer/y
 import { YtLiveComponent } from './components/yt-live/yt-live.component';
 import { KobeBryantMemorialComponent } from './home-video/kobe-bryant-memorial/kobe-bryant-memorial.component';
 import { Fox5sandiegoVideoComponent } from './components/video-feeds/fox5sandiego-video/fox5sandiego-video.component';
+import { SocaltelevisionVideoComponent } from './components/video-feeds/socaltelevision-video/socaltelevision-video.component';
 
 @NgModule({
   declarations: [
@@ -104,7 +105,7 @@ import { Fox5sandiegoVideoComponent } from './components/video-feeds/fox5sandieg
     LiveComponent,
     AdvertiseCommercialComponent,
     AboutComponent,
-    HomeComponent,
+    SoCalTelevisionComponent,
     CaliforniaComponent,
     HawaiiComponent,
     StationsMainComponent,
@@ -188,7 +189,8 @@ import { Fox5sandiegoVideoComponent } from './components/video-feeds/fox5sandieg
     YtshowsegmentplayerComponent,
     YtLiveComponent,
     KobeBryantMemorialComponent,
-    Fox5sandiegoVideoComponent
+    Fox5sandiegoVideoComponent,
+    SocaltelevisionVideoComponent
 
   ],
   imports: [
@@ -199,7 +201,7 @@ import { Fox5sandiegoVideoComponent } from './components/video-feeds/fox5sandieg
       { path: 'home', component: HomeVideo0Component},
       { path: 'welcome', component: HomeYtshowsegmentplaylistComponent},
       { path: 'usa/cbs', component: CbsComponent},
-
+      { path: 'socaltelevision', component: SoCalTelevisionComponent },
       { path: 'kobe-bryant-memorial', component: KobeBryantMemorialComponent},
 
       {path: 'home-video', component: HomeVideoComponent},

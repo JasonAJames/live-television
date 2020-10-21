@@ -3,11 +3,11 @@ import { ActivatedRoute, Routes, RouterModule } from '@angular/router';
 
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css', '../../app.component.css','../../components/social-share-icons/social-share-icons.component.css']
+  selector: 'app-socaltelevision',
+  templateUrl: './socaltelevision.component.html',
+  styleUrls: ['./socaltelevision.component.css', '../../app.component.css','../../components/social-share-icons/social-share-icons.component.css']
 })
-export class HomeComponent implements OnInit {
+export class SoCalTelevisionComponent implements OnInit {
 
   constructor(private _route : ActivatedRoute) {}
 
@@ -15,8 +15,8 @@ export class HomeComponent implements OnInit {
   }
 
 stationName = 'SoCal Television';
-description = 'Cajalco Labyrinth - Corona, California';
-subdescription = 'Join SoCalTelevision LIVE at the Cajalco Labyrinth in Corona, CA';
+description = 'SoCal Television - Keeping You Connected';
+subdescription = 'Join SoCalTelevision as we venture throughout Southern California to showcase attractions, businesses of interest, events, grand openings and some really cool travel locations that you just gotta experience! ENJOY!';
 
 // Social Sharing binding data
 title = "SoCal Television"

@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { LocalReviewsComponent } from './local-reviews/local-reviews.component';
 import { LiveComponent } from './stations-main/live/live.component';
-import { HomeComponent } from './stations-main/socaltelevision/home.component';
+import { SoCalTelevisionComponent } from './stations-main/socaltelevision/socaltelevision.component';
 import { CaliforniaComponent } from './stations-main/california/california.component';
 import { HawaiiComponent } from './stations-main/hawaii/hawaii.component';
 import { StationsMainComponent } from './stations-main/stations-main.component';
@@ -28,7 +28,7 @@ import { ArizonaComponent } from './stations-main/arizona/arizona.component';
 
 
 export const router: Routes = [
-    { path: 'home', component: HomeComponent},
+    { path: 'socaltelevision', component: SoCalTelevisionComponent},
       { path: 'live', component: LiveComponent},
       { path: 'advertise-commercial', component: AdvertiseCommercialComponent},
       { path: 'about', component: AboutComponent},
@@ -36,8 +36,8 @@ export const router: Routes = [
       { path: 'ktla5', component: Ktla5Component},
       { path: 'fox11la', component: Fox11laComponent},
       { path: 'fox5sandiego', component: Fox5sandiegoComponent},
-      { path: '', redirectTo: '/home', pathMatch: 'full'},
-      { path: '**', component: HomeComponent}
+      { path: '', redirectTo: '/socaltelevision', pathMatch: 'full'},
+      { path: '**', component: SoCalTelevisionComponent}
 ];
 
 export const routes: ModuleWithProviders = RouterModule.forRoot(router, {useHash: true});

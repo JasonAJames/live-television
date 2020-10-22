@@ -21,13 +21,9 @@ export class Ktla5Component implements OnInit {
   description = this.stationName
   subdescription = `
   KTLA was the first commercially licensed television station in the western United States,
-  having begun operations in January 1947.[3] Although not as widespread in national carriage
+  having begun operations in January 1947. Although not as widespread in national carriage
   as its Chicago sister station WGN-TV, KTLA is available as a superstation throughout North America
-  via DirecTV[4] and Dish Network (the latter service available only to grandfathered subscribers 
-  that had purchased its a la carte superstation tier before Dish halted sales of the package to
-  new subscribers in September 2013), as well as on cable providers in select cities within
-  the southwestern United States and throughout Canada.
-  `
+  via DirecTV and Dish Network and WorldTelevisionTV.`
   summary = 'We venture throughtout Southern California and beyond, to showcase attractions, events, entertainment, places of interest, restaurant reviews, and more...'
   source_url = this.url
   subject = "Check Out this SoCalTelevision.com website"

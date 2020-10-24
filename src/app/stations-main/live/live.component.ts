@@ -13,7 +13,7 @@ export class LiveComponent implements OnInit {
   }
 
   offlineMessage1 = "SoCal Television #LIVE"
-  subdesc = "Watch live video: Officials are pursuing a carjacking suspect in the Torrance area.... Fore More on this Story and other stories in your area, Please #LIKE #FOLLOW #SHARE #SUBSCRIBE to SoCalTelevision on Facebook, Instagram, Twitter, Tumblr & YouTube and Watch www.SoCalTelevision.com"
+  subdesc = "Joel Sabas, our SoCal Television Foodie Specialist Reporter visits Rodeo Public Market in Stanton, CA. Fore More on this Story and other stories in your area, Please #LIKE #FOLLOW #SHARE #SUBSCRIBE to SoCalTelevision on Facebook, Instagram, Twitter, Tumblr & YouTube and Watch www.SoCalTelevision.com"
 
 
   stationName = 'SoCal Television Breaking News LIVE'

@@ -3,15 +3,16 @@
 <!-- END Weather Component -->
   <h3>You're Watching</h3>
   <h1>{{stationName}}</h1>
+
   <span class="embed-responsive embed-responsive-16by9">
 
       <iframe src="https://www.sigalert.com/default.asp?stay=1&lat=33.93845&lon=-117.41087&z=1" width="800" height="480" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
     </span>
     <br/>
     <h1>CHP Incidents</h1>
-    <span class="embed-responsive embed-responsive-16by9">
+    <span style="max-width: 500px; min-width: 300px; width: 325px; height: 500px;">
 
-        <iframe src="https://m.chp.ca.gov/incident.aspx?DispatchId=INCC" width="800" height="480" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+        <iframe src="https://m.chp.ca.gov/incident.aspx?DispatchId=INCC" width="325" height="480" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
       </span>
       <br/>
       <div id="share">   <h5>Share this on:</h5>       <!-- facebook -->       <a class="facebook" href="https://www.facebook.com/share.php?u={{url}}&title={{title}}&placeholder={{title}}" target="blank"><i class="fab fa-facebook-f"></i></a>            <!-- twitter -->       <a class="twitter" href="https://twitter.com/intent/tweet?status=Come visit or Check Out this+{{title}}+Click on '+{{header_link}}+' on+{{url}}" target="blank"><i class="fab fa-twitter"></i></a>           <!-- Reddit (url, title) -->       <a href="http://reddit.com/submit?url={{url}}&title={{title}}" target="_blank" class="share-btn reddit">         <i class="fab fa-reddit"></i>       </a>        <!-- LinkedIn -->       <a href="http://www.linkedin.com/shareArticle?url={{url}}&title={{title}}&summary={{summary}}&source={{source_url}}" target="_blank" class="share-btn linkedin">         <i class="fab fa-linkedin"></i>       </a>        <!-- Email -->       <a href="mailto:?subject={{subject}}&body={{body}}" target="_blank" class="share-btn email">         <i class="fa fa-envelope"></i>       </a>      </div>

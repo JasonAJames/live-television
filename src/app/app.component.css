@@ -64,10 +64,15 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
         box-shadow:1px 1px 45px lightgray;
         margin-left: 5%;
     }
-
+    .appnodisplay {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 800px) {
+    .is-mobile {
+        display: none;
+    }
     .leaderBanner {
         width: 771px;
         height: 92px;
@@ -85,12 +90,20 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
         box-shadow:1px 1px 45px lightgray;
         margin-left: 25%;
     }
-
+    .appnodisplay {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 800px) {
     .top {
         padding-top: 35%;
+    }
+    .navbar {
+        display: none;
+    }
+    .is-mobile {
+        display: block;
     }
     app-adrotator-leaderbanner {
         display: none;
@@ -124,6 +137,12 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
 @media screen and (max-width: 400px) {
     .top {
         padding-top: 35%;
+    }
+    .navbar {
+        display: none;
+    }
+    .is-mobile {
+        display: block;
     }
     app-adrotator-leaderbanner {
         display: none;

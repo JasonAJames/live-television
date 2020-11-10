@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-abc30-bakersfield',
   templateUrl: './abc30-bakersfield.component.html',
-  styleUrls: ['./abc30-bakersfield.component.css', '../../../app.component.css']
+  styleUrls: ['./abc30-bakersfield.component.css', '../../../app.component.css','../../../components/social-share-icons/social-share-icons.component.css']
 })
 export class Abc30BakersfieldComponent implements OnInit {
 

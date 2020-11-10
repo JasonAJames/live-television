@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-kron4',
   templateUrl: './kron4.component.html',
-  styleUrls: ['./kron4.component.css', '../../../app.component.css']
+  styleUrls: ['./kron4.component.css', '../../../app.component.css','../../../components/social-share-icons/social-share-icons.component.css']
 })
 export class Kron4Component implements OnInit {
 
